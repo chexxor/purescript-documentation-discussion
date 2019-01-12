@@ -7,17 +7,24 @@ A "source" is any source of data that makes a truth claim (it claims that someth
 
 The goal of this step is to do the necessary work to make it easier to do the next step: defining the context/narrative.
 
-**Examples:**
+Sources can be broken into two types: primary sources and secondary sources. Primary sources are stand-alone sources whereas secondary sources are interpretations, summaries, analyzations of primary sources.
+
+**Examples of Primary Sources:**
+- An original paper that introduces some idea for the first time
 - A blog post
 - A tweet
 - A talk
-- A conversation in a forum, chatroom, etc.
+- A conversation in a forum, chatroom, etc. where one person speaks their own opinion, makes their own logical argument, etc.
+
+**Examples of Seconary Sources:**
+- A blog post that summarizes another blog post
+- A conversation where one person uses phrases like "I remember X being true," "I think X is true," and/or "I heard someone say X is true."?
 
 **Gathering Sources**:
-One first gathers sources without bias as to who said what or where it comes from and categorizes them. At this stage, no assessment of the sources or interpreting what they say is done.
+One first gathers sources without bias as to who said what or where it comes from and categorizes them according to primary/secondary source distinctions. At this stage, no assessment of the sources or interpreting what they say is done.
 
 **Interpretation**:
-After gathering as many sources as is reasonable in the allotted time period, one begins to assess a source and give it weight. Some sources bear more "weight" than others. Some are more subjective (biased, unbalanced in assessment, misinformed, etc.) while others are more objective (real evidence/arguments that must be addressed with real answers). Once assessed, one interprets the main themes/ideas that one hears the source communicating.
+After gathering as many sources as is reasonable in the allotted time period, one begins to assess a source and give it weight. Some sources bear more "weight" than others (primary bear more weight than secondary). Some are more subjective (biased, unbalanced in assessment, misinformed, etc.) while others are more objective (real evidence/arguments that must be addressed with real answers). Once assessed, one interprets the main themes/ideas that one hears the source communicating.
 
 The rest of this document should be a list of sources, followed by an interpretation of that source that highlights the main ideas it makes.
 
