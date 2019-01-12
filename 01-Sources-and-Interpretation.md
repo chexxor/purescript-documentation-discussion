@@ -5,7 +5,7 @@
 **Definition**:
 A "source" is any source of data that makes a truth claim (it claims that something is true. Whether that statement is actually true needs to be explored).
 
-The goal of this step is to do the necessary work to make it easier to do the enxt step, defining the context/narrative.
+The goal of this step is to do the necessary work to make it easier to do the next step: defining the context/narrative.
 
 **Examples:**
 - A blog post
