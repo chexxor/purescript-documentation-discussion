@@ -197,50 +197,60 @@ https://discourse.purescript.org/t/the-state-of-things/282/7
 
 ### Comment (language user)
 
+https://discourse.purescript.org/t/the-state-of-things/282/8?u=chexxor
+
 > I had the misfortune of making a free PS course that uses TryPureScript a couple of months before 0.12 was due and some of it’s changes, I think, broke a couple of my lessons due to the way I taught them. Need to check it out properly just not had the motivation! I like it as a tool but can totally understand the hassle of keeping it and attached material up to date.
 
 - Using Try Purescript as 'learning environment with PureScript already installed' became an unreliable environment due to a breaking change.
 
+## Source: 'Features you want future PureScript to *not* have?'
+
+https://discourse.purescript.org/t/features-you-want-future-purescript-to-not-have/115
+
 ### Comment (language user)
 
-https://discourse.purescript.org/t/features-you-want-future-purescript-to-not-have/115/5
-
 > Soul mate! There’s a ton of low-hanging fruit in even core documentation. I hope after 0.12 that pull requests like this one 53 for Data.Map get approved.
+>
+> https://discourse.purescript.org/t/features-you-want-future-purescript-to-not-have/115/5
 
 - There are lots of easy documentation problems to resolve in the core documentation.
 
+## Source: 'How do we avoid ecosystem incoherence in the future?'
+
+https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209
+
 ### Comment (language contributor)
 
-https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/9
-
 > I would love to help (update core libraries) – I’m not shy about writing documentation or putting time into these updates – but without being a core contributor I have no idea what these plans even are. As a consumer I largely find myself digging around readmes and docs that may or may not have been updated trying to guess at what ecosystem shifts have just happened. This is a little disconcerting as a heavily-invested commercial user of PureScript.
+>
+> https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/9
 
 - It's not clear what the "big picture" of the PureScript project is.
 - It's difficult to improve the core library experience without help from the creators or maintainers of it.
 
-https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/14?u=chexxor
-
 > However, perhaps we could do something more. We could at least make a good faith effort to notify people who maintain repositories available on Pursuit if their code is going to break in the new release.
+> ...
+> Finally, there could be a “documentation team” which I also volunteer for
+>
+> https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/14
 
 - There can be better communication between maintainers of the language and maintainers of heavily-used libraries around major releases.
-
-> Finally, there could be a “documentation team” which I also volunteer for
-
 - A documentation team consisting of volunteers can help communicate release changes to language users and library maintainers.
 - Release changes can be summarized and explained in a blog post, and include a migration guide.
 
 ### Comment (language user)
 
-https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/15?u=chexxor
-
 > Definitely a lot of good stuff to work on listed already (and it’s a little late for 0.12) but I just wanted to point out that releasing a new compiler version doesn’t need to mean it’s becomes the default.
+>
+> https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/15
 
-- Documentation and tooling should not choose the latest language and library versions by default
-- Documentation and tooling should be explicit about the language version being used and be conservative with upgrades.
+- Documentation and tooling should not choose the latest language and library versions by default. Instead, it should be explicit about the language version being used and be conservative with upgrades.
 
-### Comment (new language user)
+## Source: "Purescript First Impressions"
 
-https://www.reddit.com/r/purescript/comments/8qaiwl/purescript_first_impressions/
+https://reddit.com/r/purescript/comments/8qaiwl/purescript_first_impressions/
+
+### Reddit post (new language user)
 
 > pursuit is also great once you figure out how it works (some more top-level "what is this thing?" documentation would be good).
 
@@ -254,31 +264,40 @@ https://www.reddit.com/r/purescript/comments/8qaiwl/purescript_first_impressions
 
 - The FFI documentation should explain the advantages of writing an out-of-PureScript implementation.
 
-### Blog post (new language user)
+## Source: "My experience with Purescript so far"
 
 https://sadraskol.com/posts/my-experience-with-purescript-so-far
+
+### Blog post (new language user)
 
 > Purescript leaves you alone in the jungle of its methods and functional gibberish. If you don’t know what a Monoid, a Foldable or a <$> is, you better learn the language with tutorial first! It feels like the language wasn’t build for programmers first, but for Haskell programmers with strong theorical background. Could you easily guess what’s the difference between a Semi-groupoid and a Monoid?
 
 - Newcomers to the language feel antagonized by the unfamiliar concepts and language operators.
 - Perhaps documentation can mitigate the confusion and anguish experienced by newcomers.
 
+## Source: "Learn Purescript or Haskell first?"
+
+https://www.reddit.com/r/haskell/comments/5quf5y/learn_purescript_or_haskell_first/
+
 ### Comment (language user)
 
-https://www.reddit.com/r/haskell/comments/5quf5y/learn_purescript_or_haskell_first/dd2i8pq/
-
 > Haskell will have a lot more material (than PureScript) and a much stronger ecosystem so I'd go with that for now.
+>
+> https://www.reddit.com/r/haskell/comments/5quf5y/learn_purescript_or_haskell_first/dd2i8pq/
 
 - Haskell has more documentation (but better?) than PureScript, so Haskell is recommended for newcomers.
 
-### Blog post (new language user)
+## Source: "Lessons learned porting a game from Purescript to Elm"
 
 https://alpacaaa.net/blog/post/elm-purescript-in-depth-overview/
+
+### Blog post (new language user)
 
 > Plus, a language that compiles to JS has to be approachable, right? Wrong. Purescript was as much confusing and frustrating as Haskell (in fact, they’re very similar languages).
 
 - Users of compiler-to-JavaScript languages expect an approachable language.
 - PureScript's new user experience can be a confusing and frustrating experience.
+
 
 ## List of Yet-To-Be-Analyzed Sources
 
