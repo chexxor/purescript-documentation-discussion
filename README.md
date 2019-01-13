@@ -7,6 +7,13 @@ https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019
 Read these files in numerical order. The methodology's terms, definitions, and examples are provided in the first section of each file.
 
 
+## Project Goal
+
+This project is about documenting **what PureScript currently is**. It's about how to do that in an efficient way and how organize and convey the information in a ready-friendly way. It isn't, then, deciding **what PureScript should be**.
+
+Doing this involves learning newcomers', long-time users', and project maintainers' opinions of its documentation and discovering the actual state of PureScript's current documentation. Having this information, we can calculate what is missing from the current documentation, produce ideas for improving the documentation and its process, and develop and refine strategies for successfully accomplishing this.
+
+
 ## Project Management
 
 ### Create a Work Item
