@@ -26,14 +26,73 @@ One first gathers sources without bias as to who said what or where it comes fro
 **Interpretation**:
 After gathering as many sources as is reasonable in the allotted time period, one begins to assess a source and give it weight. Some sources bear more "weight" than others (primary bear more weight than secondary). Some are more subjective (biased, unbalanced in assessment, misinformed, etc.) while others are more objective (real evidence/arguments that must be addressed with real answers). Once assessed, one interprets the main themes/ideas that one hears the source communicating.
 
-<hr>
+## Sources
 
-The rest of this document should be a list of sources where each source has
+The rest of this folder includes a file for each source.
+
+Sources are still being created and analyzed in this folder. Here are what the folders in this folder mean:
+
+### Not Yet Analyzed
+
+This folder includes sources that have not yet been analyzed
+
+### For Alex/Jordan
+
+This folder includes sources that have been done by one of us and should be reviewed by the other
+
+### Done
+
+This folder includes sources that have been reviewed by both of us. They will be used to define the context later.
+
+## Source Formatting
+
+ Each source has a file with the following contents:
 - a link to the original post/comment
 - a quote of the relevant parts of that post/comment and an interpretation that highlights the main ideas of the relevant parts
 
 Since maintaining the primary/secondary source distinctions can be hard to do when analyzing/interpreting blog posts, forum comments, etc., they will not be categorized as such here.
 
-## Source:
+In other words, it will look like this:
+<hr>
+## Source: source name
 
-Sources are currently being created and analyzed in the directory next to this file.
+[link to the source]()
+
+### Opening Thread
+
+(no link included here since the source link is this link)
+
+> Relevant info stated in that opening comment
+
+- my interpretation of that info
+
+> Relevant info stated in that opening comment
+
+- my interpretation of that info
+- another interpretation of that info
+- another interpretation of that info
+
+### Comment/Section
+
+[link to that comment]()
+[if the same person made another comment immediately after the previous one, then I'll include it here, too]()
+
+> Relevant info stated in that comment
+
+- my interpretation of that info
+
+### Comment/Section
+
+[link to that comment]()
+
+> Relevant info stated in that comment
+
+- my interpretation of that info
+
+> Relevant info stated in that comment
+
+- my interpretation of that info
+
+... (etc.) ...
+
+<hr>
