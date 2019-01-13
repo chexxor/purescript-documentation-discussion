@@ -1,4 +1,4 @@
-# purescript-documentation-discussion
+# PureScript Documentation Discussion & Planning
 
 Discussing PureScript 2019 documentation improvement, as initiated here:
 
