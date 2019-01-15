@@ -28,7 +28,7 @@ After gathering as many sources as is reasonable in the allotted time period, on
 
 ## Sources
 
-The rest of this folder includes a file for each source.
+The rest of this folder includes a file for each source. These were found searching the PureScript Discourse, Twitter, and Google for PureScript documentation, impressions, and experience reports.
 
 Sources are still being created and analyzed in this folder. Here are what the folders in this folder mean:
 
