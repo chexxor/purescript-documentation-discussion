@@ -7,9 +7,6 @@
 > I tried PureScript, first impression was really good, but I was lacking some guidance for e.g. free monads etc. So deeper concepts :-) tips?
 > https://twitter.com/raimeyuu/status/895379846938992640
 
-> Building Purescript Puzzler was a great learning experience, especially since I’m not the most experienced web dev. I sunk my teeth into a few cool libraries and got my first real taste of FRP outside of toy examples. However, I still feel like thar be dragons lurking in the shadows with this approach, and the apparent lack of complex examples is not reassuring. I think part of the problem with this is the absence of wrapper libraries that make common tasks easier, which inhibits exploration.
-> http://fluffynukeit.com/exploring-the-mvi-architecture-with-purescript-puzzler/
-
 > I felt the same way. Learning PureScript wasn't difficult for me but I already knew Haskell. I can't imagine what it's like for someone who doesn't know Haskell to learn PureScript, because there are very few tutorials designed for that audience. Most of the docs on PureScript are very much "reference" style so you have to already know what you're looking for to even find them.
 > https://www.reddit.com/r/haskell/comments/79i7h9/why_is_elm_more_popular_than_purescript/dp2ztyi/
 
