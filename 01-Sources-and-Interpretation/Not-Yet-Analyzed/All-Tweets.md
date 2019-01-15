@@ -12,3 +12,7 @@ https://twitter.com/ThibaudDauce/status/895534464071331840
 https://twitter.com/raimeyuu/status/895379846938992640
 
 > I tried PureScript, first impression was really good, but I was lacking some guidance for e.g. free monads etc. So deeper concepts :-) tips?
+
+### Tweet
+
+https://twitter.com/marick/status/988453595220795392
