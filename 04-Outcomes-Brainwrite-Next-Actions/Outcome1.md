@@ -22,22 +22,22 @@ After one completes the current "next action," one moves on to the next "next ac
 
 **Examples**:
 At the end of washing the clothes, the clothes will be clean as indicated by the removal of mud that is currently on them and wearable as indicated by the fact that they are dry and hanging in the closet.
-    - Thinking backwards, we will hang the clothes up in the closet.
-    - Before that, we will carry them up into the room.
-    - Before that, we will take them out of the dryer.
-    - Before that, we will walk to the dryer when its "finished" bell rings.
-    - Before that, we will do something else to pass the time by.
-    - Before that, we will configure the dryer's options and turn it on.
-    - Before that, we will take the wet clothes out of the washer and put them into the dryer.
-    - Before that, we will walk to the washer when its "finished" bell rings.
-    - Before that, we will do something else to pass the time by.
-    - Before that, we will configure the washer's settings and turn it on.
-    - Before that, we will put the clothes inside the washer and add some detergent.
-    - Before that, we will carry our less-wet clothes from the outside to the washer
-    - Before that, we will wring out the water in the clothes and put them into a separate less-wet pile
-    - Before that, we will put the clothes in a bucket of water for an hour to remove the mud that was dried on them
-    - Before that, we will fill a bucket with water and put the clothes inside
-    - Before that, we will get a bucket
+- Thinking backwards, we will hang the clothes up in the closet.
+- Before that, we will carry them up into the room.
+- Before that, we will take them out of the dryer.
+- Before that, we will walk to the dryer when its "finished" bell rings.
+- Before that, we will do something else to pass the time by.
+- Before that, we will configure the dryer's options and turn it on.
+- Before that, we will take the wet clothes out of the washer and put them into the dryer.
+- Before that, we will walk to the washer when its "finished" bell rings.
+- Before that, we will do something else to pass the time by.
+- Before that, we will configure the washer's settings and turn it on.
+- Before that, we will put the clothes inside the washer and add some detergent.
+- Before that, we will carry our less-wet clothes from the outside to the washer
+- Before that, we will wring out the water in the clothes and put them into a separate less-wet pile
+- Before that, we will put the clothes in a bucket of water for an hour to remove the mud that was dried on them
+- Before that, we will fill a bucket with water and put the clothes inside
+- Before that, we will get a bucket
 
 Thus, the first "next action" is to get a bucket. If we're home and we have one available, we can do it. If we're at work right now (wrong context), we will have to wait until we get home. If we are on our way home, but do not yet have a bucket, then this is actually not the "next action." Rather, the "next action" is to do something that gets us a bucket, like calling a neighbor to see if they have one or buying one at the store.
 
