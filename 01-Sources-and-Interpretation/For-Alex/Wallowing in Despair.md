@@ -46,8 +46,9 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75
 
 > My core conclusion is that, when it comes to learning what the Haskell tradition has to teach, the "outsider" I write for has Elm and then... no good option. There's value in the rest of that tradition, but I just can't honestly tell **my particular audience** it's worth the effort to search for it among the dated practices, clashing final vocabulary (personal axioms), and low standards in important areas.
 
-- There is no clear path (learning path perhaps?) from Elm (gentle learner curve) to a more powerful general-purpose FP language. Each seems to have its warts where the pros are not outweighed by the cons.
-- This conclusion is primarily for Elm programmers looking for a "post-Elm" language.
+- There is no clear path (learning path perhaps?) from Elm, which has a gentle learner curve, to a more powerful general-purpose FP language.
+- Each non-Elm language, general-purpose pure FP language, seems to have pros which are outweighed by the "warts" of the language.
+- The author's point-of-view is as an Elm programmer looking for a "post-Elm" language.
 
 >>   My goal is to make the most compelling case I can that static FP will give you new abilities, especially new abilities for modeling a messy domain riddled with exceptions to the rules. [...]
 >> For early readers, I should note that I am not yet myself convinced the case is compelling...
@@ -58,7 +59,7 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75
 
 > Elm is good. Outside the Haskell tradition, F# seems good and ReasonML seems promising. But, when it comes to the more purely Haskellish languages, the motto ["avoid success at all costs"](https://www.reddit.com/r/haskell/comments/39qx15/is_this_the_right_way_to_understand_haskells/) has been achieved.
 
-- Those that follow Haskell tend to follow its moto, "avoid success at all costs," which the author seems to interpret (via implication) "avoid mainstream usage at all costs."
+- Those that follow Haskell tend to follow its motto, "avoid success at all costs," which the author seems to interpret (via implication) as "avoid mainstream usage at all costs."
 
 ### Comment
 
@@ -66,7 +67,8 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2568
 
 > I think a problem with goal 1 ("the ideas and idioms of statically-typed functional programming") is that often these are somewhat language specific. Haskell, PureScript, and people who use Scalaz/Cats use the same sorts of abstractions (predominantly based around the Functor/Applicative/Monad hierarchy, Monoid, etc), but Elm doesn't really have that at all, so there's a huge step there. I'm not as familiar with the non-Haskell MLs, but I get the impression they're not used as foundations there for the average program.
 
-- Some FP idioms exist across FP languages (e.g. type classes) whereas others are specific to the language. Elm doesn't really have Elm-specific idioms.
+- Some FP idioms exist across FP languages (e.g. type classes) whereas others are specific to the language. As an example, the commentor believes that Elm doesn't have the same idioms as languages like PureScript.
+- The commentor might be implying that all statically-typed FP languages don't share a common set of idioms.
 
 > Regarding insurmountable-problem 1, that is strange and unfortunate. I don't see why people would think that going from Elm to PS/Haskell is stupid. I've seen evidence of people making that transition. It seems like somewhat less of a step from JS (and that's doable too).
 
@@ -103,15 +105,15 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569
 
 > In my experience of being an outsider, I succeed when I gain the respect of an insider who is willing to say to other insiders "This guy is probably wrong, but worth taking seriously".
 
-- General statement about how you know when you've "made it" to a milestone when learning something without any prior background: an "insider" tells others to listen to him, even if he's probably wrong.
+- The author's definition of being welcomed into a language community is when an "insider" tells others to listen to him, even if he's probably wrong.
 
 > You are an opinion leader. False modesty is common, and admirable, but support of the "worth taking seriously" type from you, or Freeman, or Hegemann would have a huge impact.
 
-- Getting support from core contributors would grealty impact the author's work
+- Getting support from core contributors would greatly impact the author's work.
 
 > The OO world has a ton of experience harvesting idioms and such. It shouldn't be ignored. Also, other academic fields have experience in such things. My wife's a professor of veterinary medicine, and they do it. I've been at retreats where veterinarians (because of their rules for continuing education, a mix of academics and practitioners) talk about practices. Dinnertime conversation is boring to the outsider, fascinating to the insider, because they're a community of practice that is explicit about what they are. Most programming communities are, too, but don't acknowledge it, which makes their teaching broken - or, rather, focused on a minority that can get through the hazing of broken teaching.
 
-- General statement about all fields of work needing to document and discuss/explain "best practices" to one another, which the programming community (and FP communities specifically) do not tend to do.
+- The author believes that all fields of study need to document their idioms (best-practices?) and discuss them. The author says that programming communities (and FP communities specifically) do not tend to do this.
 
 > A canny move in the development of PureScript would be to elevate the status of people who write documentation. "Nobody gets paid to directly work on X" is true of many technologies. Some have more success at documentation. Why?
 
@@ -123,7 +125,7 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569
 
 > There is so much knowledge out there that the static FP community pushes away for aesthetic reasons.
 
-- The FP community seems to love aesthetic things more so than helping people use those things.
+- The author believes the FP community is blind to/ignores the idioms and practices of the wider programming language community because the FP community values aesthetics (over pragmatism?).
 
 ### Comment
 
@@ -131,21 +133,23 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569
 
 > Maybe you're right, it is a long time since I used Elm. I just wonder what would motivate the average Elm user to think of things in those terms (Functor, Monad) when there's no reason to do so - the abstractions that make use of those things generically are not really easy to leverage in the same way. I can see that recognising map and andThen as patterns that many types can implement would occur commonly, just not the more theoretical way of looking at those things.
 
-- Elm users might unconsciously be aware of Functor/Monad, but due to how the language works, it may not require them to think about those things consciously, so that those are at the forefront of their mind when designing something.
+- PureScript core contributor says that Elm users don't think in terms of Functor/Monad (because those terms aren't in their language/libraries?). While these patterns have naturally emerged in Elm, their community doesn't think/design in terms of it.
+- The PureScript core contributor may be implying that the difference between a programming language community which uses terms referring to academic theory and one which simply applies the benefits of the theories is that members of the former community thinks in terms of theory while members of the latter are blind to the theory when developing their programs and think only in terms of their program's domain.
 
 > Haskell is explicitly a language designed as a common base for exploring the implementation of pure non-strict functional programming languages and practices. It's not even one language really, given the many and varied extensions and what they can do to change it. A very real-world-usable programming language falls out of this, but it was not the original motivation.
 > Elm is not a general purpose programming language, it's designed with a clear goal in mind, primarily guided by one individual, with a focus on simplicity and ease of use. Doing things outside of its intended focus is somewhat discouraged (the whole native thing being locked down recently).
 
-- The author seems to highlight the theoretical concepts that are similar between the two languages whereas the commentor highlights differences of each language's  intended usage and original purpose for being created.
-- Seems the author and the commentor were using the same word to mean different things (Author's meaning of 'Haskell:' just the language in general. Commentor's meaning of 'Haskell': a "base" language which can be modified so as to explore various FP-based languages via it's language extensions)
+- The PureScript core contributor believes that "the Haskell tradition" is having the purpose to explore FP languages, their implementations, and their practices.
+- The author, in contrast, believes that "the Haskell tradition" is having the language features of Haskell and the idioms used by the Haskell community.
+- It seems the author and the commentor were using the same word to mean different things.
 
 > Maybe we have different views of what it means to be in the Haskell tradition? For what it's worth, I'd say PureScript isn't intended to follow it indefinitely either, although we're not out of that phase yet (since language features are still being introduced occasionally).
 
-- PureScript follows Haskell for now, but might not in the future.
+- The PureScript core contributor believes that PureScript follows Haskell for now, but might not in the future.
 
 > I really don't think the differences are that small - there are fundamental differences in philosophy. I would have made attempts to start contributing to Elm rather than PureScript back when I did, if I thought Elm was following a path I was interested in. It was certainly a lot further ahead in actually being usable than PS was at the time.
 
-- Commentor further highlights difference between the two languages in their philosophy
+- Highlights that there is a large philosophical difference between the two languages.
 
 > Also, for what it's worth, I think Elm is a perfectly usable language and totally understand why people would choose it, the advantages its approach has when it comes to learning, and so on. I don't feel some tribal affiliation to PS that means I must disregard its successes or strong points; if I intend to criticise aspects of it I'll be explicit about it (for example, when I mentioned "doing things outside of its intended focus is somewhat discouraged", I can see how that would read as taking a shot at Elm, but it's meant as purely a factual statement).
 
@@ -153,7 +157,7 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569
 
 > I'm also not too sure what that support would look like! I try to engage with your questions/problems with PS on Twitter, I'm very much in favour of your work on adding documentation to -profunctor-lenses. Regarding the book specifically, I admit I've not been very useful there perhaps, but I don't know what I can offer there - I don't read programming books (I have to pound information into my head by doing... books, talks, papers, etc. only become useful when I've already achieved half an understanding on my own terms).
 
-- Core contributor does not seem to know what 'support' for documentation efforts (maybe?) would look like
+- Core contributor does not know what extra support the author expects while the author is contributing to PureScript.
 
 ### Comment
 
@@ -161,16 +165,17 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569
 
 > A fair point (regarding not using 'nobody gets paid' as an excuse for poor docs). There is the issue that accepting documentation does mean it has some need of being reviewed too though, and I find that significantly harder than reviewing code a lot of the time. Writing/editing/explaining is a very slow process for me.
 
-- Some people are better at reviewing documentation than others
-- Reviewing documentation can be just as difficult, if not more so, than reviewing code.
+- Core contributor believes that accepting documentation means it needs to be reviewed.
+- Core contributor believes that some people are better or faster at reviewing documentation than others.
+- Core contributor believes that reviewing documentation can be just as difficult, if not more so, than reviewing code.
 
 > Just to wallow for a second... I contribute to/review stuff on the compiler, attempt to keep on top of the issues, discussions, PRs on roughly 75 libraries (some of which are tiny and almost never change, some of which are purescript-dom grimacing), engage with people on Twitter, StackOverflow, Reddit, Slack, and very occasionally investigate some idea of my own. So unless I stop doing some of that, there's no chance I can make any meaningful steps to improving the documentation situation.
 
-- A core contributor is so stretched thin that it's a wonder there's any documentation in the first place.
+- A core contributor is already stretched thin with maintaining code, so asking for better documentation is too much to ask.
 
 > But yes, I suppose it's true - I could choose to stop doing some of that perhaps. But after thinking about this for a while, doing those things is more valuable to me than dealing with the documentation situation, right now at least. It's not that I don't care about it, it's just that I care more about being able to make stuff than I do about explaining it to everyone. A somewhat selfish position to be sure, but I'm trying to be honest.
 
-- At the end of the day, we have our own incentives. His incentive is to improve the language (likely to help him do better at work), not necessarily explaining to everyone.
+- The author's incentive is to improve the language to help him make better programs, not necessarily explaining the language to others.
 
 ### Comment
 
@@ -179,11 +184,11 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2570
 > PureScript - and you - don't have to go it alone!
 > There are people with experience harvesting and writing down idioms/habits/etc. I happen to be one of them. But leave that aside, because it's too big a leap, I think.
 
-- Responding to commentor's post about being stretched thin, the author suggests sharing the load with others.
+- Responding to core contributor's post about being stretched thin, the author suggests sharing the load with others.
 
 > When it comes to documentation, the trick is not to add more work to the existing community, it's to broaden the community. There are people who've done that, whether intuitively or with a plan. (I am not one of them.) (There are even people who study such things, like Nadia Eghbal.) They could be learned from. Though not an expert, I have observed the primates-we-call-human for a long time, and I know part of it involves high-status people making low-status jobs higher status. It's a fairly low effort force multiplier.
 
-- Author reiterates the idea that training others to do low-status things benefits everyone
+- Author believes it's best for people with high status in a community to find ways to make low-status (unattractive?) jobs more attractive.
 - (This reminds me of the point that the Elm creator mentioned in his talk about "The Hard Parts of Open Source")
 
 ### Commment
@@ -192,7 +197,7 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2570
 
 > My efforts to help with PureScript API documentation are going too slowly to maintain my enthusiasm. But you don't have time/devotion to make things go faster.
 
-- Enthusiasm in contributing docs falters when there's not "victory" with that PR getting merged.
+- The author believes that enthusiasm in contributing to docs lowers when it takes a long time to make a contribution (without getting a reward, like a merged PR?).
 
 > So let's change the process for the lens repo.
 > 1. We (mostly you) collect people who are willing to watch the repo and review my changes.
@@ -201,14 +206,12 @@ https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2570
 > 4. If you're worried that technical incorrectness will slip through, I'll (a.) be perfectly happy to put a disclaimer that any such screwups are my fault, not the package author(s), and (b.) I promise to address them within a week.
 > If I go crazy and change the code or sneak really bad documentation past everyone, you revert and then destroy my reputation. (If you want, I'll find volunteers with reach in the communities whose opinions I care about, and get them to agree to help destroy me.)
 
-- Author proposes a solution that involes:
-    - write access to a repo with promise to only push documentation
-    - indicate that any screw ups are his fault
-    - As collateral, author's reputation can be destroyed if anything goes wrong.
+- The author believes that being trusted with commit-rights to a library will encourage him to be more productive.
+- The author believes that it's OK to allow a slightly-incorrect piece of documentation to exist if it's clear the documentation author is different from the code author, and the documentation author promises to maintain the documentation.
 
 > (Could work for more than lenses. It's twelve days and counting for the first comment on - much less an acceptance of - a trivial change to Data.Map: putting the functions people are more likely to be looking for at the top of the list.)
 
-- Evidence that a small documentation change takes a very long time.
+- The author cites evidence that even a trivial change to a core library goes unmaintained for weeks.
 
 ### Comment
 
