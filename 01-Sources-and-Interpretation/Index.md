@@ -16,7 +16,6 @@ This index is useful to see the list of all unique sources used in this project.
 | Hitchhikers_Guide_to_Elm | https://news.ycombinator.com/item?id=17127821 < https://news.ycombinator.com/item?id=17125882 | HackerNews | 2018-05-21 |
 | How_Do_We_Avoid_Ecosystem_Incoherence | https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/ | Discourse | 2018-06-06 |
 | Wallowing_in_Despair | https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75 | Blog | 2018-04-24 |
-| Outsiders_Guide_to_Statically_Typed_Functional_Programming | https://leanpub.com/outsidefp | Ebook Description | 2018-04-05 |
 | PureScript_vs_ReasonML_Bucklescript_in_2018 | https://www.reddit.com/r/functionalprogramming/comments/7vveeu/purescript_vs_reasonmlbucklescript_in_2018/ | Reddit | 2018-02-07
 | Why_is_Elm_More_Popular_Than_PureScript | https://www.reddit.com/r/haskell/comments/79i7h9/why_is_elm_more_popular_than_purescript/ | Reddit | 2017-10-29 |
 | Exploring_the_MVI_Architecture_with_PureScript_Puzzler | http://fluffynukeit.com/exploring-the-mvi-architecture-with-purescript-puzzler/ | Blog | 2015-02-03 |
