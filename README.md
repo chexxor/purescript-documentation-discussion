@@ -38,3 +38,7 @@ Once you have finished your initial work...
 1. Move the file to the corresponding "For [other person]" folder to indicate that this person can review your work.
 2. Push this final change to `master`
 3. Mark the corresponding issue as closed with a comment that includes the specific commit hash that has the final commit in your work.
+
+## License
+
+See the [CONTRIBUTORS.md](CONTRIBUTORS.md) file for license.
