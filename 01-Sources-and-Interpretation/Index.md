@@ -14,6 +14,7 @@ This index is useful to see the list of all unique sources used in this project.
 | 2017-12-12 | Blog | My_Experience_With_PureScript_So_Far | https://sadraskol.com/posts/my-experience-with-purescript-so-far |
 | 2018-02-07 | Reddit | PureScript_vs_ReasonML_Bucklescript_in_2018 | https://www.reddit.com/r/functionalprogramming/comments/7vveeu/purescript_vs_reasonmlbucklescript_in_2018/
 | 2018-04-18 | Discourse | Features_You_Want_Future_PureScript_to_Not_Have | https://discourse.purescript.org/t/features-you-want-future-purescript-to-not-have/115 |
+| 2018-04-23 | Tweet | Author_Venting_About_Book | https://twitter.com/marick/status/988453595220795392
 | 2018-04-24 | Blog | Wallowing_in_Despair | https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75 |
 | 2018-05-21 | HackerNews | Hitchhikers_Guide_to_Elm | https://news.ycombinator.com/item?id=17127821 < https://news.ycombinator.com/item?id=17125882 |
 | 2018-06-06 | Discourse | How_Do_We_Avoid_Ecosystem_Incoherence | https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/ |
