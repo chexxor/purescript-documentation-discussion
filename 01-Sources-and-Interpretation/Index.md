@@ -19,3 +19,4 @@ This index is useful to see the list of all unique sources used in this project.
 | 2018-06-06 | Discourse | How_Do_We_Avoid_Ecosystem_Incoherence | https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/ |
 | 2018-07-15 | Discourse | The_State_of_Things | https://discourse.purescript.org/t/the-state-of-things/282 |
 | 2018-08-22 | Blog Comment | Elm_019_Broke_Us | https://dev.to/wires/comment/52l3 < https://dev.to/kspeakman/elm-019-broke-us--khn |
+| -- | Blog | What_Nobody_Tells_You_About_Documentation | https://www.divio.com/blog/documentation/
