@@ -1,8 +1,13 @@
 An index of the sources used for this project.
 
-The first column is the unique name for a source used in this project. It is used in the analysis file name and other references to web site. The second column, "Source", is the URL of the source, which contains one or more data points.
-
 This index is useful to see the list of all unique sources used in this project. It may become out-of-sync with the files in the sources directory, so please submit a patch to fix this index if you see mistakes.
+
+| Column Name Below | Meaning
+| - | - |
+| Slug Name | the unique name for a source used in this project. It is used in the analysis file name and other references to web site.
+| Source | the URL of the source, which contains one or more data points.
+| Type | indicates the medium of communication used in the source (e.g. blog post, reddit discussion, tweet, etc.)
+| Date | The date the source was published
 
 | Date | Type | Slug name | Source |
 | - | - | - | - |
