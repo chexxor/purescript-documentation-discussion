@@ -1,5 +1,5 @@
 
-## Source: 'How do we prevent incoherence in the Ecosystem?'
+## Source: 'How do we avoid incoherence in the Ecosystem?'
 
 https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/
 
