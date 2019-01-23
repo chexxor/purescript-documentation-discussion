@@ -1,5 +1,5 @@
 
-## Source: "Lessons learned porting a game from Purescript to Elm"
+## Source: "In depth overview of Elm and PureScript: Lessons learned porting a game from Purescript to Elm"
 
 https://alpacaaa.net/blog/post/elm-purescript-in-depth-overview/
 
