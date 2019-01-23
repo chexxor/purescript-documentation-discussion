@@ -6,6 +6,7 @@ This index is useful to see the list of all unique sources used in this project.
 
 | Date | Type | Slug name | Source |
 | - | - | - | - |
+| 2013-09-03 | Blog | Teach_Dont_Tell | http://stevelosh.com/blog/2013/09/teach-dont-tell/
 | 2017-01-29 | Reddit | Learn_PureScript_or_Haskell_First | https://www.reddit.com/r/haskell/comments/5quf5y/learn_purescript_or_haskell_first/ |
 | 2015-02-03 | Blog | Exploring_the_MVI_Architecture_with_PureScript_Puzzler | http://fluffynukeit.com/exploring-the-mvi-architecture-with-purescript-puzzler/
 | 2017-02-20 | Blog | Elm_PureScript_In_Depth_Overview | https://alpacaaa.net/blog/post/elm-purescript-in-depth-overview/
