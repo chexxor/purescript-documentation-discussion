@@ -4,22 +4,8 @@ The following interpretations have been copied over from various sources. The br
 
 <hr>
 
-- There are lots of easy documentation problems to resolve in the core documentation. [Features_You_Want_Future_PureScript_to_Not_Have]
-- A PureScript user prefers PureScript over Elm because they don't like a language which dogmatically enforces a certain way of programming. [Hitchhikers_Guide_to_Elm]
-- A PureScript user believes PureScript's FFI is simpler than Elm. [Hitchhikers_Guide_to_Elm]
-- A PureScript user believes PureScript compiles to smaller amounts of JS than Elm for the same thing, making pages load faster than Elm-written ones. [Hitchhikers_Guide_to_Elm]
-- A PureScript user entered PureScript after going through Elm. [Hitchhikers_Guide_to_Elm]
-- A PureScript user feels limited by Elm's type system. [Hitchhikers_Guide_to_Elm]
-- A PureScript user believes that a language can limit what you can do and learn, and is reason for leaving the language. [Hitchhikers_Guide_to_Elm]
-- A PureScript user believes that learning PureScript is hard to learn, and the reason is it is powerful. [Hitchhikers_Guide_to_Elm]
-- A PureScript user believes that using it is dead-simple because it compiles to JavaScript (because it is readable?). [Hitchhikers_Guide_to_Elm]
-- A PureScript user has trouble figuring out how to solve application problems in PureScript, which is a reason for why PureScript is hard to learn. [Hitchhikers_Guide_to_Elm]
-- A PureScript user feels rewarded when using PureScript because the primary sticking points are figuring out how to do things *in* the language, rather than figuring out *non-language* problems. [Hitchhikers_Guide_to_Elm]
-- A PureScript user believes that PureScript is good for solid development of frontend applications. [Hitchhikers_Guide_to_Elm]
-- A non-PureScript user prefers a simple language with a gradual/short learning curve and is willing to compromise on the quantity of manually-written code to have it. [Hitchhikers_Guide_to_Elm]
-- A JavaScript/React/PureScript user believes PureScript's FFI is fairly easy and is better than ReasonML's and Elm's FFI. [Hitchhikers_Guide_to_Elm]
-- People who hear that Purescript "compiles to Javascript" incorrectly assume/expect it to use a syntax similar to Javascript or other compile-to-JS languages. [Elm_PureScript_In_Depth_Overview]
-- Author's first major issue and turn off was not being able to read the syntax of a Haskell-like language. This issue alone made him choose to look at Elm rather than PureScript, which is arguably more powerful than Elm. Unlike most people, the author did not give up and looked at Haskell/PureScript again, eventually reaching an understanding via each language's "standard" for learning them. [Elm_PureScript_In_Depth_Overview]
+## Code as Examples Referenced in Discussions
+
 - The simple demo, `star-dodge-clone`, still assumes too much advanced background info for a new learner to understand it. People think 'simple' demos (like that above) don't require that much understanding. The "simple" demo above uses the following language features: [Elm_PureScript_In_Depth_Overview]
     - the `Eff` monad
     - a Graphics library
@@ -33,130 +19,177 @@ The following interpretations have been copied over from various sources. The br
     - FFI
     - pattern matching
     - pattern guards
-- Elm is more approachable simply because it is less powerful and requires learning less. [Elm_PureScript_In_Depth_Overview]
-- Elm could be a useful 'gateway drug' into PureScript [Elm_PureScript_In_Depth_Overview]
-- PS has type classes whereas Elm does not: one reason why one might want to use PS instead of Elm. [Elm_PureScript_In_Depth_Overview]
-- Elm is appealing because it's application structure is well-understood. To get the same appeal, the 'best practices' for application structure should be well documented in PS. [Elm_PureScript_In_Depth_Overview]
-- Pux could be a "gateway drug" library from Elm into PS [Elm_PureScript_In_Depth_Overview]
-- The `do` syntax was not immediately understood by the author. [Elm_PureScript_In_Depth_Overview]
-- Not being able to mutate variables is a hard thing to initally grasp by new learners who are used to doing so freely. [Elm_PureScript_In_Depth_Overview]
-- PS is more precise and powerful at a lower level than Elm. [Elm_PureScript_In_Depth_Overview]
-- PureScript by Example uses `unsafePartial` in such a way that it might wrongly imply that one uses it more frequently than one actually does. [Elm_PureScript_In_Depth_Overview]
-- The reasons for using `unsafePartial` might not be well-documented/explained [Elm_PureScript_In_Depth_Overview]
-- Good summary of the differences between Elm and PS' handling of partial functions: "Elm strive to be total and prevent you from shooting yourself in the foot in any way, while Purescript gives you more freedom, but you have to understand the consequences of what you’re doing." [Elm_PureScript_In_Depth_Overview]
-- I don't know whether this concept (local and controlled side effects are still considered 'pure' if functions are referentially transparent) is well-documented in PureScript learning resources (even in my own, Jordan's PureScript Reference) [Elm_PureScript_In_Depth_Overview]
-- The main goal is not "Should I learn Purescript?" But "I want to learn an FP language. Between Haskell and Purescript, which one is easier to learn since both use the same concepts that translate easily between both languages (e.g. type classes, Functor, etc.)?" [Learn_PureScript_or_Haskell_First]
-- A number of usability issues (REPL slows to a crawl with 10+ packages; bower as package management with psc-package still a WIP) stopped one commentator from continuing choosing PS over Haskell as a language to learn FP. [Learn_PureScript_or_Haskell_First]
-    - Sddressing this comment, some have been resolved whereas some others have not. AFAIK, the REPL no longer responds that slowly. `psc-package` is that stack-like alternative mentioned above that is become more established. Moreover, `spago` addresses some of its shortcomings due to the tedious nature of modifying packaget sets. However, `spago` does not yet have as much support in various things as `psc-package`.
-- If one's goal is to learn an FP language, learning Haskell and then PureScript isn't necessarily a bad idea since Haskell and PureScript are very similar and Haskell is arguably more powerful than PureScript. However, if one's goal is to learn PureScript or do website development, it would be unfortunate to learn Haskell before learning PureScript. [Learn_PureScript_or_Haskell_First]
-- GHC has better error messages than PureScript. This was likely true. I'm not whether that gap has decreased in the last year or not and by how much. I think it's likely still the same. [Learn_PureScript_or_Haskell_First]
-- a core contributor for PS did not recommend PS to people new to FP seemingly because the learning resources for PS were not as good as Haskell's. [Learn_PureScript_or_Haskell_First]
-- The Haskell book has exercises in addition to its explanations. [Learn_PureScript_or_Haskell_First]
-- Haskell has more documentation (but better?) than PureScript, so Haskell is recommended for newcomers. It's not entirely clear whether the Haskell documentation is "better" than PureScript, but it is implied. [Learn_PureScript_or_Haskell_First]
-- Seems like Haskell had more material than PureScript: if one did not satisfy you or help you, you could look at another tutorial/guide. If you encounter the same situation in PureScript, tough luck as there isn't another tutorial/guide. [Learn_PureScript_or_Haskell_First]
-- Haskell's stronger ecosystem might make it easier for the OP to learn domain-specific concepts (e.g. parsing, cryptography, etc.) in an FP style [Learn_PureScript_or_Haskell_First]
-- It seems if one wants to do web development using an FP paradigm, Elm has better learning resources to help one get familiar with the concepts before switching to Purescript. Again, Elm as a "gateway drug" into PureScript seems like a good possibility. [Learn_PureScript_or_Haskell_First]
-- Elm seems to provide a gentler introduction to FP concepts than Haskell or PureScript primarily because it has less features and potentially has better documentation than PureScript did at that time. [Learn_PureScript_or_Haskell_First]
+
+## Comparing Elm, PureScript, and Haskell: which language do I use?
+
+### General Statements
+
+- The target / purpose for learning FP language should be the controlling factor. [Learn_PureScript_or_Haskell_First]
+- Good summary of the learning curves of these languages: Elm is lowest, PS is next, Haskell is highest. [Learn_PureScript_or_Haskell_First]
+- Learning one language or another does not matter since the type classes and general foundations apply equally to all of them. [Learn_PureScript_or_Haskell_First]
+
+### Specific statements about the langauges
+
 - If one wants to do FP web development and get the full power of FP languages and is willing to pay the cost of a steeper learning curve, then they should start with PureScript. Still, this learning curve could be made less steep if there was more beginner-friendly documentation. [Learn_PureScript_or_Haskell_First]
+- "PureScript focuses on Web, Haskell is more general, but in case you're only interested in playing with a functional language, I'd pick PureScript for that." [Learn_PureScript_or_Haskell_First]
+- Good summary of the differences between Elm and PS' handling of partial functions: "Elm strive to be total and prevent you from shooting yourself in the foot in any way, while Purescript gives you more freedom, but you have to understand the consequences of what you’re doing." [Elm_PureScript_In_Depth_Overview]askell and Purescript, which one is easier to learn since both use the same concepts that translate easily between both languages (e.g. type classes, Functor, etc.)?" [Learn_PureScript_or_Haskell_First]
+- One will be more productive overall in languages that have more mature ecosystem and active communities. However, if one wants to specifically do web programming and not use Haskell's solutions to that problem and needs something more powerful than Elm, then one seems limited to Purescript, Elixir, or Closure. [Learn_PureScript_or_Haskell_First]
+- A number of usability issues (REPL slows to a crawl with 10+ packages; bower as package management with psc-package still a WIP) stopped one commentator from continuing choosing PS over Haskell as a language to learn FP. [Learn_PureScript_or_Haskell_First]
+    - Addressing this comment, some have been resolved whereas some others have not. AFAIK, the REPL no longer responds that slowly. `psc-package` is that stack-like alternative mentioned above that is become more established. Moreover, `spago` addresses some of its shortcomings due to the tedious nature of modifying packaget sets. However, `spago` does not yet have as much support in various things as `psc-package`.
+
+### Arguments For PS
+
+- A PureScript user prefers PureScript over Elm because they don't like a language which dogmatically enforces a certain way of programming. [Hitchhikers_Guide_to_Elm]
+- A PureScript user believes PureScript's FFI is simpler than Elm. [Hitchhikers_Guide_to_Elm]
+- A PureScript user believes PureScript compiles to smaller amounts of JS than Elm for the same thing, making pages load faster than Elm-written ones. [Hitchhikers_Guide_to_Elm]
+- A PureScript user believes that a language can limit what you can do and learn, and is reason for leaving the language. [Hitchhikers_Guide_to_Elm]
+- A PureScript user feels limited by Elm's type system. [Hitchhikers_Guide_to_Elm]
+- A PureScript user believes that using it is dead-simple because it compiles to JavaScript (because it is readable?). [Hitchhikers_Guide_to_Elm]
+- A JavaScript/React/PureScript user believes PureScript's FFI is fairly easy and is better than ReasonML's and Elm's FFI. [Hitchhikers_Guide_to_Elm]
+- PS has type classes whereas Elm does not: one reason why one might want to use PS instead of Elm. [Elm_PureScript_In_Depth_Overview]
+- PS is more precise and powerful at a lower level than Elm. [Elm_PureScript_In_Depth_Overview]
 - PS' type system is more granular, powerful, and polished than Haskell, avoiding some of its baggage. [Learn_PureScript_or_Haskell_First]
 - While this person argues that it's generally easier to install and maintain PS than Haskell on a machine, that comment did not account for the major breaking changes that occurred in the `0.12.0` release. Other comments in this post also argue against this point. [Learn_PureScript_or_Haskell_First]
-- "PureScript focuses on Web, Haskell is more general, but in case you're only interested in playing with a functional language, I'd pick PureScript for that." [Learn_PureScript_or_Haskell_First]
-- Good insight here: one can look at material from all three languages (PS, Haskell, Elm) to get a better understanding for how the code works. In other words, the concepts can translate from one language to another. [Learn_PureScript_or_Haskell_First]
 - In short, in this person's experience, PureScript is easy to set up and start coding unlike Haskell in various ways [Learn_PureScript_or_Haskell_First]
 - Using PureScript was more fun than the hassle when compared to the commentator's experience with Haskell. [Learn_PureScript_or_Haskell_First]
 - PureScript doesn't require adding language extensions like "OverloadedStrings" or running it with `-Wall` [Learn_PureScript_or_Haskell_First]
 - To one person, Haskell's community seems less frinedly / welcoming than other languages' communities in general and the Purescript community specifically. [Learn_PureScript_or_Haskell_First]
-- This factual statement just explains that one will be more productive overall in langauges that have more mature ecosystem and active communities. However, if one wants to specifically do web programming and not use Haskell's solutions to that problem and needs something more powerful than Elm, then one seems limited to Purescript, Elixir, or Closure. [Learn_PureScript_or_Haskell_First]
-- Person thinks that one should only learn PS for web/JS replacement. [Learn_PureScript_or_Haskell_First]
-- Person might not have known about PS' other backends that make it more viable in the long-term. [Learn_PureScript_or_Haskell_First]
-- Learning one language or another does not matter since the type classes and general foundations apply equally to all of them. [Learn_PureScript_or_Haskell_First]
+- A PureScript user believes that PureScript is good for solid development of frontend applications. [Hitchhikers_Guide_to_Elm]
 - PS' long-term value is that the language can compile to multiple backends quite easily. Still, the exact performance considerations are not as clear as one library maintainer realized when writing [Learn_PureScript_or_Haskell_First] `purescript-sequence`, a FingerTree implementation that was slower than Array until its size got very large.
-- Good summary of the learning curves of these languages: Elm is lowest, PS is next, Haskell is highest. [Learn_PureScript_or_Haskell_First]
-- The target / purpose for learning FP langauge should be the controlling factor. [Learn_PureScript_or_Haskell_First]
 - PureScript has better integration with JS build tools (e.g. webpack, parcel, etc.) than Haskell [Learn_PureScript_or_Haskell_First]
 - "the install and setup of the environment is straight forward." [My_Experience_With_PureScript_So_Far]
 - build tools supporting fast feedback loops make developers more productive [My_Experience_With_PureScript_So_Far]
 - PS has excellent documentation browsing [My_Experience_With_PureScript_So_Far]
-- Having a 'beginner-friendly' version of Pursuit search that highlights / prioritizes / highly ranks the common things new learners would search for would be helpful. [My_Experience_With_PureScript_So_Far]
 - PS has great out-of-box support for Atom IDE [My_Experience_With_PureScript_So_Far]
-- New learner experienced minor issue with build tool (need to researt it to sync with current state of build) [My_Experience_With_PureScript_So_Far]
 - Making implicit partial functions explicit helped one adhere to type-driven development, which also had some educational benefits [My_Experience_With_PureScript_So_Far]
+- Haskell user prefers and welcomed non-fragmented dependency managers. [PureScript_First_Impressions]
+
+### Arguments Against using PS
+
+- Haskell's stronger ecosystem might make it easier for the OP to learn domain-specific concepts (e.g. parsing, cryptography, etc.) in an FP style [Learn_PureScript_or_Haskell_First]- Haskell's stronger ecosystem might make it easier for the OP to learn domain-specific concepts (e.g. parsing, cryptography, etc.) in an FP style [Learn_PureScript_or_Haskell_First]
+- Post-`0.12.0` release, user expected that language's community won't be able to reach ecosystem coherence for a while. [PureScript_First_Impressions]
+- A non-PureScript user prefers a simple language with a gradual/short learning curve and is willing to compromise on the quantity of manually-written code to have it. [Hitchhikers_Guide_to_Elm]
+- Elm is more approachable simply because it is less powerful and requires learning less. [Elm_PureScript_In_Depth_Overview]
+- Elm is appealing because it's application structure is well-understood. To get the same appeal, the 'best practices' for application structure should be well documented in PS. [Elm_PureScript_In_Depth_Overview]
+- Elm seems to provide a gentler introduction to FP concepts than Haskell or PureScript primarily because it has less features and potentially has better documentation than PureScript did at that time. [Learn_PureScript_or_Haskell_First]
+- Person thinks that one should only learn PS for web/JS replacement. [Learn_PureScript_or_Haskell_First]
+
+## Various "Learning Paths" to reach PureScript
+
+- A PureScript user entered PureScript after going through Elm. [Hitchhikers_Guide_to_Elm]
+- Elm could be a useful 'gateway drug' into PureScript [Elm_PureScript_In_Depth_Overview]
+- Pux could be a "gateway drug" library from Elm into PS [Elm_PureScript_In_Depth_Overview]
+- It seems if one wants to do web development using an FP paradigm, Elm has better learning resources to help one get familiar with the concepts before switching to Purescript. Again, Elm as a "gateway drug" into PureScript seems like a good possibility. [Learn_PureScript_or_Haskell_First]
+- If one's goal is to learn an FP language, learning Haskell and then PureScript isn't necessarily a bad idea since Haskell and PureScript are very similar and Haskell is arguably more powerful than PureScript. However, if one's goal is to learn PureScript or do website development, it would be unfortunate to learn Haskell before learning PureScript. [Learn_PureScript_or_Haskell_First]
+- Haskell has more documentation (but better?) than PureScript, so Haskell is recommended for newcomers. It's not entirely clear whether the Haskell documentation is "better" than PureScript, but it is implied. [Learn_PureScript_or_Haskell_First]
+- Seems like Haskell had more material than PureScript: if one did not satisfy you or help you, you could look at another tutorial/guide. If you encounter the same situation in PureScript, tough luck as there isn't another tutorial/guide. [Learn_PureScript_or_Haskell_First]
+- Good insight here: one can look at material from all three languages (PS, Haskell, Elm) to get a better understanding for how the code works. In other words, the concepts can translate from one language to another. [Learn_PureScript_or_Haskell_First]
+- `pulp` was simple to set up things [PureScript_First_Impressions]
+- Atom support was easy to set up [PureScript_First_Impressions]
+- Haskell user prefers and welcomed a centralized documentation site [PureScript_First_Impressions]
+
+## Problems New Learners Face when learning PS
+
+- A PureScript user has trouble figuring out how to solve application problems in PureScript, which is a reason for why PureScript is hard to learn. [Hitchhikers_Guide_to_Elm]
+- A PureScript user feels rewarded when using PureScript because the primary sticking points are figuring out how to do things *in* the language, rather than figuring out *non-language* problems. [Hitchhikers_Guide_to_Elm]
+- People who hear that Purescript "compiles to Javascript" incorrectly assume/expect it to use a syntax similar to Javascript or other compile-to-JS languages. [Elm_PureScript_In_Depth_Overview]
+- Author's first major issue and turn off was not being able to read the syntax of a Haskell-like language. This issue alone made him choose to look at Elm rather than PureScript, which is arguably more powerful than Elm. Unlike most people, the author did not give up and looked at Haskell/PureScript again, eventually reaching an understanding via each language's "standard" for learning them. [Elm_PureScript_In_Depth_Overview]
+- The `do` syntax was not immediately understood by the author. [Elm_PureScript_In_Depth_Overview]
+- A PureScript user believes that learning PureScript is hard to learn, and the reason is it is powerful. [Hitchhikers_Guide_to_Elm]
+- Not being able to mutate variables is a hard thing to initally grasp by new learners who are used to doing so freely. [Elm_PureScript_In_Depth_Overview]
+- I don't know whether this concept (local and controlled side effects are still considered 'pure' if functions are referentially transparent) is well-documented in PureScript learning resources (even in my own, Jordan's PureScript Reference) [Elm_PureScript_In_Depth_Overview]
+- The Haskell book has exercises in addition to its explanations. [Learn_PureScript_or_Haskell_First]
+- a core contributor for PS did not recommend PS to people new to FP seemingly because the learning resources for PS were not as good as Haskell's. [Learn_PureScript_or_Haskell_First]
+- Person might not have known about PS' other backends that make it more viable in the long-term. PS' "compile-to-anything" nature may not be well publicized. [Learn_PureScript_or_Haskell_First]
+- Migrating to psc-package requires a manual process. Not sure how much time that takes. [PureScript_First_Impressions]
+
+## Ideas for how to improve PS Docs
+
+- There are lots of easy documentation problems to resolve in the core documentation. [Features_You_Want_Future_PureScript_to_Not_Have]
+- PureScript by Example uses `unsafePartial` in such a way that it might wrongly imply that one uses it more frequently than one actually does. [Elm_PureScript_In_Depth_Overview]
+- The reasons for using `unsafePartial` might not be well-documented/explained [Elm_PureScript_In_Depth_Overview]
+- GHC has better error messages than PureScript. This was likely true. I'm not whether that gap has decreased in the last year or not and by how much. I think it's likely still the same. [Learn_PureScript_or_Haskell_First]
+- Regular compiler error messages do not also output the information one would see via a type-directed search to help the user determine what they are probably trying to write but failing to write. Elixir's compiler does this. [My_Experience_With_PureScript_So_Far]
+- Help/Documentation on using Pursuit's search could be better highlighted to draw more attention to it. [PureScript_First_Impressions]
+- FFI best practices / tricks might not be well documented for new users/learners [PureScript_First_Impressions]
+- A better version of Bower would be a huge improvement for PS community's build tooling. [PureScript_First_Impressions]
+- Any conversations made on Slack that are worth keeping long-term (e.g. answers to stupid questions) do not persist long-term. This seems to contribute to new users asking the same questions again and again, taking time away from advanced users in the language from spending time on other more useful things. [The_State_of_Things]
+- The documentation repo's error pages are not up-to-date or completely filled out [The_State_of_Things]
+- Public acknowledgement that some people (not defined here) do not know how to update Try Purescript and Pursuit. (Secondary source) - Phil and Harry might be the only ones who know how to update it. [The_State_of_Things]
+- Encouraging new users to open issues for documentation issues would help track down what already-written documentation is not immediately understandable to new users and what entities have yet to be documented. [The_State_of_Things]
+- Perhaps providing a single centralized location for all cross-repo documentation issues that are easy enough for new beginners to do would help. To aid in recognition, they could all use the same label name: `new contributor`. [The_State_of_Things]
+- The documentation repo is presented as a loose collection of potentially unrelated articles, not as a systematic presentation of articles that all fit within a larger vision. [The_State_of_Things]
+
+## Ways to improve new learner experience
+
+- Having a 'beginner-friendly' version of Pursuit search that highlights / prioritizes / highly ranks the common things new learners would search for would be helpful. [My_Experience_With_PureScript_So_Far]
 - Being required to import each import is tedious and annoying.  [My_Experience_With_PureScript_So_Far]
     - However, the person might not know that the `atom-ide` / `purescript-lang` atom packages enable one to type in the Type, hit tab for the autocomplete, and the IDE will insert both the autocompletion and import the module if it's not imported already. This issue and its possible solution could be better documented.
     - The person might also not know that people often define their own Prelude to account for the above annoyance
-- User did not understand the copmiler errors user got as a result of not importing Prelude. [My_Experience_With_PureScript_So_Far]
-- Regular compiler error messages do not also output the information one would see via a type-directed search to help the user determine what they are probably trying to write but failing to write. Elixir's compiler does this. [My_Experience_With_PureScript_So_Far]
-- Newcomers to the language feel antagonized by the unfamiliar concepts and language operators. [My_Experience_With_PureScript_So_Far]
-- Perhaps documentation can mitigate the confusion and anguish experienced by newcomers. [My_Experience_With_PureScript_So_Far]
+- User did not understand the compiler errors user got as a result of not importing Prelude. [My_Experience_With_PureScript_So_Far]
+- New learner experienced minor issue with build tool (need to researt it to sync with current state of build) [My_Experience_With_PureScript_So_Far]
+- Newcomers to the language feel antagonized by the unfamiliar concepts and language operators. Perhaps documentation can mitigate the confusion and anguish experienced by newcomers. [My_Experience_With_PureScript_So_Far]
 - Author expects such explanations to be made in the module/function/type's documentation as found in Pursuit rather than some external resource like `Purescript By Example`, which does a good job explaing what that is. Linking to such explanations might address such pain points. [My_Experience_With_PureScript_So_Far]
-- Library (`purescript-assert`?) likely did not yet provide `assertX` with custom warning errors attached to it like `quickCheck (\a -> a <?> "custom warning error when it fails")` [My_Experience_With_PureScript_So_Far]
-- Author possibly assumes that unit testing is the default testing used for FP languages rather than property testing [My_Experience_With_PureScript_So_Far]
-- Author possible does not know about `purescript-spec` as a testing library [My_Experience_With_PureScript_So_Far]
-- Despite the critiques raised in this post, author will likely use the language in the future when things get better [My_Experience_With_PureScript_So_Far]
-- `pulp` was simple to set up things [PureScript_First_Impressions]
-- Atom support was easy to set up [PureScript_First_Impressions]
-- Haskell user prefers and welcomed non-fragmented dependency managers. [PureScript_First_Impressions]
-- The PS language site was the first thing new learner went to [PureScript_First_Impressions]
-- The oudated Eff-based example created a horrible new-user experience [PureScript_First_Impressions]
+    - Library (`purescript-assert`?) likely did not yet provide `assertX` with custom warning errors attached to it like `quickCheck (\a -> a <?> "custom warning error when it fails")` [My_Experience_With_PureScript_So_Far]
+    - Author possibly assumes that unit testing is the default testing used for FP languages rather than property testing [My_Experience_With_PureScript_So_Far]
+    - Author possible does not know about `purescript-spec` as a testing library [My_Experience_With_PureScript_So_Far]
+- The PS language site was the first thing new learner went to. The oudated Eff-based example created a horrible new-user experience [PureScript_First_Impressions]
 - New users like to use Pursuit to learn how to solve problems when writing the language / understand what some concept/function/type is. [PureScript_First_Impressions]
-- Haskell user prefers and welcomed a centralized documentation site [PureScript_First_Impressions]
-- Help/Documentation on using Pursuit's search could be better highlighted to draw more attention to it. [PureScript_First_Impressions]
 - new learner found it annoying that PS FFI requires a lot of boilerplate to be written. [PureScript_First_Impressions]
     - There might be code generation solutions to the above problem that he did not know about.
 - The FFI maybe needs better documentation, especially for a newcomer to statically-typed language. [PureScript_First_Impressions]
-- FFI best practices / tricks might not be well documented for new users/learners [PureScript_First_Impressions]
-- Post-`0.12.0` release, a language release does not imply ecosystem compatibility immediately after its release. [PureScript_First_Impressions]
-- Post-`0.12.0` release, user expected that language's community won't be able to reach that coherence for a while. [PureScript_First_Impressions]
-- Nix is really nice for FP libraries but difficult to set up [PureScript_First_Impressions]
-- Migrating to psc-package requires a manual process. Not sure how much time that takes. [PureScript_First_Impressions]
-- A better version of Bower would be a huge improvement for PS community's build tooling. [PureScript_First_Impressions]
-- Writing FFI is very boilerplate-y and wastes developer time. There should be a faster way to do the same thing, potentially via a library or through code generation. [PureScript_First_Impressions]
-- user questions the lack of better FFI support via libraries that handle/write it for developers [PureScript_First_Impressions]
 - The FFI documentation should explain the disadvantages of giving first-class syntax for Javascript FFI due to PS' "compile to multiple backends" nature. [PureScript_First_Impressions]
 - The FFI documentation should explain the advantages of writing an implementation for some function outside of the PureScript langauge (i.e. in Javascript source file): "allows you to fake out all non-pure state and effects and get as close to pure as possible." [PureScript_First_Impressions]
-- There is a public awareness that the documentation repo is not fully up-to-date with the PureScript language [The_State_of_Things]
-- The documentation repo is presented as a loose collection of potentially unrelated articles, not as a systematic presentation of articles that all fit within a larger vision. [The_State_of_Things]
-- The PureScript by Example book is not fully up-to-date with the PureScript language. [The_State_of_Things]
-- Keeping documentation up-to-date via the medium of a book costs a lot of time. Breaking changes quickly destroys much of this work. [The_State_of_Things]
-- The workload is too great for one person to do alone without burning out. [The_State_of_Things]
-- There is a lack of communication between the language developers/contributors and those who document the language about what changes will be included/excluded in the next release. This makes it harder for the documenter to know what to write, what to correct/change/fix, and what to continue ignoring. [The_State_of_Things]
-- There is public acknowledgement that there are not enough workers to keep the documentation resources in-sync with latest language releases. As a result, much time is spent putting out fires rather than moving the language/ecosystem forward. [The_State_of_Things]
+- A suggestion for reducing the number of communication groups within PS down to 3 and defining general "policies" for what should go where [The_State_of_Things]
+- Some users perceive that PS has a frequent breaking-changes language release cycle. This perception was true at various parts in the release, but hasn't been recently. [The_State_of_Things]
+    - The number of weeks until next breaking change, starting at `v0.5.0` and going to `v0.12.0`: `10 28 34 31 17 18 25 60`
+    - The average of the above number series: `27.875 weeks`
+- There is a public awareness within the PS community that the documentation repo is not fully up-to-date with the PureScript language [The_State_of_Things]
+- Writing new docs or improving old ones is a good way to get started with a language. [The_State_of_Things]
+- user questions the lack of better FFI support via libraries that handle/write it for developers [PureScript_First_Impressions]
 - Outdated materials/websites are currently included in the main PureScript language's website. These should be removed to prevent new learners from thinking that these resources are in-sync with the latest PureScript language. [The_State_of_Things]
+- Writing FFI is very boilerplate-y and wastes developer time. There should be a faster way to do the same thing, potentially via a library or through code generation. [PureScript_First_Impressions]
+- Nix is really nice for FP libraries but difficult to set up [PureScript_First_Impressions]
+- The PureScript by Example book is not fully up-to-date with the PureScript language. [The_State_of_Things]
+- Since PureScript is still a newer language, some people that use it in production rely upon only one expert to fix problems that most others do not know how to fix. [The_State_of_Things]
+
+## PureScript's Mediums of Communication
+
+- GitHub issues should not be used for "help me" questions. [The_State_of_Things]
+- Slack is **sometimes** good for getting immediate response and transient things [The_State_of_Things]
+- Discourse is **preferred** for seemingly longer discussions that aren't quite worthy of a GitHub issue [The_State_of_Things]
+- Slack is the "go to" for stupid questions [The_State_of_Things]
+- Slack is useful for short conversations that work across timezones and internet connectivity issues. [The_State_of_Things]
+- Slack acts as a newsfeed of sorts for PureScript [The_State_of_Things]
+
+## Why Previous Documentation Efforts Failed
+
+- PS documentation has always been bad. This problem has been the same throughout its history in that it hasn't gotten worse over time [The_State_of_Things]
+- There is public acknowledgement that there are not enough workers to keep the documentation resources in-sync with latest language releases. As a result, much time is spent putting out fires rather than moving the language/ecosystem forward. [The_State_of_Things]
+- The workload is too great for one person to do alone without burning out. [The_State_of_Things]
+- Keeping documentation up-to-date via the medium of a book costs a lot of time. Breaking changes quickly destroys much of this work. [The_State_of_Things]
+- Using Try Purescript as 'learning environment with PureScript already installed' became an unreliable environment due to a breaking change. [The_State_of_Things]
+- It would be best to hold off on documentation until a stable language specification is defined. Otherwise, the same problems encountered above (quickly outdated learning resources that cost a lot of time to make) will occur again. [The_State_of_Things]
+- A breaking change in the language sometimes greatly impacts the ecosystem and other times only minorly impacts it. [The_State_of_Things]
+- One has offered to maintain Pursuit, but might need some (but likely not a lot) help getting oriented to the project [The_State_of_Things]
 - There is "issue spam" in the language repo's issue tracker, making it harder to see what really needs to be done / should be done to get a `v1.0` release. [The_State_of_Things]
+- There is a lack of communication between the language developers/contributors and those who document the language about what changes will be included/excluded in the next release. This makes it harder for the documenter to know what to write, what to correct/change/fix, and what to continue ignoring. [The_State_of_Things]
+- There is a lack of communication about the release schedule of the language and 'saving' all breaking changes for a single major release. [The_State_of_Things]
+- Core contributor is expressing belief that breaking changes in core libraries are not likely to happen in the future as frequently and that language is finally stablizing. [The_State_of_Things]
+
+## Why a "v1.0" release has not been made
+
 - There does not seem to be a well-defined mutually-held 'vision' for the future of the language's development. As a result, it's hard to start writing documentation material that will coincide with the `v1.0` release of the language. [The_State_of_Things]
-- A proposal for how to make a `v1.0` release resistant to future breaking changes [The_State_of_Things]
+- A proposal for how to make a `v1.0` release (mentioned before but encountered resistance from other core contributors) [The_State_of_Things]
     - fix any bugs that can't be documented
     - engineer things to make anticipated future additions easy / non-breaking
     - write a spec for the language
     - commit to stable release window
-This idea has been mentioned before but has been met with resistance from other core contributors.
-- GitHub issues should not be used for "help me" questions. [The_State_of_Things]
-- Slack is **sometimes** good for getting immediate response and transient things [The_State_of_Things]
-- Discourse is **preferred** for seemingly longer discussions that aren't quite worthy of a GitHub issue [The_State_of_Things]
-- Perhaps providing a single centralized location for all cross-repo documentation issues that are easy enough for new beginners to do would help. To aid in recognition, they could all use the same label name: `new contributor`. [The_State_of_Things]
-- Encouraging new users to open issues for documentation issues would help track down what already-written documentation is not immediately understandable to new users and what entities have yet to be documented. [The_State_of_Things]
-- Writing new docs or improving old ones is a good way to get started with a language. [The_State_of_Things]
-- There is a lack of communication about the release schedule of the language and 'saving' all breaking changes for a single major release. [The_State_of_Things]
-- Since PureScript is still a newer language, some people that use it in production rely upon only one expert to fix problems that most others do not know how to fix. [The_State_of_Things]
-- One has offered to maintain Pursuit, but might need some (but likely not a lot) help getting oriented to the project [The_State_of_Things]
-- Slack is the "go to" for stupid questions [The_State_of_Things]
-- Any conversations made on Slack that are worth keeping long-term (e.g. answers to stupid questions) do not persist long-term. This seems to contribute to new users asking the same questions again and again, taking time away from advanced users in the language from spending time on other more useful things. [The_State_of_Things]
-- Public acknowledgement that some people (not defined here) do not know how to update Try Purescript and Pursuit. (Secondary source) - Phil and Harry might be the only ones who know how to update it. [The_State_of_Things]
-- PS documentation has always been bad. This problem has been the same throughout its history in that it hasn't gotten worse over time [The_State_of_Things]
-- Some users perceive that PS has a frequent breaking-changes language release cycle. This perception was true at various parts in the release, but hasn't been recently. [The_State_of_Things]
-    - The number of weeks until next breaking change, starting at `v0.5.0` and going to `v0.12.0`: `10 28 34 31 17 18 25 60`
-    - The average of the above number series: `27.875 weeks`
-- A breaking change in the language sometimes greatly impacts the ecosystem and other times only minorly impacts it. [The_State_of_Things]
-- Core contributor is expressing belief that breaking changes in core libraries are not likely to happen in the future as frequently and that language is finally stablizing. [The_State_of_Things]
 - Two potential breaking changes (one would require polykinds and the other would require quantified constraints) may come at a later unknown time. [The_State_of_Things]
-- Slack is useful for short conversations that work across timezones and internet connectivity issues. [The_State_of_Things]
-- Slack acts as a newsfeed of sorts for PureScript [The_State_of_Things]
-- A suggestion for reducing the number of communication groups down to 3 and defining general "policies" for what should go where [The_State_of_Things]
-- The 'resistance' mentioned before was based in not wanting to produce breaking changes in later releases. [The_State_of_Things]
-- The 'resistance' stil exists in a small manner in that `garyb` does not want a complete "feature freeze." However, it's no longer about stopping a `v1.0` as much as it is a "how do we make `v1.0` that does not require us to introduce breaking changes soon after its release?" [The_State_of_Things]
-- It would be best to hold off on documentation until a stable language specification is defined. Otherwise, the same problems encountered above (quickly outdated learning resources that cost a lot of time to make) will occur again. [The_State_of_Things]
-- The documentation repo's error pages are not up-to-date or completely filled out [The_State_of_Things]
-- Using Try Purescript as 'learning environment with PureScript already installed' became an unreliable environment due to a breaking change. [The_State_of_Things]
+- The 'resistance' mentioned before was based in not wanting to produce breaking changes in later releases. The 'resistance' stil exists in a small manner in that `garyb` does not want a complete "feature freeze." However, it's no longer about stopping a `v1.0` as much as it is a "how do we make `v1.0` that does not require us to introduce breaking changes soon after its release?" [The_State_of_Things]
+- Post-`0.12.0` release, a language release does not imply ecosystem compatibility immediately after its release. [PureScript_First_Impressions]
+
+<hr>
 
  [Wallowing_in_Despair]
 - "Outsider's guide to Statically Typed Functional Programming" (OGSTFP) book teaches Elm in a different manner than usual. [Wallowing_in_Despair]
