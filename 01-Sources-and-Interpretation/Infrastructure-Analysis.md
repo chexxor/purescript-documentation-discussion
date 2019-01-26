@@ -141,6 +141,7 @@ The following are listed by category/topic and I've included my own flag for ind
     - this would help one know where `spago` needs to be used to configure the package set
 - an option to only show packages that were compiled using or are compatible with a specific version of PureScript
     - this would help address the havoc that arises when a 'breaking change' language release occurs and one is trying to determine which libraries have been updated for that release.
+- Will Pursuit's scope include documentation for backends other than Javascript? Will it be possible to search for FFI-only code based on which backends currently support that?
 
 ## Buld Tool Integration with Pursuit
 
