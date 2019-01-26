@@ -7,12 +7,13 @@ https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-
 
 > Despite the hard work of many contributors and maintainers, there has been a lot of confusion surrounding the release of 0.12. My understanding is that this has happened in the past and is a phenomenon by and large accepted by the existing PureScript community.
 
-- New language releases that include breaking changes often lead to confusion. The "confusion" is not defined in this section, so that we can know what causes it and how to fix it.
-- This "confusion" is largely accepted as "normal" by the community. In other words, "it just comes with the language."
+- A PureScript user believes that new language releases which include breaking changes often lead to miscommunication.
+- A PureScript user believes that miscommunication of language releases/changes is largely accepted as normal by the community.
 
 > As a current user who follows changes in the ecosystem closely it didn’t cause me many problems, but anyone new to PS right now is feeling a lot of pain and (I believe) more likely than not to decide PureScript isn’t an investment worth making. The pain is diminishing daily as tools and libraries are updated which is great! The good news is that a major update like this creates greater than normal buzz. The bad news is that buzz draws newcomers at potentially the worst possible time.
 
-- New language releases are news-worthy and often draw in a lot of traffic. Perhaps people who want to use the language but have been turned off before now think, "Great! Maybe I can actually understand how to use it this time!" Others who have never heard of it might think, "What is this? It seems worth checking out." However, when either audience checks the site, they are immediately turned off. The overall effect is a net-negative for PureScript as a whole.
+- A PureScript user sees that major language releases bring higher-than-normal newcomers to the language.
+- Perhaps people who want to use the language but have been turned off before now think, "Great! Maybe I can actually understand how to use it this time!" Others who have never heard of it might think, "What is this? It seems worth checking out." However, when either audience checks the site, they are immediately turned off. The overall effect is a net-negative for PureScript as a whole.
 
 > I understand that several factors contributed to the situation, among them:
 > - No central coordination
@@ -21,37 +22,38 @@ https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-
 
 > - No full-time effort (though `garyb` and `kritzcreek` came closer than could be expected). Nobody’s getting paid to do this work.
 
-- Only volunteers who must pay their bills through other means are working on this language. There is no financial incentive for them to complete work, nor can they give the language their full time.
+- A PureScript user sees that there is no "full-time" developers, but notes the opposite, that he sees there are a few people whose contributions are nearly that of full-time developers.
+- A PureScript user believes that none of PureScript's contributors have a financial incentive to start or complete work.
 
 > - Documentation was not updated to warn users about the problems they would encounter during this time of flux.
 
-- Pre-release documentation that was marketed/announced a reasonable time before the release and easily findable after it did not occur.
+- A PureScript user believes that there was no release-related documentation marketed/announced a reasonable time before the release.
 
 > - Tooling (specifically Pulp) was not updated in conjunction with the release of 0.12.0.
 
-- Self-explanatory: one cannot benefit from a new release if the tooling support doesn't make it work well.
-- A language should provide a "complete solution" to business problems, including build tools that 'just work.'
+- A PureScript user believes that compiler related projects, such as build tools, should be updated along with compiler releates. (One cannot benefit from a new compiler version if the tooling used by their previously-written project doesn't support it.)
 
 > - Although core and contrib libs were updated during this time, some key pieces were missing, most notably Aff and Halogen (despite the best efforts of natefaubion).
 
-- Major libraries in the ecosystem were not updated at the same time as the language release. So, one could not immediately benefit from the new release.
+- A PureScript user believes that major libraries in the ecosystem should work with the latest available version of the compiler. (One can not benefit from the new release if the shared libraries used in the previously-written project don't work with the latest available compiler version.
 
 > - The Slack channels and this Discourse instance are great resources, but I could only find one reference to Slack (at https://github.com/purescript/purescript#help
 
-- The Slack channel and Discourse site are not easily findable.
+- A PureScript user believes the Slack channel and Discourse site are the best resources for PureScript users.
+- A PureScript user believes that all PureScript users should visit the Slack and Discourse instances as their primary resource for help.
 
 > - It would be helpful to have this information duplicated at purescript.org
 
-- The Slack/Discourse links should be included in the PureScript language website.
--
+- A PureScript user believes the PureScript language HTML website should direct its visitors to PureScript's Slack/Discourse instances. (The PureScript website is currently a primary resource visited by a subset of the PureScript community and it should direct people to the best resource for PureScript help known by this PureScript user.)
 
 > - I think the link to Gitter should also be removed as it’s not very active and that can be discouraging.
 
-- The Gitter chatroom is not very active. If it gets removed completely, one should announce that in the channel and include links to the new chatrooms to use and why.
+- A PureScript user believes the Gitter chatroom is not very active.
+- A PureScript user believes the PureScript HTML website should reflect active resources, and inactive resources should direct people to active resources.
 
 > I want to reiterate that no blame is being assigned and there’s no need for recrimination. I think we all want make this ecosystem a joy to work in for experienced users and newcomers alike.
 
-- An indicator of a healthy community that is focusing on problem-solving, not the blame-game.
+- A PureScript user believes that all contributors want to make the PureScript language and its ecosystem of projects a happy place to work.
 
 ### Comment (core contributor)
 
