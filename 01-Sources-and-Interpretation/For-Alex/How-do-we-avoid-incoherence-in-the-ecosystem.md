@@ -31,7 +31,7 @@ https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-
 
 > - Tooling (specifically Pulp) was not updated in conjunction with the release of 0.12.0.
 
-- A PureScript user believes that compiler related projects, such as build tools, should be updated along with compiler releates. (One cannot benefit from a new compiler version if the tooling used by their previously-written project doesn't support it.)
+- A PureScript user believes that compiler related projects, such as build tools, should be updated along with compiler releases. (One cannot benefit from a new compiler version if the tooling used by their previously-written project doesn't support it.)
 
 > - Although core and contrib libs were updated during this time, some key pieces were missing, most notably Aff and Halogen (despite the best efforts of natefaubion).
 
@@ -65,8 +65,9 @@ https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-
 
 > Absolutely, it (i.e. not announcing the next language release without first updating the ecosystem) is why I haven’t mentioned or retweeted anything about 0.12 on my twitter yet!
 
-- Some people get this idea whereas others do not. This should be communicated as something to expect for new learners
-- An official "ecosystem is `<release version>`-ready" announcement might help prevent this. Likewise, Including a "this release is made but not ecosystem-ready yet" note in the languages' release notes that includes a link as to what "ecosystem-ready releases" mean might help prevent this negative press.
+- A core contributor believes that compiler-related projects (the ecosystem) are an important of a compiler release.
+- A core contributor believes communication of a major compiler release has significant impact on language's followers.
+- An official "ecosystem is `<release version>`-ready" announcement might help prevent this. Likewise, including a "this release is made but not ecosystem-ready yet" note in the languages' release notes that includes a link as to what "ecosystem-ready releases" mean might help prevent this negative press.
 
 ### Comment (core contributor)
 
@@ -74,7 +75,9 @@ https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-
 
 > The kind of issues we’re encountering here are also why I’m reluctant to make a 1.0 release in the near future, because we still do have a lot of ecosystem stuff to solve - I don’t believe for a second most people (esp. newcomers) will see a distinction between the PureScript language/compiler 1.0 and the “PureScript product” as a whole. But that’s probably another discussion.
 
-- garyb's resitance to making a `v1.0` release are better explained: a `v1.0` PureScript langauge is not the same as a `v1.0` Purescript Ecosystem / Complete Solution to most business problems. Most people who hear that there is a `v1.0` PureScript release will think it also includes the latter when it only includes the former. This might result in a net-negative press for the language.
+- A core contributor believes that the PureScript language/compiler and the "PureScript product" can be difficult for most people to differentiate.
+- A core contributor believes that a `v1.0` release should include improving the "PureScript product" (the ecosystem).
+- Most people who hear that there is a `v1.0` PureScript release will think it means a "complete solution" when it might only mean the language/compiler. This might result in a net-negative press for the language.
 
 ### Comment
 
@@ -84,30 +87,32 @@ https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-
 >
 > Where would be a good place to keep a more comprehensive checklist? The compiler repo doesn’t seem appropriate as we want to cover docs, libs, and third-party tooling as well.
 
-- There is not a place that stores an up-to-date process/checklist of things to do for making a language release.
-- The documentation repo is likely a bad place to store that checklist/process.
+- There used to be a process/checklist of things to do for making a language release.
+- There is not a clear place to store a checklist like this.
+- The compiler repo is the first idea of a place to store this list, but it is inappropriate because it is related to non-compiler things like docs, libs, and tooling.
 
-### Comment
+### Comment (core contributor)
 
 https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-future/209/5
 
 > It is unrealistic to expect that we wait for everything to update before we release a compiler version. If we did that we’d probably never get a release. For example, many newcomers are using the PureScript book, but we obviously can’t wait for Phil to update everything in the book before a release.... We absolutely need to be able to do a release, and let the ecosystem gradually catch up, because we just don’t have the community resources do it all at once.
 
-- Purescript, being developed purely by volunteers, does not currently have an efficient toolchain and/or enough manpower to reliably update everything in the ecosystem before making a release.
+- A core contributor believes that the compiler's ecosystem should not block releases of the compiler, because the time required to update the ecosystem is nearly as long as the time between major compiler releases.
+- PureScript does not have enough manpower (or automation) to reliably update everything in the ecosystem before making a release.
 
 > The book is currently problematic in how it recommends users get started and start installing libraries, which results in incompatibilities.
 > The number one issue is that there is not any easy or reliable way to deal with compiler compatibility as long as we are recommending Bower in our introductory materials....
 
-- Part of the up-to-date documentation issue is due to using Bower as a dependency manager because it can result in incompatibilities between dependencies.
+- A core contributor believes ecosystem compatability is difficult or unreliable while PureScript community recommends using Bower as a dependency manager.
 
 > Right now, the only viable option is psc-package. If all our introductory resources specified exact compiler versions (Just recommending npm install purescript is extremely problematic) along with an appropriate package set, we would not be having these problems.
 
-- Using psc-package as the dependency manager for introductory learning materials would solve the library-compatibility issues one faces with Bower.
+- A core contributor believes that psc-package is the best option for dependency manager for introductory resources to use and recommend, as it would resolve the library-compatibility issues of Bower.
 
 > The only problem with psc-package is that it is currently lacking features/tooling that make it convenient to use as a general purpose dependency manager. I know Christoph is experimenting with ways to make it more extensible via Dhall. I know for sure we will adopt it at Awake if that happens.
 
-- However, psc-package does not provide a complete solution to the problems which Bower does. While psc-package might be good for introductory learning materials, it is not as good for production code as Bower. Thus, many major libraries (e.g. Aff, Halogen) use Bower. New learners likely look at these libraries written or supported by "successful companies using PS in production" and see that they use Bower, not psc-package. Thus, they think they should do likewise.
-- Once a `psc-package`-based approach becomes more mature, one major company will switch to it and do so eagerly.
+- A core contributor believes the only reason to not adopt psc-package as the recommended dependency manager is missing features which make it a "general purpose" package manager and UX conveniences.
+- A major industry user of PureScript is eager to adopt `psc-package` when it becomes more mature.
 
 ### Comment
 
@@ -131,7 +136,7 @@ https://discourse.purescript.org/t/how-do-we-avoid-ecosystem-incoherence-in-the-
 
 > I was wondering whether it might be possible to have a purescript release badge that we could stick in library READMEs so at least you’d know in advance with Pursuit whether the library was compatible.
 
-- An idea that might only be relevant if one is using Bower as a dependency manager: a library badge in the Git repo indicating which version of the language with which the library is compatible.
+- An idea that might only be relevant if one is using Bower as a dependency manager: a library badge in the Git repo indicating which version of the language the library is compatible.
 
 ### Comment
 
