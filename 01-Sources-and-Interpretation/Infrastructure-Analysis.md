@@ -4,7 +4,7 @@
 
 This helps us know who has write access to the repos
 
-Official core repos that have significant impact on PureScript community's documentation or build process as a whole
+Core repos that have significant impact on PureScript community's documentation or build process as a whole
 
 - PureScript language repo
 - Pursuit repo
@@ -13,6 +13,7 @@ Official core repos that have significant impact on PureScript community's docum
 - Prelude repo
 - pulp repo
 - psc-package repo
+- package set repo
 - spago repo
 
 ### PureScript Organization Members
@@ -32,13 +33,20 @@ Official core repos that have significant impact on PureScript community's docum
 - nwolverson (recent contributions made)
 - natefaubion (recent contributions made)
 
+### Other Key Members
+
+- hdgarrood
+- justinwoo
+
+... and a few others that do not immediately come to mind.
+
 ## The Purs Docs command
 
 ### How does it work?
 
 Seems to do a subset of the work of the compiler (purs) because going the full way of the compiler would lead to hard-to-understand docs. As a result, there are a few issues that arise that are still being worked out, such as [desugaring type classes](https://github.com/purescript/purescript/issues/3264).
 
-There are a number of output formats, but usually Markdown or HTML is the result. It seems that [HTML will become the default](https://github.com/purescript/purescript/issues/3489) in next breaking-change release).
+There are a number of output formats, but usually Markdown or HTML is the result. The Markdown output does not produce GitHub-Flavored Markdown because they use the [CheapSkate](https://github.com/jgm/cheapskate) Haskell library. It seems that [HTML will become the default](https://github.com/purescript/purescript/issues/3489) in next breaking-change release).
 
 ### How could improvements here greatly benefit the entire ecosystem?
 
@@ -70,62 +78,273 @@ There's not a lot here. Even the sole issue below would only benefit the communi
 
 #### Things mentioned in the Pursuit Issue Tracker on GitHub
 
+The following are listed by category/topic and I've included my own flag for indicating, in my opinion, how important such a feature is.
+
 ##### Gains in making search more useful
 
-- [Tool that shows difference between two versions](https://github.com/purescript/pursuit/issues/139)
-- [Search only within a specific package](https://github.com/purescript/pursuit/issues/179)
 - Search for all instances of a given type class: [311]](https://github.com/purescript/pursuit/issues/311) / [349](https://github.com/purescript/pursuit/issues/349)
+    - Super Important: New learners will greatly benefit from this because the abstract notion of a type class can be made more concrete by looking at the various ways data types implement it.
+- [Tool that shows difference between two versions](https://github.com/purescript/pursuit/issues/139)
+    - Nice to have feature, but might be outside scope of Pursuit: isn't this what the package's release notes are for?
+- [Search only within a specific package](https://github.com/purescript/pursuit/issues/179)
+    - Very important: can be very useful for exploring a package or finding the right entity (function / type) that one needs
 - [Search Filter: only allow functions, packages, modules, types](https://github.com/purescript/pursuit/issues/290)
+    - Nice to have feature: most of this can already be done if one inputs the search in the correct way (e.g. type signature for function, "purescript-" for package, "Module.Path." for modules)
 - [Make modules clickable URLs](https://github.com/purescript/pursuit/issues/268)
+    - Nice to have feature: one can click on other entities to navigate around the documentation
 
 #### Gains in making it easier to understand the ecosystem
 
 - [Package tags and descriptions for finding related packages](https://github.com/purescript/pursuit/issues/147)
+    - Super Important: tags and descriptions can quickly narrow down a person's search for a library by quite a bit. This is especially true for new learners who are not familiar with the language. It's also true for people who are already familiar with the ecosystem because new libraries can be published that they are not aware of.
 - [Include a page that only lists 'core libraries/packages'](https://github.com/purescript/pursuit/issues/326)
+    - Somewhat important: The importance of this depends on which other features in this list get implemented and when. If none of the other features are implemented, this is a very useful feature to have now. However, if the 'package tag and descriptions' feature is implemented, it would likely cover meet the need this feature would satisfy.
 - [Sitemap for Pursuit and a sitemap for each package](https://github.com/purescript/pursuit/issues/106)
+    - Somewhat important: The importance of this depends on which other features in this list get implemented and when. If none of the other features are implemented, this is a very useful feature to have now. However, if the 'package tag and descriptions' feature is implemented, it would likely cover meet the need this feature would satisfy.
 - [Given a package, show all other packages that depend on it](https://github.com/purescript/pursuit/issues/292)
+    - Important: This is useful again for exploring the ecosystem and/or finding packages: "If I use X, then what else works with X?"
 - [Clicking on declaration uses it to search for its usage throughout ecosystem](https://github.com/purescript/pursuit/issues/168)
+    - Important: This is similar to the point immediately above ('show dependents' idea) but with a bit more fine-grained control. Honestly, these two concepts should be merged together into one idea: show what depends on some entity (function, module, type, package, etc.)
 
 #### Gains that help indicate old libraries
 
 - [Feature: mark libraries as deprecated](https://github.com/purescript/pursuit/issues/287)
+    - Important: This would be useful for everyone because it immediately shows which libraries to ignore.
 - [Badge that indicates whether docs on Pursuit are not the same as latest on Bower](https://github.com/purescript/pursuit/issues/111)
+    - Important: this would raise awareness that the docs are outdated. One can then view the docs on Pursuit to get a general idea before looking at the latest release to see what fully changed.
 
 #### Gains in code readability
 
 - [PureScript code syntax highlighter](https://github.com/purescript/pursuit/issues/115)
+    - Nice to have: some examples would be easier to read or easier to copy their pattern if this was done.
 - [Source code in-lined with docs for better context](https://github.com/purescript/pursuit/issues/137)
+    - (This might already be implemented) Important: in situations where docs have not been written, one can immediately see the source code, which might clarify any misunderstandings they have.
 - [Support Latex for Math via KaTeX](https://github.com/purescript/pursuit/issues/155)
+    - Nice to have: some ideas are better explained using well-rendered mathematical notions.
 
 #### Gains in other aspects
 
 - [Provide an API for Pursuit to make it usable by 3rd-party tools](https://github.com/purescript/pursuit/issues/180)
+    - Very Important: this capability would make Pursuit easier to work with other 3rd-party tools.
 - [Add a 'search' button so one can use mouse to run search](https://github.com/purescript/pursuit/issues/347)
+    - Nice to have: since this is a (likely) trivial fix, it's a wonder that no one has fixed it yet.
 
 ### Things not highlighted in Pursuit Issue Tracker on GitHub
 
 - a visualized dependency graph (including transitive ones) for one package
+    - because visualizations help us see things in a better format than other mediums
 - a visualization of how one type can be created, transformed into another type, or consumed
+    - because sometimes our goal is to determine how to create a given type, or how to convert it into something else, etc.
 - an RSS feed or something to notify others that a new package has been uploaded to Pursuit
+    - because when new libraries are uploaded, there's no way to know about them unless the author makes an announcement on Discourse/Slack/Reddit
 - an option to only show packages that exist in a `psc-package` package set
+    - this would help one know where `spago` needs to be used to configure the package set
 - an option to only show packages that were compiled using or are compatible with a specific version of PureScript
+    - this would help address the havoc that arises when a 'breaking change' language release occurs and one is trying to determine which libraries have been updated for that release.
 
 ## Buld Tool Integration with Pursuit
 
-When reviewing build tools integration with Pursuit...
-- what integrates with it
-- how well/poorly does it integrate with it?
-- what are these integrations' main benefits/limitations and why?
+The build tools `purp` and `spago` do not currently integrate at all with Pursuit. It's also somewhat difficult to determine how they would ever integrate with Pursuit...
 
-### Build Tool
+`pulp`, when used with `Bower` as a dependency manager, is the only build tool that currently integrates with Pursuit. However, `pulp` allows anyone to impersonate anyone else and upload documentation for a package, even when that person should not have access to that.
 
-## Pre-existing Learning Resources
+The long-term use of `Bower` as a dependency manager seems up-in-the-air as its authors no longer recommend using it and the `psc-package`/`package-set`/`spago` build tools are becoming more mature overall.
 
-- What other learning materials already exist in the PS ecosystem?'
-- Who wrote them and how active are those people?
+## Pre-existing PureScript Learning Resources
+
+This section overviews the other learning materials that already exist in the PS ecosystem?
+
+- Who wrote them?
+- How active are the author(s)?
 - What are their incentives?
 - Would they want to be part of a potential documentation team?
 - Who is their intended audience?
 - What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
 
-### Source
+### PureScript By Example
+
+- Who wrote them?
+    - Phil Freeman
+- How active are the author(s)?
+    - not active, but is a user of PS
+- What are their incentives?
+    - help a new person get familiar with the language enough to actually build something useful
+- Would they want to be part of a potential documentation team?
+    - not likely due to burning out and still recovering from it among other reasons
+- Who is their intended audience?
+    - new PS learners
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - tutorial / explanation
+
+### PureScript Resources
+
+https://purescript-resources.readthedocs.io/en/latest/
+
+- Who wrote them?
+    - Justin Woo
+- How active are the author(s)?
+    - Justin is quite active in the community, but AFAIK does not contribute to his resource that frequently
+- What are their incentives?
+    - probably just a way to summarize a few things for new people
+- Would they want to be part of a potential documentation team?
+    - not sure
+- Who is their intended audience?
+    - near learners
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - mixture of how-tos, quick-starts, and some explanations
+
+### PureScript Reference
+
+https://github.com/JordanMartinez/purescript-jordans-reference
+
+- Who wrote them?
+    - Jordan Martinez
+- How active are the author(s)?
+    - frequently active on the learning resource but does not do much else for the larger community
+- What are their incentives?
+    - to learn PureScript by teaching it to others via the Feynmann technique
+- Would they want to be part of a potential documentation team?
+    - possibly
+- Who is their intended audience?
+    - new learners and people needing a centralized "do it all" kind of learning resource
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - a mixture of getting-started, how-tos, explanation, and reference
+    - mostly explanation and reference
+    - code-as-an-example
+
+### Lens for the Mere Mortal: PureScript Edition
+
+https://leanpub.com/lenses
+
+- Who wrote them?
+    - Brian Merick
+- How active are the author(s)?
+    - Not very active AFAIK; author has moved on to other languages...?
+- What are their incentives?
+    - to explain how to use lenses immediately without first explaining how and why they work
+- Who is their intended audience?
+    - people who want to understand Lenses but are afraid of them because of how complicated the types get
+    - people who have tried learning Lenses using other tutorials and still do not understand them.
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - Quick Start, explanation, how to
+
+### A Guide to PureScript Numeric Hierarchy
+
+https://a-guide-to-the-purescript-numeric-hierarchy.readthedocs.io/en/latest/introduction.html
+
+- Who wrote them?
+    - hdgarrood
+- How active are the author(s)?
+    - very active and a core contributor to the PS language and a number of libraries
+- What are their incentives?
+    - to explain PureScript's numeric type class hierarchy
+- Would they want to be part of a potential documentation team?
+    - likely?
+- Who is their intended audience?
+    - those who do not have a strong math background
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - tutorial / explanation
+
+### Real World App
+
+https://github.com/thomashoneyman/purescript-halogen-realworld
+
+- Who wrote them?
+    - thomashoneyman
+- How active are the author(s)?
+    - active and contributes to a number of Halogen-related projects
+- What are their incentives?
+    - show that PS is a viable/better alternative to other solutions
+    - show a fully functional, well-commented program written in FP style/concepts
+- Would they want to be part of a potential documentation team?
+    - not sure
+- Who is their intended audience?
+    - people already familiar with basic FP concepts
+    - people who want to see what "good FP code" looks like (or at least one way of writing 'good FP code')
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - code-as-an-example
+
+### MultiPac
+
+https://github.com/hdgarrood/multipac
+
+- Who wrote them?
+    - hdgarrood
+- What are their incentives?
+    - create a good learning resource that's also a fun experimental project
+- Who is their intended audience?
+    - learners looking for real examples
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - code-as-an-example
+
+## Learning Resources targeting different backgrounds
+
+### Egghead.io Learn PS course
+
+https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript
+
+- Who wrote them?
+    - Brian Lonsdorf
+- How active are the author(s)?
+    - Not sure
+- What are their incentives?
+    - Not sure
+- Would they want to be part of a potential documentation team?
+    - Not sure
+- Who is their intended audience?
+    - Javascript developers who want to learn FP in Javascript
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - explanation and how-to ?
+
+### Outersider's Guide to Statically Typed Functional Programming
+
+https://leanpub.com/outsidefp
+
+- Who wrote them?
+    - Brian Merick
+- How active are the author(s)?
+    - Not very active AFAIK; author has moved on to other languages...?
+- What are their incentives?
+    - to explain the benefits of FP programming to "outsiders," people who do not know it, without using FP jargon or the usual approach that FP people use to explain FP
+- Would they want to be part of a potential documentation team?
+    - Not sure, but seems unlikely
+- Who is their intended audience?
+    - Javascript developers who want to learn Elm?
+    - Elm developers who are ready for something more powerful?
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - Getting Started, How-to, Explanation
+
+### PS' Differences from Haskell
+
+https://github.com/JordanMartinez/purescript-jordans-reference/blob/latestRelease/00-Getting-Started/03-Other-Important-Info.md#differences-from-haskell
+
+- Two resources that explain PS' differences from Haskell
+
+### PS' Differences from Elm
+
+https://gist.github.com/justinwoo/0118be3e4a0d7394a99debbde2515f9b
+
+- Out-of-date but still includes a few things
+
+## Other FP Learning Resources
+
+### What I Wish I knew When Learning Haskell
+
+http://dev.stephendiehl.com/hask/
+
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - incomplete topic guide to various things
+
+### Haskell Programming: From First Principles
+
+http://haskellbook.com/
+
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - well-written book on Haskell and learning how to write programs in FP style
+
+### Specific Topics in Haskell
+
+https://github.com/bitemyapp/learnhaskell/blob/master/specific_topics.md
+
+- What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
+    - Link-farm to various other sources
