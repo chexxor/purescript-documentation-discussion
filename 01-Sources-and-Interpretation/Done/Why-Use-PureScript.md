@@ -19,7 +19,7 @@ Key comments are listed below:
 
 > I mean, I might not write the performance critical code in PureScript, for say, a game, but that's what the FFI is for.
 
-- One person thought there really weren't any cons, just some situations where it's not "ideal:" laziness.
+- One person thought there really weren't any cons, just some situations where it's not "ideal". For example, if you want lazy evaluation by default, PureScript is not ideal for you.
 
 ### Thread: Good First Impressions but Lacking Deeper Concept Explanations
 
@@ -38,6 +38,7 @@ Key comments are listed below:
 > I'm not saying don't read about them now, of course. Just that they shouldn't stop you from making stuff now :)
 
 - Lack of explanation on 'deep concepts' issue was not addressed. Rather, the implied idea was "new learners just don't need to know them immediately and should focus on fundamentals first."
+- A PureScript core maintainer believes that deeper concepts and idioms are best learned by consuming Haskell learning resources.
 
 ### Thread: Example of SQL in PS
 
@@ -53,7 +54,7 @@ Key comments are listed below:
 
 > Have a look at any of the Haskell database libraries perhaps.
 
-- General idea / approach to doing SQl was explained, but there isn't a complete and working example. Person was referred to Haskell database libraries, but it seems that referrer wasn't sure whether they would help.
+- General idea / approach to doing SQL was explained, but there isn't a complete and working example. Person was referred to Haskell database libraries, but it seems that referrer wasn't sure whether they would help.
 
 ### Thread: Questions regarding how to do X for general and specific things
 
@@ -71,6 +72,7 @@ Key comments are listed below:
 
 > I love using PS for my side project, and I think this rough spot will get better for me as I continue learning FP.
 
+- A PureScript learner believes PureScript doesn't have a singular documented answer for UI programming tasks, such as click/drag, animations, and cursor effects.
 - The two questions here were not really answered:
     - how should click/drag/transitions/animiations (stateful things) be done in general?
     - how should same things be done using a UI library like Pux?
@@ -81,10 +83,11 @@ https://twitter.com/_gilmi/status/895360612347371521
 
 > "Too much category theory" - maybe add a link to [the haskell pyramid]( https://patrickmn.com/software/the-haskell-pyramid/)?
 
-- Useful link for explaining the real issue behind that myth
+- A PureScript user believes language documentation should explain the depth of the language and its patterns/libraries to ensure users don't try to learn hard things before they understand more foundational things.
 
 > Also maybe add that the compiler, tools (and devs) are pretty approachable so it's easy to contribute and affect the direction of the lang
 
+- A PureScript users believes that language documentation should include a description of how easy it is to contribute to the language and affect its direction.
 - There are other factors that draw people to an ecosystem and these are some of the strengths of the language.
 
 ### Comment: Useful JS -> FP Learning Resource
@@ -93,7 +96,8 @@ https://twitter.com/_KtorZ_/status/895936657572192256
 
 > I'll also highly recommend the https://github.com/MostlyAdequate/mostly-adequate-guide by `@drboolean` as a training material and perfect bridge between JS and FP :)
 
-- This resource might provide a better learning path for JS-background people before they see it written using a better syntax via PS
+- A PureScript user believes a good learning path is to teach a person from a language they are already familiar with.
+- This resource might provide a better learning path for JS-background people before they see it written using a better syntax via PS.
 
 ### Comment: Migration Guide
 
@@ -107,6 +111,15 @@ Key ideas below:
 > But if you look at things like flowtype, typescript, sanctuary-def, there's a good migration story. So I'd love to see solutions to that.
 
 - Providing good migration stories would help people who want to use it but can't because their 'system/program/app' would stop working for some period of time. A migration needs to be seamless and address the issues/concerns one might have.
+- A PureScript outsider believes the documentation should show how to use PureScript in a pre-existing project written in a different language.
+
+### Comment: 
+
+https://twitter.com/antiselfdual/status/895480705156751361
+
+> Lack of tuples and orphans.
+
+- A PureScript outsider believes documentation should explain why the language doesn't have data types or concepts that they are familiar with.
 
 ### Comment: Confidence in Node for Server-Side Solutions
 
@@ -117,6 +130,7 @@ https://twitter.com/d6y/status/895355035927891969
 - Two options here:
     - Show reasons for why Node is a "rock solid" solution to server-side things
     - Show reasons for why other backends (C/C++ ?) can provide a better server environment than Node...?
+- A PureScript outsider believes the documentation should describe the quality of the runtime.
 
 ### Thread: Missing a Full Webapp Step-by-Step Tutorial
 
@@ -142,3 +156,4 @@ https://twitter.com/iwinux/status/895470276057587712
 > Lang features are cool, but how do I integrate it with Webpack / CSS Modules / Code Splitting then?
 
 - This wasn't answered but does provide a good question.
+- A PureScript outsider believes documentation should teach how to integrate the output of the PureScript compiler with other tools in the target language ecosystem.
