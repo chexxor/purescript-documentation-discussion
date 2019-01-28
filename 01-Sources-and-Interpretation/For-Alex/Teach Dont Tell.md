@@ -13,7 +13,19 @@ Main ideas:
     2. it allows the excuse, "If you don't understand it yourself, you can write the content and fix it!"
     3. there is no version control (even GitHub wikis aren't good for this since they are separate from the project/code)
 
-There are 4 types of documentation: 1st contact, the black triangle, the reference
+Critique: This presumes a single person is writing the entire documentation. Larger projects don't have this luxury.
+
+### Purpose of Documention
+
+> The purpose of technical documentation is to take someone who has never seen your project, teach them to be an expert user of it, and support them once they become an expert.
+
+> You can’t look at the finished product and understand the perspective and ideas that went into it without additional guidance. That’s a job for documentation.
+
+> If you want to write better documentation, you need to practice teaching.
+
+> As programmers, we almost never get this (face-to-face conversation) kind of feedback about our documentation. We don’t see that the person on the other end of the wire is hopelessly confused and blundering around because they’re missing something we thought was obvious (but wasn’t). Teaching someone in person helps you learn to anticipate this, which will pay off (for your users) when you’re writing documentation.
+
+There are 4 types of documentation: 1st contact, the black triangle, the hairball, the reference
 
 ### First Contact
 
@@ -23,17 +35,21 @@ Answers questions like "What is this thing, why would I care about it, why would
 
 ### Black Triangle
 
-Basically a 'getting started guide'
+> First, it lets the user verify that yes, this collection of bytes is actually going to run and do something on their machine. It’s a quick sanity check that the project hasn’t bit rotted and is still viable to use at that point in time. More importantly, it lets your prospective user get some paint on the canvas.
 
-If it's up-to-date, then person knows the library/code isn't stale or out-of-date
+Basically a "getting started guide"
 
-It doesn't teach everything someone needs to know, just enough to start being productive. For example, a guitar teaching teaches enough chords to play a song, not all possible chords at once before ever starting.
+If it's up-to-date, then the reader knows the library/code isn't stale or out-of-date
+
+It doesn't teach everything someone needs to know, just enough to start being productive. For example, a guitar teacher teaches enough chords to play a song, not all possible chords at once before ever starting.
 
 ### Hairball
 
 Basically, the "explanation" part of docs
 
 > The “hairball” is the twisted, tangled maze of teaching that is going to take these novices and turn them into expert users. It’s going to mold their brains, one nudge at a time, until they have a pretty good understanding of how your project works.
+
+> You should have a table of contents that lists each section of the “hairball”. And then each section should have its own table of contents that lists the sections inside it. 
 
 ### Recommended approach to teaching something new to a person
 
