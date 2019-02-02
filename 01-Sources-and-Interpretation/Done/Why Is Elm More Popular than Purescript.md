@@ -40,10 +40,14 @@ https://www.reddit.com/r/haskell/comments/79i7h9/why_is_elm_more_popular_than_pu
 > If you want a practical language for client-side web programming (that is also a full-fledged backend language thanks to node.js), that is similar to Haskell, then PureScript
 > If you want a pure functional language for client-side web dev that is easy to learn, go with Elm.
 
+- One person believes that PureScript is the right choice for people who want to use a general purpose Haskell-like language for web programming.
+
 <hr>
 
 > I think a lot of devs aren't necessarily looking for expressive power in a language. They're looking for a way to stop making nightmare code bases. I think there's an impression that Elm has just enough complexity to get the job done on the front end, while still providing many of the benefits of strict typing, even if its not as elegant as its possible to be in a more full featured language.
 > Also, doesn't elm have better performance than purescript?
+
+- One person believes that many people choose a language not based on what it *can* do, but based on what it *prevents* you from doing, because most people just want to avoid nightmare codebases.
 
 <hr>
 
@@ -52,18 +56,22 @@ https://www.reddit.com/r/haskell/comments/79i7h9/why_is_elm_more_popular_than_pu
 > Elm drags Javascript 20% of the way towards Haskell. Purescript drags Haskell 20% of the way towards Javascript.
 > There are a lot more Javascript developers than Haskell developers and each has been pushed pretty heavily at those target audiences respectively.
 
+- One person believes Elm is more popular than PureScript because there are more people familiar with JavaScript, which has no common culture of principles and concepts, than with Haskell, which does.
+
 <hr>
 
 > This is written as gospel but it isn't. We're happily using Elm at CircuitHub with 50k lines of code and are yet to hit this ceiling. I understand Ed writes code differently than I do, but consider that maybe he writes code differently to you too. For some applications, they are just big because they are, well, big. Abstracting to the nth degree isn't going to shift the complexity away from a large feature set. In this space, I actually appreciate Elm's limited means of abstraction in return for the consistency I get. I just get my head down, write the code in the same boring pattern, and get the job done. I wouldn't want this approach in Haskell, but... tool for the job and all that.
 
-- 50k app and the "abstraction ceiling" has not been hit yet. App does require a lot of boilerplate-y code, but it works and solves the business problem at the end of the day
+- 50k app and the "abstraction ceiling" has not been hit yet. App does require a lot of boilerplate-y code, but it works and solves the business problem at the end of the day.
+- One person believes that abstraction doesn't mitigate the complexities of an application which has a large feature set.
 
 < hr>
 
 > ... I just don't see a viable path to learning PureScript at all that doesn't start with "first, learn Haskell." There are not enough resources to walk people through the baby steps in PureScript itself; and as far as I can tell, the community is not at all interested in compromising their abstraction towers with any kind of simplified ideas at all!
 
 - Not many PS learning resources have been available in times past
-- Some perceive the core contributor's focus on developing the language over writing good documentation as a sort of "We're really smart. We won't come down to you; you'll have to come to us" mindset.
+- Some perceive the core contributors' focus on developing the language over writing good documentation as a sort of "We're really smart. We won't come down to you; you'll have to come to us" mindset.
+- One person believes the PureScript core maintainers will reject any attempt to compromise their favored abstractions to move towards "simplified" ideas. These "simplified" ideas are likely intended to improve the language's ease–of-use and approachability.
 
 <hr>
 
@@ -110,6 +118,8 @@ https://www.reddit.com/r/haskell/comments/79i7h9/why_is_elm_more_popular_than_pu
 >> [...] would be a waste of time
 >
 > On the contrary, I do recommend learning Elm before Haskell. Like I said, Elm is designed to be easy to learn, so the learning curve will be a lot softer than Haskell's, and its teachings about purity, immutability and types carry over to Haskell. So even though Elm isn't designed to be a stepping stone towards Haskell, I think using it as such is a great idea.
+
+- One person believes Elm is a great first introduction to Haskell-style Pure FP languages because Elm has the same features as Haskell but small, simple subset of Haskell's complete set of features.
 
 <hr>
 
@@ -182,7 +192,7 @@ https://www.reddit.com/r/haskell/comments/79i7h9/why_is_elm_more_popular_than_pu
 >
 > GHCJS is full Haskell compiled to JavaScript, including something like the GHC runtime running in JavaScript. PureScript is a separate language from Haskell (in particular, it is strict), and is very minimal by comparison. It has no runtime, and no required standard libraries. You can use it a bit like TypeScript, as a completely standalone thing, generating very small, self-contained libraries.
 
-- GHCJS indlues the entire Haskell compiler in JS (probably slows down a site's load time significantly) and is designed for whole-system apps
+- GHCJS includes the entire Haskell compiler in JS (probably slows down a site's load time significantly) and is designed for whole-system apps
 - PS has no runtime requirement and can be used like a pocket knife: a solution to a whole-system app, a simple library, a small part of some current system that integrates well, etc.
 
 ### Thread
@@ -200,6 +210,8 @@ https://www.reddit.com/r/haskell/comments/79i7h9/why_is_elm_more_popular_than_pu
 > I seem to remember that the early Java documentation just assumed that anyone reading the API for a class would naturally know everything about all the superclasses. That turns out not to be a great idea, but a lot of static FP documentation does the equivalent. (A pet peeve of mine: to really understand the Haskell lens library's `At` -- something I suspect people will want to use soon after being exposed to lenses -- you must first understand `Index` and even `Traverse`. I don't understand the appeal of such an approach.)
 
 - Documentation should focus first on helping people solve real problems with practical bottom-up documentation. The theoretical top-down stuff can come later on once they realize the value of the abstraction.
+- One person believes that hiearchical classes are not a great idea because it assumes people know everything in the hierachy. Java's class hierarchy is "evidence" that this is true.
+- One person believes that static FP concepts and their documentation should not require knowing other concepts as prerequisite to understanding and useage.
 
 <hr>
 
@@ -221,7 +233,7 @@ https://www.reddit.com/r/haskell/comments/79i7h9/why_is_elm_more_popular_than_pu
 >
 > In all seriousness, I think it's because Elm has focused on bringing web devs to FP, not bringing FP devs to the web. Both have different niches and priorities. Elm puts a ton of effort into error messages and keeping the language minimal. As a result, it's not as generic and requires more boilerplate, but it's an easier sell to non experts.
 
-- Person believes that Elm is more popular because it's errors are better than PS' errors. It's easier to sell to your average no-experties-in-FP developer
+- Person believes that Elm is more popular because its errors are better than PS' errors. It's easier to sell to your average no-expertise-in-FP developer
 
 <hr>
 
@@ -261,7 +273,7 @@ in value declaration test
 > YMMV, but mind you the application itself largely centered around using a number of interpretations of an EDSL that didn't lend itself to first order presentation, so this was literally our entire use-case for the language.
 > We ultimately moved to PureScript and it served us well for years without ever once running into the same sort of situation. We rewrote the entire application in PureScript more or less overnight. With the subset of Haskell type system features offered there was always some work-around to the various limitations on hand.
 
-- Haskellers who alraedy knew of better abstractions did not have trouble migrating to PS and experience the benefit quickly.
+- Haskellers who already knew of better abstractions did not have trouble migrating to PS and experience the benefit quickly.
 
 > This is compounded by the fact that this sort of issue raised from the Haskell-side of the community largely falls on deaf ears in Elm, while on the Purescript front any similar impediment is rather rapidly patched and updated if there is any path forward. `/u/paf31` a very competent maintainer and I'm much more comfortable with the type theory that underlies Purescript than that of Elm.
 > When Purescript came along and offered up typeclasses, the major reaction on the Elm side was a sigh of relief over the fact that the Haskell folks finally shut up and went away.
@@ -298,6 +310,7 @@ in value declaration test
 > my 5 cents: you can find learning material for elm which do not assume knowledge of JS/web, in purescript you cannot. So if you know haskell, but not JS, you would probably go with elm
 
 - Potential learning audience: those who have no experience in web development whatsoever
+- One person believes that more people would try PureScript if it had more documentation targeting the JS/web audience.
 
 ### Comment
 
@@ -322,4 +335,4 @@ in value declaration test
 > As a haskeller, you will hate both or at least not like it as much as Haskell because after all it is not haskell.
 > Both languages make you feel like it is a web dev version of Haskell, but it is going to fail you at some point with some features missing.
 
-- Haskellers will likely be unsatisfied wither either language at some point because neither of them are Haskell.
+- Haskellers will likely be unsatisfied with either language at some point because neither of them are Haskell.
