@@ -3,7 +3,7 @@
 
 https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about_documentation/
 
-### Openint Thread
+### Opening Thread
 
 [just links to the original post]
 
@@ -18,10 +18,10 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 >
 > Some of those four parts are going to aim at 1, 2, 3 or even all 4 of those groups. You might need several copies. Or just abbreviated versions. Or links to external versions.
 
-- In reality, there are more than 4 different types of documentation. Let's think fo the many dimensions:
+- In reality, there are more than 4 different types of documentation. Let's think of the many dimensions:
     - The 4 normal types (intended audience based on goal): get started, how to do one thing, reference, explanation
     - The X audiences based on background / purpose (new core developers, plug-in developers, distributors, end-users).
-- Putting the above idea into terms of PS
+- Putting the above idea into terms of PS:
     - audience based on background: Javascript, Haskell, Elm, TypeScript, other language entirely
     - audience based on purpose: front-end or back-end, each with these concerns (performance, complex logic, hitting quick deadline, migrating to better system, refactor-heavy due to prototypal nature)
 
@@ -37,11 +37,14 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 
 > That's typically not a good practice. It is true that avoiding duplication is strongly encouraged in code and configuration. But different types of docs present information in different order, using different words, assuming different reader background, putting different emphasis. Good documentation will have references in all the right places to have the reader navigate it properly, where "properly" varies between types of documentation.
 
-- Having documentation in a centralized place is not what's important. Rather, the ease with which one navigates throughout an ecosystem's documentation is important. If the documentation can answer questions like "Does the user know where to find X knowledge given that they now/already now Y, and can they easily get there?"
+- Having documentation in a centralized place is not what's important. Rather, the ease with which one navigates throughout an ecosystem's documentation is important. If the documentation can answer questions like "Does the user know where to find X knowledge given that they now/already know Y, and can they easily get there?"
+- One person believes that an important aspect of the purpose of a piece of documentation is the order in which it presents information and references to related reading.
 
 > Essentially, yes there's duplication, with all the same problems (e.g. copies going out of sync, same mistakes having to be fixed in multiple places) but I haven't seen a better way of doing it. Trying to refactor like software frequently makes it an unreadable mess.
 
 - Documentation, by nature, goes out of sync quickly because the code it documents changes.
+- One person believes that documentation becomes less effective when it is refactored as a program is refactored.
+- One person believes that duplication of knowledge/communication in documentation produces fewer problems than having a normalized/de-duplicated documentation format.
 
 ### Comment
 
@@ -50,13 +53,14 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 > It may just be wishful thinking, but I've got to believe that the problem space of information architecture for documentation must have evolved beyond maintaining auto-documentation for code libraries + an API reference guide w/HOWTO's + an end user guide w/HOWTO's + sales documentation, etc.
 
 - Documentation might be a problem space worth monetizing if someone can think of a good solution for that problem.
+- One person believes it's natural to attempt to organize a documentation project in a piece-wise taxonomic way and generating the audience-facing documentation using templates.
 
 ### Comment
 
 > I'd be very happy to see such a system evolve but like I said, I haven't seen one yet. It's possible that one is right around the corner, and you are more than welcome to take a stab at it. But understand that it is not just the technical part of organizing and labeling information: it also has a cultural component. You will have to build up a community of people who understands how to best author the information presented in a new medium. And those who can pass the knowledge on. That part takes far longer than the technical implementation. You'll need experience writing documentation that others find useful, and you'll need to ask yourself which part of it was the most tedious part. Finally, you'll need to automate away the parts you found tedious. As for me, I'll admit I do not even have a problem statement formalized enough, let alone a solution.
 > So no, I wouldn't say these problems "have evolved" to that point yet, just that they can evolve :)
 
-- Part of the issue of documentation is the cultural aspects of it: if others do not have the culture of writing it, then it won't get done.
+- Part of the issue of documentation is the cultural aspects of it: the authors need to know effective ways of presenting information.
 - The next part is finding people who can write good documentation.
 - The last part is finding good ways to automate tedious tasks.
 
@@ -67,6 +71,7 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 > The most optimal way on top of this would be to just make sure you can properly filter to exactly all the documents a change will effect. Which is non-trivial in and of itself.
 
 - Visual flow charts that adhere to the code might replace documentation...? One thought that comes to mind is [Teaching New Tricks to Old Programs](https://www.youtube.com/watch?v=vzLK_xE9Zy8&index=3&list=LL0RItGq_oLk-fvqppBpwtew&t=0s) which could literally visualize a program (see 34:00 and onward)
+- One person believes the presentation of various types of documentation is so different that there isn't value in working to normalize knowledge.
 
 ### Comment
 
@@ -77,6 +82,10 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 
 - good documentation might just cover the 'basic idea' well and how to get started
 - Of the 4 types, 2 quickly go stale after 1 year and need updating
+- One person believes that of all purposes of documentation, there are only two purposes that are maintainable and useful long-term:
+
+    - Documentation of functionality
+    - Getting started tutorials
 
 ### Thread
 
@@ -102,6 +111,7 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 > And that it covers the parts somewhat separately. Don't put tutorials inside your reference docs, put them as a separate page. However, do link between the two regularly so that users can connect the dots.
 
 - 4 types are boundaries that are kept within the content of each type. One can still store them in the same overall project as long as there is a clear boundary between them.
+- One person believes it's useful to link between types of documentation.
 
 ### Comment
 
@@ -115,7 +125,8 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 > For the documenter too closely integrated documentation is harder to maintain, harder to spot what needs changes. If it is well structured and separated, that should be a lot easier.
 > Of course that does not mean it has to be completely separate, separately hosted documentation instances. And of course they should link to related other documentation. As long as there is distinct separation on an article/page level that's separated enough.
 
-- closely integrated documentation is harder to maintain; loosely integrated documentation is easier to maintain
+- closely integrated documentation is harder to maintain
+- loosely integrated documentation is easier to maintain
 
 > The page you linked, to fpm, doesn't seem to have a lot of documentation. The intro page spans all areas of course. There is Packages which clearly is technical reference documentation - so it is separate from the other documentation. Use Cases is more of a tutorial and how-to.
 
@@ -124,6 +135,7 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 > I will say writing the difference between context and reference is hard. Mainly because context relies on others problems. You can't just write a perfect paragraph describing how to use the code, unless you have people with questions. Otherwise you are shooting in the dark.
 
 - It's hard to write some documentation without a good problem to solve. Thinking of such problems is hard but very easy when someone else comes to you with one.
+- One person believes the difference between context and reference documentation is small, because "context" is wide umbrella.
 
 > I will say I love godoc. https://blog.golang.org/godoc-documenting-go-code
 > Converts your code to https://godoc.org automatically.
@@ -138,6 +150,7 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 
 - Why don't developers care more about docs?
 - Lack of documentation feels like a form of hazing
+- One person believes that documentation is the foundation of user experience.
 
 ### Comment
 
@@ -150,12 +163,13 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 
 - If the concept "your code is documented or it fails to compile" could be enforced, this would address this issue
 - Writing documentation isn't "fun", doesn't add new features / fix bugs, and doesn't use skills that a programming job requires
+- One person believes that writing programs provides different rewards than writing documentation. This implies the two types of writing require two different personalities.
 
 ### Comment
 
 > Yeah. It is much more fun to write code than write documentation. The problem for me is just how to convey and how much to convey. The 4 audiences are a good start.
 
-- Sometimes the intent to write is there but not knowing what to say is the bottleneck / wall people hit before stopping.
+- Sometimes there is intent to write but not knowing what to say is the wall people hit right before giving up.
 
 > Given how long I have been writing inline documentation. I feel confident in writing what I feel is good information. I am wrong. I am always wrong. Seeing someone come in and modify the shit I wrote is impressive and makes me sad.
 
@@ -175,7 +189,7 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 
 > Absolutely. Which reminds me of the recent post about typing skills not being a hinderance to being a good programmer. Clearly both typing and language skills are very important when fleshing out succinct docs without (many) errors.
 
-- a good programmer does not need to be great at typing or other skills required for writing good docs.
+- A good programmer does not need to be great at typing or other skills required for writing good docs.
 
 ### Comment
 
@@ -189,7 +203,7 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 > The other comments answering that question are great. I think also there's often elitism and perspective problems. Some programmers are like, "well, my code is readable and who needs comments when there's readable code?". They ignore the fact that reading code is still very time consuming (especially if you haven't spent months writing it), high level time documentation is a must to tie things together, and that simply there's usually too much code to read that could be succinctly summed up. They forget that not everyone has their experience and familiarity with the codebase on a whole. They don't realize knowledge they take for granted about the code and the patterns they use and the naming scheme they follow.
 > So in short, they're never really considering what it's like to be exposed to their code from the perspective of an outsider. Thus, they skip "obvious" documentation and make bad assumptions about what you know.
 
-- Some developers might think "It's obvious what this code does. Why does it need documentation?" simply because they aren't looing at this with 'never seen it before' eyes.
+- Some developers might think "It's obvious what this code does. Why does it need documentation?" simply because they aren't looking at this with 'never seen it before' eyes.
 
 ### Comment
 
@@ -200,7 +214,7 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 > - incentive structures and project pressures tend to narrow the developers' focus to a) functional requirements and b) successful (technical) software deployments. User documentation falls outside of this narrowed focus.
 
 - Users don't read user documentation. More often, they will just ask the support team and/or pay a consulting agency to tell them the answer instead.
-- Some code might require consulting 4 different developers to make an accurate chaneg
+- Documentation of some code might require consulting 4 different developers to make an accurate change
 - Businesses do not give programmers an incentive to write documentation
 
 ### Comment
@@ -222,6 +236,7 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 > - I tend to stay away from dev documentation that is too in depth, better to keep it brief and "vague" then go too in depth. Code is always moving, meaning any documentation is out of date the moment it was put online. Like previous point, broad strokes and reasoning/intent then pointing out exactly how it fits together. I've got some legacy systems we inherited from people that have left, that have odd quirks and no one knows why it is the way it is. Always difficult to say at that point if it was intentional, a mistake or a quick workaround/hack.
 
 - Documentation that explains things broadly and is less tied down to a specific version of some code tends to remain up-to-date longest.
+- One person writes documentation and finds users don't consult documentation even when they know they should.
 
 > Depending on the audience, actual code samples in a common place can be more useful then some blurbs on an (internal) website. Seeing as they will have to be fixed if the code drastically changes.
 
@@ -229,11 +244,14 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 
 > ... tl;dr: It's weighed for usefulness on my part. No point writing documentation only a small set of people will read, better to guide them through it in that case.
 
+- One documentation writer believes his readers prefer to be one-on-guided through their questions than to read documentation. This implies that his readers prefer personalized explanations than impersonal ones.
+- This could reflect how people learn a human language - they learn by using it while socializing with other people.
+
 ### Comment
 
 > And the missing, and most important docs: examples / samples (kind of under howtos, but not quite)
 
-- (duplicate) working code examples are sometime better than actual written content.
+- (duplicate) working code examples are sometimes better than actual written content.
 
 > And the problem with tutorials/howtos is that you have to pick the right starting points.
 > Noobs? Really hardProgrammer but doesn't have deep knowledge in your product? Hard and the typical caseSomeone with familiarity with a competing/similar product? Easier but often lots of products.
@@ -244,7 +262,7 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 
 > I cannot stress how important code/API examples are. I hate having to read though someone else's code in order to figure out how to use it.
 
-- Providing working examples of code that show how to properly use some subset of an API is better than making someone read through that API and figure out how to piece them together. (In some cases, this is not necessarliy true for PS because the type signatures are designed so that two functions together)
+- Providing working examples of code that show how to properly use some subset of an API is better than making someone read through that API and figure out how to piece them together. (In some cases, this is not necessarliy true for PS because the type signatures are designed so that two functions work together)
 
 ### Comment
 
@@ -272,13 +290,13 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 > Honestly, I could go on for a very long time making a list with a ton of small stuff that breaks documentation. It's time to get a documentation IDE bound to the codebase which breaks the fucking build when a doc item breaks.
 
 - (duplicate) Making the build fail unless documentation is added could help documentation purposes
-- There is a huge list of things that can make documentation go out of date. Perhaps this is the real issue behind why no one wants to write documentation. Thus, it's worth asking which medium of documentation is easier to 'update' once these changes or which is less vulnerable to such changes.
+- There is a huge list of things that can make documentation go out of date. Perhaps this is the real issue behind why no one wants to write documentation. Thus, it's worth asking which medium of documentation is easier to 'update' when they change or which is less vulnerable to such changes.
 
 ### Comment
 
 > The best documentation is when you type your question into google and receive the exact answer with a code sample (on stackoverflow). This is all I ever wanted, and it can't get any better. If the first google result is not a SO link it always makes me unhappy.
 
-- SO is its own form of documentation
+- StackOverflow is its own form of documentation
 - Many questions asked in the FP Slack channel could be better asked on SO with the one asking the question notifying people on the FP Slack channel. This would make such 'documentation' persist longer than the Slack logs.
 
 > If you don't have a specific question in mind then reading some documentation/tutorials is probably what you want (which doesn't happen often).
@@ -287,6 +305,6 @@ https://www.reddit.com/r/programming/comments/9i0jgh/what_nobody_tells_you_about
 
 ### Comment
 
-> This is all good and well but the one most important thing about documentation from my experience that is never mentioned and concerns you directly as a coder: writing documentation forces you to write better code because when you write documentation you find inconsistencies in your design and code.`This applies both to end-user docs and developer docs.
+> This is all good and well but the one most important thing about documentation from my experience that is never mentioned and concerns you directly as a coder: writing documentation forces you to write better code because when you write documentation you find inconsistencies in your design and code. This applies both to end-user docs and developer docs.
 
 - Documentation is really a way of thinking about design, but often done after the code has already been written according to some other design.
