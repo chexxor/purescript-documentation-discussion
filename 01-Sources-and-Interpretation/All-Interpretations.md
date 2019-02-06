@@ -292,3 +292,25 @@ The following interpretations have been copied over from various sources. In som
 - Core contributors released two new releases of PureScript (`0.12.1`, `0.12.2`) after a period where language development had slowed
 - Jordan Martinez wrote his PureScript Reference learning repo
 - Jusin Woo and Fabrizio Ferrai have made `spago` more mature and a viable `Bower` alternative once it fully integrates with rest of PS infrastructure (e.g. Pursuit)
+
+<hr>
+
+[Author_Venting_About_Book]
+
+- Author is in a very negative emotional state and is likely venting as a way to express those feelings and process those feelings. Author perceives that people with influence either hate or are apathetic about his book. Since the book did not accomplish it's goals, it felt like a wasted year. Author percieves that author's desire to help is perceived by others as a problem, not a blessing. It seems like this pattern of 'not being recognized/heard' has happened before. [Author_Venting_About_Book]
+- It's hard to say whether Haskellish languages were actually successful after 40 years, so we need people who assess it now and make predictions.[Author_Venting_About_Book]
+- Biggest concern author has: the kind of culture that FP languages tend to develop never grow large enough that they make an impact/difference in the mainstream. [Author_Venting_About_Book]
+- Author clarifies what that 'subculture' is while being in a very negative emotional mood: [Author_Venting_About_Book]
+    - it attracts/creates people who use a particular language
+    - these kinds of people aren't the best ones to share it with others / show convincingly that FP languages are better than the status quo.
+    - This situation continuously loops and the problem never gets fixed.
+- Elm is a not a bad 'first step' but one quickly realizes its limitations when someone tries to do something outside of its intended scope. [Author_Venting_About_Book]
+- Basic ideas of this video: [Author_Venting_About_Book]
+    - Type classes were 'discovered' because one guy misunderstood what another guy meant
+    - **Type classes allow a programmer to use "dumb reusable types" (e.g. `Either`, `Maybe`, `Tuple`, `List`) whose contained types (e.g. the `Int` type in `Maybe Int`) are later 'constrained' with the required properties need to do some computation (i.e. a number-like type that can be added via `Monoid`)**
+    - There are two styles of 'type classes:' real type classes and 'implicits' (Scala's type classes, Rust's "traits", etc.)
+    - Implicit-styled type classes are more "powerful" in one degree but end up leading to possibilties that make programming harder. Haskell type classes do not add this 'benefit,' so using type classes are more reliable and easier to reason about. The key issue is commutativity: if some type has an instance for a sub type class (e.g. given there is an `Ord a`...), then logically there are ways to determine its intance for a super type class (e.g. ... then there is also a `Eq (List a)`)
+    - Addressing "but why can't we just do X" reasons (including his thoughts for why Coq/Agda/Iris or, `a`, etc. other dependently-typed languages won't provide the 'refactor and it still works' guarantees of Haskell)
+- Referring to the bolded part above, this is the kind of knowledge that struggles to make its way out of the FP community. [Author_Venting_About_Book]
+- `kmett` might be a good person to follow for extracting FP knowledge that remains otherwise stuck in 'knowledge silos.' [Author_Venting_About_Book]
+- Author reflects that there is a missing point of contact between two communities, so that it does not succeed in either one of them. The implied communities are the non-FP / mainstream community and FP community. [Author_Venting_About_Book]
