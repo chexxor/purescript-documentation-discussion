@@ -422,7 +422,6 @@ The following interpretations have been copied over from various sources. In som
 
  [PureScript_vs_ReasonML_Bucklescript_in_2018]
 
-- main focus of author is: which language is best choice in 2018 for a new project that requires important browser components? This author is not looking to write libraries and stick with anything long-term. Author seems to want productivity _now_ once language is learned. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Commentator's background: transitioning an Angular app into a Halogen app; also mixing a typed-FP language with Python (an odd mix..., but might show that they might later transition from Python to Haskell) [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - new learners are scared by Halogen's types initially, likely because it's unfamiliar, uses jargon they don't yet know, and they fear that this understanding is needed to make things work. It's not clear whether the fear is due to not knowing how to resolve common Halogen errors or where to put types in type signatures or what. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Commentator agrees that out-of-box web components are lacking and this situation is unfortunate but not enough for them to stop using PS. [PureScript_vs_ReasonML_Bucklescript_in_2018]
@@ -439,7 +438,7 @@ The following interpretations have been copied over from various sources. In som
     - JVM ecosystem entirely available to Scala.js whereas PS must build its own or use unsafe Javascript libraries
     - code works on both the server and client in Scala whereas PS does not yet have mature server frameworks and Node.js is not necessarily the best tool to use.
 - Article does not mention a few issues with Scala.js that do not arise with PS [PureScript_vs_ReasonML_Bucklescript_in_2018]
-    - In my opinion, Scala is not as good for FP code as PS/Haskell (expressions are not as terse; compiler must be hacked to add some features that are already present in PS/Haskell, purely FP users of Scala are not supported by language's development, who want to support OO paradigm as well: there will always be tension / things that can't be done).
+    - In Jordan's opinion, Scala is not as good for FP code as PS/Haskell (expressions are not as terse; compiler must be hacked to add some features that are already present in PS/Haskell, purely FP users of Scala are not supported by language's development, who want to support OO paradigm as well: there will always be tension / things that can't be done).
     - PS can compile to other languages besides Javascript. Sometimes C/C++ (and all its ecosytem) is a better fit than the JVM (and all its ecosystem)
 - Commentator largely just re-hashes what linked article already states. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Source of ReasonML's popularity is Facebook and conferences. PS might be lacking 'evangelism' in conferences [PureScript_vs_ReasonML_Bucklescript_in_2018]
@@ -449,7 +448,7 @@ The following interpretations have been copied over from various sources. In som
 - OCaml had too many problems for him as a new learner; productivity only seemed possible if someone else on a team already knew it [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Stagnation / slow down of language/ecosystem development was a factor in author's decision [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - It seems author's project was heavy on the UI and speed was important. PS React-based frameworks were significantly slower than solutions from other languages, making PS a deal-breaker [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- Had project required less UI and more complex calculations where type-safety shines brightly, author would have suck with it [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- Had project required less UI and more complex calculations where type-safety shines brightly, author would have stuck with it [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Clojurescript was fast without boilerplate-y code and useful testing libraries [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Author still found Typescript + Rambda + Immutable.js to be best **overall** solution. While admitting that it's not best in each aspect, the combination of it had the best environment for author. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Seems OCaml / ReasonML / BuckleScript has a minor documentation problem of its own? [PureScript_vs_ReasonML_Bucklescript_in_2018]
