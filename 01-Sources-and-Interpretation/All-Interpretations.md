@@ -642,3 +642,30 @@ The following interpretations have been copied over from various sources. In som
 - Elm has a faster onboarding process where one feels productive. PS, due to its powerful type system, will never be able to have a faster onboarding process. [Why_is_Elm_More_Popular_Than_PureScript]
 - Person believes that JS-background people love simpler languages with smaller learner curves. I'm not sure how true that is considering how many features exist in the JS language (unless one adheres to the principles in "Javascript: The Good Parts"). [Why_is_Elm_More_Popular_Than_PureScript]
 - Haskellers will likely be unsatisfied with either language at some point because neither of them are Haskell. [Why_is_Elm_More_Popular_Than_PureScript]
+
+ [Why_use_Purescript]
+
+- One person thought there really weren't any cons, just some situations where it's not "ideal". For example, if you want lazy evaluation by default, PureScript is not ideal for you. [Why_use_Purescript]
+- Lack of explanation on 'deep concepts' issue was not addressed. Rather, the implied idea was "new learners just don't need to know them immediately and should focus on fundamentals first." [Why_use_Purescript]
+- A PureScript core maintainer believes that deeper concepts and idioms are best learned by consuming Haskell learning resources. [Why_use_Purescript]
+- General idea / approach to doing SQL was explained, but there isn't a complete and working example. Person was referred to Haskell database libraries, but it seems that referrer wasn't sure whether they would help. [Why_use_Purescript]
+- A PureScript learner believes PureScript doesn't have a singular documented answer for UI programming tasks, such as click/drag, animations, and cursor effects. [Why_use_Purescript]
+- The two questions here were not really answered: [Why_use_Purescript]
+   - how should click/drag/transitions/animiations (stateful things) be done in general?
+   - how should same things be done using a UI library like Pux?
+- A PureScript user believes language documentation should explain the depth of the language and its patterns/libraries to ensure users don't try to learn hard things before they understand more foundational things. [Why_use_Purescript]
+- A PureScript users believes that language documentation should include a description of how easy it is to contribute to the language and affect its direction. [Why_use_Purescript]
+- There are other factors that draw people to an ecosystem and these are some of the strengths of the language. [Why_use_Purescript]
+- A PureScript user believes a good learning path is to teach a person from a language they are already familiar with. [Why_use_Purescript]
+- This resource might provide a better learning path for JS-background people before they see it written using a better syntax via PS. [Why_use_Purescript]
+- Providing good migration stories would help people who want to use it but can't because their 'system/program/app' would stop working for some period of time. A migration needs to be seamless and address the issues/concerns one might have. [Why_use_Purescript]
+- A PureScript outsider believes the documentation should show how to use PureScript in a pre-existing project written in a different language. [Why_use_Purescript]
+- A PureScript outsider believes documentation should explain why the language doesn't have data types or concepts that they are familiar with. [Why_use_Purescript]
+- Two options here: [Why_use_Purescript]
+   - Show reasons for why Node is a "rock solid" solution to server-side things
+   - Show reasons for why other backends (C/C++ ?) can provide a better server environment than Node...?
+- A PureScript outsider believes the documentation should describe the quality of the runtime. [Why_use_Purescript]
+- We should follow up with these people to see what they ultimately came up with (if anything). If the project did not get anywhere, there's still likely some historical value here (what worked, what problems they encountered, etc.) [Why_use_Purescript]
+- The Real World App that `thomashoneyman` finished recently is a step in this direction as well. [Why_use_Purescript]
+- This wasn't answered but does provide a good question. [Why_use_Purescript]
+- A PureScript outsider believes documentation should teach how to integrate the output of the PureScript compiler with other tools in the target language ecosystem. [Why_use_Purescript]
