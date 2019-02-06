@@ -295,8 +295,7 @@ The following interpretations have been copied over from various sources. In som
 
 <hr>
 
-[Author_Venting_About_Book]
-
+## Uncategorized
 - .... Author perceives that people with influence either hate or are apathetic about his book. Since the book did not accomplish it's goals, it felt like a wasted year. Author percieves that author's desire to help is perceived by others as a problem, not a blessing. It seems like this pattern of 'not being recognized/heard' has happened before. [Author_Venting_About_Book]
 - It's hard to say whether Haskellish languages were actually successful after 40 years, so we need people who assess it now and make predictions.[Author_Venting_About_Book]
 - Biggest concern author has: the kind of culture that FP languages tend to develop never grow large enough that they make an impact/difference in the mainstream. Author clarifies what that 'subculture' is while being in a very negative emotional mood: [Author_Venting_About_Book]
@@ -313,7 +312,6 @@ The following interpretations have been copied over from various sources. In som
 - Referring to the `Type Classes vs The World (video)`, this is the kind of knowledge that struggles to make its way out of the FP community. [Author_Venting_About_Book]
 - `kmett` might be a good person to follow for extracting FP knowledge that remains otherwise stuck in 'knowledge silos.' [Author_Venting_About_Book]
 - Author reflects that there is a missing point of contact between two communities, so that it does not succeed in either one of them. The implied communities are the non-FP / mainstream community and FP community. [Author_Venting_About_Book]
-
 - PureScript is a more powerful language than Elm but provides less guidances as to how to write code [Elm_019_Broke_Us]
 - Source hopes to move to PureScript once it stabilizes more [Elm_019_Broke_Us]
 - One person's perception of PureScript is scary, possibly due to HKTs and other "Haskell-y" stuff [Elm_019_Broke_Us]
@@ -338,10 +336,6 @@ The following interpretations have been copied over from various sources. In som
 - ReasonML might be an easier destination for Elm users than PureScript due to being more mature in a few important areas. [Elm_019_Broke_Us]
 - Source is moving towards langauges with stronger FP concepts than Elm. [Elm_019_Broke_Us]
 - PS users might be watching Elm channels of communication as a way to encourage people to switch to it...? [Elm_019_Broke_Us]
-
- [How_Do_We_Avoid_Ecosystem_Incoherence]
-
-
 - [Alex] A PureScript user believes that new language releases which include breaking changes often lead to miscommunication. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A PureScript user believes that miscommunication of language releases/changes is largely accepted as normal by the community. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A PureScript user sees that major language releases bring higher-than-normal newcomers to the language. [How_Do_We_Avoid_Ecosystem_Incoherence]
@@ -409,19 +403,12 @@ The following interpretations have been copied over from various sources. In som
 - Documentation and tooling should not choose the latest language and library versions by default. Instead, it should be explicit about the language version being used and be conservative with upgrades. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - `pulp init` or a new `pulp` command could be configured to set up a learning environment for new learners that "just works." [How_Do_We_Avoid_Ecosystem_Incoherence]
 - The question of how releases integrate with the process of making a release to NPM needs to be further explored. There might be additional things that could be optimized here. [How_Do_We_Avoid_Ecosystem_Incoherence]
-
- [On_ergonomics_of_FP_Compiler_Errors]
-
 - [Jordan] Many people complain about the cryptic errors of Haskell and PureScript, likely because they do not understand the compiler / type system that well [On_ergonomics_of_FP_Compiler_Errors]
 - [Jordan] Elm, which is an FP language, has great compiler errors, but only because it's type system is much simpler and less powerful [On_ergonomics_of_FP_Compiler_Errors]
 - [Jordan] PureScript's error messages have improved [On_ergonomics_of_FP_Compiler_Errors]
 - [Jordan] Compiler errors shouldn't tell you that something wrong occured (that's obvious, otherwise an error would not have been emitted). Rather, they should tell you what went wrong using non-jargon-y language and tell you what to do to fix them [On_ergonomics_of_FP_Compiler_Errors]
 - [Alex] A PureScript user believes error messages should highlight the problem in the code in a way that makes resolution actionable, not explain why it bothers the compiler using technical jargon. [On_ergonomics_of_FP_Compiler_Errors]
 - [Alex] A PureScript user believes that a compiler is a logic-checker, which means it can not be wrong. So, rather than explain it's full reasoning, it should just provide actionable description of the resolution. If details are desired, provide them in a separate document linked from the error message. [On_ergonomics_of_FP_Compiler_Errors]
-
-
- [PureScript_vs_ReasonML_Bucklescript_in_2018]
-
 - Commentator's background: transitioning an Angular app into a Halogen app; also mixing a typed-FP language with Python (an odd mix..., but might show that they might later transition from Python to Haskell) [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - new learners are scared by Halogen's types initially, likely because it's unfamiliar, uses jargon they don't yet know, and they fear that this understanding is needed to make things work. It's not clear whether the fear is due to not knowing how to resolve common Halogen errors or where to put types in type signatures or what. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Commentator agrees that out-of-box web components are lacking and this situation is unfortunate but not enough for them to stop using PS. [PureScript_vs_ReasonML_Bucklescript_in_2018]
@@ -460,10 +447,6 @@ The following interpretations have been copied over from various sources. In som
     - while upsides of this ecosystem are good, they were not worth it for the author.
 - Commentator states that both community and language's core team are unified in working together to improve documentation and new-learner onboarding process. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Some people who give up on a language are simply waiting for its documentation to improve, so that they can have an easier learning process in the future. [PureScript_vs_ReasonML_Bucklescript_in_2018]
-
- [Discussion_about_WNTYAD]
-
-
 - In reality, there are more than 4 different types of documentation. Let's think of the many dimensions: [Discussion_about_WNTYAD]
     - The 4 normal types (intended audience based on goal): get started, how to do one thing, reference, explanation
     - The X audiences based on background / purpose (new core developers, plug-in developers, distributors, end-users).
@@ -531,8 +514,6 @@ The following interpretations have been copied over from various sources. In som
 - Many questions asked in the FP Slack channel could be better asked on SO with the one asking the question notifying people on the FP Slack channel. This would make such 'documentation' persist longer than the Slack logs. [Discussion_about_WNTYAD]
 - Being able to ask a good question presupposes an understanding of the domain / library / language. [Discussion_about_WNTYAD]
 - Documentation is really a way of thinking about design, but often done after the code has already been written according to some other design. [Discussion_about_WNTYAD]
-
- [Teach Don't Tell]
 - Reading the Source code is not the same as reading documentation: **it's only useful once you already know how to use the code.** [Teach Don't Tell]
 - Reading the Tests' code is not the same as reading documentation: **it's only useful once you already know how to use the code.** [Teach Don't Tell]
 - Using literate programming tools don't help. [Teach Don't Tell]
@@ -557,10 +538,6 @@ The following interpretations have been copied over from various sources. In som
     3. Figure out a single idea or concept that will move state 1 a little bit closer to state 2. (figure out path)
     4. Nudge the student in the direction of that idea. (instruct/guide using path)
     5. Repeat until state 1 becomes state 2.
-
-
- [Why_is_Elm_More_Popular_Than_PureScript]
-
 - core contributors to PS prioritize improving the language over improving the documentation / onboarding process [Why_is_Elm_More_Popular_Than_PureScript]
 - Elm is a good starting FP language that might be powerful enough for many use cases. For others, they might use it as a stepping stone to get to PureScript after wanting more. Each has it's place. [Why_is_Elm_More_Popular_Than_PureScript]
 - The phrase "avoid success at all costs" could be interpreted in two different ways. First way, "(avoid success) at all costs," is attempting to avoid any sort of success no matter what. It would imply trying to stop people from using the language at all. This is not how the above phrase is meant. Second way, "avoid (success at all costs)," does not prioritize "success" (that comes at the cost of poor decisions with negative long-term consequences) over decisions based on solid foundations. Success is desired, but people will not take shortcuts to get there. PS has the mentality of the second one, which sometimes is at odds with others' desires to see it "succeed" even if that means the language would suffer over the long-term. [Why_is_Elm_More_Popular_Than_PureScript]
@@ -620,9 +597,6 @@ The following interpretations have been copied over from various sources. In som
 - Elm has a faster onboarding process where one feels productive. PS, due to its powerful type system, will never be able to have a faster onboarding process. [Why_is_Elm_More_Popular_Than_PureScript]
 - Person believes that JS-background people love simpler languages with smaller learner curves. I'm not sure how true that is considering how many features exist in the JS language (unless one adheres to the principles in "Javascript: The Good Parts"). [Why_is_Elm_More_Popular_Than_PureScript]
 - Haskellers will likely be unsatisfied with either language at some point because neither of them are Haskell. [Why_is_Elm_More_Popular_Than_PureScript]
-
- [Why_use_Purescript]
-
 - One person thought there really weren't any cons, just some situations where it's not "ideal". For example, if you want lazy evaluation by default, PureScript is not ideal for you. [Why_use_Purescript]
 - Lack of explanation on 'deep concepts' issue was not addressed. Rather, the implied idea was "new learners just don't need to know them immediately and should focus on fundamentals first." [Why_use_Purescript]
 - A PureScript core maintainer believes that deeper concepts and idioms are best learned by consuming Haskell learning resources. [Why_use_Purescript]
