@@ -467,7 +467,7 @@ The following interpretations have been copied over from various sources. In som
 - In reality, there are more than 4 different types of documentation. Let's think of the many dimensions: [Discussion_about_WNTYAD]
     - The 4 normal types (intended audience based on goal): get started, how to do one thing, reference, explanation
     - The X audiences based on background / purpose (new core developers, plug-in developers, distributors, end-users).
-- Putting the above idea [4 types of docs & total number of audiences based on background/purpose: core developers, plug-in developers, distributors, and end-users] into terms of PS: [Discussion_about_WNTYAD]
+- Putting the above idea [(i.e. 4 types of docs & total number of audiences based on background/purpose: core developers, plug-in developers, distributors, and end-users)] into terms of PS: [Discussion_about_WNTYAD]
     - audience based on background: Javascript, Haskell, Elm, TypeScript, other language entirely
     - audience based on purpose: front-end or back-end, each with these concerns (performance, complex logic, hitting quick deadline, migrating to better system, refactor-heavy due to prototypal nature)
 - Knowledge can at best be encoded into views that we call 'documentation.' Documentation is 'good' when one's view happens to correlate with what they need to 'see' at a given time. However, due to how 'views' work, they must explain the same concepts in different orders, show some content rather than other content based on what the reader needs, etc. [Discussion_about_WNTYAD]
@@ -497,7 +497,6 @@ The following interpretations have been copied over from various sources. In som
 - loosely integrated documentation is easier to maintain [Discussion_about_WNTYAD]
 - It's hard to write some documentation without a good problem to solve. Thinking of such problems is hard but very easy when someone else comes to you with one. [Discussion_about_WNTYAD]
 - One person believes the difference between context and reference documentation is small, because "context" is wide umbrella. [Discussion_about_WNTYAD]
-- I think this concept already exists in PS via Pursuit and the `purs docs` / `pulp publish` commands [Discussion_about_WNTYAD]
 - Why don't developers care more about docs? [Discussion_about_WNTYAD]
 - Lack of documentation feels like a form of hazing [Discussion_about_WNTYAD]
 - One person believes that documentation is the foundation of user experience. [Discussion_about_WNTYAD]
