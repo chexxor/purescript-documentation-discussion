@@ -643,7 +643,7 @@ The following interpretations have been copied over from various sources. In som
    - Show reasons for why Node is a "rock solid" solution to server-side things
    - Show reasons for why other backends (C/C++ ?) can provide a better server environment than Node...?
 - A PureScript outsider believes the documentation should describe the quality of the runtime. [Why_use_Purescript]
-- We should follow up with these people to see what they ultimately came up with (if anything). If the project did not get anywhere, there's still likely some historical value here (what worked, what problems they encountered, etc.) [Why_use_Purescript]
+- We should follow up with these people ([see this thread](https://twitter.com/ThibaudDauce/status/895534464071331840)) to see what they ultimately came up with (if anything). If the project did not get anywhere, there's still likely some historical value here (what worked, what problems they encountered, etc.) [Why_use_Purescript]
 - The Real World App that `thomashoneyman` finished recently is a step in this direction as well. [Why_use_Purescript]
-- This wasn't answered but does provide a good question. [Why_use_Purescript]
+- New useres want to know how PureScript integrates with Webpack / CSS Modules / Code Splitting. [Why_use_Purescript]
 - A PureScript outsider believes documentation should teach how to integrate the output of the PureScript compiler with other tools in the target language ecosystem. [Why_use_Purescript]
