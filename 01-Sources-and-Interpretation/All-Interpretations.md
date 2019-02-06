@@ -553,3 +553,29 @@ The following interpretations have been copied over from various sources. In som
 - Many questions asked in the FP Slack channel could be better asked on SO with the one asking the question notifying people on the FP Slack channel. This would make such 'documentation' persist longer than the Slack logs. [Discussion_about_WNTYAD]
 - Being able to ask a good question presupposes an understanding of the domain / library / language. [Discussion_about_WNTYAD]
 - Documentation is really a way of thinking about design, but often done after the code has already been written according to some other design. [Discussion_about_WNTYAD]
+
+ [Teach DOn't Tell]
+- Reading the Source code is not the same as reading documentation: **it's only useful once you already know how to use the code.** [Teach DOn't Tell]
+- Reading the Tests' code is not the same as reading documentation: **it's only useful once you already know how to use the code.** [Teach DOn't Tell]
+- Using literate programming tools don't help. [Teach DOn't Tell]
+- Using wikis as a way to document things are horrible because [Teach DOn't Tell]
+    1. there is no coherent voice (multiple authors that often times fight/correct one another)
+    2. it allows the excuse, "If you don't understand it yourself, you can write the content and fix it!"
+    3. there is no version control (even GitHub wikis aren't good for this since they are separate from the project/code)
+    - (Critique: This presumes a single person is writing the entire documentation. Larger projects don't have this luxury.)
+- There are 4 types of documentation: 1st contact, the black triangle, the hairball, the reference [Teach DOn't Tell]
+- First Contact (type of documentation) [Teach DOn't Tell]
+    - Basically, a "high-level overview and purpose statement"
+    - Answers questions like "What is this thing, why would I care about it, why would I not care about it, and why is it worth my effort to learn how to use it?"
+- Black Triangle (type of documentation) [Teach DOn't Tell]
+    - Basically a "getting started guide"
+    - If it's up-to-date, then the reader knows the library/code isn't stale or out-of-date
+    - It doesn't teach everything someone needs to know, just enough to start being productive. For example, a guitar teacher teaches enough chords to play a song, not all possible chords at once before ever starting.
+- Hairball (type of documentation) [Teach DOn't Tell]
+    - Basically, the "explanation" part of docs
+- Recommended approach to teaching something new to a person [Teach DOn't Tell]
+    1. Figure out what they already know. (identity start point)
+    2. Figure out what you want them to know after you finish. (identity end point)
+    3. Figure out a single idea or concept that will move state 1 a little bit closer to state 2. (figure out path)
+    4. Nudge the student in the direction of that idea. (instruct/guide using path)
+    5. Repeat until state 1 becomes state 2.
