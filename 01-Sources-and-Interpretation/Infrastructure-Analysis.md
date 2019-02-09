@@ -1,4 +1,4 @@
-# Infrastructure Analsysi
+# Infrastructure Analysis
 
 ## Who are the core contributors to the PS language and infrastructure as a whole?
 
@@ -163,7 +163,7 @@ This section overviews the other learning materials that already exist in the PS
 - What type of documentation is it? (i.e. tutorial, how-to, reference, explanation)
 
 | Resource Name | Author | Activity? | Incentives? | Potential Doc Team member? | intended audience? | type of documentation? |
-| - | - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
 | PureScript By Example | Phil Freeman | not active, but is a user of PS | help a new person get familiar with the language enough to actually build something useful | not likely due to burning out and still recovering from it among other reasons | PS learners | tutorial / explanation
 | [PureScript Resources](https://purescript-resources.readthedocs.io/en/latest/) | Justin Woo | Justin is quite active in the community, but AFAIK does not contribute to his resource that frequently | probably just a way to summarize a few things for new people | not sure | new learners | mixture of how-tos, quick-starts, and some explanations
 | [PureScript - Jordan's Reference](https://github.com/JordanMartinez/purescript-jordans-reference) | Jordan Martinez | frequently active on the learning resource but does not do much else for the larger community | to learn PureScript by teaching it to others via the Feynmann technique | possibly | new learners and people needing a centralized "do it all" kind of learning resource | a mixture of getting-started, how-tos, explanation, and reference; mostly explanation and reference; code-as-an-example
@@ -175,7 +175,7 @@ This section overviews the other learning materials that already exist in the PS
 ## Learning Resources targeting different backgrounds
 
 | Resource Name | Author | Activity? | Incentives? | Potential Doc Team member? | intended audience? | type of documentation? |
-| - | - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
 | [Egghead.io Learn PS course](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript) | Brian Lonsdorf | Not sure | Not sure | Not sure | Javascript developers who want to learn FP in Javascript | explanation and how-to ?
 | [Outersider's Guide to Statically Typed Functional Programming](https://leanpub.com/outsidefp) | Brian Merick | Not very active AFAIK; author has moved on to other languages...? | to explain the benefits of FP programming to "outsiders," people who do not know it, without using FP jargon or the usual approach that FP people use to explain FP | Not sure, but seems unlikely | Javascript developers who want to learn Elm? Elm developers who are ready for something more powerful? | Getting Started, How-to, Explanation
 
