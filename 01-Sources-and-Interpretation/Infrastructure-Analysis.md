@@ -205,7 +205,7 @@ This section overviews the other learning materials that already exist in the PS
 | Resource Name | Author | Activity? | Incentives? | Potential Doc Team member? | intended audience? | type of documentation? |
 | - | - | - | - | - | - | - |
 | [Egghead.io Learn PS course](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript) | Brian Lonsdorf | Not sure | Not sure | Not sure | Javascript developers who want to learn FP in Javascript | explanation and how-to ?
-| [Outersider's Guide to Statically Typed Functional Programming](https://leanpub.com/outsidefp) | Brian Merick | Not very active AFAIK; author has moved on to other languages...? | to explain the benefits of FP programming to "outsiders," people who do not know it, without using FP jargon or the usual approach that FP people use to explain FP | Not sure, but seems unlikely | Javascript developers who want to learn Elm? Elm developers who are ready for something more powerful? | Getting Started, How-to, Explanation
+| [Outersider's Guide to Statically Typed Functional Programming](https://leanpub.com/outsidefp) | Brian Marick | Not very active AFAIK; author has moved on to other languages...? | to explain the benefits of FP programming to "outsiders," people who do not know it, without using FP jargon or the usual approach that FP people use to explain FP | Not sure, but seems unlikely | Javascript developers who want to learn Elm? Elm developers who are ready for something more powerful? | Getting Started, How-to, Explanation
 
 ### PS' Differences from Haskell
 
