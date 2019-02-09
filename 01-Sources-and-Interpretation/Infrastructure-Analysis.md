@@ -1,20 +1,20 @@
 # Infrastructure Analysis
 
-## Who are the core contributors to the PS language and infrastructure as a whole?
+Who are the core contributors to the PS language and infrastructure as a whole? This question helps us know who has write access to the projects.
 
-This helps us know who has write access to the repos
+### Core PureScript Projects
 
-Core repos that have significant impact on PureScript community's documentation or build process as a whole
+Following is a list of prejects which have significant impact on the PureScript language's user experience. Types of projects this includes is documentation and build tools.
 
-- PureScript language repo
-- Pursuit repo
-- PureScript website repo
-- Documentation repo
-- Prelude repo
-- pulp repo
-- psc-package repo
-- package set repo
-- spago repo
+- [PureScript compiler/language](https://github.com/purescript/purescript)
+- [Pursuit](https://github.com/purescript/pursuit)
+- [PureScript website](https://github.com/purescript/purescript.github.io)
+- [Documentation](https://github.com/purescript/documentation)
+- [Prelude](https://github.com/purescript/purescript-prelude)
+- [Pulp build tool](https://github.com/purescript-contrib/pulp)
+- [psc-package dependency manager](https://github.com/purescript/psc-package)
+- [package sets for psc-package](https://github.com/purescript/package-sets)
+- [spago build tool/dependency manager](https://github.com/spacchetti/spago)
 
 ### PureScript Organization Members
 
@@ -82,7 +82,7 @@ The following are listed by category/topic and I've included my own flag for ind
 
 ##### Gains in making search more useful
 
-- Search for all instances of a given type class: [311]](https://github.com/purescript/pursuit/issues/311) / [349](https://github.com/purescript/pursuit/issues/349)
+- Search for all instances of a given type class: [311](https://github.com/purescript/pursuit/issues/311) / [349](https://github.com/purescript/pursuit/issues/349)
     - Super Important: New learners will greatly benefit from this because the abstract notion of a type class can be made more concrete by looking at the various ways data types implement it.
 - [Tool that shows difference between two versions](https://github.com/purescript/pursuit/issues/139)
     - Nice to have feature, but might be outside scope of Pursuit: isn't this what the package's release notes are for?
