@@ -223,11 +223,19 @@ The following interpretations have been copied over from various sources. In som
 
 #### Compared to Elm
 
+##### Language is not bottlenecked/controlled by beneficial dictator
+
 - A PureScript user prefers PureScript over Elm because they don't like a language which dogmatically enforces a certain way of programming. [Hitchhikers_Guide_to_Elm]
+
+##### Better FFI Experiencee
+
 - A PureScript user believes PureScript's FFI is simpler than Elm. [Hitchhikers_Guide_to_Elm]
 - A JavaScript/React/PureScript user believes PureScript's FFI is fairly easy and is better than ReasonML's and Elm's FFI. [Hitchhikers_Guide_to_Elm]
 - A PureScript user believes PureScript compiles to smaller amounts of JS than Elm for the same thing, making pages load faster than Elm-written ones. [Hitchhikers_Guide_to_Elm]
 - A PureScript user believes that using it is dead-simple because it compiles to JavaScript (because it is readable?). [Hitchhikers_Guide_to_Elm]
+
+##### PS has a more powerful type system (i.e. Type Classes)
+
 - A PureScript user believes that a language can limit what you can do and learn, and is reason for leaving the language. [Hitchhikers_Guide_to_Elm]
 - A PureScript user feels limited by Elm's type system. [Hitchhikers_Guide_to_Elm]
 - PS has type classes whereas Elm does not: one reason why one might want to use PS instead of Elm. [Elm_PureScript_In_Depth_Overview]
@@ -241,93 +249,124 @@ The following interpretations have been copied over from various sources. In som
 
 #### Compared to Haskell
 
-- PS' type system is more granular, powerful, and polished than Haskell, avoiding some of its baggage. [Learn_PureScript_or_Haskell_First]
+##### Easier setup process
+
 - Using PureScript was more fun than the hassle when compared to the commentator's experience with Haskell. [Learn_PureScript_or_Haskell_First]
-- While this person argues that it's generally easier to install and maintain PS than Haskell on a machine, that comment did not account for the major breaking changes that occurred in the `0.12.0` release. Other comments in this post also argue against this point. [Learn_PureScript_or_Haskell_First]
 - In short, in this person's experience, PureScript is easy to set up and start coding unlike Haskell in various ways [Learn_PureScript_or_Haskell_First]
 - PureScript doesn't require adding language extensions like "OverloadedStrings" or running it with `-Wall` [Learn_PureScript_or_Haskell_First]
-- To one person, Haskell's community seems less friendly / welcoming than other languages' communities in general and the Purescript community specifically. [Learn_PureScript_or_Haskell_First]
+- While this person argues that it's generally easier to install and maintain PS than Haskell on a machine, that comment did not account for the major breaking changes that occurred in the `0.12.0` release. Other comments in this post also argue against this point. [Learn_PureScript_or_Haskell_First]
+
+##### Less fragmented ecosystem
+
 - Haskell user prefers and welcomed non-fragmented dependency managers. [PureScript_First_Impressions]
 - Haskell user prefers and welcomed a centralized documentation site [PureScript_First_Impressions]
-- PureScript has better integration with JS build tools (e.g. webpack, parcel, etc.) than Haskell [Learn_PureScript_or_Haskell_First]
-- The PureScript core contributor believes that "the Haskell tradition" is having the purpose to explore FP languages, their implementations, and their practices. [Wallowing_in_Despair]
+
+##### Removes some of Haskell's baggage
+
+- PS' type system is more granular, powerful, and polished than Haskell, avoiding some of its baggage. [Learn_PureScript_or_Haskell_First]
 - PS seems to be trying to remove the baggage that Haskell continues to carry, but it is not explicitly trying to replace/improve it. [Why_is_Elm_More_Popular_Than_PureScript]
+
+##### Provides better integration with JS ecosystem
+
+- PureScript has better integration with JS build tools (e.g. webpack, parcel, etc.) than Haskell [Learn_PureScript_or_Haskell_First]
 - Switching to GHCJS isn't the same idea as a "Haskell-to-JS" compiler. GHCJS includes the entire Haskell compiler in JS (probably slows down a site's load time significantly) and is designed for whole-system apps. PS has no runtime requirement and can be used like a pocket knife: a solution to a whole-system app, a simple library, a small part of some current system that integrates well, etc. [Why_is_Elm_More_Popular_Than_PureScript]
 
-#### No Category
+##### Miscellaneous
+
+- To one person, Haskell's community seems less friendly / welcoming than other languages' communities in general and the Purescript community specifically. [Learn_PureScript_or_Haskell_First]
+- The PureScript core contributor believes that "the Haskell tradition" is having the purpose to explore FP languages, their implementations, and their practices. [Wallowing_in_Despair]
+
+### Comments specifically in favor of PS
+
+#### Good for Front-End Applications
 
 - A PureScript user believes that PureScript is good for solid development of frontend applications. [Hitchhikers_Guide_to_Elm]
-- PS' long-term value is that the language can compile to multiple backends quite easily. Still, the exact performance considerations are not as clear as one library maintainer realized when writing [Learn_PureScript_or_Haskell_First] `purescript-sequence`, a FingerTree implementation that was slower than Array until its size got very large.
+- FP programmer wanted a better solution for web dev and implemented such a solution. [Why_is_Elm_More_Popular_Than_PureScript]
+
+#### High Long-Term Potential
+
+- PS' long-term value is that the language can compile to multiple backends quite easily. Still, the exact performance considerations are not as clear as one library maintainer realized when writing [Learn_PureScript_or_Haskell_First]
+- PS has companies behind it to some degree that guarantees it will be worth knowing for next few years, but who can see beyond that, especially when the web changes faster than many other contexts.
+
+#### Easy Setup Process / Good Build Tools
+
 - "the install and setup of the environment is straight forward." [My_Experience_With_PureScript_So_Far]
 - build tools supporting fast feedback loops make developers more productive [My_Experience_With_PureScript_So_Far]
 - `pulp` was simple to set up things [PureScript_First_Impressions]
-- PS has excellent documentation browsing [My_Experience_With_PureScript_So_Far]
 - PS has great out-of-box support for Atom IDE [My_Experience_With_PureScript_So_Far]
 - Atom support was easy to set up [PureScript_First_Impressions]
-- Making implicit partial functions explicit helped one adhere to type-driven development, which also had some educational benefits [My_Experience_With_PureScript_So_Far]
-- Even if one does not understand FP, they can get help on a regular basis from really smart people (core contributors) [PureScript_vs_ReasonML_Bucklescript_in_2018]
+
+#### Miscellaneous
+
+- PS has excellent documentation browsing [My_Experience_With_PureScript_So_Far]
 - PS + Halogen can be 'dropped in' as replacements for Angular apps, making migration easier [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- PS has companies behind it to some degree that guarantees it will be worth knowing for next few years, but who can see beyond that, especially when the web changes faster than many other contexts. [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- Even if one does not understand FP, they can get help on a regular basis from really smart people (core contributors) [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- Making implicit partial functions explicit helped one adhere to type-driven development, which also had some educational benefits [My_Experience_With_PureScript_So_Far]
+ [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - Arguments in linked post can be argued for PS, too, except in following ways: [PureScript_vs_ReasonML_Bucklescript_in_2018]
     - JVM ecosystem entirely available to Scala.js whereas PS must build its own or use unsafe Javascript libraries
     - code works on both the server and client in Scala whereas PS does not yet have mature server frameworks and Node.js is not necessarily the best tool to use.
 - Article does not mention a few issues with Scala.js that do not arise with PS [PureScript_vs_ReasonML_Bucklescript_in_2018]
     - In Jordan's opinion, Scala is not as good for FP code as PS/Haskell (expressions are not as terse; compiler must be hacked to add some features that are already present in PS/Haskell, purely FP users of Scala are not supported by language's development, who want to support OO paradigm as well: there will always be tension / things that can't be done).
     - PS can compile to other languages besides Javascript. Sometimes C/C++ (and all its ecosytem) is a better fit than the JVM (and all its ecosystem)
-- Seems OCaml / ReasonML / BuckleScript has a minor documentation problem of its own? [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- Seems OCaml / ReasonML / BuckleScript also is lacking a mature server solution? [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- OCaml / ReasonML / BuckleScript - new learners are also advised to check out their forum/chatroom for getting help from people already familiar with it. [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- Summary of a new learner's experience with OCaml / ReasonML / BuckleScript seems similar to other experiences of new learners of PS: [PureScript_vs_ReasonML_Bucklescript_in_2018]
-    - sparse tutorials that are not part of some larger whole forces new learner to piece together the parts with difficulty
-    - no clear linear learning path led to wasted time, something which would not occur in other ecosystems
-    - while upsides of this ecosystem are good, they were not worth it for the author.
-- FP programmer wanted a better solution for web dev and implemented such a solution. [Why_is_Elm_More_Popular_Than_PureScript]
-
 
 ### Arguments Against using PS
 
 #### Compared to Haskell
 
-- Haskell's stronger ecosystem might make it easier for the OP to learn domain-specific concepts (e.g. parsing, cryptography, etc.) in an FP style [Learn_PureScript_or_Haskell_First]- Haskell's stronger ecosystem might make it easier for the OP to learn domain-specific concepts (e.g. parsing, cryptography, etc.) in an FP style [Learn_PureScript_or_Haskell_First]
+- Haskell's stronger ecosystem might make it easier for the OP to learn domain-specific concepts (e.g. parsing, cryptography, etc.) in an FP style [Learn_PureScript_or_Haskell_First]]
+- Haskell's stronger ecosystem might make it easier for the OP to learn domain-specific concepts (e.g. parsing, cryptography, etc.) in an FP style [Learn_PureScript_or_Haskell_First]
 - GHC has better error messages than PureScript. This was likely true. I'm not whether that gap has decreased in the last year or not and by how much. I think it's likely still the same. [Learn_PureScript_or_Haskell_First]
-- It's not clear to new learner why one shouldn't just use GCHJS or some similar Haskell solution. [Why_is_Elm_More_Popular_Than_PureScript]
+- `purescript-sequence`, a FingerTree implementation was slower than Array until its size got very large. In other words, collections using lazy constructs in a strict language / non-specialized runtime don't work the same as they do in Haskell.
 
 #### Compared to Elm
 
+##### Elm is easier to learn for JS developers due to a less-powerful / simpler type system
+
 - A non-PureScript user prefers a simple language with a gradual/short learning curve and is willing to compromise on the quantity of manually-written code to have it. [Hitchhikers_Guide_to_Elm]
 - Elm is more approachable simply because it is less powerful and requires learning less. [Elm_PureScript_In_Depth_Overview]
-- Elm is appealing because it's application structure is well-understood. To get the same appeal, the 'best practices' for application structure should be well documented in PS. [Elm_PureScript_In_Depth_Overview]
 - Elm seems to provide a gentler introduction to FP concepts than Haskell or PureScript primarily because it has less features and potentially has better documentation than PureScript did at that time. [Learn_PureScript_or_Haskell_First]
+- One person believes Elm is a great first introduction to Haskell-style Pure FP languages because Elm has the same features as Haskell but small, simple subset of Haskell's complete set of features. [Why_is_Elm_More_Popular_Than_PureScript]
+- One person believes Elm is more popular than PureScript because there are more people familiar with JavaScript, which has no common culture of principles and concepts, than with Haskell, which does. [Why_is_Elm_More_Popular_Than_PureScript]
+- Elm is more popular because, unlike PS, one of its main purposes is to draw JS developers towards it. It does this by showing clear and specific examples where Elm provides better solutions than JS does and by helping people migrate to the language/ecosystem. [Why_is_Elm_More_Popular_Than_PureScript]
+- Person believes that JS-background people love simpler languages with smaller learner curves. I'm not sure how true that is considering how many features exist in the JS language (unless one adheres to the principles in "Javascript: The Good Parts"). [Why_is_Elm_More_Popular_Than_PureScript]
 - One person's perception of PureScript is scary, possibly due to HKTs and other "Haskell-y" stuff [Elm_019_Broke_Us]
 - General perception is that learning curve is steep and hidden behind a lot of jargon [Elm_019_Broke_Us]
+- Elm has a faster onboarding process where one feels productive. PS, due to its powerful type system, will never be able to have a faster onboarding process. [Why_is_Elm_More_Popular_Than_PureScript]
+- Elm is a good starting FP language that might be powerful enough for many use cases. For others, they might use it as a stepping stone to get to PureScript after wanting more. Each has it's place. [Why_is_Elm_More_Popular_Than_PureScript]
+- 50k app and the "abstraction ceiling" has not been hit yet. App does require a lot of boilerplate-y code, but it works and solves the business problem at the end of the day. [Why_is_Elm_More_Popular_Than_PureScript]
+
+##### Elm has an easy-to-understand Application Structure
+
+- Elm is appealing because it's application structure is well-understood. To get the same appeal, the 'best practices' for application structure should be well documented in PS. [Elm_PureScript_In_Depth_Overview]
+- Elm's architecture is simple and understandable [Why_is_Elm_More_Popular_Than_PureScript]
+
+##### Elm has really great compiler errors
+
 - [Jordan] Many people complain about the cryptic errors of Haskell and PureScript, likely because they do not understand the compiler / type system that well [On_ergonomics_of_FP_Compiler_Errors]
 - [Jordan] Elm, which is an FP language, has great compiler errors, but only because it's type system is much simpler and less powerful [On_ergonomics_of_FP_Compiler_Errors]
-- Elm is a good starting FP language that might be powerful enough for many use cases. For others, they might use it as a stepping stone to get to PureScript after wanting more. Each has it's place. [Why_is_Elm_More_Popular_Than_PureScript]
-- One person believes Elm is more popular than PureScript because there are more people familiar with JavaScript, which has no common culture of principles and concepts, than with Haskell, which does. [Why_is_Elm_More_Popular_Than_PureScript]
-- 50k app and the "abstraction ceiling" has not been hit yet. App does require a lot of boilerplate-y code, but it works and solves the business problem at the end of the day. [Why_is_Elm_More_Popular_Than_PureScript]
-- Elm is more popular because, unlike PS, one of its main purposes is to draw JS developers towards it. It does this by showing clear and specific examples where Elm provides better solutions than JS does and by helping people migrate to the language/ecosystem. [Why_is_Elm_More_Popular_Than_PureScript]
-- One person believes Elm is a great first introduction to Haskell-style Pure FP languages because Elm has the same features as Haskell but small, simple subset of Haskell's complete set of features. [Why_is_Elm_More_Popular_Than_PureScript]
-- Elm had first-mover advantage. [Why_is_Elm_More_Popular_Than_PureScript]
 - Elm has nice errors [Why_is_Elm_More_Popular_Than_PureScript]
-- Elm's architecture is simple and understandable [Why_is_Elm_More_Popular_Than_PureScript]
-- Elm has a faster onboarding process where one feels productive. PS, due to its powerful type system, will never be able to have a faster onboarding process. [Why_is_Elm_More_Popular_Than_PureScript]
-- Person believes that JS-background people love simpler languages with smaller learner curves. I'm not sure how true that is considering how many features exist in the JS language (unless one adheres to the principles in "Javascript: The Good Parts"). [Why_is_Elm_More_Popular_Than_PureScript]
 
-#### No Category
+#### Comments specifically against PS / for alternatives
 
+##### Regarding OCaml / ReasonML / BuckleScript as an alternative
+
+- There are other FP-like languages out there besides PureScript that might be a better 'next step' for Elm programmers. [Wallowing_in_Despair]
 - Elm as a "gateway drug" to PureScript may have competition from other FP languages: ReasonML [Elm_019_Broke_Us]
 - ReasonML might be an easier destination for Elm users than PureScript due to being more mature in a few important areas. [Elm_019_Broke_Us]
-- There are other FP-like languages out there besides PureScript that might be a better 'next step' for Elm programmers. [Wallowing_in_Despair]
+- Source of ReasonML's popularity is Facebook and conferences. PS might be lacking 'evangelism' in conferences [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- PS compile times might be longer than Ocaml [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- Commentator gave up on Halogen's types and perceived ReasonML's React wrappers to be better than PS. [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- Easier to write a backend component in Ocaml than in PS. [PureScript_vs_ReasonML_Bucklescript_in_2018]
+
+##### Miscellaneous
+
 - Post-`0.12.0` release, user expected that language's community won't be able to reach ecosystem coherence for a while. [PureScript_First_Impressions]
 - Person thinks that one should only learn PS for web/JS replacement. [Learn_PureScript_or_Haskell_First]
 - Author started book with presupposition that static FP languages are worth their learning curve but has now concluded that perhaps this is not true. [Wallowing_in_Despair]
 - Source hopes to move to PureScript once it stabilizes more [Elm_019_Broke_Us]
 - PureScript is not suited for mainstream use yet but more for forward-thinking people who may get burned by future web developments [Elm_019_Broke_Us]
 - Commentator agrees that out-of-box web components are lacking and this situation is unfortunate but not enough for them to stop using PS. [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- Source of ReasonML's popularity is Facebook and conferences. PS might be lacking 'evangelism' in conferences [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- PS compile times might be longer than Ocaml [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- Commentator gave up on Halogen's types and perceived ReasonML's React wrappers to be better than PS. [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- Easier to write a backend component in Ocaml than in PS. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - It seems author's project was heavy on the UI and speed was important. PS React-based frameworks were significantly slower than solutions from other languages, making PS a deal-breaker. Had project required less UI and more complex calculations where type-safety shines brightly, author would have stuck with it. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - One valid reason for not wanting to learn PS: rendering speeds of Halogen/Thermite frameworks weren't fast enough for person's use case. [Why_is_Elm_More_Popular_Than_PureScript]
 - Stagnation / slow down of language/ecosystem development was a factor in author's decision [PureScript_vs_ReasonML_Bucklescript_in_2018]
@@ -336,12 +375,18 @@ The following interpretations have been copied over from various sources. In som
 - Some perceive the core contributors' focus on developing the language over writing good documentation as a sort of "We're really smart. We won't come down to you; you'll have to come to us" mindset. [Why_is_Elm_More_Popular_Than_PureScript]
 - One person believes the PureScript core maintainers will reject any attempt to compromise their favored abstractions to move towards "simplified" ideas. These "simplified" ideas are likely intended to improve the language's ease–of-use and approachability. [Why_is_Elm_More_Popular_Than_PureScript]
 - PS "tries to be a better Haskell than Haskell" but comes at the cost of needing to learn many more concepts. Not everyone needs that power, nor wants to gain those benefits when other competing interests call (i.e. learning another imperative programming language might have better overall gain). [Why_is_Elm_More_Popular_Than_PureScript]
-- Another point about vanilla JS + libraries being better than PS for various reasons. [Why_is_Elm_More_Popular_Than_PureScript]
 - One person believes that abstraction doesn't mitigate the complexities of an application which has a large feature set. [Why_is_Elm_More_Popular_Than_PureScript]
-- Stating an app's complexity in lines of code is not necessarily a good measurement because higher abstractions can reduce that number. [Why_is_Elm_More_Popular_Than_PureScript]
 - A PureScript core maintainer believes that deeper concepts and idioms are best learned by consuming Haskell learning resources. [Why_use_Purescript]
 
+### Arguments against using OCaml / ReasonML / BuckleScript?
 
+- Seems OCaml / ReasonML / BuckleScript has a minor documentation problem of its own? [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- Seems OCaml / ReasonML / BuckleScript also is lacking a mature server solution? [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- OCaml / ReasonML / BuckleScript - new learners are also advised to check out their forum/chatroom for getting help from people already familiar with it. [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- Summary of a new learner's experience with OCaml / ReasonML / BuckleScript seems similar to other experiences of new learners of PS: [PureScript_vs_ReasonML_Bucklescript_in_2018]
+    - sparse tutorials that are not part of some larger whole forces new learner to piece together the parts with difficulty
+    - no clear linear learning path led to wasted time, something which would not occur in other ecosystems
+    - while upsides of this ecosystem are good, they were not worth it for the author.
 
 ## Various "Learning Paths" to reach PureScript
 
@@ -416,6 +461,7 @@ The following interpretations have been copied over from various sources. In som
 - Author believes it's best for people with high status in a community to find ways to make low-status (unattractive?) jobs more attractive. [Wallowing_in_Despair]
 - Documentation and tooling should not choose the latest language and library versions by default. Instead, it should be explicit about the language version being used and be conservative with upgrades. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - A PureScript outsider believes documentation should explain why the language doesn't have data types or concepts that they are familiar with. [Why_use_Purescript]
+- It's not clear to new learner why one shouldn't just use GCHJS or some similar Haskell solution. [Why_is_Elm_More_Popular_Than_PureScript]
 
 ### Providing Code Examples in Other Languages
 
