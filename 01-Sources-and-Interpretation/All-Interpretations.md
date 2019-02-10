@@ -50,73 +50,8 @@ The following interpretations have been copied over from various sources. In som
 
 ## What is Good Documentation?
 
-- In reality, there are more than 4 different types of documentation. Let's think of the many dimensions: [Discussion_about_WNTYAD]
-    - The 4 normal types (intended audience based on goal): get started, how to do one thing, reference, explanation
-    - The X audiences based on background / purpose (new core developers, plug-in developers, distributors, end-users).
-- Putting the above idea [(i.e. 4 types of docs & total number of audiences based on background/purpose: core developers, plug-in developers, distributors, and end-users)] into terms of PS: [Discussion_about_WNTYAD]
-    - audience based on background: Javascript, Haskell, Elm, TypeScript, other language entirely
-    - audience based on purpose: front-end or back-end, each with these concerns (performance, complex logic, hitting quick deadline, migrating to better system, refactor-heavy due to prototypal nature)
-- Knowledge can at best be encoded into views that we call 'documentation.' Documentation is 'good' when one's view happens to correlate with what they need to 'see' at a given time. However, due to how 'views' work, they must explain the same concepts in different orders, show some content rather than other content based on what the reader needs, etc. [Discussion_about_WNTYAD]
-- Having documentation in a centralized place is not what's important. Rather, the ease with which one navigates throughout an ecosystem's documentation is important. If the documentation can answer questions like "Does the user know where to find X knowledge given that they now/already know Y, and can they easily get there?" [Discussion_about_WNTYAD]
-- One person believes that an important aspect of the purpose of a piece of documentation is the order in which it presents information and references to related reading. [Discussion_about_WNTYAD]
-- Documentation, by nature, goes out of sync quickly because the code it documents changes. [Discussion_about_WNTYAD]
-- One person believes that documentation becomes less effective when it is refactored as a program is refactored. [Discussion_about_WNTYAD]
-- One person believes that duplication of knowledge/communication in documentation produces fewer problems than having a normalized/de-duplicated documentation format. [Discussion_about_WNTYAD]
-- Documentation might be a problem space worth monetizing if someone can think of a good solution for that problem. [Discussion_about_WNTYAD]
-- One person believes it's natural to attempt to organize a documentation project in a piece-wise taxonomic way and generating the audience-facing documentation using templates. [Discussion_about_WNTYAD]
-- Part of the issue of documentation is the cultural aspects of it: the authors need to know effective ways of presenting information. [Discussion_about_WNTYAD]
-- The next part is finding people who can write good documentation. [Discussion_about_WNTYAD]
-- The last part is finding good ways to automate tedious tasks. [Discussion_about_WNTYAD]
-- Visual flow charts that adhere to the code might replace documentation...? One thought that comes to mind is [Teaching New Tricks to Old Programs](https://www.youtube.com/watch?v=vzLK_xE9Zy8&index=3&list=LL0RItGq_oLk-fvqppBpwtew&t=0s) which could literally visualize a program (see 34:00 and onward) [Discussion_about_WNTYAD]
-- One person believes the presentation of various types of documentation is so different that there isn't value in working to normalize knowledge. [Discussion_about_WNTYAD]
-- good documentation might just cover the 'basic idea' well and how to get started [Discussion_about_WNTYAD]
-- Of the 4 types, 2 quickly go stale after 1 year and need updating [Discussion_about_WNTYAD]
-- One person believes that of all purposes of documentation, there are only two purposes that are maintainable and useful long-term: [Discussion_about_WNTYAD]
-    - Documentation of functionality
-    - Getting started tutorials
-- Examples speak clearer than documentation [Discussion_about_WNTYAD]
-- 4 types are boundaries that are kept within the content of each type. One can still store them in the same overall project as long as there is a clear boundary between them. [Discussion_about_WNTYAD]
-- One person believes it's useful to link between types of documentation. [Discussion_about_WNTYAD]
-- Getting Started guides that do not distract with other important but not relevant-at-the-time matters are what new learners want [Discussion_about_WNTYAD]
-- People who write such guides might struggle to know what to include and exclude because they know what the trade-offs are. [Discussion_about_WNTYAD]
-- closely integrated documentation is harder to maintain [Discussion_about_WNTYAD]
-- loosely integrated documentation is easier to maintain [Discussion_about_WNTYAD]
-- It's hard to write some documentation without a good problem to solve. Thinking of such problems is hard but very easy when someone else comes to you with one. [Discussion_about_WNTYAD]
-- One person believes the difference between context and reference documentation is small, because "context" is wide umbrella. [Discussion_about_WNTYAD]
-- Why don't developers care more about docs? [Discussion_about_WNTYAD]
-- Lack of documentation feels like a form of hazing [Discussion_about_WNTYAD]
-- One person believes that documentation is the foundation of user experience. [Discussion_about_WNTYAD]
-- If the concept "your code is documented or it fails to compile" could be enforced, this would address this issue [Discussion_about_WNTYAD]
-- Writing documentation isn't "fun", doesn't add new features / fix bugs, and doesn't use skills that a programming job requires [Discussion_about_WNTYAD]
-- One person believes that writing programs provides different rewards than writing documentation. This implies the two types of writing require two different personalities. [Discussion_about_WNTYAD]
-- Sometimes there is intent to write but not knowing what to say is the wall people hit right before giving up. [Discussion_about_WNTYAD]
-- What you think is 'good' documentation is never 'good enough' in someone else's eyes. [Discussion_about_WNTYAD]
-- Some writers get stopped at, "When is 'self-documenting' code via type signatures and the entity's name good enough and when should it be documented?" [Discussion_about_WNTYAD]
-- Writing documentation (for 3 of 4 types) is useless to the writer as long as the writer already knows it. [Discussion_about_WNTYAD]
-- A good programmer does not need to be great at typing or other skills required for writing good docs. [Discussion_about_WNTYAD]
-- What's the point in writing documentation if you know that an upcoming breaking change will make it outdated? [Discussion_about_WNTYAD]
-- Some developers might think "It's obvious what this code does. Why does it need documentation?" simply because they aren't looking at this with 'never seen it before' eyes. [Discussion_about_WNTYAD]
-- Users don't read user documentation. More often, they will just ask the support team and/or pay a consulting agency to tell them the answer instead. [Discussion_about_WNTYAD]
-- Documentation of some code might require consulting 4 different developers to make an accurate change [Discussion_about_WNTYAD]
-- Businesses do not give programmers an incentive to write documentation [Discussion_about_WNTYAD]
-- There's no "compiler error" (or other forms of compiler support that push the programmer towards doing things the 'right way') for writing documentation [Discussion_about_WNTYAD]
-- (Duplicate) Businesses do not give programmers an incentive to write documentation [Discussion_about_WNTYAD]
-- Documentation that explains things broadly and is less tied down to a specific version of some code tends to remain up-to-date longest. [Discussion_about_WNTYAD]
-- One person writes documentation and finds users don't consult documentation even when they know they should. [Discussion_about_WNTYAD]
-- Examples of code are easier to maintain and are often better than some blog posts on the same matter. [Discussion_about_WNTYAD]
-- One documentation writer believes his readers prefer to be one-on-guided through their questions than to read documentation. This implies that his readers prefer personalized explanations than impersonal ones. [Discussion_about_WNTYAD]
-- This could reflect how people learn a human language - they learn by using it while socializing with other people. [Discussion_about_WNTYAD]
-- (duplicate) working code examples are sometimes better than actual written content. [Discussion_about_WNTYAD]
-- The number of possible audiences complicates up-to-date documentation significantly. [Discussion_about_WNTYAD]
-- Providing working examples of code that show how to properly use some subset of an API is better than making someone read through that API and figure out how to piece them together. (In some cases, this is not necessarliy true for PS because the type signatures are designed so that two functions work together) [Discussion_about_WNTYAD]
-- True learning sometimes requires the person to actually figure things out for themselves. [Discussion_about_WNTYAD]
-- While one can have code examples without written documentation, one cannot have written documentation without code examples. [Discussion_about_WNTYAD]
-- (duplicate) Making the build fail unless documentation is added could help documentation purposes [Discussion_about_WNTYAD]
-- There is a huge list of things that can make documentation go out of date. Perhaps this is the real issue behind why no one wants to write documentation. Thus, it's worth asking which medium of documentation is easier to 'update' when they change or which is less vulnerable to such changes. [Discussion_about_WNTYAD]
-- StackOverflow is its own form of documentation [Discussion_about_WNTYAD]
-- Many questions asked in the FP Slack channel could be better asked on SO with the one asking the question notifying people on the FP Slack channel. This would make such 'documentation' persist longer than the Slack logs. [Discussion_about_WNTYAD]
-- Being able to ask a good question presupposes an understanding of the domain / library / language. [Discussion_about_WNTYAD]
-- Documentation is really a way of thinking about design, but often done after the code has already been written according to some other design. [Discussion_about_WNTYAD]
+### Types of Documentation
+
 - Reading the Source code is not the same as reading documentation: **it's only useful once you already know how to use the code.** [Teach Don't Tell]
 - Reading the Tests' code is not the same as reading documentation: **it's only useful once you already know how to use the code.** [Teach Don't Tell]
 - Using literate programming tools don't help. [Teach Don't Tell]
@@ -126,23 +61,120 @@ The following interpretations have been copied over from various sources. In som
     3. there is no version control (even GitHub wikis aren't good for this since they are separate from the project/code)
     - (Critique: This presumes a single person is writing the entire documentation. Larger projects don't have this luxury.)
 - There are 4 types of documentation: 1st contact, the black triangle, the hairball, the reference [Teach Don't Tell]
-- First Contact (type of documentation) [Teach Don't Tell]
-    - Basically, a "high-level overview and purpose statement"
-    - Answers questions like "What is this thing, why would I care about it, why would I not care about it, and why is it worth my effort to learn how to use it?"
-- Black Triangle (type of documentation) [Teach Don't Tell]
-    - Basically a "getting started guide"
-    - If it's up-to-date, then the reader knows the library/code isn't stale or out-of-date
-    - It doesn't teach everything someone needs to know, just enough to start being productive. For example, a guitar teacher teaches enough chords to play a song, not all possible chords at once before ever starting.
-- Hairball (type of documentation) [Teach Don't Tell]
-    - Basically, the "explanation" part of docs
+    - First Contact (type of documentation) [Teach Don't Tell]
+        - Basically, a "high-level overview and purpose statement"
+        - Answers questions like "What is this thing, why would I care about it, why would I not care about it, and why is it worth my effort to learn how to use it?"
+    - Black Triangle (type of documentation) [Teach Don't Tell]
+        - Basically a "getting started guide"
+        - If it's up-to-date, then the reader knows the library/code isn't stale or out-of-date
+        - It doesn't teach everything someone needs to know, just enough to start being productive. For example, a guitar teacher teaches enough chords to play a song, not all possible chords at once before ever starting.
+    - Hairball (type of documentation) [Teach Don't Tell]
+        - Basically, the "explanation" part of docs
+- In reality, there are more than 4 different types of documentation. Let's think of the many dimensions: [Discussion_about_WNTYAD]
+    - The 4 normal types (intended audience based on goal): get started, how to do one thing, reference, explanation
+    - The X audiences based on background / purpose (new core developers, plug-in developers, distributors, end-users).
+- Putting the above idea [(i.e. 4 types of docs & total number of audiences based on background/purpose: core developers, plug-in developers, distributors, and end-users)] into terms of PS: [Discussion_about_WNTYAD]
+    - audience based on background: Javascript, Haskell, Elm, TypeScript, other language entirely
+    - audience based on purpose: front-end or back-end, each with these concerns (performance, complex logic, hitting quick deadline, migrating to better system, refactor-heavy due to prototypal nature)
+- Getting Started guides that do not distract with other important but not relevant-at-the-time matters are what new learners want [Discussion_about_WNTYAD]
+- good documentation might just cover the 'basic idea' well and how to get started [Discussion_about_WNTYAD]
+- Documentation should focus first on helping people solve real problems with practical bottom-up documentation. The theoretical top-down stuff can come later on once they realize the value of the abstraction. [Why_is_Elm_More_Popular_Than_PureScript]
+- One person believes the difference between context and reference documentation is small, because "context" is wide umbrella. [Discussion_about_WNTYAD]
+- Knowledge can at best be encoded into views that we call 'documentation.' Documentation is 'good' when one's view happens to correlate with what they need to 'see' at a given time. However, due to how 'views' work, they must explain the same concepts in different orders, show some content rather than other content based on what the reader needs, etc. [Discussion_about_WNTYAD]
+
+### Code Examples are better than Written Explanations
+
+- Examples of code are easier to maintain and are often better than some blog posts on the same matter. [Discussion_about_WNTYAD]
+- (duplicate) working code examples are sometimes better than actual written content. [Discussion_about_WNTYAD]
+- Examples speak clearer than documentation [Discussion_about_WNTYAD]
+- Providing working examples of code that show how to properly use some subset of an API is better than making someone read through that API and figure out how to piece them together. (In some cases, this is not necessarliy true for PS because the type signatures are designed so that two functions work together) [Discussion_about_WNTYAD]
+- While one can have code examples without written documentation, one cannot have written documentation without code examples. [Discussion_about_WNTYAD]
+
+### Concerns relating to the order of information presented
+
+- One person believes that an important aspect of the purpose of a piece of documentation is the order in which it presents information and references to related reading. [Discussion_about_WNTYAD]
+- Part of the issue of documentation is the cultural aspects of it: the authors need to know effective ways of presenting information. [Discussion_about_WNTYAD]
+- One person believes the presentation of various types of documentation is so different that there isn't value in working to normalize knowledge. [Discussion_about_WNTYAD]
+
+### Centralized vs Decentralized Docs
+
+- Having documentation in a centralized place is not what's important. Rather, the ease with which one navigates throughout an ecosystem's documentation is important. If the documentation can answer questions like "Does the user know where to find X knowledge given that they now/already know Y, and can they easily get there?" [Discussion_about_WNTYAD]
+- One person believes that duplication of knowledge/communication in documentation produces fewer problems than having a normalized/de-duplicated documentation format. [Discussion_about_WNTYAD]
+- One person believes it's natural to attempt to organize a documentation project in a piece-wise taxonomic way and generating the audience-facing documentation using templates. [Discussion_about_WNTYAD]
+- 4 types are boundaries that are kept within the content of each type. One can still store them in the same overall project as long as there is a clear boundary between them. [Discussion_about_WNTYAD]
+- One person believes it's useful to link between types of documentation. [Discussion_about_WNTYAD]
+
+### How and why documentation becomes outdated
+
+- Documentation, by nature, goes out of sync quickly because the code it documents changes. [Discussion_about_WNTYAD]
+- Of the 4 types, 2 quickly go stale after 1 year and need updating [Discussion_about_WNTYAD]
+- One person believes that of all purposes of documentation, there are only two purposes that are maintainable and useful long-term: [Discussion_about_WNTYAD]
+    - Documentation of functionality
+    - Getting started tutorials
+- closely integrated documentation is harder to maintain [Discussion_about_WNTYAD]
+- loosely integrated documentation is easier to maintain [Discussion_about_WNTYAD]
+- The last part of the issue of documentation is finding good ways to automate tedious tasks. [Discussion_about_WNTYAD]
+- Documentation that explains things broadly and is less tied down to a specific version of some code tends to remain up-to-date longest. [Discussion_about_WNTYAD]
+- The number of possible audiences complicates up-to-date documentation significantly. [Discussion_about_WNTYAD]
+- There is a huge list of things that can make documentation go out of date. Perhaps this is the real issue behind why no one wants to write documentation. Thus, it's worth asking which medium of documentation is easier to 'update' when they change or which is less vulnerable to such changes. [Discussion_about_WNTYAD]
+
+### Why don't developers write good documentation more often?
+
+#### It's hard to know what to include or exclude
+
+- People who write such guides might struggle to know what to include and exclude because they know what the trade-offs are. [Discussion_about_WNTYAD]
+- Sometimes there is intent to write but not knowing what to say is the wall people hit right before giving up. [Discussion_about_WNTYAD]
+- It's hard to write some documentation without a good problem to solve. Thinking of such problems is hard but very easy when someone else comes to you with one. [Discussion_about_WNTYAD]
+
+#### It's not clear that self-documenting code needs additional documentation
+
+- What you think is 'good' documentation is never 'good enough' in someone else's eyes. [Discussion_about_WNTYAD]
+- Some writers get stopped at, "When is 'self-documenting' code via type signatures and the entity's name good enough and when should it be documented?" [Discussion_about_WNTYAD]
+- Some developers might think "It's obvious what this code does. Why does it need documentation?" simply because they aren't looking at this with 'never seen it before' eyes. [Discussion_about_WNTYAD]
+
+#### It's a lot of work that does not greatly benefit the writer
+
+- Writing documentation isn't "fun", doesn't add new features / fix bugs, and doesn't use skills that a programming job requires [Discussion_about_WNTYAD]
+- Writing documentation (for 3 of 4 types) is useless to the writer as long as the writer already knows it. [Discussion_about_WNTYAD]
+- What's the point in writing documentation if you know that an upcoming breaking change will make it outdated? [Discussion_about_WNTYAD]
+- Documentation of some code might require consulting 4 different developers to make an accurate change [Discussion_about_WNTYAD]
+
+#### A good programmer does not need to be a good documenter to get/keep a programming job
+
+- A good programmer does not need to be great at typing or other skills required for writing good docs. [Discussion_about_WNTYAD]
+- Businesses do not give programmers an incentive to write documentation [Discussion_about_WNTYAD]
+- (Duplicate) Businesses do not give programmers an incentive to write documentation [Discussion_about_WNTYAD]
+- There's no "compiler error" (or other forms of compiler support that push the programmer towards doing things the 'right way') for writing documentation [Discussion_about_WNTYAD]
+    - If the concept "your code is documented or it fails to compile" could be enforced, this would address this issue [Discussion_about_WNTYAD]
+    - (duplicate) Making the build fail unless documentation is added could help documentation purposes [Discussion_about_WNTYAD]
+- The next part of the issue of documentation is finding people who can write good documentation. [Discussion_about_WNTYAD]
+
+### Documentation does not replace 'true learning by doing'
+
+- This could reflect how people learn a human language - they learn by using it while socializing with other people. [Discussion_about_WNTYAD]
+- True learning sometimes requires the person to actually figure things out for themselves. [Discussion_about_WNTYAD]
+
+### How to teach someone something new
+
 - Recommended approach to teaching something new to a person [Teach Don't Tell]
     1. Figure out what they already know. (identity start point)
     2. Figure out what you want them to know after you finish. (identity end point)
     3. Figure out a single idea or concept that will move state 1 a little bit closer to state 2. (figure out path)
     4. Nudge the student in the direction of that idea. (instruct/guide using path)
     5. Repeat until state 1 becomes state 2.
-- Documentation should focus first on helping people solve real problems with practical bottom-up documentation. The theoretical top-down stuff can come later on once they realize the value of the abstraction. [Why_is_Elm_More_Popular_Than_PureScript]
-- The above 4-step approach to helping people transition to PS seems to be the rough outline of the "Outsider's Guide to FP" book [Why_is_Elm_More_Popular_Than_PureScript]
+
+### Uncategorized
+
+- One person believes that documentation is the foundation of user experience. [Discussion_about_WNTYAD]
+- Visual flow charts that adhere to the code might replace documentation...? One thought that comes to mind is [Teaching New Tricks to Old Programs](https://www.youtube.com/watch?v=vzLK_xE9Zy8&index=3&list=LL0RItGq_oLk-fvqppBpwtew&t=0s) which could literally visualize a program (see 34:00 and onward) [Discussion_about_WNTYAD]
+- One person believes that documentation becomes less effective when it is refactored as a program is refactored. [Discussion_about_WNTYAD]
+- StackOverflow is its own form of documentation [Discussion_about_WNTYAD]
+- Being able to ask a good question presupposes an understanding of the domain / library / language. [Discussion_about_WNTYAD]
+- Documentation is really a way of thinking about design, but often done after the code has already been written according to some other design. [Discussion_about_WNTYAD]
+- One person writes documentation and finds users don't consult documentation even when they know they should. [Discussion_about_WNTYAD]
+- Lack of documentation feels like a form of hazing [Discussion_about_WNTYAD]
+- One person believes that writing programs provides different rewards than writing documentation. This implies the two types of writing require two different personalities. [Discussion_about_WNTYAD]
+- One documentation writer believes his readers prefer to be one-on-guided through their questions than to read documentation. This implies that his readers prefer personalized explanations than impersonal ones. [Discussion_about_WNTYAD]
 
 ## Code as Examples Referenced in Discussions
 
@@ -185,6 +217,7 @@ The following interpretations have been copied over from various sources. In som
 - While PS can be used on the back-end, it's likely not as performant than other solutions because of the virtualization layers. Thus, it's likely only for the front-end [Why_is_Elm_More_Popular_Than_PureScript]
 - Comparing Elm and PureScript is like comparing apples and oranges. Just realize that each language is a tool that better suits some people's use cases and preferences than others and leave it at that. People should know what the design decisions are and their tradeoffs and be able to make an informed decision. [Why_is_Elm_More_Popular_Than_PureScript]
 - One person thought there really weren't any cons to PS, just some situations where it's not "ideal". For example, if you want lazy evaluation by default, PureScript is not ideal for you. [Why_use_Purescript]
+- Haskellers will likely be unsatisfied with either language at some point because neither of them are Haskell. [Why_is_Elm_More_Popular_Than_PureScript]
 
 ### Arguments For PS
 
@@ -314,8 +347,16 @@ The following interpretations have been copied over from various sources. In som
 
 - [Alex] A PureScript user sees that major language releases bring higher-than-normal newcomers to the language. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - Some people who give up on a language are simply waiting for its documentation to improve, so that they can have an easier learning process in the future. [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- Learner wrote working programs based on a few libraries and patterns/examples by the looks of it before learner really understood things. [Why_is_Elm_More_Popular_Than_PureScript]
+
+### From Nothing
+
 - Potential learning audience: those who have no experience in web development whatsoever [Why_is_Elm_More_Popular_Than_PureScript]
+
+### From JavaScript
+
 - One person believes that more people would try PureScript if it had more documentation targeting the JS/web audience. [Why_is_Elm_More_Popular_Than_PureScript]
+- This resource (i.e. [A Mostly-Adequate Guide to FP (in JavaScript)](https://github.com/MostlyAdequate/mostly-adequate-guide)) might provide a better learning path for JS-background people before they see it written using a better syntax via PS. [Why_use_Purescript]
 
 ### From Elm
 
@@ -359,6 +400,7 @@ The following interpretations have been copied over from various sources. In som
 - The reasons for using `unsafePartial` might not be well-documented/explained [Elm_PureScript_In_Depth_Overview]
 - Help/Documentation on using Pursuit's search could be better highlighted to draw more attention to it. [PureScript_First_Impressions]
 - Any conversations made on Slack that are worth keeping long-term (e.g. answers to stupid questions) do not persist long-term. This seems to contribute to new users asking the same questions again and again, taking time away from advanced users in the language from spending time on other more useful things. [The_State_of_Things]
+- Many questions asked in the FP Slack channel could be better asked on SO with the one asking the question notifying people on the FP Slack channel. This would make such 'documentation' persist longer than the Slack logs. [Discussion_about_WNTYAD]
 
 ### Things that can be improved
 
@@ -373,7 +415,12 @@ The following interpretations have been copied over from various sources. In som
 - The documentation repo is presented as a loose collection of potentially unrelated articles, not as a systematic presentation of articles that all fit within a larger vision. [The_State_of_Things]
 - Author believes it's best for people with high status in a community to find ways to make low-status (unattractive?) jobs more attractive. [Wallowing_in_Despair]
 - Documentation and tooling should not choose the latest language and library versions by default. Instead, it should be explicit about the language version being used and be conservative with upgrades. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- A PureScript outsider believes documentation should explain why the language doesn't have data types or concepts that they are familiar with. [Why_use_Purescript]
 
+### Providing Code Examples in Other Languages
+
+- A PureScript user believes a good learning path is to teach a person from a language they are already familiar with. [Why_use_Purescript]
+- A PureScript outsider believes the documentation should show how to use PureScript in a pre-existing project written in a different language. [Why_use_Purescript]
 
 ## Problems New Learners Face when Learning PS
 
@@ -390,6 +437,7 @@ The following interpretations have been copied over from various sources. In som
 - Seems that PureScript by Example was not well-known by those outside the PS community? [Why_is_Elm_More_Popular_Than_PureScript]
 - OO programmers likely need a bottom-up approach to teaching FP rather than the top-down approach many use [Why_is_Elm_More_Popular_Than_PureScript]
 - One person believes that static FP concepts and their documentation should not require knowing other concepts as prerequisite to understanding and useage. [Why_is_Elm_More_Popular_Than_PureScript]
+- One person believes that hiearchical classes are not a great idea because it assumes people know everything in the hierachy. Java's class hierarchy is "evidence" that this is true. [Why_is_Elm_More_Popular_Than_PureScript]
 
 ### No Category
 
@@ -409,6 +457,10 @@ The following interpretations have been copied over from various sources. In som
 - Newcomers to the language feel antagonized by the unfamiliar concepts and language operators. Perhaps documentation can mitigate the confusion and anguish experienced by newcomers. [My_Experience_With_PureScript_So_Far]
 - new learners are scared by Halogen's types initially, likely because it's unfamiliar, uses jargon they don't yet know, and they fear that this understanding is needed to make things work. It's not clear whether the fear is due to not knowing how to resolve common Halogen errors or where to put types in type signatures or what. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - People seem to think, at least initially, that type signatures are not 'good enough' for documentation. While one can understand a lot from them, new learners aren't used to do this, perhaps, or get close but not quite over a threshold of understanding for how to use that value/type/function/module. [PureScript_vs_ReasonML_Bucklescript_in_2018]
+- General idea / approach to doing SQL was explained, but there isn't a complete and working example. Person was referred to Haskell database libraries, but it seems that referrer wasn't sure whether they would help. [Why_use_Purescript]
+- A PureScript learner believes PureScript doesn't have a singular documented answer for UI programming tasks, such as click/drag, animations, and cursor effects. [Why_use_Purescript]
+- A PureScript users believes that language documentation should include a description of how easy it is to contribute to the language and affect its direction. [Why_use_Purescript]
+- A PureScript user believes language documentation should explain the depth of the language and its patterns/libraries to ensure users don't try to learn hard things before they understand more foundational things. [Why_use_Purescript]
 
 ## Ways to Improve New Learner Experience
 
@@ -443,6 +495,10 @@ The following interpretations have been copied over from various sources. In som
 - `pulp init` or a new `pulp` command could be configured to set up a learning environment for new learners that "just works." [How_Do_We_Avoid_Ecosystem_Incoherence]
 - New learner looked at Haskell's docs rather than PS' docs to understand something. [Why_is_Elm_More_Popular_Than_PureScript]
 - First I've heard of Neon [(an alternative "purescript-prelude" library that does not use any FP jargon and is pretty straightforward)]. It's also only updated for `0.11.7`, so this comment is somewhat out of date, too. Still, the ideas explained in Neon would make learning FP code easier. I just wonder what the tradeoffs would be. [Why_is_Elm_More_Popular_Than_PureScript]
+- A PureScript outsider believes the documentation should describe the quality of the runtime. [Why_use_Purescript]
+- Two options here: [Why_use_Purescript]
+   - Show reasons for why Node is a "rock solid" solution to server-side things
+   - Show reasons for why other backends (C/C++ ?) can provide a better server environment than Node...?
 
 ### Improve Compiler Error Messages
 
@@ -454,6 +510,15 @@ The following interpretations have been copied over from various sources. In som
 - Person believes that Elm is more popular because its errors are better than PS' errors. It's easier to sell to your average no-expertise-in-FP developer [Why_is_Elm_More_Popular_Than_PureScript]
 - The PS' language's errors have gotten better and there's only so much an error can say before it's actually teaching a concept rather than giving an error message. [Why_is_Elm_More_Popular_Than_PureScript]
 - It might be impossible to have PS' powerful type system and all its features with error messages that are as helpful/clear as Elm's error messages. [Why_is_Elm_More_Popular_Than_PureScript]
+
+### Explain how PS integrates with other web build tools
+
+- New useres want to know how PureScript integrates with Webpack / CSS Modules / Code Splitting. [Why_use_Purescript]
+- A PureScript outsider believes documentation should teach how to integrate the output of the PureScript compiler with other tools in the target language ecosystem. [Why_use_Purescript]
+
+### Provide Migration Stories that act as a model for others to follow
+
+- Providing good migration stories would help people who want to use it but can't because their 'system/program/app' would stop working for some period of time. A migration needs to be seamless and address the issues/concerns one might have. [Why_use_Purescript]
 
 ## PureScript's Mediums of Communication
 
@@ -608,13 +673,10 @@ The following interpretations have been copied over from various sources. In som
 - These two questions here were not really answered: [Why_use_Purescript]
    - how should click/drag/transitions/animiations (stateful things) be done in general?
    - how should same things be done using a UI library like Pux?
+- What became of these people's work?
+    - We should follow up with these people ([see this thread](https://twitter.com/ThibaudDauce/status/895534464071331840)) to see what they ultimately came up with (if anything). If the project did not get anywhere, there's still likely some historical value here (what worked, what problems they encountered, etc.) [Why_use_Purescript]
 
-
-<hr>
-
-## Uncategorized
-
-### -- Compiler-Library-Ecosystem Things
+## -- Compiler-Library-Ecosystem Things
 
 - [Alex] A PureScript user believes that compiler related projects, such as build tools, should be updated along with compiler releases. (One cannot benefit from a new compiler version if the tooling used by their previously-written project doesn't support it.) [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A PureScript user believes that major libraries in the ecosystem should work with the latest available version of the compiler. (One can not benefit from the new release if the shared libraries used in the previously-written project don't work with the latest available compiler version. [How_Do_We_Avoid_Ecosystem_Incoherence]
@@ -627,24 +689,21 @@ The following interpretations have been copied over from various sources. In som
 - [Alex] The compiler repo is the first idea of a place to store this list, but it is inappropriate because it is related to non-compiler things like docs, libs, and tooling. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A PureScript user believes that all contributors want to make the PureScript language and its ecosystem of projects a happy place to work. [How_Do_We_Avoid_Ecosystem_Incoherence]
 
-### -- Dependency Managers
+## -- Dependency Managers
 
 - [Alex] A core contributor believes ecosystem compatability is difficult or unreliable while PureScript community recommends using Bower as a dependency manager. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A core contributor believes that psc-package is the best option for dependency manager for introductory resources to use and recommend, as it would resolve the library-compatibility issues of Bower. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Jordan] However, psc-package does not provide a complete solution to the problems which Bower does. While psc-package might be good for introductory learning materials, it is not as good for production code as Bower. Thus, many major libraries (e.g. Aff, Halogen) use Bower. New learners likely look at these libraries written or supported by "successful companies using PS in production" and see that they use Bower, not psc-package. Thus, they think they should do likewise. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Jordan] Once a `psc-package`-based approach becomes more mature, one major company will switch to it and do so eagerly. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] An company using PureScript is eager to adopt `psc-package` when it becomes more mature. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- Bower should be seen as a "semver layer on top of Git" and less of a JS package manager. [Why_is_Elm_More_Popular_Than_PureScript]
 
+## -- Communicating Changes in the Ecosystem
 
+- A newsfeed of some sort that summarizes the changes in the ecosystem would help one know what has gone on recently. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - Library changes were not announced in a very public manner, including what is being deprecated and what their new library names are. Bower + Pursuit did more to worsen the situation than help. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - It would help if language releases coincided with core library releases and included some form of public announcement about the changes. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - Although the idea of a "core library" is mentioned, criteria for what that is a core library and a complete list of them is not included here. (While the 'web' libraries make sense to be called 'core', it would help to clarify why, so that similar ones are included, too.) [How_Do_We_Avoid_Ecosystem_Incoherence]
-
-- A newsfeed of some sort that summarizes the changes in the ecosystem would help one know what has gone on recently. [How_Do_We_Avoid_Ecosystem_Incoherence]
-
-
-
-
 - An `upcoming-ps-release` branch in some libraries helped ensure they were compatible with the next language version almost as soon as it was released. This approach seems to have been a successful approach. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - While this approach of using an upcoming-compiler-release-branch in libraries was successful, others did not follow it, perhaps because they were not aware of that approach or the release candidate window was too short. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - If a person starts and maintains a new library, they need to be notified of breaking changes in an upcoming language release. Ideally, this would be done via them subscribing to some notificaton system, or learning of it via a public announcement or someone opening up an issue for it in their repo. Of these approaches, the last one is best if it can be automated. [How_Do_We_Avoid_Ecosystem_Incoherence]
@@ -657,38 +716,4 @@ The following interpretations have been copied over from various sources. In som
     - potentially pushing library documentation to Pursuit
 - The entire process the ecosystem must go through from language release to ecosystem compatibility is not the most efficient it can be, nor is it widely understood by non-core-contributors. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - A potential 'success' indicator for determining whether a language release went smoothly/efficiently is a 30-day guarantee that the ecosystem is compatible with the latest language release (potentially excluding larger documentation efforts like the PureScript by Example book). [How_Do_We_Avoid_Ecosystem_Incoherence]
-
-
 - The question of how releases integrate with the process of making a release to NPM needs to be further explored. There might be additional things that could be optimized here. [How_Do_We_Avoid_Ecosystem_Incoherence]
-
-
-
-- Learner wrote working programs based on a few libraries and patterns/examples by the looks of it before learner really understood things. [Why_is_Elm_More_Popular_Than_PureScript]
-
-- Bower should be seen as a "semver layer on top of Git" and less of a JS package manager. [Why_is_Elm_More_Popular_Than_PureScript]
-
-
-- One person believes that hiearchical classes are not a great idea because it assumes people know everything in the hierachy. Java's class hierarchy is "evidence" that this is true. [Why_is_Elm_More_Popular_Than_PureScript]
-
-- Haskellers will likely be unsatisfied with either language at some point because neither of them are Haskell. [Why_is_Elm_More_Popular_Than_PureScript]
-
-
-- General idea / approach to doing SQL was explained, but there isn't a complete and working example. Person was referred to Haskell database libraries, but it seems that referrer wasn't sure whether they would help. [Why_use_Purescript]
-- A PureScript learner believes PureScript doesn't have a singular documented answer for UI programming tasks, such as click/drag, animations, and cursor effects. [Why_use_Purescript]
-
-- A PureScript user believes language documentation should explain the depth of the language and its patterns/libraries to ensure users don't try to learn hard things before they understand more foundational things. [Why_use_Purescript]
-- A PureScript users believes that language documentation should include a description of how easy it is to contribute to the language and affect its direction. [Why_use_Purescript]
-- There are other factors that draw people to an ecosystem and these are some of the strengths of the language. [Why_use_Purescript]
-- A PureScript user believes a good learning path is to teach a person from a language they are already familiar with. [Why_use_Purescript]
-- This resource might provide a better learning path for JS-background people before they see it written using a better syntax via PS. [Why_use_Purescript]
-- Providing good migration stories would help people who want to use it but can't because their 'system/program/app' would stop working for some period of time. A migration needs to be seamless and address the issues/concerns one might have. [Why_use_Purescript]
-- A PureScript outsider believes the documentation should show how to use PureScript in a pre-existing project written in a different language. [Why_use_Purescript]
-- A PureScript outsider believes documentation should explain why the language doesn't have data types or concepts that they are familiar with. [Why_use_Purescript]
-- Two options here: [Why_use_Purescript]
-   - Show reasons for why Node is a "rock solid" solution to server-side things
-   - Show reasons for why other backends (C/C++ ?) can provide a better server environment than Node...?
-- A PureScript outsider believes the documentation should describe the quality of the runtime. [Why_use_Purescript]
-- We should follow up with these people ([see this thread](https://twitter.com/ThibaudDauce/status/895534464071331840)) to see what they ultimately came up with (if anything). If the project did not get anywhere, there's still likely some historical value here (what worked, what problems they encountered, etc.) [Why_use_Purescript]
-- The Real World App that `thomashoneyman` finished recently is a step in this direction as well. [Why_use_Purescript]
-- New useres want to know how PureScript integrates with Webpack / CSS Modules / Code Splitting. [Why_use_Purescript]
-- A PureScript outsider believes documentation should teach how to integrate the output of the PureScript compiler with other tools in the target language ecosystem. [Why_use_Purescript]
