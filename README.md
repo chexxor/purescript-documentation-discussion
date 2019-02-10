@@ -4,15 +4,28 @@ Discussing PureScript 2019 documentation improvement, as initiated here:
 
 https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019
 
-Read these files in numerical order. The methodology's terms, definitions, and examples are provided in the first section of each file.
-
-
 ## Project Goal
 
 This project is about documenting **what PureScript currently is**. It's about how to do that in an efficient way and how organize and convey the information in a ready-friendly way. It isn't, then, deciding **what PureScript should be**.
 
 Doing this involves learning newcomers', long-time users', and project maintainers' opinions of its documentation and discovering the actual state of PureScript's current documentation. Having this information, we can calculate what is missing from the current documentation, produce ideas for improving the documentation and its process, and develop and refine strategies for successfully accomplishing this.
 
+## Explaining Our Methodology
+
+To get an understanding of the methodology used here, see these files in order:
+1. `01 sources and interpretations/ReadMe.md`
+2. `02 context or narrative.md`
+3. `03 purepose and principles.md`
+4. `04 outcome brainwrite next actions/outcome1.md`
+
+Here is our current status:
+- Done
+    - <del>Phase 1: Gathering and interpreting various sources</del>
+- Current
+    - **Phase 2: defining the context/narrative**
+- Next
+    - Phase 3: defining the purpose, principles, and outcome
+    - Phase 4: completing those outcomes
 
 ## Project Management
 
