@@ -586,19 +586,33 @@ The following interpretations have been copied over from various sources. In som
 
 ## PureScript's Mediums of Communication
 
+### GitHub Issue Tracker
+
 - GitHub issues should not be used for "help me" questions. [The_State_of_Things]
+
+### Slack
+
 - Slack is **sometimes** good for getting immediate response and transient things [The_State_of_Things]
 - Slack is the "go to" for stupid questions [The_State_of_Things]
 - Slack is useful for short conversations that work across timezones and internet connectivity issues. [The_State_of_Things]
 - Slack acts as a newsfeed of sorts for PureScript [The_State_of_Things]
+- The Slack channel provided the most up-to-date "I need help now" info. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- FP Slack filled-in any gaps in documentation. [PureScript_vs_ReasonML_Bucklescript_in_2018]
+
+### Discourse Forum
+
 - Discourse is **preferred** for seemingly longer discussions that aren't quite worthy of a GitHub issue [The_State_of_Things]
+
+### Things relating to Slack and Discourse mediums
+
 - [Jordan] The Slack channel and Discourse site are not easily findable. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A PureScript user believes the Slack channel and Discourse site are the best resources for PureScript users. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A PureScript user believes that all PureScript users should visit the Slack and Discourse instances as their primary resource for help. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A PureScript user believes the PureScript language HTML website should direct its visitors to PureScript's Slack/Discourse instances. (The PureScript website is currently a primary resource visited by a subset of the PureScript community and it should direct people to the best resource for PureScript help known by this PureScript user.) [How_Do_We_Avoid_Ecosystem_Incoherence]
+
+### Inactive Mediums
+
 - [Alex] A PureScript user believes the Gitter chatroom is not very active. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- The Slack channel provided the most up-to-date "I need help now" info. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- FP Slack filled-in any gaps in documentation. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 
 ## Why Previous Documentation Efforts Failed
 
