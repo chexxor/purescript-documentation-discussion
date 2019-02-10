@@ -447,7 +447,7 @@ The following interpretations have been copied over from various sources. In som
 - Any conversations made on Slack that are worth keeping long-term (e.g. answers to stupid questions) do not persist long-term. This seems to contribute to new users asking the same questions again and again, taking time away from advanced users in the language from spending time on other more useful things. [The_State_of_Things]
 - Many questions asked in the FP Slack channel could be better asked on SO with the one asking the question notifying people on the FP Slack channel. This would make such 'documentation' persist longer than the Slack logs. [Discussion_about_WNTYAD]
 
-### Things that can be improved
+### Things that can be improved or better communicated
 
 - The documentation repo's error pages are not up-to-date or completely filled out [The_State_of_Things]
 - Regular compiler error messages do not also output the information one would see via a type-directed search to help the user determine what they are probably trying to write but failing to write. Elixir's compiler does this. [My_Experience_With_PureScript_So_Far]
@@ -462,6 +462,9 @@ The following interpretations have been copied over from various sources. In som
 - Documentation and tooling should not choose the latest language and library versions by default. Instead, it should be explicit about the language version being used and be conservative with upgrades. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - A PureScript outsider believes documentation should explain why the language doesn't have data types or concepts that they are familiar with. [Why_use_Purescript]
 - It's not clear to new learner why one shouldn't just use GCHJS or some similar Haskell solution. [Why_is_Elm_More_Popular_Than_PureScript]
+- Person might not have known about PS' other backends that make it more viable in the long-term. PS' "compile-to-anything" nature may not be well publicized. [Learn_PureScript_or_Haskell_First]
+- Seems that PureScript by Example was not well-known by those outside the PS community? [Why_is_Elm_More_Popular_Than_PureScript]
+- A PureScript users believes that language documentation should include a description of how easy it is to contribute to the language and affect its direction. [Why_use_Purescript]
 
 ### Providing Code Examples in Other Languages
 
@@ -480,71 +483,69 @@ The following interpretations have been copied over from various sources. In som
 - FP language's roots and similarities do not seem to be well-understood by outsiders and may contribute to outsiders' lack of understanding or initial expectations about FP languages that get broken. [Wallowing_in_Despair]
 - PS and other FP solutions that are more powerful than Elm are not on most JS developer's radar of possible alternatives. [Why_is_Elm_More_Popular_Than_PureScript]
 - PS was perceived as "unmaintained" because the docs hadn't been improved [Why_is_Elm_More_Popular_Than_PureScript]
-- Seems that PureScript by Example was not well-known by those outside the PS community? [Why_is_Elm_More_Popular_Than_PureScript]
 - OO programmers likely need a bottom-up approach to teaching FP rather than the top-down approach many use [Why_is_Elm_More_Popular_Than_PureScript]
 - One person believes that static FP concepts and their documentation should not require knowing other concepts as prerequisite to understanding and useage. [Why_is_Elm_More_Popular_Than_PureScript]
 - One person believes that hiearchical classes are not a great idea because it assumes people know everything in the hierachy. Java's class hierarchy is "evidence" that this is true. [Why_is_Elm_More_Popular_Than_PureScript]
 
-### No Category
+### Difficulty in understanding PureScript's Syntax
 
 - Author's first major issue and turn off was not being able to read the syntax of a Haskell-like language. This issue alone made him choose to look at Elm rather than PureScript, which is arguably more powerful than Elm. Unlike most people, the author did not give up and looked at Haskell/PureScript again, eventually reaching an understanding via each language's "standard" for learning them. [Elm_PureScript_In_Depth_Overview]
+- The `do` syntax was not immediately understood by the author. [Elm_PureScript_In_Depth_Overview]
+
+### Difficulty in understanding how to do X in PureScript
+
 - A PureScript user has trouble figuring out how to solve application problems in PureScript, which is a reason for why PureScript is hard to learn. [Hitchhikers_Guide_to_Elm]
 - A PureScript user feels rewarded when using PureScript because the primary sticking points are figuring out how to do things *in* the language, rather than figuring out *non-language* problems. [Hitchhikers_Guide_to_Elm]
-- The `do` syntax was not immediately understood by the author. [Elm_PureScript_In_Depth_Overview]
-- A PureScript user believes that learning PureScript is hard to learn, and the reason is it is powerful. [Hitchhikers_Guide_to_Elm]
 - Not being able to mutate variables is a hard thing to initally grasp by new learners who are used to doing so freely. [Elm_PureScript_In_Depth_Overview]
 - I don't know whether this concept (local and controlled side effects are still considered 'pure' if functions are referentially transparent) is well-documented in PureScript learning resources (even in my own, Jordan's PureScript Reference) [Elm_PureScript_In_Depth_Overview]
+
+### Miscellaneous
+
 - The Haskell book has exercises in addition to its explanations. [Learn_PureScript_or_Haskell_First]
-- a core contributor for PS did not recommend PS to people new to FP seemingly because the learning resources for PS were not as good as Haskell's. [Learn_PureScript_or_Haskell_First]
-- Person might not have known about PS' other backends that make it more viable in the long-term. PS' "compile-to-anything" nature may not be well publicized. [Learn_PureScript_or_Haskell_First]
 - Migrating to psc-package requires a manual process. Not sure how much time that takes. [PureScript_First_Impressions]
 - User did not understand the compiler errors user got as a result of not importing Prelude. [My_Experience_With_PureScript_So_Far]
-- New learner experienced minor issue with build tool (need to researt it to sync with current state of build) [My_Experience_With_PureScript_So_Far]
+- New learner experienced minor issue with build tool (need to restart it to sync with current state of build) [My_Experience_With_PureScript_So_Far]
 - Newcomers to the language feel antagonized by the unfamiliar concepts and language operators. Perhaps documentation can mitigate the confusion and anguish experienced by newcomers. [My_Experience_With_PureScript_So_Far]
 - new learners are scared by Halogen's types initially, likely because it's unfamiliar, uses jargon they don't yet know, and they fear that this understanding is needed to make things work. It's not clear whether the fear is due to not knowing how to resolve common Halogen errors or where to put types in type signatures or what. [PureScript_vs_ReasonML_Bucklescript_in_2018]
 - People seem to think, at least initially, that type signatures are not 'good enough' for documentation. While one can understand a lot from them, new learners aren't used to do this, perhaps, or get close but not quite over a threshold of understanding for how to use that value/type/function/module. [PureScript_vs_ReasonML_Bucklescript_in_2018]
-- General idea / approach to doing SQL was explained, but there isn't a complete and working example. Person was referred to Haskell database libraries, but it seems that referrer wasn't sure whether they would help. [Why_use_Purescript]
-- A PureScript learner believes PureScript doesn't have a singular documented answer for UI programming tasks, such as click/drag, animations, and cursor effects. [Why_use_Purescript]
-- A PureScript users believes that language documentation should include a description of how easy it is to contribute to the language and affect its direction. [Why_use_Purescript]
 - A PureScript user believes language documentation should explain the depth of the language and its patterns/libraries to ensure users don't try to learn hard things before they understand more foundational things. [Why_use_Purescript]
 
 ## Ways to Improve New Learner Experience
 
-- Having a 'beginner-friendly' version of Pursuit search that highlights / prioritizes / highly ranks the common things new learners would search for would be helpful. [My_Experience_With_PureScript_So_Far]
-- Being required to import each import is tedious and annoying.  [My_Experience_With_PureScript_So_Far]
-    - However, the person might not know that the `atom-ide` / `purescript-lang` atom packages enable one to type in the Type, hit tab for the autocomplete, and the IDE will insert both the autocompletion and import the module if it's not imported already. This issue and its possible solution could be better documented.
-    - The person might also not know that people often define their own Prelude to account for the above annoyance
+### Clarify whether learning materials are up-to-date or not
+
 - The PS language site was the first thing new learner went to. The oudated Eff-based example created a horrible new-user experience [PureScript_First_Impressions]
-- New users like to use Pursuit to learn how to solve problems when writing the language / understand what some concept/function/type is. [PureScript_First_Impressions]
-- new learner found it annoying that PS FFI requires a lot of boilerplate to be written. [PureScript_First_Impressions]
-    - There might be code generation solutions to the above problem that he did not know about.
-- The FFI maybe needs better documentation, especially for a newcomer to statically-typed language. [PureScript_First_Impressions]
-- A suggestion for reducing the number of communication groups within PS down to 3 and defining general "policies" for what should go where [The_State_of_Things]
-- Some users perceive that PS has a frequent breaking-changes language release cycle. This perception was true at various parts in the release, but hasn't been recently. [The_State_of_Things]
-    - The number of weeks until next breaking change, starting at `v0.5.0` and going to `v0.12.0`: `10 28 34 31 17 18 25 60`
-    - The average of the above number series: `27.875 weeks`
 - There is a public awareness within the PS community that the documentation repo is not fully up-to-date with the PureScript language [The_State_of_Things]
-- user questions the lack of better FFI support via libraries that handle/write it for developers [PureScript_First_Impressions]
 - Outdated materials/websites are currently included in the main PureScript language's website. These should be removed to prevent new learners from thinking that these resources are in-sync with the latest PureScript language. [The_State_of_Things]
-- Writing FFI is very boilerplate-y and wastes developer time. There should be a faster way to do the same thing, potentially via a library or through code generation. [PureScript_First_Impressions]
-- Nix is really nice for FP libraries but difficult to set up [PureScript_First_Impressions]
 - The PureScript by Example book is not fully up-to-date with the PureScript language. [The_State_of_Things]
 - [Alex] A PureScript user believes the PureScript HTML website should reflect active resources, and inactive resources should direct people to active resources. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - Assuming we keep the 'Try Purescript' website, it would help new learners to know which version of PureScript is running on that site. This can notify them whether the version is outdated/old or is the latest version. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- Adding a filter to Pursuit Search that shows only libraries that are compatible with a specific PureScript language version would help. Unfortunately, this requires library maintainers to somehow indicate what that version is. [How_Do_We_Avoid_Ecosystem_Incoherence]
+
+### Better explain how to use/write FFI
+
+- The FFI maybe needs better documentation, especially for a newcomer to statically-typed language. [PureScript_First_Impressions]
+- user questions the lack of better FFI support via libraries that handle/write it for developers [PureScript_First_Impressions]
+- Writing FFI is very boilerplate-y and wastes developer time. There should be a faster way to do the same thing, potentially via a library or through code generation. [PureScript_First_Impressions]
+- new learner found it annoying that PS FFI requires a lot of boilerplate to be written. [PureScript_First_Impressions]
+    - There might be code generation solutions to the above problem that he did not know about.
+
+### Use Library Badges to indicate compiler compatibility
+
 - An idea that might only be relevant if one is using Bower as a dependency manager: a library badge in the Git repo indicating which version of the language the library is compatible. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - Purescript-language-version-library-compatibility badges are easy to make via shields.io
+- One needs to know which version of a dependency to install, so that it does not result in problems. However, this seems specific to Bower, not psc-package, and only when a breaking change has occurred recently. If the community moves away from using Bower, this solution is irrelevant. [How_Do_We_Avoid_Ecosystem_Incoherence]
+
+### Make Pursuit more 'beginner-frinedly'
+
+- New users like to use Pursuit to learn how to solve problems when writing the language / understand what some concept/function/type is. [PureScript_First_Impressions]
+- Having a 'beginner-friendly' version of Pursuit search that highlights / prioritizes / highly ranks the common things new learners would search for would be helpful. [My_Experience_With_PureScript_So_Far]
+- Adding a filter to Pursuit Search that shows only libraries that are compatible with a specific PureScript language version would help. Unfortunately, this requires library maintainers to somehow indicate what that version is. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - Even a heavily-invested user of PS must navigate through readmes and docs to understand something. How much more a new learner? [How_Do_We_Avoid_Ecosystem_Incoherence]
-- One needs to know which version of a dependency to install, so that it does not result in problems. However, this seems specific to Bower, not psc-package. If the community moves away from using Bower, this solution is irrelevant. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- [Alex] A core contributor believes the only reason to not adopt psc-package as the recommended dependency manager is missing features which make it a "general purpose" package manager and UX conveniences. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- PureScript is not yet 'stable' to such a degree that migration guides and troubleshooting their issues is always well documented. This should be new learners expectations from the start. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- `pulp init` or a new `pulp` command could be configured to set up a learning environment for new learners that "just works." [How_Do_We_Avoid_Ecosystem_Incoherence]
-- New learner looked at Haskell's docs rather than PS' docs to understand something. [Why_is_Elm_More_Popular_Than_PureScript]
-- First I've heard of Neon [(an alternative "purescript-prelude" library that does not use any FP jargon and is pretty straightforward)]. It's also only updated for `0.11.7`, so this comment is somewhat out of date, too. Still, the ideas explained in Neon would make learning FP code easier. I just wonder what the tradeoffs would be. [Why_is_Elm_More_Popular_Than_PureScript]
-- A PureScript outsider believes the documentation should describe the quality of the runtime. [Why_use_Purescript]
-- Two options here: [Why_use_Purescript]
-   - Show reasons for why Node is a "rock solid" solution to server-side things
-   - Show reasons for why other backends (C/C++ ?) can provide a better server environment than Node...?
+
+### Provide Examples of Code Solving Some Problem
+
+- General idea / approach to doing SQL was explained, but there isn't a complete and working example. Person was referred to Haskell database libraries, but it seems that referrer wasn't sure whether they would help. [Why_use_Purescript]
+- A PureScript learner believes PureScript doesn't have a singular documented answer for UI programming tasks, such as click/drag, animations, and cursor effects. [Why_use_Purescript]
 
 ### Improve Compiler Error Messages
 
@@ -562,9 +563,26 @@ The following interpretations have been copied over from various sources. In som
 - New useres want to know how PureScript integrates with Webpack / CSS Modules / Code Splitting. [Why_use_Purescript]
 - A PureScript outsider believes documentation should teach how to integrate the output of the PureScript compiler with other tools in the target language ecosystem. [Why_use_Purescript]
 
-### Provide Migration Stories that act as a model for others to follow
+### Miscellaneous
 
 - Providing good migration stories would help people who want to use it but can't because their 'system/program/app' would stop working for some period of time. A migration needs to be seamless and address the issues/concerns one might have. [Why_use_Purescript]
+- Two options here: [Why_use_Purescript]
+   - Show reasons for why Node is a "rock solid" solution to server-side things
+   - Show reasons for why other backends (C/C++ ?) can provide a better server environment than Node...?
+- Being required to import each import is tedious and annoying. [My_Experience_With_PureScript_So_Far]
+    - However, the person might not know that the `atom-ide` / `purescript-lang` atom packages enable one to type in the Type, hit tab for the autocomplete, and the IDE will insert both the autocompletion and import the module if it's not imported already. This issue and its possible solution could be better documented.
+    - The person might also not know that people often define their own Prelude to account for the above annoyance
+- A suggestion for reducing the number of communication groups within PS down to 3 and defining general "policies" for what should go where [The_State_of_Things]
+- Some users perceive that PS has a frequent breaking-changes language release cycle. This perception was true at various parts in the release, but hasn't been recently. [The_State_of_Things]
+    - The number of weeks until next breaking change, starting at `v0.5.0` and going to `v0.12.0`: `10 28 34 31 17 18 25 60`
+    - The average of the above number series: `27.875 weeks`
+- [Alex] A core contributor believes the only reason to not adopt psc-package as the recommended dependency manager is missing features which make it a "general purpose" package manager and UX conveniences. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- Nix is really nice for FP libraries but difficult to set up [PureScript_First_Impressions]
+- PureScript is not yet 'stable' to such a degree that migration guides and troubleshooting their issues is always well documented. This should be new learners expectations from the start. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- `pulp init` or a new `pulp` command could be configured to set up a learning environment for new learners that "just works." [How_Do_We_Avoid_Ecosystem_Incoherence]
+- New learner looked at Haskell's docs rather than PS' docs to understand something. [Why_is_Elm_More_Popular_Than_PureScript]
+- First I've heard of Neon [(an alternative "purescript-prelude" library that does not use any FP jargon and is pretty straightforward)]. It's also only updated for `0.11.7`, so this comment is somewhat out of date, too. Still, the ideas explained in Neon would make learning FP code easier. I just wonder what the tradeoffs would be. [Why_is_Elm_More_Popular_Than_PureScript]
+- A PureScript outsider believes the documentation should describe the quality of the runtime. [Why_use_Purescript]
 
 ## PureScript's Mediums of Communication
 
