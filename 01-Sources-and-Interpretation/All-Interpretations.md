@@ -776,7 +776,9 @@ The following interpretations have been copied over from various sources. In som
 - What became of these people's work?
     - We should follow up with these people ([see this thread](https://twitter.com/ThibaudDauce/status/895534464071331840)) to see what they ultimately came up with (if anything). If the project did not get anywhere, there's still likely some historical value here (what worked, what problems they encountered, etc.) [Why_use_Purescript]
 
-## -- Compiler-Library-Ecosystem Things
+## Things relating to breaking changes
+
+### Compiler-Library-Ecosystem Things
 
 - [Alex] A PureScript user believes that compiler related projects, such as build tools, should be updated along with compiler releases. (One cannot benefit from a new compiler version if the tooling used by their previously-written project doesn't support it.) [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A PureScript user believes that major libraries in the ecosystem should work with the latest available version of the compiler. (One can not benefit from the new release if the shared libraries used in the previously-written project don't work with the latest available compiler version. [How_Do_We_Avoid_Ecosystem_Incoherence]
@@ -789,7 +791,7 @@ The following interpretations have been copied over from various sources. In som
 - [Alex] The compiler repo is the first idea of a place to store this list, but it is inappropriate because it is related to non-compiler things like docs, libs, and tooling. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A PureScript user believes that all contributors want to make the PureScript language and its ecosystem of projects a happy place to work. [How_Do_We_Avoid_Ecosystem_Incoherence]
 
-## -- Dependency Managers
+### Dependency Managers
 
 - [Alex] A core contributor believes ecosystem compatability is difficult or unreliable while PureScript community recommends using Bower as a dependency manager. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A core contributor believes that psc-package is the best option for dependency manager for introductory resources to use and recommend, as it would resolve the library-compatibility issues of Bower. [How_Do_We_Avoid_Ecosystem_Incoherence]
@@ -798,7 +800,7 @@ The following interpretations have been copied over from various sources. In som
 - [Alex] An company using PureScript is eager to adopt `psc-package` when it becomes more mature. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - Bower should be seen as a "semver layer on top of Git" and less of a JS package manager. [Why_is_Elm_More_Popular_Than_PureScript]
 
-## -- Communicating Changes in the Ecosystem
+### Communicating Changes in the Ecosystem
 
 - A newsfeed of some sort that summarizes the changes in the ecosystem would help one know what has gone on recently. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - Library changes were not announced in a very public manner, including what is being deprecated and what their new library names are. Bower + Pursuit did more to worsen the situation than help. [How_Do_We_Avoid_Ecosystem_Incoherence]
@@ -818,7 +820,7 @@ The following interpretations have been copied over from various sources. In som
 - A potential 'success' indicator for determining whether a language release went smoothly/efficiently is a 30-day guarantee that the ecosystem is compatible with the latest language release (potentially excluding larger documentation efforts like the PureScript by Example book). [How_Do_We_Avoid_Ecosystem_Incoherence]
 - The question of how releases integrate with the process of making a release to NPM needs to be further explored. There might be additional things that could be optimized here. [How_Do_We_Avoid_Ecosystem_Incoherence]
 
-## Unused
+## Unused Interpretations
 
 - Each non-Elm language, general-purpose pure FP language, seems to have pros which are outweighed by the "warts" of the language. [Wallowing_in_Despair]
 - The author's definition of being welcomed into a language community is when an "insider" tells others to listen to him, even if he's probably wrong. [Wallowing_in_Despair]
