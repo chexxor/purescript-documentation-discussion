@@ -153,6 +153,7 @@ The following interpretations have been copied over from various sources. In som
 
 - This could reflect how people learn a human language - they learn by using it while socializing with other people. [Discussion_about_WNTYAD]
 - True learning sometimes requires the person to actually figure things out for themselves. [Discussion_about_WNTYAD]
+- Writing new docs or improving old ones is a good way to get started with a language. [The_State_of_Things]
 
 ### How to teach someone something new
 
@@ -619,51 +620,6 @@ The following interpretations have been copied over from various sources. In som
 - PS documentation has always been bad. This problem has been the same throughout its history in that it hasn't gotten worse over time [The_State_of_Things]
 - Not many PS learning resources have been available in times past [Why_is_Elm_More_Popular_Than_PureScript]
 
-### Limited Manpower
-
-- The workload is too great for one person to do alone without burning out. [The_State_of_Things]
-- There is public acknowledgement that there are not enough workers to keep the documentation resources in-sync with latest language releases. As a result, much time is spent putting out fires rather than moving the language/ecosystem forward. [The_State_of_Things]
-- Volunteer-based languages and their development do not have the same luxuries/resources as other languages. The desire to get somewhere exists, but not the time, especially when language changes/improvements break current documentation. [Wallowing_in_Despair]
-- A core contributor is already stretched thin with maintaining code, so asking for better documentation is too much to ask. [Wallowing_in_Despair]
-- [Jordan] Only volunteers who must pay their bills through other means are working on this language. There is no financial incentive for them to complete work, nor can they give the language their full time. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- [Alex] A PureScript user sees that there is no "full-time" developers, but notes the opposite, that he sees there are a few people whose contributions are nearly that of full-time developers. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- [Alex] A PureScript user believes that none of PureScript's contributors have a financial incentive to start or complete work. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- [Alex] PureScript does not have enough manpower (or automation) to reliably update everything in the ecosystem before making a release. [How_Do_We_Avoid_Ecosystem_Incoherence]
-
-### Trusting People with Write Access to Repos and Supporting Them
-
-- One cannot use the "nobody gets paid to do it" reason as an excuse for poor documentation. Others have the same restraint and yet still succeed. [Wallowing_in_Despair]
-- Responding to core contributor's post about being stretched thin, the author suggests sharing the load with others. [Wallowing_in_Despair]
-- Core contributor thinks idea sounds good [Wallowing_in_Despair]
-    - (This reminds me of the point that the Elm creator mentioned in his talk about "The Hard Parts of Open Source") [Wallowing_in_Despair]
-- Getting support from core contributors would greatly impact the author's work. [Wallowing_in_Despair]
-- Core contributor does not know what extra support the author expects while the author is contributing to PureScript. [Wallowing_in_Despair]
-- Core contributor believes that accepting documentation means it needs to be reviewed. [Wallowing_in_Despair]
-- Core contributor believes that some people are better or faster at reviewing documentation than others. [Wallowing_in_Despair]
-- Core contributor believes that reviewing documentation can be just as difficult, if not more so, than reviewing code. [Wallowing_in_Despair]
-- The author believes that enthusiasm in contributing to docs lowers when it takes a long time to make a contribution (without getting a reward, like a merged PR?). [Wallowing_in_Despair]
-- The author believes that it's OK to allow a slightly-incorrect piece of documentation to exist if it's clear the documentation author is different from the code author, and the documentation author promises to maintain the documentation. [Wallowing_in_Despair]
-- The author cites evidence that even a trivial change to a core library goes unmaintained for weeks. [Wallowing_in_Despair]
-- The author believes that being trusted with commit-rights to a library will encourage him to be more productive. [Wallowing_in_Despair]
-- One has offered to maintain Pursuit, but might need some (but likely not a lot) help getting oriented to the project [The_State_of_Things]
-- It's difficult to improve the core library experience without help from the creators or maintainers of it. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- One person is willing to write documentation and contribute. Unfortunately, there is not a larger vision as to what should be done and how this person should direct their documentation efforts. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- I'm not sure what coordination this would entail. Perhaps a unified vision of what the community is trying to accomplish? [How_Do_We_Avoid_Ecosystem_Incoherence]
-- A user expressing confidence that the community is able to solve its problems; it just currently lacks coordination of some sort. [How_Do_We_Avoid_Ecosystem_Incoherence]
-
-### Breaking Changes Renders Documentation Outdated
-
-- Keeping documentation up-to-date via the medium of a book costs a lot of time. Breaking changes quickly destroys much of this work. [The_State_of_Things]
-- Using Try Purescript as 'learning environment with PureScript already installed' became an unreliable environment due to a breaking change. [The_State_of_Things]
-- It would be best to hold off on documentation until a stable language specification is defined. Otherwise, the same problems encountered above (quickly outdated learning resources that cost a lot of time to make) will occur again. [The_State_of_Things]
-- A breaking change in the language sometimes greatly impacts the ecosystem and other times only minorly impacts it. [The_State_of_Things]
-- Core contributor is expressing belief that breaking changes in core libraries are not likely to happen in the future as frequently and that language is finally stablizing. [The_State_of_Things]
-- There is a lack of communication between the language developers/contributors and those who document the language about what changes will be included/excluded in the next release. This makes it harder for the documenter to know what to write, what to correct/change/fix, and what to continue ignoring. [The_State_of_Things]
-- There is a lack of communication about the release schedule of the language and 'saving' all breaking changes for a single major release. [The_State_of_Things]
-- [Alex] A PureScript user believes that new language releases which include breaking changes often lead to miscommunication. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- [Alex] A PureScript user believes that miscommunication of language releases/changes is largely accepted as normal by the community. [How_Do_We_Avoid_Ecosystem_Incoherence]
-- [Alex] A PureScript user believes that there was no release-related documentation marketed/announced a reasonable time before the release. [How_Do_We_Avoid_Ecosystem_Incoherence]
-
 ### FP "Best Practices" are not well-defined, are assumed, or are unconscious habits
 
 - The commentor might be implying that all statically-typed FP languages don't share a common set of idioms. [Wallowing_in_Despair]
@@ -681,6 +637,7 @@ The following interpretations have been copied over from various sources. In som
 
 ### FP's Culture Creates "Knowledge Silos"
 
+- PureScript tends to draw intellectually curious people. [Wallowing_in_Despair]
 - Biggest concern author has: the kind of culture that FP languages tend to develop never grow large enough that they make an impact/difference in the mainstream. Author clarifies what that 'subculture' is while being in a very negative emotional mood: [Author_Venting_About_Book]
     - it attracts/creates people who use a particular language
     - these kinds of people aren't the best ones to share it with others / show convincingly that FP languages are better than the status quo.
@@ -696,20 +653,74 @@ The following interpretations have been copied over from various sources. In som
 - Source may have had disagreements with PureScript leaders that was fueled more by emotions than logical arguments and understanding one another's viewpoints. [Elm_019_Broke_Us]
 - Source may have also just wanted really good documentation but did not receive the desired support from core contributors [Elm_019_Broke_Us]
 
-### No Category
+### No well-defined criteria for which libraries count as 'core' libraries and ensuring their documentation is good/up-to-date
+
+- Documentation for core PS libraries are great but it quickly falters. Perhaps documenting only "core" libraries is not 'good enough' or doesn't cover enough libraries? [PureScript_vs_ReasonML_Bucklescript_in_2018]
+
+### Reviewing Documentation PRs can be just as difficult as code PRs
+
+- Core contributor believes that accepting documentation means it needs to be reviewed. [Wallowing_in_Despair]
+- Core contributor believes that some people are better or faster at reviewing documentation than others. [Wallowing_in_Despair]
+- Core contributor believes that reviewing documentation can be just as difficult, if not more so, than reviewing code. [Wallowing_in_Despair]
+
+### Limited Manpower / Not Enough Automation
+
+- The workload is too great for one person to do alone without burning out. [The_State_of_Things]
+- There is public acknowledgement that there are not enough workers to keep the documentation resources in-sync with latest language releases. As a result, much time is spent putting out fires rather than moving the language/ecosystem forward. [The_State_of_Things]
+- Volunteer-based languages and their development do not have the same luxuries/resources as other languages. The desire to get somewhere exists, but not the time, especially when language changes/improvements break current documentation. [Wallowing_in_Despair]
+- A core contributor is already stretched thin with maintaining code, so asking for better documentation is too much to ask. [Wallowing_in_Despair]
+- [Jordan] Only volunteers who must pay their bills through other means are working on this language. There is no financial incentive for them to complete work, nor can they give the language their full time. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- [Alex] A PureScript user sees that there is no "full-time" developers, but notes the opposite, that he sees there are a few people whose contributions are nearly that of full-time developers. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- [Alex] A PureScript user believes that none of PureScript's contributors have a financial incentive to start or complete work. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- [Alex] PureScript does not have enough manpower (or automation) to reliably update everything in the ecosystem before making a release. [How_Do_We_Avoid_Ecosystem_Incoherence]
+
+### Slow submitted-reviewed-merged timeline of documentation PRs kills documentation momentum
+
+- The author believes that enthusiasm in contributing to docs lowers when it takes a long time to make a contribution (without getting a reward, like a merged PR?). [Wallowing_in_Despair]
+- The author cites evidence that even a trivial change to a core library goes unmaintained for weeks. [Wallowing_in_Despair]
+
+### Knowing whom to trust with write access, defining best workflow procedures, and providing necessary support
+
+- One cannot use the "nobody gets paid to do it" reason as an excuse for poor documentation. Others have the same restraint and yet still succeed. [Wallowing_in_Despair]
+- Responding to core contributor's post about being stretched thin, the author suggests sharing the load with others. [Wallowing_in_Despair]
+- Core contributor thinks idea sounds good [Wallowing_in_Despair]
+    - (This reminds me of the point that the Elm creator mentioned in his talk about "The Hard Parts of Open Source" Someone might say, "Why not delegate some activity to someone else?" Elm creator responds sarcastically, "Gee... I never thought of that!" before explaining the various concerns he has that has stopped him from doing that previously.) [Wallowing_in_Despair]
+- The author believes that it's OK to allow a slightly-incorrect piece of documentation to exist if it's clear the documentation author is different from the code author, and the documentation author promises to maintain the documentation. [Wallowing_in_Despair]
+- The author believes that being trusted with commit-rights to a library will encourage him to be more productive. [Wallowing_in_Despair]
+- One has offered to maintain Pursuit, but might need some (but likely not a lot) help getting oriented to the project [The_State_of_Things]
+- It's difficult to improve the core library experience without help from the creators or maintainers of it. [How_Do_We_Avoid_Ecosystem_Incoherence]
+
+### Core contributors have not provided, nor known about, the desired support that 'unofficial' documentation efforts wanted/expected
+
+- Getting support from core contributors would greatly impact the author's work. [Wallowing_in_Despair]
+- Core contributor does not know what extra support the author expects while the author is contributing to PureScript. [Wallowing_in_Despair]
+- Core contributor was prioritizing an important breaking-change release in the compiler and updating libraries to work with it over improving current documentation. [Wallowing_in_Despair]
+- The core contributor's incentive is to improve the language to help him make better programs, not necessarily explaining the language to others. [Wallowing_in_Despair]
+- Author reflects that there is a missing point of contact between two communities, so that his book does not succeed in either one of them. The implied communities are the non-FP / mainstream community and FP community. [Author_Venting_About_Book]
+- Seems like the commentor is saying, "Wait. Is the book for the FP community, too? I thought it was only for Elm programmers... [Wallowing_in_Despair]
+
+### Breaking Changes Renders Documentation Outdated
+
+- Keeping documentation up-to-date via the medium of a book costs a lot of time. Breaking changes quickly destroys much of this work. [The_State_of_Things]
+- Using Try Purescript as 'learning environment with PureScript already installed' became an unreliable environment due to a breaking change. [The_State_of_Things]
+- A breaking change in the language sometimes greatly impacts the ecosystem and other times only minorly impacts it. [The_State_of_Things]
+- Core contributor is expressing belief that breaking changes in core libraries are not likely to happen in the future as frequently and that language is finally stablizing. [The_State_of_Things]
+- There is a lack of communication between the language developers/contributors and those who document the language about what changes will be included/excluded in the next release. This makes it harder for the documenter to know what to write, what to correct/change/fix, and what to continue ignoring. [The_State_of_Things]
+- There is a lack of communication about the release schedule of the language and 'saving' all breaking changes for a single major release. [The_State_of_Things]
+- [Alex] A PureScript user believes that new language releases which include breaking changes often lead to miscommunication. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- [Alex] A PureScript user believes that miscommunication of language releases/changes is largely accepted as normal by the community. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- [Alex] A PureScript user believes that there was no release-related documentation marketed/announced a reasonable time before the release. [How_Do_We_Avoid_Ecosystem_Incoherence]
+
+### Lack of a clearly-defined community-wide mutually-held vision/goal
+
+- One person is willing to write documentation and contribute. Unfortunately, there is not a larger vision as to what should be done and how this person should direct their documentation efforts. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- I'm not sure what coordination this would entail. Perhaps a unified vision of what the community is trying to accomplish? [How_Do_We_Avoid_Ecosystem_Incoherence]
+- A user expressing confidence that the community is able to solve its problems; it just currently lacks coordination of some sort. [How_Do_We_Avoid_Ecosystem_Incoherence]
+- It would be best to hold off on documentation until a stable language specification is defined. Otherwise, the same problems encountered above (quickly outdated learning resources that cost a lot of time to make) will occur again. [The_State_of_Things]
+
+### Miscellaneous
 
 - There is "issue spam" in the language repo's issue tracker, making it harder to see what really needs to be done / should be done to get a `v1.0` release. [The_State_of_Things]
-- PureScript tends to draw intellectually curious people. [Wallowing_in_Despair]
-- Each non-Elm language, general-purpose pure FP language, seems to have pros which are outweighed by the "warts" of the language. [Wallowing_in_Despair]
-- Seems like the commentor is saying, "Wait. Is the book for the FP community, too? I thought it was only for Elm programmers... [Wallowing_in_Despair]
-- Core contributor was prioritizing an important breaking-change release in the compiler and updating libraries to work with it over improving current documentation. [Wallowing_in_Despair]
-- The author's incentive is to improve the language to help him make better programs, not necessarily explaining the language to others. [Wallowing_in_Despair]
-- The author's definition of being welcomed into a language community is when an "insider" tells others to listen to him, even if he's probably wrong. [Wallowing_in_Despair]
-- Writing new docs or improving old ones is a good way to get started with a language. [The_State_of_Things]
-- .... Author perceives that people with influence either hate or are apathetic about his book. Since the book did not accomplish it's goals, it felt like a wasted year. Author percieves that author's desire to help is perceived by others as a problem, not a blessing. It seems like this pattern of 'not being recognized/heard' has happened before. [Author_Venting_About_Book]
-- Author reflects that there is a missing point of contact between two communities, so that it does not succeed in either one of them. The implied communities are the non-FP / mainstream community and FP community. [Author_Venting_About_Book]
-- Someone else has tried the Feynman technique, similar to Jordan's purescript reference work [Elm_019_Broke_Us]
-- Documentation for core PS libraries are great but it quickly falters. Perhaps documenting only "core" libraries is not 'good enough' or doesn't cover enough libraries? [PureScript_vs_ReasonML_Bucklescript_in_2018]
 
 ## Why a "v1.0" release has not been made
 
@@ -795,3 +806,8 @@ The following interpretations have been copied over from various sources. In som
 - The entire process the ecosystem must go through from language release to ecosystem compatibility is not the most efficient it can be, nor is it widely understood by non-core-contributors. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - A potential 'success' indicator for determining whether a language release went smoothly/efficiently is a 30-day guarantee that the ecosystem is compatible with the latest language release (potentially excluding larger documentation efforts like the PureScript by Example book). [How_Do_We_Avoid_Ecosystem_Incoherence]
 - The question of how releases integrate with the process of making a release to NPM needs to be further explored. There might be additional things that could be optimized here. [How_Do_We_Avoid_Ecosystem_Incoherence]
+
+## Unused
+
+- Each non-Elm language, general-purpose pure FP language, seems to have pros which are outweighed by the "warts" of the language. [Wallowing_in_Despair]
+- The author's definition of being welcomed into a language community is when an "insider" tells others to listen to him, even if he's probably wrong. [Wallowing_in_Despair]
