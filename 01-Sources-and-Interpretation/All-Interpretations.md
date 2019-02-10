@@ -362,6 +362,8 @@ The following interpretations have been copied over from various sources. In som
 
 ##### Miscellaneous
 
+- Since PureScript is still a newer language, some people that use it in production rely upon only one expert to fix problems that most others do not know how to fix. [The_State_of_Things]
+- Post-`0.12.0` release, a language release does not imply ecosystem compatibility immediately after its release. [PureScript_First_Impressions]
 - Post-`0.12.0` release, user expected that language's community won't be able to reach ecosystem coherence for a while. [PureScript_First_Impressions]
 - Person thinks that one should only learn PS for web/JS replacement. [Learn_PureScript_or_Haskell_First]
 - Author started book with presupposition that static FP languages are worth their learning curve but has now concluded that perhaps this is not true. [Wallowing_in_Despair]
@@ -717,14 +719,16 @@ The following interpretations have been copied over from various sources. In som
 - I'm not sure what coordination this would entail. Perhaps a unified vision of what the community is trying to accomplish? [How_Do_We_Avoid_Ecosystem_Incoherence]
 - A user expressing confidence that the community is able to solve its problems; it just currently lacks coordination of some sort. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - It would be best to hold off on documentation until a stable language specification is defined. Otherwise, the same problems encountered above (quickly outdated learning resources that cost a lot of time to make) will occur again. [The_State_of_Things]
+- There does not seem to be a well-defined mutually-held 'vision' for the future of the language's development. As a result, it's hard to start writing documentation material that will coincide with the `v1.0` release of the language. [The_State_of_Things]
 
 ### Miscellaneous
 
 - There is "issue spam" in the language repo's issue tracker, making it harder to see what really needs to be done / should be done to get a `v1.0` release. [The_State_of_Things]
 
-## Why a "v1.0" release has not been made
+## Why a "v1.0" PureScript release has not been made
 
-- There does not seem to be a well-defined mutually-held 'vision' for the future of the language's development. As a result, it's hard to start writing documentation material that will coincide with the `v1.0` release of the language. [The_State_of_Things]
+### Lack of a clearly-defined core-contributor-wide mutually-held language specification
+
 - A proposal for how to make a `v1.0` release (mentioned before but encountered resistance from other core contributors) [The_State_of_Things]
     - fix any bugs that can't be documented
     - engineer things to make anticipated future additions easy / non-breaking
@@ -732,20 +736,27 @@ The following interpretations have been copied over from various sources. In som
     - commit to stable release window
 - Two potential breaking changes (one would require polykinds and the other would require quantified constraints) may come at a later unknown time. [The_State_of_Things]
 - The 'resistance' mentioned before was based in not wanting to produce breaking changes in later releases. The 'resistance' stil exists in a small manner in that `garyb` does not want a complete "feature freeze." However, it's no longer about stopping a `v1.0` as much as it is a "how do we make `v1.0` that does not require us to introduce breaking changes soon after its release?" [The_State_of_Things]
-- Post-`0.12.0` release, a language release does not imply ecosystem compatibility immediately after its release. [PureScript_First_Impressions]
+
+### Keeping the motto of `Avoid "success at all costs"` and understanding its meaning
+
+- The phrase "avoid success at all costs" could be interpreted in two different ways. [Why_is_Elm_More_Popular_Than_PureScript]
+    - First way, "(avoid success) at all costs," is attempting to avoid any sort of success no matter what. It would imply trying to stop people from using the language at all. This is not how the above phrase is meant.
+    - Second way, "avoid (success at all costs)," does not prioritize "success" (that comes at the cost of poor decisions with negative long-term consequences) over decisions based on solid foundations. Success is desired, but people will not take shortcuts to get there.
+    - PS has the mentality of the second one, which sometimes is at odds with others' desires to see it "succeed" even if that means the language would suffer over the long-term.
 - Those that follow Haskell tend to follow its motto, "avoid success at all costs," which the author seems to interpret (via implication) as "avoid mainstream usage at all costs." [Wallowing_in_Despair]
     - The "avoid success at all costs" phrase should be understood as "avoid (success at all costs)," meaning avoid short-term gain or other niceities that cause problems later and prioritize/pursue long-term goals that provide great foundations and are overall better.
 - The PureScript core contributor believes that PureScript follows Haskell for now, but might not in the future. [Wallowing_in_Despair]
-- Whether "PureScript is production-ready yet" depends on one's use-case, which is different for everyone. [Wallowing_in_Despair]
 - Core contributor is perfectly fine with saying, "PureScript shouldn't be used if one can accomplish their goals using Elm." [Wallowing_in_Despair]
-- Since PureScript is still a newer language, some people that use it in production rely upon only one expert to fix problems that most others do not know how to fix. [The_State_of_Things]
+- PS is not meant for everyone, nor does it try to be. Rather, it tries to be great at specific things, so that those who value the same things the core contributors value are drawn to it and use it. [Why_is_Elm_More_Popular_Than_PureScript]
+
+### Fear that people will misinterpret a "v1.0" compiler release for a "v1.0" ecosystem release
+
+- Whether "PureScript is production-ready yet" depends on one's use-case, which is different for everyone. [Wallowing_in_Despair]
 - [Alex] A core contributor believes that the PureScript language/compiler and the "PureScript product" can be difficult for most people to differentiate. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A core contributor believes that a `v1.0` release should include improving the "PureScript product" (the ecosystem). [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] Most people who hear that there is a `v1.0` PureScript release will think it means a "complete solution" when it might only mean the language/compiler. This might result in a net-negative press for the language. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - [Alex] A core contributor believes that the compiler's ecosystem should not block releases of the compiler, because the time required to update the ecosystem is nearly as long as the time between major compiler releases. [How_Do_We_Avoid_Ecosystem_Incoherence]
 - core contributors to PS prioritize improving the language over improving the documentation / onboarding process [Why_is_Elm_More_Popular_Than_PureScript]
-- The phrase "avoid success at all costs" could be interpreted in two different ways. First way, "(avoid success) at all costs," is attempting to avoid any sort of success no matter what. It would imply trying to stop people from using the language at all. This is not how the above phrase is meant. Second way, "avoid (success at all costs)," does not prioritize "success" (that comes at the cost of poor decisions with negative long-term consequences) over decisions based on solid foundations. Success is desired, but people will not take shortcuts to get there. PS has the mentality of the second one, which sometimes is at odds with others' desires to see it "succeed" even if that means the language would suffer over the long-term. [Why_is_Elm_More_Popular_Than_PureScript]
-- PS is not meant for everyone, nor does it try to be. Rather, it tries to be great at specific things, so that those who value the same things the core contributors value are drawn to it and use it. [Why_is_Elm_More_Popular_Than_PureScript]
 
 ## Things that have changed since 'The State of Things'
 
