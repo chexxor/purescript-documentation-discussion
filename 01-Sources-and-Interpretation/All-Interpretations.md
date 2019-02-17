@@ -525,6 +525,11 @@ The following interpretations have been copied over from various sources. In som
 - Person might not have known about PS' other backends that make it more viable in the long-term. PS' "compile-to-anything" nature may not be well publicized. [Learn_PureScript_or_Haskell_First]
 - Seems that PureScript by Example was not well-known by those outside the PS community? [Why_is_Elm_More_Popular_Than_PureScript]
 - A PureScript users believes that language documentation should include a description of how easy it is to contribute to the language and affect its direction. [Why_use_Purescript]
+- This PureScript user implies the library/architecture they used should document the situations it was designed for and the situations in which it is likely a poor fit. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
+- Author wanted more user-friendly libraries that handled more lower-level things, so that author could focus on learning and not fixing plumbing issues. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
+- Author suggests a new library for higher-level bindings to VDom to gain convenience, at cost of abiding by design choices of library. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
+- Concept's intended purpose and author's intended purpose differ. Thus, author used a hacky solution. This might have arisen due to the author not knowing how to use the library properly or because the library did not provide a basic building block that does what he needs it to. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
+- One PureScript user experienced the run-time behavior of the `signal` library to be difficult to understand and/or control when writing a program using the library. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
 
 ### Providing Code Examples in Other Languages
 
@@ -546,6 +551,12 @@ The following interpretations have been copied over from various sources. In som
 - OO programmers likely need a bottom-up approach to teaching FP rather than the top-down approach many use [Why_is_Elm_More_Popular_Than_PureScript]
 - One person believes that static FP concepts and their documentation should not require knowing other concepts as prerequisite to understanding and useage. [Why_is_Elm_More_Popular_Than_PureScript]
 - One person believes that hiearchical classes are not a great idea because it assumes people know everything in the hierachy. Java's class hierarchy is "evidence" that this is true. [Why_is_Elm_More_Popular_Than_PureScript]
+- One PureScript user made a game to practice PureScript and to learn the `signal` library. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
+    - One user of the `signal` library didn't know the best way to structure his app using the library. This highlights the aspect of 'best practices' documentation. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
+    - The author believes the signal library should offer a means of defining a branch in a signal graph which is conditionally active. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
+    - This PureScript user believes writing a GUI in a declarative/descriptive, non-imperative way is an easy way to develop a GUI app. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
+    - This PureScript user believes the best practices encoded in the "stateless GUI" design prescribed by the practice they are following in this app doesn't have a clear relation to traditional software design best practices they know. Since author stated above that 'stateless GUI is really cool,' author might not yet be familiar with 'best practices' for how to design such a program using this concept. We can't tell whether author used modular code to break big components down into smaller ones and whether these distinctions were done well. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
+    - This PureScript user believes the library/architecture they used was missing concepts, which would make it unsuitable for more complex applications. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
 
 ### Difficulty in understanding PureScript's Syntax
 
@@ -558,6 +569,7 @@ The following interpretations have been copied over from various sources. In som
 - A PureScript user feels rewarded when using PureScript because the primary sticking points are figuring out how to do things *in* the language, rather than figuring out *non-language* problems. [Hitchhikers_Guide_to_Elm]
 - Not being able to mutate variables is a hard thing to initally grasp by new learners who are used to doing so freely. [Elm_PureScript_In_Depth_Overview]
 - I don't know whether this concept (local and controlled side effects are still considered 'pure' if functions are referentially transparent) is well-documented in PureScript learning resources (even in my own, Jordan's PureScript Reference) [Elm_PureScript_In_Depth_Overview]
+- This PureScript user believes it's difficult to integrate with a JavaScript library function which uses property-existence to define its behavior because PureScript's type system isn't flexible enough to define the type of that function in a simple way. (I think it's possible to modify the type signature of the JS library wrapper to use a typeclass to assert the argument has a subset of the fields expected by the function.) `{ attributes: { disable: "" } }` vs `{ attributes: {} }` [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
 
 ### Miscellaneous
 
