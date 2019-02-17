@@ -64,7 +64,7 @@ Table of Contents
   - [Clarify whether learning materials are up-to-date or not](#clarify-whether-learning-materials-are-up-to-date-or-not)
   - [Better explain how to use/write FFI](#better-explain-how-to-usewrite-ffi)
   - [Use Library Badges to indicate compiler compatibility](#use-library-badges-to-indicate-compiler-compatibility)
-  - [Make Pursuit more 'beginner-frinedly'](#make-pursuit-more-beginner-frinedly)
+  - [Make Pursuit more 'beginner-friendly'](#make-pursuit-more-beginner-friendly)
   - [Provide Examples of Code Solving Some Problem](#provide-examples-of-code-solving-some-problem)
   - [Improve Compiler Error Messages](#improve-compiler-error-messages)
   - [Explain how PS integrates with other web build tools](#explain-how-ps-integrates-with-other-web-build-tools)
@@ -607,7 +607,7 @@ The following interpretations have been copied over from various sources. In som
 - Purescript-language-version-library-compatibility badges are easy to make via shields.io
 - One needs to know which version of a dependency to install, so that it does not result in problems. However, this seems specific to Bower, not psc-package, and only when a breaking change has occurred recently. If the community moves away from using Bower, this solution is irrelevant. [How_Do_We_Avoid_Ecosystem_Incoherence]
 
-### Make Pursuit more 'beginner-frinedly'
+### Make Pursuit more 'beginner-friendly'
 
 - New users like to use Pursuit to learn how to solve problems when writing the language / understand what some concept/function/type is. [PureScript_First_Impressions]
 - Having a 'beginner-friendly' version of Pursuit search that highlights / prioritizes / highly ranks the common things new learners would search for would be helpful. [My_Experience_With_PureScript_So_Far]
