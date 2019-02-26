@@ -169,6 +169,7 @@ Wiki
 - Examples speak clearer than documentation [Discussion_about_WNTYAD]
 - Providing working examples of code that show how to properly use some subset of an API is better than making someone read through that API and figure out how to piece them together. (In some cases, this is not necessarliy true for PS because the type signatures are designed so that two functions work together) [Discussion_about_WNTYAD]
 - While one can have code examples without written documentation, one cannot have written documentation without code examples. [Discussion_about_WNTYAD]
+- Author could not find complex examples that helped author troubleshoot issues. [Exploring_the_MVI_Architecture_with_PureScript_Puzzler]
 
 ### Concerns relating to the order of information presented
 
