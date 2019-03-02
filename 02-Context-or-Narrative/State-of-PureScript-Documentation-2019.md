@@ -167,6 +167,35 @@ Here's what has been added to the above since then:
 | A Guide to the PureScript Numeric Hierarchy | Explanation | New Learners | Read the Docs
 | Make the Leap from JavaScript to PureScript | Getting Started + Explanation | Javascript developers | Blog Post series
 
+## Why is PureScript's Documentation Lacking and How Do We Improve It?
+
+- Philosophy of the language:
+    - avoid (success at all costs)
+    - wrong intepretation:
+    - right interpretation
+- Current priority of core contributors: adding powerful features via breaking changes
+    - wrong interpretation: they don't care
+    - right interpretation: want to improve language
+    - Why a `v1.0` hasn't been released
+- Core Contributors are spread thin, so they cannot respond quickly to things
+    - The '75 libraries' problem
+    - Entrusting library maintenance to others and supporting them (e.g. the `event-stream` incident)
+    - Just like reviewing code, reviewing documentation takes a lot of thought
+    - Hard to keep documentation momentum
+    - Which libraries are 'core libraries'?
+- No clearly-defined mutually-held community-wide goal
+    - A desire to help exists, but no one is coordinating resources strategically
+- What exactly are FP's "Best Practices?"
+    - They are not well-defined, are assumed, or are habits
+    - Knowledge silos exist, so it's hard to extract that info
+- Slack-based discussions do not persist
+
+## New Learners: What is the Best Way to Learn PureScript?
+
+## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
+
+## Core Contributors: ???
+
 The following
     - Evaluate PureScript's documentation using that criteria
     - Explain why PureScript's documentation is lacking and what is being done to improve it
