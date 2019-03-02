@@ -29,10 +29,11 @@ Did someone ever teach you how to write "good" documentation? No, you likely jus
 
 So, it helps to understand what is "good" documentation and why.
 
-Essentially, there are 3 dimensions for documentation.
+Essentially, there are 4 factors that affect whether documentation is "good" or not.
 1. The type of documentation
 2. The intended audience
 3. How up-to-date the documentation is
+4. The medium in which the documentation appears
 
 ### The Types of Documentation
 
@@ -96,7 +97,7 @@ Fourth, documentation can appear in a few mediums/formats:
 
 ### Criteria for "Good" Documentation
 
-Still, we can define our criteria for "good" documentation using these four dimensions:
+Still, we can define our criteria for "good" documentation using these four factors:
 - [Type]
     - It defines which type of documentation it is
     - If a Hook, then
