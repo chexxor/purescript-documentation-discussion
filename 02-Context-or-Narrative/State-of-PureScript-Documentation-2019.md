@@ -29,9 +29,9 @@ Outline
 Did someone ever teach you how to write "good" documentation? Probably not - you likely just wrote what came to mind and hoped it was good enough. So, it's useful to learn a definition of good documentation and understand why it's defined that way.
 
 Essentially, there are 3 factors that affect whether documentation is "good" or not.
-1. The intended audience
-2. The type of documentation: the question being answered, targeting a specific subsection of the audience
-3. How accurately it reflects the desired version of the thing being documented
+1. Its intended audience
+2. Its type: the question being answered, targeting a specific subsection of the audience
+3. How accurately it reflects the desired version of the code/project
 
 ### The Types of Documentation
 
