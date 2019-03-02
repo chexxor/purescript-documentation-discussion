@@ -18,7 +18,7 @@ Outline
 - Explain what "good" documentation is and define a criteria
 - Evaluate PureScript's documentation using that criteria
 - Explain why PureScript's documentation is seen as lacking
-- Suggest plans to improve the current documentation strategy or process
+- Suggest plans to improve the current documentation situation
 - Address various audience's possible concerns or questions centered on these themes:
     - New learners - How should I learn PureScript?
     - PureScript documentation writers - How should I write good maintainable documentation for others?
