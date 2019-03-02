@@ -270,14 +270,12 @@ Perhaps this idea could be revisited in the future. For now, we cannot say.
 This is hard to do. Let's consider why:
 - It's easy to disagree on what goals should be pursued
 - It's easy to disagree on how to word such goals
+- It's easy to disagree on what to include and exclude
 - It's easy to do nothing and let someone else contribute
 
 Creating a "good" roadmap takes significant time and energy.
 
-PureScript does not currently have such a roadmap. Rather, core contributors seem to have a general direction they are pursuing.
-
-For example, `garyb` has stated that there are two features that he wants to add, but which will require breaking changes: poly-kinds and something that requires qualified constraints. ([The State of Things, 6th paragraph in his comment](https://discourse.purescript.org/t/the-state-of-things/282/5))
-It's not clear when these features will be added.
+PureScript does not currently have such a roadmap. Rather, core contributors seem to have a general direction they are pursuing (see next point).
 
 Therefore:
 - Those who could help do not know where help is needed
@@ -297,16 +295,18 @@ What good is a `v1.0` language, if
 
 Thus, core contributors might avoid defining a roadmap to prevent people from having a `v1.0` ecosystem connotation.
 
+#### Defining a Language Specification
+
+When should future breaking changes be done: before a `v1.0` or afterwards?
+
+`garyb`, a core contributor, has resisted efforts to define a language specification. Why? Because he wants to add two features that will require breaking changes: "poly-kinds and something that requires qualified constraints." ([The State of Things, 6th paragraph in his comment](https://discourse.purescript.org/t/the-state-of-things/282/5))
+
+If done before a `v1.0`, then the language will likely be stable, documentation will not go out of date, and the ecosystem can flourish.
+
+If done after a `v1.0`, then many things will need to be updated, the language's reputation might suffer, and people might be forever turned off to it.
 
 
-- Core Contributors are spread thin, so they cannot respond quickly to things
-    - The '75 libraries' problem
-    - Entrusting library maintenance to others and supporting them (e.g. the `event-stream` incident)
-    - Just like reviewing code, reviewing documentation takes a lot of thought
-    - Hard to keep documentation momentum
-    - Which libraries are 'core libraries'?
-- No clearly-defined mutually-held community-wide goal
-    - A desire to help exists, but no one is coordinating resources strategically
+
 - What exactly are FP's "Best Practices?"
     - They are not well-defined, are assumed, or are habits
     - Knowledge silos exist, so it's hard to extract that info
