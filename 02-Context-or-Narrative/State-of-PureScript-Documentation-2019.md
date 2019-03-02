@@ -22,7 +22,7 @@ Outline
 - Address various audience's possible concerns or questions centered on these themes:
     - New learners - How should I learn PureScript?
     - PureScript documentation writers - How should I write good maintainable documentation for others?
-    - Core Contributors - 
+    - Core Contributors -
 
 ## What is "Good" Documentation Anyway?
 
@@ -212,11 +212,48 @@ Programming exists to solve problems. It's not about proving whether you are cle
 
 If you value the same things that PureScript language developers value, then you are right at home.
 
+### Core contributors are spread thin: limited time with too much responsibility
 
-- Philosophy of the language:
-    - avoid (success at all costs)
-    - wrong intepretation:
-    - right interpretation
+> It’s been 7 months since I announced that I would be taking a long break from PureScript development....
+> In retrospect, I think it’s fair to say that I was quite thoroughly burned out from trying to balance open source work and real life.
+>
+> ~ Phil Freeman, the creator of the PureScript language [(1st & 2nd paragraph)](https://discourse.purescript.org/t/the-state-of-things/282)
+
+> Just to wallow for a second, I...
+> - contribute to/review stuff on the compiler
+> - attempt to keep on top of the issues, discussions, PRs on roughly 75 libraries (some of which are tiny and almost never change, some of which are purescript-dom :grimacing:)
+> - engage with people on Twitter, StackOverflow, Reddit, Slack
+> - and very occasionally investigate some idea of my own.
+>
+> So unless I stop doing some of that, there's no chance I can make any meaningful steps to improving the documentation situation.
+>
+> ~ a core contributor ([2nd paragraph](https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569261), edits made: content was turned into a list; "..." changed to "," for readability)
+
+As a result, documentation PRs are either forgotten or reviewed long after their initial submission. It's quite difficult to maintain momentum in such a context.
+
+Finally, reviewing documentation can be just as difficult as reviewing code. Some people are faster at reviewing things than others.
+
+#### Why Not Just Delegate?
+
+> A hypothetical developer says, "If it's so much work, why not just **delegate** the work? This 'somebody' can also be a proxy who's gathering feedback, so that you don't have to be in these discussions."
+> The contributor responds sarcastically, "Oh! Delegation, of course! I hadn't thought about that...."
+> There's actually an assumption going on here: "If 'free' rice means you can take as much as you want, then 'free' labor implies you can take as much as you want." But that isn't how labor works. If you don't pay for labor, you get less.
+> Even if everyone could help, there's still limitations due to coordinating efforts: who does what, when, where, and without affecting someone else's work.
+>
+> ~ summary of 'Why Not Just... Pattern' part in [The Hard Parts of Open Source](https://youtu.be/o_4EX4dPppA?t=257)
+
+One shouldn't everyone on the internet. I know, big surprise. For example, consider the `event-stream incident`. The maintainer unknowingly gave write-access to a malicious actor. Practically everyone depends on this code. The actor injected code that could be used to steal bitcoins. ([initial issue](https://github.com/dominictarr/event-stream/issues/116), [injected code explanation](https://github.com/dominictarr/event-stream/issues/116#issuecomment-441759047), [previous maintainer's response](https://github.com/dominictarr/event-stream/issues/116))
+
+#### Why Not Fund Language Developers?
+
+It's already been done via the [PureScript Open Collective]((https://opencollective.com/purescript)). However, someone took it down. I (Jordan) don't know the full reasons. Here's my speculation:
+- Since the project and its funds hadn't been claimed for a couple of weeks, it was stopped to prevent anyone on the internet from stealing the funds.
+- There was no clear vision as to how the funds would be spent and how it would improve the situation.
+
+Perhaps this idea could be revisited in the future. For now, we cannot say.
+
+
+
 - Current priority of core contributors: adding powerful features via breaking changes
     - wrong interpretation: they don't care
     - right interpretation: want to improve language
