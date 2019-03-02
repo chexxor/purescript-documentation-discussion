@@ -254,7 +254,7 @@ For example, consider the `event-stream incident`. The maintainer unknowingly ga
 - [original maintainer's response](https://github.com/dominictarr/event-stream/issues/116)
 - [a sarcastic blog post summarizing this class of attack](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
 
-#### Why Not Fund the Language Developers?
+#### Why Not Just Fund the Language Developers?
 
 Been there, done that. Someone took it down. ([PureScript Open Collective]((https://opencollective.com/purescript))
 
