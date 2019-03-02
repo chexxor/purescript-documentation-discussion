@@ -266,6 +266,38 @@ I (Jordan) don't know why it was taken down. Here's my speculation:
 
 Perhaps this idea could be revisited in the future. For now, we cannot say.
 
+### No Clearly-Defined Mutually-Held Community-Wide Roadmap
+
+This is hard to do. Let's consider why:
+- It's easy to disagree on what goals should be pursued
+- It's easy to disagree on how to word such goals
+- It's easy to do nothing and let someone else contribute
+
+Creating a "good" roadmap takes significant time and energy.
+
+PureScript does not currently have such a roadmap. Rather, core contributors seem to have a general direction they are pursuing.
+
+For example, `garyb` has stated that there are two features that he wants to add, but which will require breaking changes: poly-kinds and something that requires qualified constraints. ([The State of Things, 6th paragraph in his comment](https://discourse.purescript.org/t/the-state-of-things/282/5))
+It's not clear when these features will be added.
+
+Therefore:
+- Those who could help do not know where help is needed
+- Those who would help do not know how they can help
+
+#### Avoiding a `v1.0` PureScript language release
+
+When people announce "Language X is now '1.0!'", it tends to draw a lot of focus and a lot of traffic. People probably think, "Wow! It's now stable enough to be used to write all my programs."
+
+In reality, many would misunderstand a `v1.0` PureScript language release. They would likely understand it as a `v1.0` PureScript ecosystem. The language could be considered 'good enough' for a `v1.0`. However, the ecosystem is definitely not.
+
+What good is a `v1.0` language, if
+- the dependency managers are still unfriendly to users?
+- the IDE support is still lacking?
+- common libraries haven't stabilized yet?
+- the ecosystem is incoherent in a number of ways?
+
+Thus, core contributors might avoid defining a roadmap to prevent people from having a `v1.0` ecosystem connotation.
+
 
 
 - Core Contributors are spread thin, so they cannot respond quickly to things
