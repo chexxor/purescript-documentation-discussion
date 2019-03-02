@@ -170,6 +170,48 @@ Here's what has been added to the above since then:
 
 ## Why is PureScript's Documentation Lacking and How Do We Improve It?
 
+These are the reasons. Each wil be covered more in-depth following this:
+
+- PureScript is not _currently_ trying to be the next "mainstream language".
+- Core contributors are spread thin: limited time with too much responsibility
+- Core contributors are prioritizing the addition of new powerful language features over other interests
+- There is no clearly-defined mutually-held community-wide goal/vision that coordinates efforts
+- It's difficult to pin down and define what are Functional Programming's "best practices"
+- Questions answered on Slack do not persist, so they get re-asked and re-answered
+
+### PureScript is not _currently_ trying to be the next "mainstream language"
+
+Many have wrongly assumed that PureScript is trying to replace [insert your favorite web language here]. That is not the case. Each language has its trade-offs that make it better for some and worse for others.
+
+Rather, PureScript is _currently_ following the motto of "**avoid (success at all costs)**".
+
+#### The Wrong Interpretation of 'Avoid (success at all costs)'
+
+One might understand 'avoid (success at all costs)' as "We don't want to be 'successful.' We don't want everyone to use this language. Therefore, let's make it hard and impractical for people to learn and use this language."
+
+New learners have likely said or thought, "Stupid language developers! Why didn't they make it easier to learn how to use this language and its abstractions? I thought this was a 'better' language."
+
+This interpretation is flawed because it focuses on the _wrong core values_: low learning curve and ease of use. PureScript's language developers do value these things, but they value other things more.
+
+#### The Right Interpretation of 'Avoid (success at all costs)'
+
+To understand this motto, one must understand the core value behind it: productivity:
+- Using the right abstractions to solve a problem is more productive than using a workaround/hack because of a language deficiency.
+- Writing code correctly "the first time" is more productive than fixing bugs later (e.g. trading runtime errors for compiler errors)
+- Painless refactoring is more productive when reducing technical debt than painful refactoring.
+- Creating solutions to problems that "just work" is more productive than solutions that "should work."
+
+In short, all languages make compromises based on which core values they value more than others. PureScript "bought" power and productivity at the "price" of a higher learning curve and lower ease of use. Other languages made a different "purchase."
+
+This leaves one conclusion: PureScript might not be the language for you.
+
+If you can accomplish your goals using a language that "fits" you better than PureScript, why use PureScript?
+
+Programming exists to solve problems. It's not about proving whether you are clever and disciplined enough to learn something hard. Go use that language instead, and come back if you change your mind.
+
+If you value the same things that PureScript language developers value, then you are right at home.
+
+
 - Philosophy of the language:
     - avoid (success at all costs)
     - wrong intepretation:
