@@ -97,12 +97,14 @@ In short, it is impossible to write "good" documentation for everyone that is up
 
 Fourth, documentation can appear in a few mediums/formats:
 
-| Code | Explanation | Example
+| Medium | Type of Code Used | How things are explained |
 | -- | -- | -- |
-| Syntax-highlighted snippets | Long Essay | Blog Posts
-| Intermixed | Intermixed | Literate Programming
-| Actual code | Comments | Working Examples
-| Actual code | Slides / Explanation | Walking through someone in a video
+| Blog Posts | Syntax-highlighted snippets | Long essay (and images sometimes)
+| Literate Programming | Code intermixed with short explanations | Code intermixed with short explanations
+| Commented Code Examples | Full runnable code | Comments
+| Walking someone through a video | Actual code | Slides / Long Essay / Quiz
+
+Many people stated that "heavily-commented code examples" often provide the best form of documentation. They follow the principle of "show, don't tell." People can use them as a model and experiment on them. Each of the above mediums has their place, but the code examples might produce the best documentation in the shortest time possible.
 
 ### Criteria for "Good" Documentation
 
