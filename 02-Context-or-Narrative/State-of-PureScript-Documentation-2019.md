@@ -196,10 +196,11 @@ This interpretation is flawed because it focuses on the _wrong core values_: low
 #### The Right Interpretation of 'Avoid (success at all costs)'
 
 To understand this motto, one must understand the core value behind it: productivity:
-- Using the right abstractions to solve a problem is more productive than using a workaround/hack because of a language deficiency.
-- Writing code correctly "the first time" is more productive than fixing bugs later (e.g. trading runtime errors for compiler errors)
+- Using the right abstractions is more productive than using a workaround/hack because of a language deficiency.
+- Languages that nag at you to write well-structured programs are more productive than those that don't.
+- Fixing bugs before shipping is more productive than fixing bugs after shipping (e.g. trading runtime errors for compiler errors)
 - Painless refactoring is more productive when reducing technical debt than painful refactoring.
-- Creating solutions to problems that "just work" is more productive than solutions that "should work."
+- Creating solutions that "just work" is more productive than solutions that "should work."
 
 In short, all languages make compromises based on which core values they value more than others. PureScript "bought" power and productivity at the "price" of a higher learning curve and lower ease of use. Other languages made a different "purchase."
 
