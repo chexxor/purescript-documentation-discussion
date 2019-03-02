@@ -106,24 +106,30 @@ Many people stated that "heavily-commented code examples" often provide the best
 
 ### Criteria for "Good" Documentation
 
-In short, it is impossible to write "good" documentation for everyone that is up-to-date all the time. There's simply not enough manpower, time, and incentives to do that. Rather, it will be "good", "horrible", or "somewhere in-between" for diffent kinds of people and at different times/seasons.
+In short, it is impossible to write "good" documentation for everyone that is always up-to-date. There's simply not enough manpower, time, and incentives to do that. Rather, it will be "good", "horrible", or "somewhere in-between" for diffent kinds of people and at different times/seasons.
 
 Still, we can define our criteria for "good" documentation using these four factors:
 - [Type]
     - It defines which type of documentation it is
-    - If a Hook, then
+    - If a Hook, then it answers these questions clearly:
+        - What is it? / What problem does it solve?
+        - Who should care? / Who should not care? / How does it compare to other similar things?
+        - How long will it take to learn and how difficult is the learning curve?
+        - Where do I go to get started / learn how to use this?
     - If a Getting Started, then
     - If a How-To Guide, then
     - If a Reference, then
     - If a Explanation, then
 - [Audience]
     - It states who the intended audience is
+    - For those who aren't the intended audience, it refers to other material that better suits them
 - [Accuracy]
     - It explains which version of the code it documents
-        - If it's not the most recent version, it explains:
-            - Where it is outdated
-            - How to understand the outdated explanation in light of the new changes
+        - If it's not the most recent version, it provides:
+            - A brief idea of where it is outdated
+            - Guidelines for how to understand the outdated explanation in light of new changes
     - It includes the date it was published and last updated
+    - It indicates whether it will be updated in the future or has been abandoned and no future updates will occur.
 
 A few different audiences
 - shared (things we should explain, no matter who reads this)
