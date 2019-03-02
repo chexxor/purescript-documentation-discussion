@@ -102,7 +102,7 @@ Fourth, documentation can appear in a few mediums/formats:
 | Commented Code Examples | Full runnable code | Comments
 | Walking someone through a video | Actual code | Slides / Long Essay / Quiz
 
-Many people stated that "heavily-commented code examples" often provide the best form of documentation. They follow the principle of "show, don't tell." People can use them as a model and experiment on them. Each of the above mediums has their place, but the code examples might produce the best documentation in the shortest time possible.
+A few people stated that "heavily-commented code examples" often provide the best form of documentation. They follow the principle of "show, don't tell." People can use them as a model and experiment on them. Each of the above mediums has their place, but the code examples might produce the best documentation in the shortest time possible.
 
 [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/#act-3-literate-programming) argues that Literate Programming isn't a good tool for documentation.
 
