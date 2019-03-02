@@ -91,8 +91,6 @@ Updating documentation in light of "frequent" breaking changes often requires le
 
 When **large** breaking changes occur **frequently**, it discourages people from updating the documentation. Why waste time on something that will become outdated soon?
 
-In short, it is impossible to write "good" documentation for everyone that is up-to-date all the time. There's simply not enough manpower, time, and incentives to do that. Rather, it will be "good", "horrible", or "somewhere in-between" for diffent kinds of people and at different times/seasons.
-
 ### The Mediums of Documentation
 
 Fourth, documentation can appear in a few mediums/formats:
@@ -107,6 +105,8 @@ Fourth, documentation can appear in a few mediums/formats:
 Many people stated that "heavily-commented code examples" often provide the best form of documentation. They follow the principle of "show, don't tell." People can use them as a model and experiment on them. Each of the above mediums has their place, but the code examples might produce the best documentation in the shortest time possible.
 
 ### Criteria for "Good" Documentation
+
+In short, it is impossible to write "good" documentation for everyone that is up-to-date all the time. There's simply not enough manpower, time, and incentives to do that. Rather, it will be "good", "horrible", or "somewhere in-between" for diffent kinds of people and at different times/seasons.
 
 Still, we can define our criteria for "good" documentation using these four factors:
 - [Type]
