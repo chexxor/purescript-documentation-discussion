@@ -26,7 +26,9 @@ Outline
 
 ## What is "Good" Documentation Anyway?
 
-Did someone ever teach you how to write "good" documentation? Probably not - you likely just wrote what came to mind and hoped it was good enough. So, it's useful to learn a definition of good documentation and understand why it's defined that way.
+Did someone ever teach you how to write "good" documentation? Probably not - you likely just wrote what came to mind and hoped it was good enough.
+
+Because of this, it's useful to learn a definition of good documentation and understand why it's defined that way.
 
 Essentially, there are 3 factors that affect whether documentation is "good" or not.
 1. Its intended audience
