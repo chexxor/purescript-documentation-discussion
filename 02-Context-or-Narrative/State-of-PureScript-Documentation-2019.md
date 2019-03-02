@@ -254,6 +254,8 @@ For example, consider the `event-stream incident`. The maintainer unknowingly ga
 - [original maintainer's response](https://github.com/dominictarr/event-stream/issues/116)
 - [a sarcastic blog post summarizing this class of attack](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
 
+Finally, new maintainers, once found, have to be supported (which takes time and thought), so that they can actually fulfill their role. If they decide to leave soon after starting, then one has wasted time and effort.
+
 #### Why Not Just Fund the Language Developers?
 
 Been there, done that. Someone took it down. ([PureScript Open Collective]((https://opencollective.com/purescript))
@@ -266,10 +268,6 @@ Perhaps this idea could be revisited in the future. For now, we cannot say.
 
 
 
-- Current priority of core contributors: adding powerful features via breaking changes
-    - wrong interpretation: they don't care
-    - right interpretation: want to improve language
-    - Why a `v1.0` hasn't been released
 - Core Contributors are spread thin, so they cannot respond quickly to things
     - The '75 libraries' problem
     - Entrusting library maintenance to others and supporting them (e.g. the `event-stream` incident)
