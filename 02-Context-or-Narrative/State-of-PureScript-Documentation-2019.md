@@ -138,6 +138,43 @@ Still, we can define our criteria for "good" documentation using these four fact
     - It includes the date it was published and when it was last updated
     - It indicates whether it will be updated in the future (and when) or has been abandoned and no future updates will occur.
 
+### Evaluating PureScript's Documentation
+
+Here was PureScript's documentation as of July 2018:
+
+| Name | Type | Audience | Medium |
+| -- | -- | -- | -- |
+| The Documentation Repository | Getting Started + Explanation | New PS Learners | GitHub Repo
+| Pursuit | Reference | All PS developers | API Docs website
+| PureScript by Example | Getting Started + How To + Explanation | New PS Learners | Book
+| PureScript Resources | Getting Started + Explanation | New PS Learners | Read The Docs
+| Lens for the Mere Mortal: PureScript Edition | How To + Explanation | Intermediate PS Learners | Book
+| -- | -- | -- | -- |
+| Professor Frisby Introduces Composable Functional JavaScript | Getting Started + How to + Explanation | JavaScript developers who want to use JavaScript | Online Course
+| An Outsider's Guide to Statically Typed Functional Programming | Hook + Getting Started + How to + Explanation | JavaScript developers who want to learn Elm but are exposed to PureScript at end | Book
+| -- | -- | -- | -- |
+| Elm to PureScript Cheatsheet | Reference | Elm developers considering PureScript | GitHub Repo
+| Differences of PureScript from Elm | Reference | Elm developers consider PureScript (or vice versa) | GitHub Gist
+| Documentation Repo's "Differences from Haskell" | Reference | Haskell developers considering PureScript | Markdown file
+
+Here's what has been added to the above since then:
+
+| Name | Type | Audience | Medium |
+| -- | -- | -- | -- |
+| Real World App | How To Guide? Reference? | PureScript developers | Code Example
+| MultiPac | Reference? | PureScript developers | Code Example
+| PureScript: Jordan's Reference | Hook + Getting Started + How to + Explanation + Reference | New Learners | GitHub Repo
+| A Guide to the PureScript Numeric Hierarchy | Explanation | New Learners | Read the Docs
+| Make the Leap from JavaScript to PureScript | Getting Started + Explanation | Javascript developers | Blog Post series
+
+The following
+    - Evaluate PureScript's documentation using that criteria
+    - Explain why PureScript's documentation is lacking and what is being done to improve it
+    - Address various audience's possible concerns or questions centered on these themes:
+        - New learners - How should I learn PureScript?
+        - PureScript documentation writers - How should I write good maintainable documentation for others?
+        - Core Contributors -
+
 A few different audiences
 - shared (things we should explain, no matter who reads this)
     - Why read this document (capture people's attention in less than 2 paragraphs)
