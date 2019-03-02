@@ -122,6 +122,8 @@ Still, we can define our criteria for "good" documentation using these four fact
             - Guidelines for how to understand the outdated explanation in light of new changes
     - It includes the date it was published and last updated
     - It indicates whether it will be updated in the future or has been abandoned and no future updates will occur.
+- [Medium]
+    - Prioritize working code examples over other mediums
 
 A few different audiences
 - shared (things we should explain, no matter who reads this)
