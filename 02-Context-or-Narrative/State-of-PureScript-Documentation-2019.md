@@ -29,11 +29,10 @@ Did someone ever teach you how to write "good" documentation? No, you likely jus
 
 So, it helps to understand what is "good" documentation and why.
 
-Essentially, there are 4 factors that affect whether documentation is "good" or not.
+Essentially, there are 3 factors that affect whether documentation is "good" or not.
 1. The type of documentation
 2. The intended audience
 3. How up-to-date the documentation is
-4. The medium in which the documentation appears
 
 ### The Types of Documentation
 
@@ -70,41 +69,46 @@ As a result, others who read the resulting documentation will consider it "poor"
 - If one comes from a different experience level, one might have unanswered questions: "They didn't even mention what the performance trade-offs for specific libraries were..." ~ a senior developer
 - If one has a different goal in mind, some crucial libraries might never be covered: "They didn't explain how I can make my Bitcoin client cryptographically secure..."
 
-### The Documentation's Accuracy
+### Maintaining Documentation's Accuracy
 
-Third, breaking changes makes documentation inaccurate. It does this in two ways: decreasing its usefulness (depends on the 'size' of a breaking change) and decreasing its coherence (depends on the 'frequency' of breaking changes).
+Third, documentation becomes outdated/inaccurate due to changes, especially breaking changes. It does this in two ways: decreasing its usefulness (depends on the 'size' of a change) and decreasing its coherence (depends on the 'frequency' of changes).
 
-When **large** breaking changes occur, documentation can immediately become useless because:
+| "Size" | Example
+| -- | -- |
+| Small | A bug fix that affects little else.
+| Medium | A new feature
+| Large | One or more breaking changes affecting numerous things simultaneously
+
+When breaking changes occur, documentation can immediately become useless because:
 - none of its code examples work anymore
 - old terms might mean something different now
-- lessons/guides/explanations might need to be reordered
-- some parts of the documentation might no longer be relevant
 - some new parts may need be written
+- some parts of the documentation might no longer be relevant
+- one needs to figure out how to integrate new content into old content
 
-Updating documentation in light of "large" breaking changes often requires the most work.
+Updating documentation in light of breaking changes often requires the most work to update.
 
-When breaking changes occur **frequently**, documentation can appear more like loosely-coupled snippets of ideas rather than a coherent explanation because:
-- Article A depends on Article B to explain something. Then, Aritcle B becomes outdated. Thus, one "patches" Article A with a quick overview that doesn't fit in with the rest of its content.
+| "Frequency" | Example
+| -- | -- |
+| Rarely | Stable libraries that have exhausted their design space (e.g. core data types)
+| Sometimes | Maturing libraries that still have a few things to fix or add
+| Frequently | New libraries
+
+When changes occur frequently, documentation can appear more like loosely-coupled snippets of ideas rather than a coherent explanation because:
+- Article A depends on Article B to explain something. Then, Aritcle B becomes outdated. Thus, one "patches" Article A with a quick overview of Article B that doesn't fit in with the rest of Article A's content.
 - One updates 3 out of 10 articles. One article says `X is true` whereas another says `X is false`. A new learner isn't sure which is correct.
 
-Updating documentation in light of "frequent" breaking changes often requires less overall work, but is difficult to update unless one is already very familiar with the documentation.
+Updating documentation in light of frequent changes often requires less overall work.
 
-When **large** breaking changes occur **frequently**, it discourages people from updating the documentation. Why waste time on something that will become outdated soon?
+Moreover, when breaking changes occur frequently, it discourages people from updating the documentation. Why waste time on something that will become outdated soon?
 
-### The Mediums of Documentation
+The nature of this problem is not going to change. So, what medium of documentation provides the most "bang for your buck" long-term that is also is easiest to update?
 
-Fourth, documentation can appear in a few mediums/formats:
+Heavily-commented code examples.
 
-| Medium | Type of Code Used | How things are explained |
-| -- | -- | -- |
-| Blog Posts | Syntax-highlighted snippets | Long essay (and images sometimes)
-| Literate Programming | Code intermixed with short explanations | Code intermixed with short explanations
-| Commented Code Examples | Full runnable code | Comments
-| Walking someone through a video | Actual code | Slides / Long Essay / Quiz
+It follows the principle of "show, don't tell." People can use them as a model from which to learn and as a playground on which to experiment.
 
-A few people stated that "heavily-commented code examples" often provide the best form of documentation. They follow the principle of "show, don't tell." People can use them as a model and experiment on them. Each of the above mediums has their place, but the code examples might produce the best documentation in the shortest time possible.
-
-[Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/#act-3-literate-programming) argues that Literate Programming isn't a good tool for documentation.
+Other mediums of documentation (e.g. blog posts, literate programming, videos) each have their place. However, the code examples might produce the easiest-to-update documentation in the shortest time possible.
 
 ### Criteria for "Good" Documentation
 
@@ -118,14 +122,13 @@ Still, we can define our criteria for "good" documentation using these four fact
     - It states who the intended audience is
     - For those who aren't the intended audience, it refers to other material that better suits them
 - [Accuracy]
+    - Prioritize working code examples over other mediums
     - It explains which version of the code it documents
         - If it's not the most recent version, it provides:
             - A brief idea of where it is outdated
             - Guidelines for how to understand the outdated explanation in light of new changes
     - It includes the date it was published and last updated
     - It indicates whether it will be updated in the future or has been abandoned and no future updates will occur.
-- [Medium]
-    - Prioritize working code examples over other mediums
 
 A few different audiences
 - shared (things we should explain, no matter who reads this)
