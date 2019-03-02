@@ -73,6 +73,8 @@ As a result, others who read the resulting documentation will consider it "poor"
 
 Third, documentation becomes outdated/inaccurate due to changes, especially breaking changes. It does this in two ways: decreasing its usefulness (depends on the 'size' of a change) and decreasing its coherence (depends on the 'frequency' of changes).
 
+#### The "Size" of a Change
+
 | "Size" | Example
 | -- | -- |
 | Small | A bug fix that affects little else.
@@ -88,6 +90,8 @@ When breaking changes occur, documentation can immediately become useless becaus
 
 Updating documentation in light of breaking changes often requires the most work to update.
 
+#### The "Frequency" of a Change
+
 | "Frequency" | Example
 | -- | -- |
 | Rarely | Stable libraries that have exhausted their design space (e.g. core data types)
@@ -100,6 +104,8 @@ When changes occur frequently, documentation can appear more like loosely-couple
 
 Updating documentation in light of frequent changes often requires less overall work.
 
+#### How to Make Maintenance Easier
+
 Moreover, when breaking changes occur frequently, it discourages people from updating the documentation. Why waste time on something that will become outdated soon?
 
 The nature of this problem is not going to change. So, what medium of documentation provides the most "bang for your buck" long-term that is also is easiest to update?
@@ -109,6 +115,8 @@ Heavily-commented code examples.
 It follows the principle of "show, don't tell." People can use them as a model from which to learn and as a playground on which to experiment.
 
 Other mediums of documentation (e.g. blog posts, literate programming, videos) each have their place. However, the code examples might produce the easiest-to-update documentation in the shortest time possible.
+
+Lastly, some documentations tasks are tedious and consume lots of time. Finding ways to automate them can greatly improve the situation.
 
 ### Criteria for "Good" Documentation
 
