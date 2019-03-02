@@ -41,8 +41,8 @@ First, there are 5 types of documentation that target specific phases of a learn
 
 | Type | Analogy | Characteristics
 | -- | -- | -- |
-| The Hook | Selling a product to a potential customer | <ul><li>Answers 'What is this thing? / What problem does it solve?'</li><li>Answers 'Why whould I care? / How is this relevant to me for my purposes?'</li><li>Answers 'Is learning how to use this thing worth it to me?'</li></ul>
-| Getting Started | Teaching a child how to cook | <ul><li>Focuses on the learner 'doing' stuff, not 'explaining' stuff to the learner</li><li>Provides a small simple working example</li><li>New learners experience an 'I can use this now!' moment by the end</li><li>Focuses on concrete tasks, not abstract concepts</li><li>Does not use jargon</li><li>Explains only what is necessary and cuts out all else</li><li>Avoids explaining deeper concepts or different ways of doing the same thing</li></ul>
+| The Hook | Selling a product to a potential customer | Answers these questions: <ul><li>What is this thing? / What problem does it solve?</li><li>Why whould I care? / How is this relevant to me for my purposes? / Who should not care?</li><li>How long will it take to learn it and how difficult is the learning curve?</li><li>Where do I go to get started / learn how to use this?</li></ul>
+| Getting Started | Teaching a child how to cook | <ul><li>Focuses on the learner 'doing' stuff, not 'explaining' stuff to the learner</li><li>Provides a small simple working example that teaches the basics</li><li>New learners experience an 'I can use this now!' moment by the end</li><li>Focuses on concrete tasks, not abstract concepts</li><li>Does not use jargon</li><li>Explains only what is necessary and cuts out all else</li><li>Avoids explaining deeper concepts or different ways of doing the same thing</li></ul>
 | How-To Guides | Following a cook book's recipe | <ul><li>Achieves some goal or solves a problem</li><li>States the pre-requisites one needs to have before starting (not a Getting Started Guide)</li><li>The Guide follows a clearly-labeled step-by-step process</li><li>By following the steps, one reproduces the same results without fail</li><li>Explains the different ways one can achieve the same goal</li><li>Explains only what is necessary</li></ul>
 | Explanation | Listening to a CEO answer questions about his company | <ul><li>Explains the context/history</li><li>Explains the significant design decisions made, their alternativees, and the reasons one was chosen over another</li><li>Implies where things could be improved, expanded, refined, etc.</li></ul>
 | Reference | Reading an encyclopedia | <ul><li>Concise explanation of each piece of the code</li><li>The structure of the reference mirrors the structure of the code it documents</li><li>Formatting is consistent throughout the material</li></ul>
@@ -111,15 +111,7 @@ In short, it is impossible to write "good" documentation for everyone that is al
 Still, we can define our criteria for "good" documentation using these four factors:
 - [Type]
     - It defines which type of documentation it is
-    - If a Hook, then it answers these questions clearly:
-        - What is it? / What problem does it solve?
-        - Who should care? / Who should not care? / How does it compare to other similar things?
-        - How long will it take to learn and how difficult is the learning curve?
-        - Where do I go to get started / learn how to use this?
-    - If a Getting Started, then
-    - If a How-To Guide, then
-    - If a Reference, then
-    - If a Explanation, then
+    - It abides by that type's characteristics
 - [Audience]
     - It states who the intended audience is
     - For those who aren't the intended audience, it refers to other material that better suits them
