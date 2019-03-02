@@ -15,7 +15,7 @@ It is well-known among the PureScript community that its documentation is lackin
     - Core Contributors
 
 Outline
-- Explain what is "good" documentation to define a criteria
+- Explain what "good" documentation is and define a criteria
 - Evaluate PureScript's documentation using that criteria
 - Explain why PureScript's documentation is lacking and what is being done to improve it
 - Address various audience's possible concerns or questions centered on these themes:
