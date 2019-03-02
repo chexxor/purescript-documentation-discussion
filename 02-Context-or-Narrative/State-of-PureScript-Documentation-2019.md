@@ -114,21 +114,21 @@ Other mediums of documentation (e.g. blog posts, literate programming, videos) e
 
 In short, it is impossible to write "good" documentation for everyone that is always up-to-date. There's simply not enough manpower, time, and incentives to do that. Rather, it will be "good", "horrible", or "somewhere in-between" for diffent kinds of people and at different times/seasons.
 
-Still, we can define our criteria for "good" documentation using these four factors:
+Still, we can define our criteria for "good" documentation using these four factors. Documentation is "good" when:
 - [Type]
-    - It defines which type of documentation it is
+    - It states which type of documentation it is
     - It abides by that type's characteristics
 - [Audience]
     - It states who the intended audience is
     - For those who aren't the intended audience, it refers to other material that better suits them
 - [Accuracy]
-    - Prioritize working code examples over other mediums
+    - It tends to be heavier on code examples rather than other mediums
     - It explains which version of the code it documents
         - If it's not the most recent version, it provides:
             - A brief idea of where it is outdated
             - Guidelines for how to understand the outdated explanation in light of new changes
-    - It includes the date it was published and last updated
-    - It indicates whether it will be updated in the future or has been abandoned and no future updates will occur.
+    - It includes the date it was published and when it was last updated
+    - It indicates whether it will be updated in the future (and when) or has been abandoned and no future updates will occur.
 
 A few different audiences
 - shared (things we should explain, no matter who reads this)
