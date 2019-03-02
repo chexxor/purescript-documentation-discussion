@@ -242,7 +242,11 @@ Finally, reviewing documentation can be just as difficult as reviewing code. Som
 >
 > ~ summary of 'Why Not Just... Pattern' part in [The Hard Parts of Open Source](https://youtu.be/o_4EX4dPppA?t=257)
 
-One shouldn't everyone on the internet. I know, big surprise. For example, consider the `event-stream incident`. The maintainer unknowingly gave write-access to a malicious actor. Practically everyone depends on this code. The actor injected code that could be used to steal bitcoins. ([initial issue](https://github.com/dominictarr/event-stream/issues/116), [injected code explanation](https://github.com/dominictarr/event-stream/issues/116#issuecomment-441759047), [previous maintainer's response](https://github.com/dominictarr/event-stream/issues/116))
+One shouldn't everyone on the internet. I know, big surprise. For example, consider the `event-stream incident`. The maintainer unknowingly gave write-access to a malicious actor. Practically everyone depends on this code. The actor injected code that could be used to steal bitcoins:
+- [initial issue](https://github.com/dominictarr/event-stream/issues/116)
+- [injected code explanation](https://github.com/dominictarr/event-stream/issues/116#issuecomment-441759047)
+- [original maintainer's response](https://github.com/dominictarr/event-stream/issues/116)
+- [a sarcastic blog post summarizing this class of attack](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
 
 #### Why Not Fund Language Developers?
 
