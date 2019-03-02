@@ -72,15 +72,24 @@ As a result, others who read the resulting documentation will consider it "poor"
 
 ### The Documentation's Accuracy
 
-Third, documentation becomes inaccurate in two ways when breaking changes occur: usefulness (depends on 'size' of breaking change) and coherence (depends on 'frequency' of breaking change).
+Third, breaking changes makes documentation inaccurate. It does this in two ways: decreasing its usefulness (depends on the 'size' of a breaking change) and decreasing its coherence (depends on the 'frequency' of breaking changes).
 
 When **large** breaking changes occur, documentation can immediately become useless because:
-- none of its examples work anymore
+- none of its code examples work anymore
 - old terms might mean something different now
-- the order of explanations should appear in a different way now
-- some explanations are no longer relevant
+- lessons/guides/explanations might need to be reordered
+- some parts of the documentation might no longer be relevant
+- some new parts may need be written
 
-When breaking changes occur **frequently**, documentation can appear more like loosely-coupled snippets of ideas rather than a coherent explanation
+Updating documentation in light of "large" breaking changes often requires the most work.
+
+When breaking changes occur **frequently**, documentation can appear more like loosely-coupled snippets of ideas rather than a coherent explanation because:
+- Article A depends on Article B to explain something. Then, Aritcle B becomes outdated. Thus, one "patches" Article A with a quick overview that doesn't fit in with the rest of its content.
+- One updates 3 out of 10 articles. One article says `X is true` whereas another says `X is false`. A new learner isn't sure which is correct.
+
+Updating documentation in light of "frequent" breaking changes often requires less overall work, but is difficult to update unless one is already very familiar with the documentation.
+
+When **large** breaking changes occur **frequently**, it discourages people from updating the documentation. Why waste time on something that will become outdated soon?
 
 In short, it is impossible to write "good" documentation for everyone that is up-to-date all the time. There's simply not enough manpower, time, and incentives to do that. Rather, it will be "good", "horrible", or "somewhere in-between" for diffent kinds of people and at different times/seasons.
 
