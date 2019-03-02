@@ -215,6 +215,7 @@ If you value the same things that PureScript language developers value, then you
 ### Core contributors are spread thin: limited time with too much responsibility
 
 > It’s been 7 months since I announced that I would be taking a long break from PureScript development....
+>
 > In retrospect, I think it’s fair to say that I was quite thoroughly burned out from trying to balance open source work and real life.
 >
 > ~ Phil Freeman, the creator of the PureScript language [(1st & 2nd paragraph)](https://discourse.purescript.org/t/the-state-of-things/282)
@@ -236,21 +237,28 @@ Finally, reviewing documentation can be just as difficult as reviewing code. Som
 #### Why Not Just Delegate?
 
 > A hypothetical developer says, "If it's so much work, why not just **delegate** the work? This 'somebody' can also be a proxy who's gathering feedback, so that you don't have to be in these discussions."
-> The contributor responds sarcastically, "Oh! Delegation, of course! I hadn't thought about that...."
-> There's actually an assumption going on here: "If 'free' rice means you can take as much as you want, then 'free' labor implies you can take as much as you want." But that isn't how labor works. If you don't pay for labor, you get less.
-> Even if everyone could help, there's still limitations due to coordinating efforts: who does what, when, where, and without affecting someone else's work.
 >
-> ~ summary of 'Why Not Just... Pattern' part in [The Hard Parts of Open Source](https://youtu.be/o_4EX4dPppA?t=257)
+> The contributor responds sarcastically, "Oh! Delegation, of course! I hadn't thought about that...."
+>
+> There's actually an assumption going on here: "If 'free' rice means you can take as much as you want, then 'free' labor implies you can take as much as you want." But that isn't how labor works. If you don't pay for labor, you get less.
+>
+> Even if everyone could help, there's still limitations due to coordinating efforts: who does what, when, and where, and all without affecting someone else's work.
+>
+> ~ summary of the 'Why Not Just... Pattern' in [The Hard Parts of Open Source](https://youtu.be/o_4EX4dPppA?t=257)
 
-One shouldn't everyone on the internet. I know, big surprise. For example, consider the `event-stream incident`. The maintainer unknowingly gave write-access to a malicious actor. Practically everyone depends on this code. The actor injected code that could be used to steal bitcoins:
+One shouldn't trust everyone on the internet. (I know, big surprise.)
+
+For example, consider the `event-stream incident`. The maintainer unknowingly gave write-access to a malicious actor. Practically everyone depends on this code. The actor injected code that could be used to steal bitcoins:
 - [initial issue](https://github.com/dominictarr/event-stream/issues/116)
 - [injected code explanation](https://github.com/dominictarr/event-stream/issues/116#issuecomment-441759047)
 - [original maintainer's response](https://github.com/dominictarr/event-stream/issues/116)
 - [a sarcastic blog post summarizing this class of attack](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
 
-#### Why Not Fund Language Developers?
+#### Why Not Fund the Language Developers?
 
-It's already been done via the [PureScript Open Collective]((https://opencollective.com/purescript)). However, someone took it down. I (Jordan) don't know the full reasons. Here's my speculation:
+Been there, done that. Someone took it down. ([PureScript Open Collective]((https://opencollective.com/purescript))
+
+I (Jordan) don't know why it was taken down. Here's my speculation:
 - Since the project and its funds hadn't been claimed for a couple of weeks, it was stopped to prevent anyone on the internet from stealing the funds.
 - There was no clear vision as to how the funds would be spent and how it would improve the situation.
 
