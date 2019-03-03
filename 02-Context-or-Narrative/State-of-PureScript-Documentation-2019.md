@@ -305,12 +305,20 @@ If done before a `v1.0`, then the language will likely be stable, documentation 
 
 If done after a `v1.0`, then many things will need to be updated, the language's reputation might suffer, and people might be forever turned off to it.
 
+### Slack-Based Questions and Answers Do Not Persist
 
+Because the documentation is lacking, many are encouraged to ask their questions on the `#purescript` channel in the FP Slack. Many have greatly benefited from the quick answers they receive.
 
-- What exactly are FP's "Best Practices?"
-    - They are not well-defined, are assumed, or are habits
-    - Knowledge silos exist, so it's hard to extract that info
-- Slack-based discussions do not persist
+However, these questions and their answers do not persist. After so much time, Slack will delete them. Thus, the same questions get re-answered
+
+### What Exactly are FP's "Best Practices"
+
+Coming from an Object-Oriented Paradigm, many have asked, "Why aren't the best practices / design patterns / idioms in Functional Programming explained/documented?"
+
+FP's "best practices" are
+- hard to define
+- things people assume everyone does (so why explain them?)
+- unconscious habits ("Oh! I didn't realize this was a 'design pattern.'")
 
 ## New Learners: What is the Best Way to Learn PureScript?
 
