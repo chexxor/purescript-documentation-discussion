@@ -271,11 +271,10 @@ Perhaps this idea could be revisited in the future. For now, we cannot say.
 
 ### There Is No Roadmap That Coordinates Efforts
 
-This is hard to do. Let's consider why:
-- It's easy to disagree on what goals should be pursued
-- It's easy to disagree on how to word such goals
-- It's easy to disagree on what to include and exclude
-- It's easy to do nothing and let someone else contribute
+Defining a roadmap is hard. It's easy to...
+- ...disagree on which goals should be pursued and which to ignore
+- ...disagree on how to word such goals
+- ...do nothing and let someone else contribute
 
 Creating a "good" roadmap takes significant time and energy.
 
