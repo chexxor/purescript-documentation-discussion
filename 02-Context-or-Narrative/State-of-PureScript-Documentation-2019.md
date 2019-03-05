@@ -287,9 +287,9 @@ Therefore:
 
 #### Avoiding a `v1.0` PureScript language release
 
-When people announce "Language X is now '1.0!'", it tends to draw a lot of focus and a lot of traffic. People probably think, "Wow! It's now stable enough to be used to write all my programs."
+When people announce "Language X is now `1.0`!", it tends to draw a lot of focus and a lot of traffic. People probably think, "Wow! It's now stable enough to be used to write all my programs."
 
-In reality, many would misunderstand a `v1.0` PureScript language release. They would likely understand it as a `v1.0` PureScript ecosystem. The language could be considered 'good enough' for a `v1.0`. However, the ecosystem is definitely not.
+In short, one core contributor believes that many would perceive a `v1.0` release as a `v1.0` ecossytem release. The language could be considered 'good enough' for a `v1.0`. However, the ecosystem is definitely not.
 
 What good is a `v1.0` language, if
 - the dependency managers are still unfriendly to users?
