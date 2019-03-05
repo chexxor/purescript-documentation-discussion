@@ -217,7 +217,11 @@ If you value the same things that PureScript language developers value, then you
 >
 > In retrospect, I think it’s fair to say that I was quite thoroughly burned out from trying to balance open source work and real life.
 >
+> I still love to _use_ PureScript, and I’ve been working to increase PureScript adoption at work....
+>
 > ~ Phil Freeman, the creator of the PureScript language [(1st & 2nd paragraph)](https://discourse.purescript.org/t/the-state-of-things/282)
+
+The following quote is a response to another's "wallowing:"
 
 > Just to wallow for a second, I...
 > - contribute to/review stuff on the compiler
