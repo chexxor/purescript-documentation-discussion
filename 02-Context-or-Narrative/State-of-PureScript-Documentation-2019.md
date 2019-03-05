@@ -174,7 +174,7 @@ These are the reasons. Each wil be covered more in-depth following this:
 
 - PureScript is not _currently_ trying to be the next "mainstream language".
 - Core contributors are spread thin: limited time with too much responsibility
-- There is no clearly-defined mutually-held community-wide roadmap that coordinates efforts
+- There is no roadmap that coordinates efforts
 - It's difficult to pin down and define what are Functional Programming's "best practices"
 - Questions answered on Slack do not persist, so they get re-asked and re-answered
 
@@ -269,7 +269,7 @@ I (Jordan) don't know why it was taken down. Here's my speculation:
 
 Perhaps this idea could be revisited in the future. For now, we cannot say.
 
-### No Clearly-Defined Mutually-Held Community-Wide Roadmap
+### There Is No Roadmap That Coordinates Efforts
 
 This is hard to do. Let's consider why:
 - It's easy to disagree on what goals should be pursued
