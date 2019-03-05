@@ -22,7 +22,7 @@ Outline
 - Address various audience's possible concerns or questions centered on these themes:
     - New learners - How should I learn PureScript?
     - PureScript documentation writers - How should I write good maintainable documentation for others?
-    - Core Contributors - 
+    - Core Contributors -
 
 ## What is "Good" Documentation Anyway?
 
@@ -196,6 +196,12 @@ Here's what has been added to the above since then:
 ## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
 
 ## Core Contributors: ???
+
+- What can the community do to encourage/support you in 2019?
+- What are your general goals for the langauge/ecosystem in 2019?
+- What kind of help do you want from the community in 2019 (e.g. maintainership, documentation, conbtributions, etc.)?
+- What kind of help do you not want from the community in 2019 (e.g. maintainership, documentation, conbtributions, etc.)?
+- How much support are you willing to provide and in what form?
 
 The following
     - Evaluate PureScript's documentation using that criteria
