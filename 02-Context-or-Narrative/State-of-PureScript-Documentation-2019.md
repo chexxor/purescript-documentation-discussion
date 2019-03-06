@@ -180,36 +180,27 @@ These are the reasons. Each wil be covered more in-depth following this:
 
 ### PureScript is not _currently_ trying to be the next "mainstream language"
 
-Many have wrongly assumed that PureScript is trying to replace [insert your favorite web language here]. That is not the case. Each language has its trade-offs that make it better for some and worse for others.
+Many have wrongly assumed that PureScript is trying to replace [insert your favorite web language here]. That is not the case.
 
-Rather, PureScript is _currently_ following the motto of "**avoid (success at all costs)**".
+In short, PureScript might not be the language for you.
 
-#### The Wrong Interpretation of 'Avoid (success at all costs)'
+PureScript has the following philosophy:
+> Making a language "successful" (e.g. popular, industry-standard, taught in universities' curriculums, etc.) is not a justification for paying for "costs" that ruin the language, such as limiting the language's expressiveness, making it less safe, less secure, etc.
+>
+> Making the language easier to use and learn by improving it is good and supported.
+> Making the language easier to use and learn by crippling, downgrading, or dumbing down the language is rejected. Users will either learn it properly or use something else.
+>
+> Plenty of languages chose to sacrifice safety, security, efficiency, etc. to gain the benefits of "success."
+>
+> PureScript will not be another such language. Rather, it will try to progress in "the right way," even when it's inconvenient, makes it harder to learn, etc.
+>
+> ~ Summary of [A Response that Explains the Motto: 'Avoid (Success at All Costs)'](https://news.ycombinator.com/item?id=12056169) (edits made: replaced 'Haskell' with 'PureScript'; removed "research-related concepts")
 
-One might understand 'avoid (success at all costs)' as "We don't want to be 'successful.' We don't want everyone to use this language. Therefore, let's make it hard and impractical for people to learn and use this language."
+This philosophy is summarized as "avoid (success at all costs)"
 
-New learners have likely said or thought, "Stupid language developers! Why didn't they make it easier to learn how to use this language and its abstractions? I thought this was a 'better' language."
+If you value 'success' over 'costs,' use a different language.
 
-This interpretation is flawed because it focuses on the _wrong core values_: low learning curve and ease of use. PureScript's language developers do value these things, but they value other things more.
-
-#### The Right Interpretation of 'Avoid (success at all costs)'
-
-To understand this motto, one must understand the core value behind it: productivity:
-- Using the right abstractions is more productive than using a workaround/hack because of a language deficiency.
-- Languages that nag at you to write well-structured programs are more productive than those that don't.
-- Fixing bugs before shipping is more productive than fixing bugs after shipping (e.g. trading runtime errors for compiler errors)
-- Painless refactoring is more productive when reducing technical debt than painful refactoring.
-- Creating solutions that "just work" is more productive than solutions that "should work."
-
-In short, all languages make compromises based on which core values they value more than others. PureScript "bought" power and productivity at the "price" of a higher learning curve and lower ease of use. Other languages made a different "purchase."
-
-This leaves one conclusion: PureScript might not be the language for you.
-
-If you can accomplish your goals using a language that "fits" you better than PureScript, why use PureScript?
-
-Programming exists to solve problems. It's not about proving whether you are clever and disciplined enough to learn something hard. Go use that language instead, and come back if you change your mind.
-
-If you value the same things that PureScript language developers value, then you are right at home.
+If you value 'costs' over 'success', use this language.
 
 ### Core contributors are spread thin
 
