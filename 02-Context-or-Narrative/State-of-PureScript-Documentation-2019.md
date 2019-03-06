@@ -313,7 +313,7 @@ When should future breaking changes be done: before a `v1.0` or afterwards?
 
 If done before a `v1.0`, then the language will likely be stable, documentation will not go out of date, and the ecosystem can flourish.
 
-If done after a `v1.0`, then many things will need to be updated, the language's reputation might suffer, and people might be forever turned off to it.
+If done after a `v1.0`, then many libraries and docs will need to be updated, the language's reputation might suffer, and people might be forever turned off to it.
 
 ### Slack-Based Questions and Answers Do Not Persist
 
