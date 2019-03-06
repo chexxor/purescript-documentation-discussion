@@ -213,6 +213,10 @@ To help with consistency, copy the below questions and paste them into your comm
 
 
 
+> What processes that are not automated could be automated to save you time / lower the maintenance cost?
+
+
+
 > What kind of help do you want from the community in 2019 (e.g. maintainership, documentation, conbtributions, etc.)?
 
 
