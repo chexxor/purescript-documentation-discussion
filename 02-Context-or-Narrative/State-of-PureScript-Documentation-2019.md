@@ -174,6 +174,7 @@ These are the reasons. Each wil be covered more in-depth following this:
 
 - PureScript is not _currently_ trying to be the next "mainstream language".
 - Core contributors are spread thin
+- Breaking changes outdate documentation and kill documenters' motivation
 - There is no roadmap that coordinates efforts
 - It's difficult to pin down and define what are Functional Programming's "best practices"
 - Questions answered on Slack do not persist, so they get re-asked and re-answered
@@ -262,6 +263,18 @@ I (Jordan) don't know why it was taken down. Here's my speculation:
 - There was no clear vision as to how the funds would be spent and how it would improve the situation.
 
 Perhaps this idea could be revisited in the future. For now, we cannot say.
+
+### Breaking Changes Outdate Documentation and Kill Documenters' Motivation
+
+The main 'go-to' documentation resource for PureScript was/is [PureScript By Example](https://leanpub.com/purescript/) by Phil Freeman. This resource documents the `0.11.7` PureScript release. The current PureScript release is `0.12.3` (as of this writing).
+
+The `0.12.0` was a significant achievement but one that came with a lot of breaking changes. Phil responded to it in this way:
+
+> [The PureScript by Example book] seems to take longer [to update] with each major compiler update, and honestly, I’m not motivated to update it again without some sort of guarantee that I won’t have to redo everything again in a few months....
+> I would like to write a lot more documentation for PureScript, but I hate the idea that it will become out of date quickly....
+> So without some sort of plan for the future of the language, and some idea of what changes are coming (and just as importantly, which aren’t), I’m not likely to write anything, and I wouldn’t be surprised if others avoided writing for the same reason.
+>
+> ~ Phil Freeman [The State of Things, point 4](https://discourse.purescript.org/t/the-state-of-things/282)
 
 ### There Is No Roadmap That Coordinates Efforts
 
