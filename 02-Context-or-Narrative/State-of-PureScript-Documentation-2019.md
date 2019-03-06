@@ -180,9 +180,7 @@ These are the reasons. Each wil be covered more in-depth following this:
 
 ### PureScript is not _currently_ trying to be the next "mainstream language"
 
-Many have wrongly assumed that PureScript is trying to replace [insert your favorite web language here]. That is not the case.
-
-In short, PureScript might not be the language for you.
+A few have wrongly assumed that PureScript is trying to replace [insert your favorite web language here]. That is not the case.
 
 PureScript has the following philosophy:
 > Making a language "successful" (e.g. popular, industry-standard, taught in universities' curriculums, etc.) is not a justification for paying for "costs" that ruin the language, such as limiting the language's expressiveness, making it less safe, less secure, etc.
@@ -196,11 +194,13 @@ PureScript has the following philosophy:
 >
 > ~ Summary of [A Response that Explains the Motto: 'Avoid (Success at All Costs)'](https://news.ycombinator.com/item?id=12056169) (edits made: replaced 'Haskell' with 'PureScript'; removed "research-related concepts")
 
-This philosophy is summarized as "avoid (success at all costs)"
+This philosophy is summarized as "avoid (success at all costs)."
 
-If you value 'success' over 'costs,' use a different language.
+The current focus (see later point) is not on making documentation great. Rather, it's on implementing the language features that haven't yet been implemented.
 
-If you value 'costs' over 'success', use this language.
+Thus, PureScript might not be the language for you:
+- If you value 'success' over 'costs,' use a different language.
+- If you value 'costs' over 'success' and are determined to learn hard things, use this language.
 
 ### Core contributors are spread thin
 
