@@ -22,7 +22,7 @@ Outline
 - Address various audience's possible concerns or questions centered on these themes:
     - New learners - How should I learn PureScript?
     - PureScript documentation writers - How should I write good maintainable documentation for others?
-    - Core Contributors - 
+    - Core Contributors -
 
 ## What is "Good" Documentation Anyway?
 
@@ -192,6 +192,10 @@ Here's what has been added to the above since then:
 - Slack-based discussions do not persist
 
 ## New Learners: What is the Best Way to Learn PureScript?
+
+There are likely other learning paths besides the ones covered below, but here's what we found in our research:
+
+![Learner Paths "Learner Paths"](./learner-paths-to-ps.png)
 
 ## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
 
