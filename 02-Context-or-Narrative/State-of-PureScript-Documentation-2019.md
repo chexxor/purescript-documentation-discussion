@@ -205,11 +205,11 @@ To help with consistency, copy the below questions and paste them into your comm
 
 
 
-> What are your general goals for the langauge/ecosystem in 2019?
+> What are your general goals for the language/ecosystem in 2019?
 
 
 
-> What are not your goals for the langauge/ecosystem in 2019? (i.e. things you know need additional work, but just don't have a high enough priority right now)
+> What are not your goals for the language/ecosystem in 2019? (i.e. things you know need additional work, but just don't have a high enough priority right now)
 
 
 
