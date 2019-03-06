@@ -221,7 +221,7 @@ To help with consistency, copy the below questions and paste them into your comm
 
 
 
-> How much support are you willing to provide and in what form?
+> How much support are you willing to provide to those who want to help and in what form?
 
 ```
 
