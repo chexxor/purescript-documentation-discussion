@@ -173,7 +173,7 @@ Here's what has been added to the above since then:
 These are the reasons. Each wil be covered more in-depth following this:
 
 - PureScript is not _currently_ trying to be the next "mainstream language".
-- Core contributors are spread thin: limited time with too much responsibility
+- Core contributors are spread thin
 - There is no roadmap that coordinates efforts
 - It's difficult to pin down and define what are Functional Programming's "best practices"
 - Questions answered on Slack do not persist, so they get re-asked and re-answered
@@ -211,7 +211,7 @@ Programming exists to solve problems. It's not about proving whether you are cle
 
 If you value the same things that PureScript language developers value, then you are right at home.
 
-### Core contributors are spread thin: limited time with too much responsibility
+### Core contributors are spread thin
 
 > It’s been 7 months since I announced that I would be taking a long break from PureScript development....
 >
