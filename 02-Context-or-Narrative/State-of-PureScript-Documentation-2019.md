@@ -197,12 +197,35 @@ Here's what has been added to the above since then:
 
 ## Core Contributors: ???
 
-- What can the community do to encourage/support you in 2019?
-- What are your general goals for the langauge/ecosystem in 2019?
-- What are not your goals for the langauge/ecosystem in 2019? (i.e. things you know need additional work, but just don't have a high enough priority right now)
-- What kind of help do you want from the community in 2019 (e.g. maintainership, documentation, conbtributions, etc.)?
-- What kind of help do you not want from the community in 2019 (e.g. maintainership, documentation, conbtributions, etc.)?
-- How much support are you willing to provide and in what form?
+Please answer the below questions.
+
+To help with consistency, copy the below questions and paste them into your comment box. Then, give a reply.
+```
+> What can the community do to encourage/support you in 2019?
+
+
+
+> What are your general goals for the langauge/ecosystem in 2019?
+
+
+
+> What are not your goals for the langauge/ecosystem in 2019? (i.e. things you know need additional work, but just don't have a high enough priority right now)
+
+
+
+> What kind of help do you want from the community in 2019 (e.g. maintainership, documentation, conbtributions, etc.)?
+
+
+
+> What kind of help do you not want from the community in 2019 (e.g. maintainership, documentation, conbtributions, etc.)?
+
+
+
+> How much support are you willing to provide and in what form?
+
+```
+
+
 
 The following
     - Evaluate PureScript's documentation using that criteria
