@@ -285,10 +285,10 @@ When people announce "Language X is now `1.0`!", it tends to draw a lot of focus
 In short, one core contributor believes that many would perceive a `v1.0` release as a `v1.0` ecosystem release. The language could be considered 'good enough' for a `v1.0`. However, the ecosystem is definitely not.
 
 What good is a `v1.0` language, if
+- common libraries haven't stabilized yet or are non-existant?
+- the ecosystem is incoherent in a number of ways?
 - the dependency managers are still unfriendly to users?
 - the IDE support is still lacking?
-- common libraries haven't stabilized yet?
-- the ecosystem is incoherent in a number of ways?
 
 Thus, core contributors might avoid defining a roadmap to prevent people from having a `v1.0` ecosystem connotation.
 
