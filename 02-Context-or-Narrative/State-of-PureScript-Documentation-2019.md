@@ -197,6 +197,12 @@ There are likely other learning paths besides the ones covered below, but here's
 
 ![Learner Paths "Learner Paths"](./learner-paths-to-ps.png)
 
+| If your language background is... | ... then try these learning resources... | ... and these PureScript libraries |
+| -- | -- | -- |
+| JavaScript / OO languages | [Make the Leap from JavaScript to PureScript (Tutorial Series)](https://medium.com/@kelleyalex/index-make-the-leap-from-javascript-to-purescript-a1566d657e9c)<br><br>[An Outsider's Guide to Statically Typed Functional Programming (Book)](https://leanpub.com/outsidefp)<br><br>[Haskell: From First Principles](http://haskellbook.com/) | --
+| Elm | [An Outsider's Guide to Statically Typed Functional Programming (Book)](https://leanpub.com/outsidefp) | --
+| Haskell | [Introduction to PureScript (PDF)](http://code.adriansieber.com/adrian/adriansieber-com/src/branch/master/posts/_2018-11-01_introduction_to_purescript_for_haskell_developers/main.pdf)<br><br>[Differences from Haskell](https://github.com/purescript/documentation/blob/master/language/Differences-from-Haskell.md) | --
+
 ## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
 
 ## Core Contributors: ???
