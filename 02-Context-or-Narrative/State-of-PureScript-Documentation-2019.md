@@ -224,9 +224,12 @@ The following quote is a response to another's "wallowing:"
 >
 > ~ a core contributor ([2nd paragraph](https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569261), edits made: content was turned into a list; "..." changed to "," for readability)
 
-As a result, documentation PRs are either forgotten or reviewed long after their initial submission. It's quite difficult to maintain momentum in such a context.
+Reviewing documentation can be just as difficult as reviewing code. Some people are faster at reviewing things than others.
 
-Finally, reviewing documentation can be just as difficult as reviewing code. Some people are faster at reviewing things than others.
+Thus, maintaining momentum when documenting code is difficult:
+- Some documentation PRs are missed/forgotten.
+- Many do not get a timely response from core contributors (one may wait for weeks)
+- Most tend to get merged a week or more after their initial submissions.
 
 #### Why Not Just Delegate?
 
