@@ -401,6 +401,10 @@ The longer the core contributors take to implement these breaking changes, the l
 
 But, there is hope.
 
+This small change will address the FP Slack persistence issue:
+- When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on SO and link to the question in the chatroom.
+- Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
+
 People are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
 
 Such efforts will likely need to be "unofficial." We (non-core-contributors / users of PS) do not want to steal time away from the core contributors by distracting them with documentation PRs. Let them focus on the language's development. Stabilizing the language sooner means an improved documentation situation sooner.
