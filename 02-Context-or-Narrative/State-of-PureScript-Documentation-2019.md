@@ -333,7 +333,16 @@ If done after a `v1.0`, then many libraries and docs will need to be updated, th
 
 Because the documentation is lacking, many are encouraged to ask their questions on the `#purescript` channel in the FP Slack. Many have greatly benefited from the quick answers they receive.
 
-However, these questions and their answers do not persist. After so much time, Slack will delete them. Thus, the same questions get re-answered
+There are two issues with this approach:
+1. Such answers cannot be easily found because they are hidden in a chatroom's length conversation.
+2. These questions and their answers do not persist. After so much time, Slack will delete them.
+
+Thus, people with the same already-answered questions can't find their answers. They ask the same questions and receive the same answers. This takes time away from other contributors and developers.
+
+@chexxor has made some effort to address these issues by cross-posting such discussions in the Discourse forum. This accounts for the second issue.
+
+However, the format is poor. One must read through a (sometimes) lengthy conversation to find the answer.
+Contrast that with an SO question and answer that appears in a Google search.
 
 ### What Exactly are FP's "Best Practices"
 
@@ -343,6 +352,31 @@ FP's "best practices" are
 - hard to define
 - things people assume everyone does (so why explain them?)
 - unconscious habits ("Oh! I didn't realize this was a 'design pattern.'")
+
+### Summary
+
+Because core contributors are spread thin, they cannot respond quickly to people's questions or thoughts. With the small amount of time they do have, they are focusing on adding new language features, not improving the documentation situation. The language's development is steady (6-week release cycle) but slow.
+
+Unfortunately, these language features entail breaking changes. So, those who want to improve the documentation situation are discouraged from improving it. Why invest many hours into something that will be outdated in a few months? Why not invest those hours into something else, like an interesting project or learning something new?
+
+The longer the core contributors take to implement these breaking changes, the longer such documentation writers will wait, and the longer we'll be in this situation. This is not to blame the core contributors. They're doing great and their pace is just fine. It's only stating the reality of our situation.
+
+But, there is hope.
+
+People are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
+
+Such efforts will likely need to be "unofficial." We do not want to steal time away from the core contributors by distracting them with documentation PRs. Let them focus on the language's development. Stabilizing the language sooner means an improved documentation situation sooner.
+
+Rather, we can focus on answering questions like these:
+- What are the libraries that need to have their documentation improved?
+    - If documented, will breaking changes outdate such documentation?
+    - How hard would it be to write a small code example that shows how to use them?
+- What are the "best practices" for writing a good bindings library?
+    - How should a library author analyze the library to which they want to write bindings?
+    - What are common problems such people face and their possible solutions?
+- What are some of the clearest explanations for FP concepts?
+    - How hard is it to port their code examples to PureScript?
+    - Have people written an explanation that "walks one through" an FP paper's ideas in a clear way?
 
 ## New Learners: What is the Best Way to Learn PureScript?
 
