@@ -205,6 +205,8 @@ Thus, PureScript might not be the language for you:
 - If you value 'success' over 'costs,' use a different language.
 - If you value 'costs' over 'success' and are determined to learn hard things, use this language.
 
+(Related interpretation sections: [Keeping the motto of `Avoid "success at all costs"` and understanding its meaning](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
+
 ### Core contributors are spread thin
 
 > It’s been 7 months since I announced that I would be taking a long break from PureScript development....
