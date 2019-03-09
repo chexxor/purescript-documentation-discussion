@@ -199,6 +199,8 @@ This philosophy is summarized as "avoid (success at all costs)."
 
 The current focus (see later point) is not on making documentation great. Rather, it's on implementing the language features that haven't yet been implemented.
 
+However, even if great documentation was the focus, one will still have to learn difficult concepts before they can be productive. This fact will never change.
+
 Thus, PureScript might not be the language for you:
 - If you value 'success' over 'costs,' use a different language.
 - If you value 'costs' over 'success' and are determined to learn hard things, use this language.
