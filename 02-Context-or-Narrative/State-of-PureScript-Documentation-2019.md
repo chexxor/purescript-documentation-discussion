@@ -379,6 +379,7 @@ Rather, we can focus on answering questions like these:
 - What are some of the clearest explanations for FP concepts?
     - How hard is it to port their code examples to PureScript?
     - Have people written an explanation that "walks one through" an FP paper's ideas in a clear way?
+- Where is a centralized resource that documents the various ways PureScript can integrate with JS build tools (e.g. `parcel`, `webpack`, etc.) and their pros/cons?
 
 ## New Learners: What is the Best Way to Learn PureScript?
 
