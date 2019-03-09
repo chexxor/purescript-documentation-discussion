@@ -173,6 +173,7 @@ Here's what has been added to the above since then:
 These are the reasons. Each wil be covered more in-depth following this:
 
 - PureScript is not _currently_ trying to be the next "mainstream language".
+- Only core contributors have write/deployment privileges to PureScript websites
 - Core contributors are spread thin
 - Breaking changes outdate documentation and kill documenters' motivation
 - There is no roadmap that coordinates efforts
@@ -207,6 +208,18 @@ Thus, PureScript might not be the language for you:
 
 (Related interpretation sections: [Keeping the motto of `Avoid "success at all costs"` and understanding its meaning](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
 
+### Only core contributors have write / deployment privileges to PureScript websites
+
+The following PureScript websites either are outdated or could be modified to improve the documentation situation.
+
+Who can merge PRs into the websites' repositories and redeploy them once these PRs are merged?
+
+| Site | Write Privilege | Deploy Privelege | Source
+| -- | -- | -- | -- |
+| PureScript language website | Core Contributors | None. GitHub Pages | -
+| Pursuit | Core Contributors | Phil Freeman | [The State of Things, point 2](https://discourse.purescript.org/t/the-state-of-things/282)
+| Try PureScript | Core Contributors | Phil Freeman | [The State of Things, point 2](https://discourse.purescript.org/t/the-state-of-things/282)
+
 ### Core contributors are spread thin
 
 > It’s been 7 months since I announced that I would be taking a long break from PureScript development....
@@ -229,14 +242,25 @@ The following quote is a response to another's "wallowing:"
 >
 > ~ a core contributor ([2nd paragraph](https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569261), edits made: content was turned into a list; "..." changed to "," for readability)
 
-I (Jordan) don't know whether automating some tasks could be done and whether it would help.
+After reading such statements, we can only step back and ask,
+- Are the core contributors doing ok?
+- Are you getting enough rest?
+- Are you still investing in meaningful relationships?
+- Is contributing to PureScript still enjoyable to you or has it become burdensome?
+
+Thank you for the language you have crated, the libraries you wrote and maintain, and all the other things you have done for the benefit of this language and its ecosystem.
+
+Thank you for putting up with frustrating people, enduring negative and impatient attitudes, and trolls.
+
+
+Continuing with this assessment, I (Jordan) don't know whether automating some tasks could be done and whether it would help.
 
 Reviewing documentation can be just as difficult as reviewing code. Some people are faster at reviewing things than others.
 
 Thus, maintaining momentum when documenting code is difficult:
 - Some documentation PRs are missed/forgotten.
 - Many do not get a timely response from core contributors (one may wait for weeks)
-- Most tend to get merged a week or more after their initial submissions.
+- Some do not get merged in a timely manner either.
 
 (Related interpretation sections: [Limited Manpower / Not Enough Automation](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#limited-manpower--not-enough-automation), [Slow submitted-reviewed-merged timeline of documentation kills momentum](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#slow-submitted-reviewed-merged-timeline-of-documentation-prs-kills-documentation-momentum), [Reviewing documentation PRS can be just as difficult as code PRs](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#reviewing-documentation-prs-can-be-just-as-difficult-as-code-prs))
 
