@@ -348,12 +348,24 @@ Contrast that with an SO question and answer that appears in a Google search.
 
 ### What Exactly are FP's "Best Practices"
 
-Coming from an Object-Oriented Paradigm, many have asked, "Why aren't the best practices / design patterns / idioms in Functional Programming explained/documented?"
+Coming from an Object-Oriented Paradigm, some have asked, "Why aren't the best practices / design patterns / idioms in Functional Programming explained/documented?"
+
+What are FP's "design patterns" / "idioms" / "best practices" ? How would you define them?
 
 FP's "best practices" are
 - hard to define
+    - Are `monads` a design pattern?
+    - Are `lenses` a design pattern?
+    - What is not a design pattern?
 - things people assume everyone does (so why explain them?)
+    - Functions compose. Didn't people realize that type class X and Y are often used together?
+    - I used a recursive data type to model a domain. How else would I model it?
 - unconscious habits ("Oh! I didn't realize this was a 'design pattern.'")
+    - I used a List zipper to efficiently update an item in the list. What else would I use?
+
+FP languages tend to draw people who are intellectually curious. These people tend not to be good at explaining FP's benefits and concepts. Knowledge get suck in "silos."
+
+(Related interpretation section: [FP "best practices" are not well-defined, are assumed, or are unconscious habits](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support), [FP's culture creates "knowledge silos"](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
 
 ### Summary
 
