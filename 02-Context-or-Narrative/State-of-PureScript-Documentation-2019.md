@@ -225,12 +225,16 @@ The following quote is a response to another's "wallowing:"
 >
 > ~ a core contributor ([2nd paragraph](https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569261), edits made: content was turned into a list; "..." changed to "," for readability)
 
+I (Jordan) don't know whether automating some tasks could be done and whether it would help.
+
 Reviewing documentation can be just as difficult as reviewing code. Some people are faster at reviewing things than others.
 
 Thus, maintaining momentum when documenting code is difficult:
 - Some documentation PRs are missed/forgotten.
 - Many do not get a timely response from core contributors (one may wait for weeks)
 - Most tend to get merged a week or more after their initial submissions.
+
+(Related interpretation sections: [Limited Manpower / Not Enough Automation](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#limited-manpower--not-enough-automation), [Slow submitted-reviewed-merged timeline of documentation kills momentum](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#slow-submitted-reviewed-merged-timeline-of-documentation-prs-kills-documentation-momentum), [Reviewing documentation PRS can be just as difficult as code PRs](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#reviewing-documentation-prs-can-be-just-as-difficult-as-code-prs))
 
 #### Why Not Just Delegate?
 
