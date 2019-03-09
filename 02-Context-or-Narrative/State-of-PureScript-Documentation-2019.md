@@ -344,6 +344,8 @@ Thus, people with the same already-answered questions can't find their answers. 
 However, the format is poor. One must read through a (sometimes) lengthy conversation to find the answer.
 Contrast that with an SO question and answer that appears in a Google search.
 
+(Related interpretation section: [PureScript's Mediums of Communication](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
+
 ### What Exactly are FP's "Best Practices"
 
 Coming from an Object-Oriented Paradigm, many have asked, "Why aren't the best practices / design patterns / idioms in Functional Programming explained/documented?"
