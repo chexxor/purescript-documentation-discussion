@@ -420,8 +420,6 @@ Rather, we (non-core-contributors / users of PS) can focus on answering question
     - Have people written an explanation that "walks one through" an FP paper's ideas in a clear way?
 - Where is a centralized resource that documents the various ways PureScript can integrate with JS build tools (e.g. `parcel`, `webpack`, etc.) and their pros/cons?
 
-Here's another assumption that hasn't been tested (AFAIK): **all documentation efforts require a lot of work to fix when a breaking change occurs.**
-
 ## New Learners: What is the Best Way to Learn PureScript?
 
 ## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
