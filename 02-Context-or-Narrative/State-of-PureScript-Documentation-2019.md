@@ -260,6 +260,8 @@ For example, consider the `event-stream incident`. The maintainer unknowingly ga
 
 Finally, new maintainers, once found, have to be supported (which takes time and thought), so that they can actually fulfill their role. If they decide to leave soon after starting, then one has wasted time and effort.
 
+(Related interpretations sections: [Knwoing whom to trust with write access, defining best workflow procedures, and providing necessary support](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
+
 #### Why Not Just Fund the Language Developers?
 
 Been there, done that. Someone took it down. ([PureScript Open Collective]((https://opencollective.com/purescript))
