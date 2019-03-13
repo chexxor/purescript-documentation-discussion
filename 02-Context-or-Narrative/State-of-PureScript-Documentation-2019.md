@@ -312,6 +312,8 @@ The `0.12.0` was a significant achievement but one that came with a lot of break
 >
 > ~ Phil Freeman [The State of Things, point 4](https://discourse.purescript.org/t/the-state-of-things/282)
 
+Gary later pointed out that releases with "breaking changes" were occuring less frequently ([source](https://docs.google.com/spreadsheets/d/1MO8siLLSOpkKHJ_eBNRJbipBquFgqlaSS-QSnALDSo8/edit#gid=0)). Still, keep in mind that Phil was likely updating the book each time such a release was made.
+
 (Related interpretation sections: [Breaking Changes Render Documentation Outdated](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
 
 ### There Is No Roadmap That Coordinates Efforts
