@@ -381,7 +381,7 @@ Thus, people with the same already-answered questions can't find their answers. 
 @chexxor has made some effort to address these issues by cross-posting such discussions in the Discourse forum. This accounts for the second issue.
 
 However, the format is poor. One must read through a (sometimes) lengthy conversation to find the answer.
-Contrast that with an SO question and answer that appears in a Google search.
+Contrast that with an StackOverflow question and answer that appears in a Google search.
 
 (Related interpretation section: [PureScript's Mediums of Communication](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
 
@@ -420,7 +420,7 @@ The following statements are not to blame people or point fingers. Rather, it st
 But, there is hope.
 
 This small change will address the FP Slack persistence issue:
-- When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on SO and link to the question in the chatroom.
+- When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
 - Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
 
 People are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
