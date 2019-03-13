@@ -248,7 +248,7 @@ After reading such statements, we can only step back and ask,
 - Are you still investing in meaningful relationships?
 - Is contributing to PureScript still enjoyable to you or has it become burdensome?
 
-Thank you for the language you have crated, the libraries you wrote and maintain, and all the other things you have done for the benefit of this language and its ecosystem.
+Thank you for the language you have created, the libraries you wrote and maintain, and all the other things you have done for the benefit of this language and its ecosystem.
 
 Thank you for putting up with frustrating people, enduring negative and impatient attitudes, and trolls.
 
