@@ -177,7 +177,7 @@ These are the reasons. Each wil be covered more in-depth following this:
 - Core contributors are spread thin
 - Breaking changes outdate documentation and kill documenters' motivation
 - There is no roadmap that coordinates efforts
-- `bower` runs out of memory due to transitive dependencies
+- Some libraries cannot publish their docs due to OOM error
 - It's difficult to pin down and define what are Functional Programming's "best practices"
 - Questions answered on Slack do not persist, so they get re-asked and re-answered
 
@@ -357,7 +357,7 @@ If done after a `v1.0`, then many libraries and docs will need to be updated, th
 
 (Related interpretation sections: [Lack of a clearly-defined communit-wide mutually-held vision/goal](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#lack-of-a-clearly-defined-community-wide-mutually-held-visiongoal), [Lack of a clearly-defined core-contributor-wide mutually-held language specification](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#lack-of-a-clearly-defined-core-contributor-wide-mutually-held-language-specification), [Fear that people will misinterpret at "v1.0" compiler release for a "v1.0" ecosystem release](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fear-that-people-will-misinterpret-a-v10-compiler-release-for-a-v10-ecosystem-release))
 
-### `bower` runs out of memory due to transitive dependencies
+### Some libraries cannot publish their docs due to OOM error
 
 From [pulp version runs out of memory (fatal exception) - Issue 351](https://github.com/purescript-contrib/pulp/issues/351):
 - Context: Bower is used to produce the "resolutions file" that the compiler expects
