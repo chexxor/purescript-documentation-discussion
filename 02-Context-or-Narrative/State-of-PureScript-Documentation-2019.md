@@ -357,15 +357,16 @@ If done after a `v1.0`, then many libraries and docs will need to be updated, th
 
 ### `bower` runs out of memory due to transitive dependencies
 
-[pulp version runs out of memory (fatal exception) - Issue 351](https://github.com/purescript-contrib/pulp/issues/351)'s core parts:
+From [pulp version runs out of memory (fatal exception) - Issue 351](https://github.com/purescript-contrib/pulp/issues/351):
 - Context: Bower is used to produce the "resolutions file" that the compiler expects
     - > The compiler expects a “resolutions file” in a similar format to the output of this problematic bower command. We only need a very small portion of the information produced by that command though; for each dependency, if the bower.json specifies anything other than a version range for it, we need to know so that we can produce a warning about that. Otherwise, we need to know which version bower’s solver picked. If I remember correctly that’s everything. Unfortunately I’m not aware of a more sensible variant of bower list which produces all the information we need. [comment in issue, paragraph 2](https://github.com/purescript-contrib/pulp/issues/351#issuecomment-395611759)
 - Problem: Bower throws a `RangeError` when attempting to `JSON.stringify` an object that includes a massive dependency tree due to duplicate transitive dependencies:
     - > Bower builds a log object, which has our dependency tree. When they try to JSON.stringify this object, it throws RangeError: Invalid string length [comment in issue](https://github.com/purescript-contrib/pulp/issues/351#issuecomment-395605607)
-- Solution: Change the compiler's "resolution file" schema. Unfortunately, this is a breaking change:
-    - > To clarify, the course of action I'm suggesting is that we have `pulp` actually look through the filesystem and collect the resolutions data, and we then pass that information to the compiler. It would make our lives easier if we could also change the compiler so that it accepts this information using a more sensible schema than that of `bower list --offline --json` (and this is what I'm suggesting in that issue ([Simplify `purs publish` resolutions format](https://github.com/purescript/purescript/issues/3499))).
 
-Thus, a library like `Halogen` cannot publish its `v4.0.0` or `v5.0.0` docs on Pursuit. Unfortunately, there's nothing they can do about it.
+The proposed solution: change the compiler's "resolution file" schema. Unfortunately, this is a breaking change (tracking issue: [Simplify `purs publish` resolution format](https://github.com/purescript/purescript/issues/3499)):
+    - > To clarify, the course of action I'm suggesting is that we have `pulp` actually look through the filesystem and collect the resolutions data, and we then pass that information to the compiler. It would make our lives easier if we could also change the compiler so that it accepts this information using a more sensible schema than that of `bower list --offline --json` (and this is what I'm suggesting in that issue ([comment in issue](https://github.com/purescript-contrib/pulp/issues/351#issuecomment-450465708))).
+
+Thus, a heavily-used library like `Halogen` cannot publish its `v4.0.0` or `v5.0.0` docs on Pursuit. Unfortunately, there's nothing they can do about it.
 
 ### Slack-Based Questions and Answers Do Not Persist
 
