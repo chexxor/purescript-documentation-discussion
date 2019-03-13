@@ -409,9 +409,12 @@ FP languages tend to draw people who are intellectually curious. These people te
 
 Because core contributors are spread thin, they cannot respond quickly to people's questions or thoughts. With the small amount of time they do have, they are focusing on adding new language features, not improving the documentation situation. The language's development is steady (6-week release cycle) but slow.
 
-Unfortunately, these language features entail breaking changes. So, those who want to improve the documentation situation are discouraged from improving it. Why invest many hours into something that will be outdated in a few months? Why not invest those hours into something else, like an interesting project or learning something new?
+However, it seems they are (wisely) postponing "breaking changes" until all can be done at once. Otherwise, they will ~spend~ waste even more of their time updating the ecosystem to account for the breaking changes.
 
-The longer the core contributors take to implement these breaking changes, the longer such documentation writers will wait, and the longer we'll be in this situation. This is not to blame the core contributors. They're doing great and their pace is just fine. It's only stating the reality of our situation.
+Due to the looming "breaking changes," those who want to improve the documentation situation are often discouraged from improving it. Why invest many hours into something that will be outdated in a few months? Why not invest those hours into something else, like an interesting project or learning something new?
+
+The following statements are not to blame people or point fingers. Rather, it states what is our reality:
+> Core contributors are doing great and their pace is just fine. Still, the longer the core contributors take to implement these breaking changes, the longer such documentation writers will wait, and the longer we'll be in this situation.
 
 But, there is hope.
 
