@@ -240,7 +240,7 @@ The following quote is a response to another's "wallowing:"
 >
 > So unless I stop doing some of that, there's no chance I can make any meaningful steps to improving the documentation situation.
 >
-> ~ a core contributor ([2nd paragraph](https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569261), edits made: content was turned into a list; "..." changed to "," for readability)
+> ~ Gary Burgess, a core contributor ([2nd paragraph](https://gist.github.com/marick/e8b01375309fafaefb879c4840b6da75#gistcomment-2569261), edits made: content was turned into a list; "..." changed to "," for readability)
 
 After reading such statements, we can only step back and ask,
 - Are the core contributors doing ok?
