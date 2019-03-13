@@ -181,6 +181,8 @@ These are the reasons. Each wil be covered more in-depth following this:
 - It's difficult to pin down and define what are Functional Programming's "best practices"
 - Questions answered on Slack do not persist, so they get re-asked and re-answered
 
+This section concludes with a [narrative summary](#summary-of-Why-Docs-are-Lacking).
+
 ### PureScript is not _currently_ trying to be the next "mainstream language"
 
 A few have wrongly assumed that PureScript is trying to replace [insert your favorite web language here]. That is not the case.
@@ -408,7 +410,7 @@ FP languages tend to draw people who are intellectually curious. These people te
 
 (Related interpretation section: [FP "best practices" are not well-defined, are assumed, or are unconscious habits](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fp-best-practices-are-not-well-defined-are-assumed-or-are-unconscious-habits), [FP's culture creates "knowledge silos"](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fps-culture-creates-knowledge-silos))
 
-### Summary
+### Summary of 'Why Docs are Lacking'
 
 Because core contributors are spread thin, they cannot respond quickly to people's questions or thoughts. With the small amount of time they do have, they are focusing on adding new language features, not improving the documentation situation. The language's development is steady (6-week release cycle) but slow.
 
