@@ -314,7 +314,7 @@ The `0.12.0` was a significant achievement but one that came with a lot of break
 
 Gary later pointed out that releases with "breaking changes" were occuring less frequently ([source](https://docs.google.com/spreadsheets/d/1MO8siLLSOpkKHJ_eBNRJbipBquFgqlaSS-QSnALDSo8/edit#gid=0)). Still, keep in mind that Phil was likely updating the book each time such a release was made.
 
-(Related interpretation sections: [Breaking Changes Render Documentation Outdated](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
+(Related interpretation sections: [Breaking Changes Render Documentation Outdated](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#breaking-changes-renders-documentation-outdated))
 
 ### There Is No Roadmap That Coordinates Efforts
 
@@ -355,7 +355,7 @@ If done before a `v1.0`, then the language will likely be stable, documentation 
 
 If done after a `v1.0`, then many libraries and docs will need to be updated, the language's reputation might suffer, and people might be forever turned off to it.
 
-(Related interpretation sections: [Lack of a clearly-defined communit-wide mutually-held vision/goal](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support), [Lack of a clearly-defined core-contributor-wide mutually-held language specification](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support), [Fear that people will misinterpret at "v1.0" compiler release for a "v1.0" ecosystem release](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
+(Related interpretation sections: [Lack of a clearly-defined communit-wide mutually-held vision/goal](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#lack-of-a-clearly-defined-community-wide-mutually-held-visiongoal), [Lack of a clearly-defined core-contributor-wide mutually-held language specification](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#lack-of-a-clearly-defined-core-contributor-wide-mutually-held-language-specification), [Fear that people will misinterpret at "v1.0" compiler release for a "v1.0" ecosystem release](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fear-that-people-will-misinterpret-a-v10-compiler-release-for-a-v10-ecosystem-release))
 
 ### `bower` runs out of memory due to transitive dependencies
 
@@ -385,7 +385,7 @@ Thus, people with the same already-answered questions can't find their answers. 
 However, the format is poor. One must read through a (sometimes) lengthy conversation to find the answer.
 Contrast that with an StackOverflow question and answer that appears in a Google search.
 
-(Related interpretation section: [PureScript's Mediums of Communication](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
+(Related interpretation section: [PureScript's Mediums of Communication](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#purescripts-mediums-of-communication))
 
 ### What Exactly are FP's "Best Practices"
 
@@ -406,7 +406,7 @@ FP's "best practices" are
 
 FP languages tend to draw people who are intellectually curious. These people tend not to be good at explaining FP's benefits and concepts. Knowledge get stuck in "silos."
 
-(Related interpretation section: [FP "best practices" are not well-defined, are assumed, or are unconscious habits](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support), [FP's culture creates "knowledge silos"](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
+(Related interpretation section: [FP "best practices" are not well-defined, are assumed, or are unconscious habits](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fp-best-practices-are-not-well-defined-are-assumed-or-are-unconscious-habits), [FP's culture creates "knowledge silos"](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fps-culture-creates-knowledge-silos))
 
 ### Summary
 
