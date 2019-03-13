@@ -252,8 +252,7 @@ Thank you for the language you have created, the libraries you wrote and maintai
 
 Thank you for putting up with frustrating people, enduring negative and impatient attitudes, and trolls.
 
-
-Continuing with this assessment, I (Jordan) don't know whether automating some tasks could be done and whether it would help.
+#### Implications
 
 Reviewing documentation can be just as difficult as reviewing code. Some people are faster at reviewing things than others.
 
@@ -261,6 +260,8 @@ Thus, maintaining momentum when documenting code is difficult:
 - Some documentation PRs are missed/forgotten.
 - Many do not get a timely response from core contributors (one may wait for weeks)
 - Some do not get merged in a timely manner either.
+
+Lastly, I (Jordan) don't know whether some tasks could be automated and whether that would help.
 
 (Related interpretation sections: [Limited Manpower / Not Enough Automation](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#limited-manpower--not-enough-automation), [Slow submitted-reviewed-merged timeline of documentation kills momentum](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#slow-submitted-reviewed-merged-timeline-of-documentation-prs-kills-documentation-momentum), [Reviewing documentation PRS can be just as difficult as code PRs](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#reviewing-documentation-prs-can-be-just-as-difficult-as-code-prs))
 
