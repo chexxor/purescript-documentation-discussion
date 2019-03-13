@@ -177,6 +177,7 @@ These are the reasons. Each wil be covered more in-depth following this:
 - Core contributors are spread thin
 - Breaking changes outdate documentation and kill documenters' motivation
 - There is no roadmap that coordinates efforts
+- `bower` runs out of memory due to transitive dependencies
 - It's difficult to pin down and define what are Functional Programming's "best practices"
 - Questions answered on Slack do not persist, so they get re-asked and re-answered
 
@@ -353,6 +354,18 @@ If done before a `v1.0`, then the language will likely be stable, documentation 
 If done after a `v1.0`, then many libraries and docs will need to be updated, the language's reputation might suffer, and people might be forever turned off to it.
 
 (Related interpretation sections: [Lack of a clearly-defined communit-wide mutually-held vision/goal](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support), [Lack of a clearly-defined core-contributor-wide mutually-held language specification](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support), [Fear that people will misinterpret at "v1.0" compiler release for a "v1.0" ecosystem release](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
+
+### `bower` runs out of memory due to transitive dependencies
+
+[pulp version runs out of memory (fatal exception) - Issue 351](https://github.com/purescript-contrib/pulp/issues/351)'s core parts:
+- Context: Bower is used to produce the "resolutions file" that the compiler expects
+    - > The compiler expects a “resolutions file” in a similar format to the output of this problematic bower command. We only need a very small portion of the information produced by that command though; for each dependency, if the bower.json specifies anything other than a version range for it, we need to know so that we can produce a warning about that. Otherwise, we need to know which version bower’s solver picked. If I remember correctly that’s everything. Unfortunately I’m not aware of a more sensible variant of bower list which produces all the information we need. [comment in issue, paragraph 2](https://github.com/purescript-contrib/pulp/issues/351#issuecomment-395611759)
+- Problem: Bower throws a `RangeError` when attempting to `JSON.stringify` an object that includes a massive dependency tree due to duplicate transitive dependencies:
+    - > Bower builds a log object, which has our dependency tree. When they try to JSON.stringify this object, it throws RangeError: Invalid string length [comment in issue](https://github.com/purescript-contrib/pulp/issues/351#issuecomment-395605607)
+- Solution: Change the compiler's "resolution file" schema. Unfortunately, this is a breaking change:
+    - > To clarify, the course of action I'm suggesting is that we have `pulp` actually look through the filesystem and collect the resolutions data, and we then pass that information to the compiler. It would make our lives easier if we could also change the compiler so that it accepts this information using a more sensible schema than that of `bower list --offline --json` (and this is what I'm suggesting in that issue ([Simplify `purs publish` resolutions format](https://github.com/purescript/purescript/issues/3499))).
+
+Thus, a library like `Halogen` cannot publish its `v4.0.0` or `v5.0.0` docs on Pursuit. Unfortunately, there's nothing they can do about it.
 
 ### Slack-Based Questions and Answers Do Not Persist
 
