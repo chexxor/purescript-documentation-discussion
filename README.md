@@ -12,10 +12,23 @@ Doing this involves learning newcomers', long-time users', and project maintaine
 
 ## Explaining Our Methodology
 
-To get an understanding of the methodology used here, see these files in order:
+This project is using an extension/variant of the Getting Things Done (GTD) methodology. The official GTD methodology consists only of the ideas between Purpose to Next Actions, and the Sources and Context/Narrative aspects are added to the model as to place the methodology into a well-considered context.
+
+| Task Name | "The level at which we think when..." |
+| - | - |
+| Sources | ... determining which data to use to construct the Context (e.g. which are credible, which are not, etc.)
+| Context | ... determining what caused the Purpose to even exist and when it will stop existing<br>... trying to become informed, so that we can define the Purpose, Principles, and Outcomes wisely
+| Purpose | ... determining WHY we are doing something
+| Principles | ... determining the general GUIDELINES within which we accomplish the Purpose
+| Outcome | ... determining WHAT we are trying to achieve
+| Brainstorm | ... determining the step-by-step PLAN for how to achieve the Outcome
+| Next Actions | ... deciding what to DO *now*
+
+To understand how this methodology is being applied in this project, see these files in order:
+
 1. `01 sources and interpretations/ReadMe.md`
 2. `02 context or narrative.md`
-3. `03 purepose and principles.md`
+3. `03 purpose and principles.md`
 4. `04 outcome brainwrite next actions/outcome1.md`
 
 Here is our current status:
