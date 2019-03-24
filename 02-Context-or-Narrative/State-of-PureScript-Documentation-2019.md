@@ -2,17 +2,19 @@
 
 ## Why Read This Document?
 
-This document is not meant to convince you to use PureScript. We assume that readers already believe in using PureScript instead of alternatives.
+This document is not meant to convince you to use PureScript. We assume that readers already want to learn to use PureScript.
 
-It is well-known among the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) discourse thread to answer one question:
+It is well-known amongst the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) Discourse thread to answer one question:
 > How can we improve the PureScript documentation in 2019?
 
 (Purpose) The following document tries to do two things:
-1. Provide an answer to @chexxor's above question
+1. Determine why PureScript's documentation is seen as lacking.
+2. Explore strategies for improving PureScript's documentation.
+3. Understand the expectations & needs of the different documentation consumers:
 2. Answer other related questions that various audiences will have:
     - new learners (regardless of language background)
     - PureScript documentation writers
-    - Core Contributors
+    - Core contributors
 
 Outline
 - Explain what "good" documentation is and define a criteria
