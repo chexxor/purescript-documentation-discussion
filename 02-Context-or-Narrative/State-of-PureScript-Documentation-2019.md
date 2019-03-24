@@ -27,12 +27,11 @@ It is well-known amongst the PureScript community that its documentation is lack
 
 (Purpose) The following document tries to do the following things:
 1. Determine why PureScript's documentation is seen as lacking.
-2. Explore strategies for improving PureScript's documentation.
-3. Understand the expectations & needs of the different documentation consumers:
-4. Answer other related questions that various audiences will have:
+2. Understand the expectations & needs of the different documentation consumers.
     - New learners (regardless of language background)
     - PureScript documentation writers
     - Core contributors
+3. Explore strategies for improving PureScript's documentation.
 
 ## What is "Good" Documentation Anyway?
 
