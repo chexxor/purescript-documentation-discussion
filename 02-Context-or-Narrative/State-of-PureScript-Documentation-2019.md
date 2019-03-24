@@ -1,5 +1,23 @@
 # State of PureScript Documentation: 2019
 
+<!-- https://magnetikonline.github.io/markdown-toc-generate/ -->
+
+- [Why Read This Document?](#why-read-this-document)
+- [What is "Good" Documentation Anyway?](#what-is-good-documentation-anyway)
+    - [The Types of Documentation](#the-types-of-documentation)
+    - [The Documentation's Intended Audience](#the-documentations-intended-audience)
+    - [Maintaining Documentation's Accuracy](#maintaining-documentations-accuracy)
+        - [The "Size" of a Change](#the-size-of-a-change)
+        - [The "Frequency" of a Change](#the-frequency-of-a-change)
+        - [How to Make Maintenance Easier](#how-to-make-maintenance-easier)
+    - [Criteria for "Good" Documentation](#criteria-for-good-documentation)
+    - [Evaluating PureScript's Documentation](#evaluating-purescripts-documentation)
+- [Why is PureScript's Documentation Lacking and How Do We Improve It?](#why-is-purescripts-documentation-lacking-and-how-do-we-improve-it)
+- [New Learners: What is the Best Way to Learn PureScript?](#new-learners-what-is-the-best-way-to-learn-purescript)
+- [PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?](#purescript-documentation-writers-what-is-the-best-way-to-write-documentation-in-this-context)
+- [Core Contributors: ???](#core-contributors-)
+
+
 ## Why Read This Document?
 
 This document is not meant to convince you to use PureScript. We assume that readers already want to learn to use PureScript.
@@ -12,19 +30,9 @@ It is well-known amongst the PureScript community that its documentation is lack
 2. Explore strategies for improving PureScript's documentation.
 3. Understand the expectations & needs of the different documentation consumers:
 2. Answer other related questions that various audiences will have:
-    - new learners (regardless of language background)
+    - New learners (regardless of language background)
     - PureScript documentation writers
     - Core contributors
-
-Outline
-- Explain what "good" documentation is and define a criteria
-- Evaluate PureScript's documentation using that criteria
-- Explain why PureScript's documentation is seen as lacking
-- Suggest plans to improve the current documentation situation
-- Address various audience's possible concerns or questions centered on these themes:
-    - New learners - How should I learn PureScript?
-    - PureScript documentation writers - How should I write good maintainable documentation for others?
-    - Core Contributors -
 
 ## What is "Good" Documentation Anyway?
 
