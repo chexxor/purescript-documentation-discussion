@@ -81,9 +81,11 @@ As a result, others who read the resulting documentation will consider it "poor"
 
 ### Maintaining Documentation's Accuracy
 
-Third, documentation becomes outdated/inaccurate due to changes, especially breaking changes. It does this in two ways: decreasing its usefulness (depends on the 'size' of a change) and decreasing its coherence (depends on the 'frequency' of changes).
+Third, documentation becomes outdated/inaccurate due to changes in the subject of the documentation, especially breaking changes. Two aspects of changes: the 'size' of a change in the subject, and the 'frequency' of these changes.
 
 #### The "Size" of a Change
+
+The 'size' of a change can decrease its usefulness.
 
 | "Size" | Example
 | -- | -- |
@@ -101,6 +103,8 @@ When breaking changes occur, documentation can immediately become useless becaus
 Updating documentation in light of breaking changes often requires the most work to update.
 
 #### The "Frequency" of a Change
+
+The 'frequency' of a change can decrease its coherence.
 
 | "Frequency" | Example
 | -- | -- |
