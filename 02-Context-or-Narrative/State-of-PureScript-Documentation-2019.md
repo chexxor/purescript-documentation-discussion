@@ -416,11 +416,6 @@ A few different audiences
     - Questions whose answers would be helpful for others to know
         - What 'qualifications', if any, would they prefer someone has before delegating a project to them?
 
-Here's a quick overview of some of its benefits compared to other languages:
-- PureScript provides certain guarantees by default that other web languages do not or cannot (e.g. JavaScript, TypeScript)
-- PureScript is more powerful than similar alternatives (i.e. Elm)
-- PureScript can be used to 'patch' existing code, enabling one to slowly migrate a large application to PureScript one component at a time (unlike Haskell's GHCJS).
-
 ## What is "Good" Documentation Anyway?
 
 Did someone ever teach you how to write "good" documentation? Probably not - you likely just wrote what came to mind and hoped it was good enough.
