@@ -140,13 +140,27 @@ Using the above 5 types, here's how we'd categorize the following learning resou
 
 ### Everyone: How should we improve this situation?
 
+Our purpose is clear: improve the documentation situation
+
+In doing so, we should abide by these principles:
+- **Show, don't tell**: prefer heavily-commented compile-and-play code examples over written explanations
+- **Start unofficial documentation efforts**: allowing core contributors to implement breaking changes sooner means we'll get out of this situation sooner. Let's not slow them down.
+- **Don't recreate the wheel**: look into helping existing efforts before you consider starting your own
+-  **Adhere to Good Docs Guidelines**: we'll all be better for it
+
+The outcomes we are striving to reach have yet to be defined. We'd like your help. Here's our ideas. Please share yours.
+
+### Idea for improving the current support system
+
 This small change will address the FP Slack persistence issue:
 - When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
 - Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
 
-People are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
+End result: easily findable answers via Google in a well-presented format on SO
 
-Such efforts will likely need to be "unofficial." We (non-core-contributors / users of PS) do not want to steal time away from the core contributors by distracting them with documentation PRs. Let them focus on the language's development. Stabilizing the language sooner means an improved documentation situation sooner.
+### Idea for documenting things that aren't affected by breaking changes
+
+People are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
 
 Rather, we (non-core-contributors / users of PS) can focus on answering questions like these:
 - What are the libraries that need to have their documentation improved?
