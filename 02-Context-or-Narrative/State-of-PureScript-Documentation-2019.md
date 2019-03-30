@@ -6,12 +6,13 @@ It is well-known amongst the PureScript community that its documentation is lack
 > How can we improve the PureScript documentation in 2019?
 
 (Purpose) The following document tries to do the following things:
-1. Determine why PureScript's documentation is seen as lacking.
-2. Understand the expectations & needs of the different documentation consumers.
+1. Provide a researched narrative of PureScript's documentation development and history.
+2. Define the types of audiences of PureScript documentation and their expectations.
     - New learners (regardless of language background)
     - PureScript documentation writers
     - Core contributors
-3. Explore strategies for improving PureScript's documentation.
+3. Summarize the current opinions of PureScript's documentation audiences.
+4. Explore strategies for improving PureScript's documentation for its audiences.
 
 <!-- https://imthenachoman.github.io/nGitHubTOC/ -->
 
