@@ -1,8 +1,20 @@
 # State of PureScript Documentation: 2019
 
+This document is not meant to convince you to use PureScript, we assume that readers are already interested in it.
+
+It is well-known amongst the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) Discourse thread to answer one question:
+> How can we improve the PureScript documentation in 2019?
+
+(Purpose) The following document tries to do the following things:
+1. Determine why PureScript's documentation is seen as lacking.
+2. Understand the expectations & needs of the different documentation consumers.
+    - New learners (regardless of language background)
+    - PureScript documentation writers
+    - Core contributors
+3. Explore strategies for improving PureScript's documentation.
+
 <!-- https://imthenachoman.github.io/nGitHubTOC/ -->
 
-- [Why Read This Document?](#why-read-this-document)
 - [What is "Good" Documentation Anyway?](#what-is-good-documentation-anyway)
   - [The Types of Documentation](#the-types-of-documentation)
   - [The Documentation's Intended Audience](#the-documentations-intended-audience)
@@ -17,21 +29,6 @@
 - [PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?](#purescript-documentation-writers-what-is-the-best-way-to-write-documentation-in-this-context)
 - [Core Contributors: ???](#core-contributors-)
 
-
-## Why Read This Document?
-
-This document is not meant to convince you to use PureScript, we assume that readers are already interested in it.
-
-It is well-known amongst the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) Discourse thread to answer one question:
-> How can we improve the PureScript documentation in 2019?
-
-(Purpose) The following document tries to do the following things:
-1. Determine why PureScript's documentation is seen as lacking.
-2. Understand the expectations & needs of the different documentation consumers.
-    - New learners (regardless of language background)
-    - PureScript documentation writers
-    - Core contributors
-3. Explore strategies for improving PureScript's documentation.
 
 ## What is "Good" Documentation Anyway?
 
