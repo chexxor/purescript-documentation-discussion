@@ -24,35 +24,6 @@ Outline
     - PureScript documentation writers - How should I write good maintainable documentation for others?
     - Core Contributors -
 
-### Evaluating PureScript's Documentation
-
-Here was PureScript's documentation as of July 2018:
-
-| Name | Type | Audience | Medium |
-| -- | -- | -- | -- |
-| The Documentation Repository | Getting Started + Explanation | New PS Learners | GitHub Repo
-| Pursuit | Reference | All PS developers | API Docs website
-| PureScript by Example | Getting Started + How To + Explanation | New PS Learners | Book
-| PureScript Resources | Getting Started + Explanation | New PS Learners | Read The Docs
-| Lens for the Mere Mortal: PureScript Edition | How To + Explanation | Intermediate PS Learners | Book
-| -- | -- | -- | -- |
-| Professor Frisby Introduces Composable Functional JavaScript | Getting Started + How to + Explanation | JavaScript developers who want to use JavaScript | Online Course
-| An Outsider's Guide to Statically Typed Functional Programming | Hook + Getting Started + How to + Explanation | JavaScript developers who want to learn Elm but are exposed to PureScript at end | Book
-| -- | -- | -- | -- |
-| Elm to PureScript Cheatsheet | Reference | Elm developers considering PureScript | GitHub Repo
-| Differences of PureScript from Elm | Reference | Elm developers consider PureScript (or vice versa) | GitHub Gist
-| Documentation Repo's "Differences from Haskell" | Reference | Haskell developers considering PureScript | Markdown file
-
-Here's what has been added to the above since then:
-
-| Name | Type | Audience | Medium |
-| -- | -- | -- | -- |
-| Real World App | How To Guide? Reference? | PureScript developers | Code Example
-| MultiPac | Reference? | PureScript developers | Code Example
-| PureScript: Jordan's Reference | Hook + Getting Started + How to + Explanation + Reference | New Learners | GitHub Repo
-| A Guide to the PureScript Numeric Hierarchy | Explanation | New Learners | Read the Docs
-| Make the Leap from JavaScript to PureScript | Getting Started + Explanation | Javascript developers | Blog Post series
-
 ## Why is PureScript's Documentation Lacking and How Do We Improve It?
 
 Here's the short version. Each paragraph will have a link that explains its summary in more detail.
@@ -349,6 +320,40 @@ Second, your language background affects how easy or hard it is to learn PureScr
 | JavaScript / OO languages | [Make the Leap from JavaScript to PureScript (Tutorial Series)](https://medium.com/@kelleyalex/index-make-the-leap-from-javascript-to-purescript-a1566d657e9c)<br><br>[An Outsider's Guide to Statically Typed Functional Programming (Book)](https://leanpub.com/outsidefp)<br><br>[Haskell: From First Principles](http://haskellbook.com/) | --
 | Elm | [An Outsider's Guide to Statically Typed Functional Programming (Book)](https://leanpub.com/outsidefp) | --
 | Haskell | [Introduction to PureScript (PDF)](http://code.adriansieber.com/adrian/adriansieber-com/src/branch/master/posts/_2018-11-01_introduction_to_purescript_for_haskell_developers/main.pdf)<br><br>[Differences from Haskell](https://github.com/purescript/documentation/blob/master/language/Differences-from-Haskell.md) | --
+
+Third, we found that documentation can be categorized into 5 different types. Knowing about these types and how they can help you on your learning journey helps tremendously
+
+### The Types of Documentation
+
+First, there are 5 types of documentation that target specific phases of a learner's experience (as explained in [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/))
+
+| Learner's Phase | Type | Analogy | Characteristics
+| -- | -- | -- | -- |
+| Curious Outsider | The Hook | Selling a product to a potential customer | Answers these questions: <ul><li>What is this thing? / What problem does it solve?</li><li>Why whould I care? / How is this relevant to me for my purposes? / Who should not care?</li><li>How long will it take to learn it and how difficult is the learning curve?</li><li>Where do I go to get started / learn how to use this?</li></ul>
+| Potential User | Getting Started | Teaching a child how to cook | <ul><li>Focuses on the learner 'doing' stuff, not 'explaining' stuff to the learner</li><li>Provides a small simple working example that teaches the basics</li><li>New learners experience an 'I can use this now!' moment by the end</li><li>Focuses on concrete tasks, not abstract concepts</li><li>Does not use jargon</li><li>Explains only what is necessary and cuts out all else</li><li>Avoids explaining deeper concepts or different ways of doing the same thing</li></ul>
+| New User | How-To Guides | Following a cookbook's recipe | <ul><li>Achieves some goal or solves a problem</li><li>States the pre-requisites one needs to have before starting (not a Getting Started Guide)</li><li>The Guide follows a clearly-labeled step-by-step process</li><li>By following the steps, one reproduces the same results without fail</li><li>Explains the different ways one can achieve the same goal</li><li>Explains only what is necessary</li></ul>
+| Active User | Reference | Reading an encyclopedia | <ul><li>Concise explanation of each piece of the code</li><li>The structure of the reference mirrors the structure of the code it documents</li><li>Formatting is consistent throughout the material</li></ul>
+| Experienced User | Explanation | Listening to a CEO answer questions about his company | <ul><li>Explains the context/history</li><li>Explains the significant design decisions made, their alternativees, and the reasons one was chosen over another</li><li>Implies where things could be improved, expanded, refined, etc.</li></ul>
+
+Using the above 5 types, here's how we'd categorize the following learning resources
+
+| Type | Audience | Name | Medium |
+| -- | -- | -- | -- |
+| Getting Started + How To + Explanation | New PS Learners | PureScript by Example | Book
+| Hook + Getting Started + How to + Explanation + Reference | New Learners | PureScript: Jordan's Reference | GitHub Repo
+| Getting Started + Explanation | New PS Learners | The Documentation Repository | GitHub Repo
+| Getting Started + Explanation | New PS Learners | PureScript Resources | Read The Docs
+| Reference | All PS developers | Pursuit | API Docs website
+| Getting Started + How to + Explanation | JavaScript developers who want to use JavaScript | Professor Frisby Introduces Composable Functional JavaScript | Online Course
+| Hook + Getting Started + How to + Explanation | JavaScript developers who want to learn Elm but are exposed to PureScript at end | An Outsider's Guide to Statically Typed Functional Programming | Book
+| How To + Explanation | Intermediate PS Learners | Lens for the Mere Mortal: PureScript Edition | Book
+| Reference | Elm developers considering PureScript | Elm to PureScript Cheatsheet | GitHub Repo
+| Reference | Elm developers consider PureScript (or vice versa) | Differences of PureScript from Elm | GitHub Gist
+| Reference | Haskell developers considering PureScript | Documentation Repo's "Differences from Haskell" | Markdown file
+| How To Guide? Reference? | PureScript developers | Real World App | Code Example
+| Reference? | PureScript developers | MultiPac | Code Example
+| Explanation | New Learners | A Guide to the PureScript Numeric Hierarchy | Read the Docs
+| Getting Started + Explanation | Javascript developers | Make the Leap from JavaScript to PureScript | Blog Post series
 
 ## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
 
