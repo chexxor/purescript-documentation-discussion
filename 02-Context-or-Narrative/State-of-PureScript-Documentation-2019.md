@@ -189,7 +189,7 @@ Moreover, there are other factors independent of the "breaking changes" issues.
 1. Until recently (it's fixed now), an OOM error was preventing some popular libraries from uploading their API docs. Even those familiar with the language had difficulty knowing how to use some libraries. [further explained here]()
 2. The current support system doesn't build towards structured, persistent documentation. In some ways, it's like trying to get out of quicksand. [further explained here]()
 
-Finally, it is difficult to define what are FP's "best practices / design patterns." This issue won't go away even if the documentation situation improves. [further explained here]()
+Finally, it is difficult to define what are FP's "best practices / design patterns." This issue won't go away even if all 'breaking changes' have been implemented. [further explained here]()
 
 ### PureScript is not _currently_ trying to be the next "mainstream language"
 
