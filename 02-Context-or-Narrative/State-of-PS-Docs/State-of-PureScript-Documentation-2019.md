@@ -135,19 +135,47 @@ In doing so, we should abide by these principles:
 - **Don't recreate the wheel**: look into helping existing efforts before you consider starting your own
 -  **Adhere to Good Docs Guidelines**: we'll all be better for it
 
-The outcomes we are striving to reach have yet to be defined. We'd like your help. Here's our ideas. Please share yours.
+The outcomes we are striving to reach have yet to be defined.
 
-### Idea for improving the current support system
+We'll share ours soon, but we'd like your help.
 
-This small change will address the FP Slack persistence issue:
-- When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
-- Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
+Please share your idea for _what_ we should achieve, and only then share your idea for _how_ to achieve it.
 
-End result: easily findable answers via Google in a well-presented format on SO
+| Example Type | Comment | Explanation
+| - | - | - |
+| Bad | We should send documentation PRs to specific libraries | Answers 'how to do something' not 'the reality that will be true when we are finished.'
+| Good | Goal: The top 30 dependencies used in PS' ecosystem have examples and counterexamples in all of their Pursuit docs.<br>How: Perhaps we use a single "ACME" spago project that has all packages in the ecosystem in it. For packages that are lacking docs or are maintained by core contributors who won't respond quickly, we could use spago to override those packages with a version that includes more documentation. Then, via `spago docs`, would could create a local copy that has the updated docs. | States a goal but does not determine how that could be achieved. But a few ideas quicly come to mind for how.
+
+### Idea for improving packages' documentations when they are maintained by core contributors
+
+Purpose: allow anyone to update a package's documentation without taking time away from core contributors
+
+Goal: The top 30 libraries used in PS' ecosystem have examples and counterexamples in all of their Pursuit docs.
+
+How:
+- We create a single community-wide "ACME" Spago project that has all packages in the ecosystem in it. This project is used solely for documentation, not as an actual package set.
+- Anyone who wants to add documentation for a project (like one maintained by core contributors) can make make their own fork of the library, add the changes, and override the ACME's package set's entry for that package to use their version that includes the updated docs
+- Anyone can clone the Spago project and generate local documentation that has the additional documentation via `spago docs`.
+- Core contributors can later add the documentation to the original version at a later time.
+
+### Idea for dealing with improving the current support system
+
+Purpose: To get easily findable answers via Google in a well-presented format on SO
+
+Goal: all Slack-based code-related questions and answers are "copied" to StackOverflow
+
+How:
+- When a question on the `#purescript` Slack channel gets posted, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
+- The question gets answered.
+- Let someone (whether the answerer or someone who saw it) "answer" the corresponding StackOverflow question with the answer and give credit to the original answerer.
 
 ### Idea for documenting things that aren't affected by breaking changes
 
-People are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
+Context: people are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
+
+Purpose: to document things that aren't affected by breaking changes
+
+Goal: How-to guides / best practices guides on various topics have been written
 
 Rather, we (non-core-contributors / users of PS) can focus on answering questions like these:
 - What are the libraries that need to have their documentation improved?
