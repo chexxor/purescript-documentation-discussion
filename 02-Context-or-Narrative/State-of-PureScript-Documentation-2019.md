@@ -296,9 +296,13 @@ New maintainers, once found and properly screened, have to be supported (which t
 
 Been there, done that. Someone took it down. ([PureScript Open Collective]((https://opencollective.com/purescript))
 
-I (Jordan) don't know why it was taken down. Here's my speculation:
-- Since the project and its funds hadn't been claimed for a couple of weeks, it was stopped to prevent anyone on the internet from stealing the funds.
-- There was no clear vision as to how the funds would be spent and how it would improve the situation.
+Our viewpoint of this situation:
+- Fans of PureScript wanted to throw money at the project. Why? Perhaps because
+    - they want to help the project and its goals
+    - they dont have the time or mental capacity to contribute
+- Several people used OpenCollective to indicate they'd like to pledge money to the "github.com/purescript/purescript" project.
+- Several weeks later, someone claimed that project's corresponding OpenCollective page and turned off the public page.
+- We believe this was because there was no clear vision as to how the funds would be spent.
 
 Perhaps this idea could be revisited in the future. For now, we cannot say.
 
