@@ -131,7 +131,7 @@ Our purpose is clear: improve the documentation situation
 
 In doing so, we should abide by these principles:
 - **Show, don't tell**: prefer heavily-commented compile-and-play code examples over written explanations
-- **Start unofficial documentation efforts**: allowing core contributors to implement breaking changes sooner means we'll get out of this situation sooner. Let's not slow them down.
+- **Start unofficial documentation efforts**: allowing core contributors to implement breaking changes sooner means we'll get out of this situation sooner. Let's not slow them down by bugging them with documentation PRs.
 - **Don't recreate the wheel**: look into helping existing efforts before you consider starting your own
 -  **Adhere to Good Docs Guidelines**: we'll all be better for it
 
