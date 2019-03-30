@@ -24,7 +24,7 @@ Outline
     - PureScript documentation writers - How should I write good maintainable documentation for others?
     - Core Contributors -
 
-## Why is PureScript's Documentation Lacking and How Do We Improve It?
+## Why is PureScript's Documentation Lacking?
 
 Here's the short version. Each paragraph will have a link that explains its summary in more detail.
 
