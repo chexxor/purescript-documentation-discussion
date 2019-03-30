@@ -137,6 +137,7 @@ Using the above 5 types, here's how we'd categorize the following learning resou
 
 ## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
 
+See [Guidelines for Good Docs]()
 
 ### Everyone: How should we improve this situation?
 
