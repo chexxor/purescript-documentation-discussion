@@ -90,7 +90,7 @@ Second, your language background affects how easy or hard it is to learn PureScr
 | Elm | [An Outsider's Guide to Statically Typed Functional Programming (Book)](https://leanpub.com/outsidefp) | --
 | Haskell | [Introduction to PureScript (PDF)](http://code.adriansieber.com/adrian/adriansieber-com/src/branch/master/posts/_2018-11-01_introduction_to_purescript_for_haskell_developers/main.pdf)<br><br>[Differences from Haskell](https://github.com/purescript/documentation/blob/master/language/Differences-from-Haskell.md) | --
 
-Third, we found that documentation can be categorized into 5 different types. Knowing about these types and how they can help you on your learning journey helps tremendously
+Third, we found that documentation can be categorized into 5 different types. Each type addresses a different person at a different spot in their learning journey. We've categorized the current PS documentation by those types.
 
 ### The Types of Documentation
 
