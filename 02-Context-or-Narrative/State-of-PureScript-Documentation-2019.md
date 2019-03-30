@@ -179,7 +179,7 @@ These are the reasons. Each wil be covered more in-depth following this:
 - There is no roadmap that coordinates efforts
 - Some libraries cannot publish their docs due to OOM error
 - It's difficult to pin down and define what are Functional Programming's "best practices"
-- Questions answered on Slack do not persist, so they get re-asked and re-answered
+- The current support system doesn't build towards structured, persistent documentation
 
 This section concludes with a [narrative summary](#summary-of-Why-Docs-are-Lacking).
 
@@ -372,7 +372,7 @@ The proposed solution: change the compiler's "resolution file" schema. Unfortuna
 
 Thus, a heavily-used library like `Halogen` cannot publish its `v4.0.0` or `v5.0.0` docs on Pursuit. Unfortunately, there's nothing they can do about it.
 
-### Slack-Based Questions and Answers Do Not Persist
+### The current support system doesn't build towards structured, persistent documentation
 
 Because the documentation is lacking, many are encouraged to ask their questions on the `#purescript` channel in the FP Slack. Many have greatly benefited from the quick answers they receive.
 
