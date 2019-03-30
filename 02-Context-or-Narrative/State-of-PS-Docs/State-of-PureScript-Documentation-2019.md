@@ -5,7 +5,7 @@ This document is not meant to convince you to use PureScript, we assume that rea
 It is well-known amongst the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) Discourse thread to answer one question:
 > How can we improve the PureScript documentation in 2019?
 
-(Purpose) The following document tries to do two things:
+(Purpose) The following document tries to do three things:
 1. Explain why documentation is currently lacking
 2. Address specific audiences:
     - Core Contributors (Feedback): How should we support you in this context?
