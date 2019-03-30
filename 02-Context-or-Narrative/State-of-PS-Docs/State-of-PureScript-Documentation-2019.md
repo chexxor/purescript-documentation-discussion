@@ -44,6 +44,10 @@ Now, we'll address a few different audiences:
 
 ## Core Contributors: How should we support you?
 
+We consider you to be a 'core contributor' if you:
+- have write access to the PureScript language or any of its websites (Pursuit, Try PureScript, etc.)
+- have write access to `pulp`, `spago`, or any related build tools
+
 Please answer the below questions.
 
 To help with consistency, copy the below questions and paste them into your comment box. Then, give a reply.
