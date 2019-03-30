@@ -193,7 +193,9 @@ Here's what has been added to the above since then:
 
 ## New Learners: What is the Best Way to Learn PureScript?
 
-There are likely other learning paths besides the ones covered below, but here's what we found in our research:
+First, PureScript is mainly used for front-end work, not back-end work. While it is used for the back-end in some situations, most tend to use Haskell or another language, even if PureScript would be a better language in some situations. These languages already have mature libraries with people maintaining them. So, the incentives to improve this situation are not quite there.
+
+Second, your language background affects how easy or hard it is to learn PureScript. There are likely other learning paths besides the ones covered below, but here's what we found in our research:
 
 ![Learner Paths "Learner Paths"](./learner-paths-to-ps.png)
 
