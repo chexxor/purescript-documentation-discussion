@@ -1,28 +1,17 @@
 # State of PureScript Documentation: 2019
 
-## Why Read This Document?
+This document is not meant to convince you to use PureScript, we assume that readers are already interested in it or using it.
 
-This document is not meant to convince you to use PureScript. We assume that readers already believe in using PureScript instead of alternatives.
-
-It is well-known among the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) discourse thread to answer one question:
+It is well-known amongst the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) Discourse thread to answer one question:
 > How can we improve the PureScript documentation in 2019?
 
 (Purpose) The following document tries to do two things:
-1. Provide an answer to @chexxor's above question
-2. Answer other related questions that various audiences will have:
-    - new learners (regardless of language background)
-    - PureScript documentation writers
-    - Core Contributors
-
-Outline
-- Explain what "good" documentation is and define a criteria
-- Evaluate PureScript's documentation using that criteria
-- Explain why PureScript's documentation is seen as lacking
-- Suggest plans to improve the current documentation situation
-- Address various audience's possible concerns or questions centered on these themes:
-    - New learners - How should I learn PureScript?
-    - PureScript documentation writers - How should I write good maintainable documentation for others?
-    - Core Contributors -
+1. Explain why documentation is currently lacking
+2. Address specific audiences:
+    - Core Contributors (Feedback): How should we support you in this context?
+    - New Learners (Answers): What is the best way to learn PureScript in this context?
+    - Documentation writers (Answers): How should I contribute documentation in this context?
+3. Explore possible solutions to improving the documentation
 
 ## Why is PureScript's Documentation Lacking?
 
