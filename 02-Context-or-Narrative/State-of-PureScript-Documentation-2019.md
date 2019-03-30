@@ -188,26 +188,26 @@ This section concludes with a [narrative summary](#summary-of-Why-Docs-are-Lacki
 A few have wrongly assumed that PureScript is trying to replace [insert your favorite web language here]. That is not the case.
 
 PureScript has the following philosophy:
-> Making a language "successful" (e.g. popular, industry-standard, taught in universities' curriculums, etc.) is not a justification for paying for "costs" that ruin the language, such as limiting the language's expressiveness, making it less safe, less secure, etc.
+> Making a language "popular" (e.g. industry-standard, taught in universities' curriculums, etc.) is not a justification for paying for "costs" that ruin the language, such as limiting the language's expressiveness, making it less safe, less secure, etc.
 >
 > Making the language easier to use and learn by improving it is good and supported.
-> Making the language easier to use and learn by crippling, downgrading, or dumbing down the language is rejected. Users will either learn it properly or use something else.
+> Achieving the same goals by crippling, downgrading, or dumbing down the language is rejected. Users will either learn it properly or use something else.
 >
-> Plenty of languages chose to sacrifice safety, security, efficiency, etc. to gain the benefits of "success."
+> Plenty of languages chose to sacrifice safety, security, efficiency, etc. to gain the benefits of "popularity."
 >
 > PureScript will not be another such language. Rather, it will try to progress in "the right way," even when it's inconvenient, makes it harder to learn, etc.
 >
 > ~ Summary of [A Response that Explains the Motto: 'Avoid (Success at All Costs)'](https://news.ycombinator.com/item?id=12056169) (edits made: replaced 'Haskell' with 'PureScript'; removed "research-related concepts")
 
-This philosophy is summarized as "avoid (success at all costs)."
+While typically stated differently, one could summarize this philosophy as "value power and expressivity over popularity."
 
 The current focus (see later point) is not on making documentation great. Rather, it's on implementing the language features that haven't yet been implemented.
 
 However, even if great documentation was the focus, one will still have to learn difficult concepts before they can be productive. This fact will never change.
 
 Thus, PureScript might not be the language for you:
-- If you value 'success' over 'costs,' use a different language.
-- If you value 'costs' over 'success' and are determined to learn hard things, use this language.
+- If you value 'popularity' over 'power,' use a different language.
+- If you value 'power' over 'popularity' and are determined to learn hard things, use this language.
 
 (Related interpretation sections: [Keeping the motto of `Avoid "success at all costs"` and understanding its meaning](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
 
