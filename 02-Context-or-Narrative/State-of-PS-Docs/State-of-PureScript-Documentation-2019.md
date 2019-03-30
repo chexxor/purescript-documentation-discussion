@@ -137,33 +137,6 @@ Using the above 5 types, here's how we'd categorize the following learning resou
 
 ## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
 
-The following
-    - Evaluate PureScript's documentation using that criteria
-    - Explain why PureScript's documentation is lacking and what is being done to improve it
-    - Address various audience's possible concerns or questions centered on these themes:
-        - New learners - How should I learn PureScript?
-        - PureScript documentation writers - How should I write good maintainable documentation for others?
-        - Core Contributors -
-
-A few different audiences
-- shared (things we should explain, no matter who reads this)
-    - Why read this document (capture people's attention in less than 2 paragraphs)
-    - What is good documentation for new learners? (defining our terminology and criteria)
-    - How does PureScript fair in that regard? (use that criteria to judge PS' current documentation)
-    - Why isn't it better? (explain the obstacles that prevent it from being better)
-- new learners (address things new learners care about)
-    - What should your expectations be when learning? (frustration arises when expectations are broken)
-    - How are people currently trying to improve it? (explain current efforts that people can tag alongside of / help / give feedback on)
-    - How can you help in this effort? (you are most motivated, so you'll drive the effort or help out in some situations)
-- Documentation writers (address things they care about)
-    - How do I write good documentation for new learners?
-    - How do I write documentation that does not go out-of-date quickly?
-    - How do I write maintainable documentation?
-    - How should I bring awareness to my documentation efforts?
-- PS core contributors (things they care about)
-    - What processes could be automated to save you time / lower the maintenance cost?
-    - Questions whose answers would be helpful for others to know
-        - What 'qualifications', if any, would they prefer someone has before delegating a project to them?
 
 ### Everyone: How should we improve this situation?
 
