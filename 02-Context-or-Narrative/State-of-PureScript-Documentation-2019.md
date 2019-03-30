@@ -170,29 +170,26 @@ Here's what has been added to the above since then:
 
 ## Why is PureScript's Documentation Lacking and How Do We Improve It?
 
-Here's the short version.
+Here's the short version. Each paragraph will have a link that explains its summary in more detail.
 
-Because core contributors are spread thin, they cannot respond quickly to people's questions or thoughts. With the small amount of time they do have, they are focusing on adding new language features, not improving the documentation situation. The language's development is steady (6-week release cycle) but slow.
+PureScript is not _currently_ trying to be the next "mainstream language." Rather, it values "power" over "popularity" and so works towards those ends. [further explained here]()
 
-However, it seems they are (wisely) postponing "breaking changes" until all can be done at once. Otherwise, they will ~spend~ waste even more of their time updating the ecosystem to account for the breaking changes.
+While developing the language, core contributors incurred a lot of responsibility (e.g. library maintenance, documentation updates, updating Pursuit and other related sites, etc.). Over time, they became spread thin and one even burned out. [further explained here]()
 
-Due to the looming "breaking changes," those who want to improve the documentation situation are often discouraged from improving it. Why invest many hours into something that will be outdated in a few months? Why not invest those hours into something else, like an interesting project or learning something new?
+Thus, they cannot quickly respond to most people's questions or contributions. With the small amount of time they do have, they are focusing on adding new language features, not improving the documentation situation. The language's development is steady (6-week release cycle) but slow. [further explained here]()
 
-The following statements are not to blame people or point fingers. Rather, it states what is our reality:
-> Core contributors are doing great and their pace is just fine. Still, the longer the core contributors take to implement these breaking changes, the longer such documentation writers will wait, and the longer we'll be in this situation. As a result, we're in a sort of catch-22 situation.
+However, it seems they are (wisely) postponing "breaking changes" until all can be done at once. Otherwise, they will ~spend~ waste even more of their time updating the ecosystem to account for the breaking changes. There is also some disagreement about when those changes should be done. [further explained here]()
 
-The above summary is explained more fully in each section below:
+Due to the looming "breaking changes," those who want to improve the documentation situation are often discouraged from improving it. They tend to think, "Why invest many hours into something that will be outdated in a few months? Why not invest those hours into something else, like an interesting project or learning something new?" [further explained here]()
 
-- PureScript is not _currently_ trying to be the next "mainstream language".
-- Only core contributors have write/deployment privileges to PureScript websites
-- Core contributors are spread thin
-- Breaking changes outdate documentation and kill documenters' motivation
-- There is no roadmap that coordinates efforts
-- Some libraries cannot publish their docs due to OOM error
-- It's difficult to pin down and define what are Functional Programming's "best practices"
-- The current support system doesn't build towards structured, persistent documentation
+The following statement is not to blame people or point fingers. Rather, it summarizes our current reality:
+> Core contributors are doing great and their pace is just fine. Still, we're in a sort of catch-22 situation. The longer the core contributors take to implement these breaking changes, the longer most documentation writers will wait to avoid unnecessary updates, and the longer we'll be in this situation.
 
-This section concludes with a [narrative summary](#summary-of-Why-Docs-are-Lacking).
+Moreover, there are other factors independent of the "breaking changes" issues.
+1. Until recently (it's fixed now), an OOM error was preventing some popular libraries from uploading their API docs. Even those familiar with the language had difficulty knowing how to use some libraries. [further explained here]()
+2. The current support system doesn't build towards structured, persistent documentation. In some ways, it's like trying to get out of quicksand. [further explained here]()
+
+Finally, it is difficult to define what are FP's "best practices / design patterns." This issue won't go away even if the documentation situation improves. [further explained here]()
 
 ### PureScript is not _currently_ trying to be the next "mainstream language"
 
