@@ -79,7 +79,7 @@ As a result, others who read the resulting documentation will consider it "poor"
 
 ### Maintaining Documentation's Accuracy
 
-Third, documentation becomes outdated/inaccurate due to changes in the subject of the documentation, especially breaking changes. Two aspects of changes: the 'size' of a change in the subject, and the 'frequency' of these changes.
+Third, documentation becomes outdated/inaccurate when the thing being documented changes in two ways: the 'size' of a change, and the 'frequency' of them.
 
 #### The "Size" of a Change
 
@@ -111,7 +111,7 @@ The 'frequency' of a change can decrease its coherence.
 | Frequently | New libraries
 
 When changes occur frequently, documentation can appear more like loosely-coupled snippets of ideas rather than a coherent explanation because:
-- Article A depends on Article B to explain something. Then, Aritcle B becomes outdated. Thus, one "patches" Article A with a quick overview of Article B that doesn't fit in with the rest of Article A's content.
+- Article A depends on Article B to explain something. Then, Article B becomes outdated. Thus, one "patches" Article A with a quick overview of Article B that doesn't fit in with the rest of Article A's content.
 - One updates 3 out of 10 articles. One article says `X is true` whereas another says `X is false`. A new learner isn't sure which is correct.
 
 Updating documentation in light of frequent changes often requires less overall work.
