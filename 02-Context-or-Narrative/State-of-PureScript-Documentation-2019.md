@@ -457,6 +457,40 @@ Rather, we (non-core-contributors / users of PS) can focus on answering question
 
 ## Core Contributors: ???
 
+Please answer the below questions.
+
+To help with consistency, copy the below questions and paste them into your comment box. Then, give a reply.
+```
+> What can the community do to encourage/support you in 2019?
+
+
+
+> What are your general goals for the language/ecosystem in 2019?
+
+
+
+> What are not your goals for the language/ecosystem in 2019? (i.e. things you know need additional work, but just don't have a high enough priority right now)
+
+
+
+> What processes that are not automated could be automated to save you time / lower the maintenance cost?
+
+
+
+> What kind of help do you want from the community in 2019 (e.g. maintainership, documentation, conbtributions, etc.)?
+
+
+
+> What kind of help do you not want from the community in 2019 (e.g. maintainership, documentation, conbtributions, etc.)?
+
+
+
+> How much support are you willing to provide to those who want to help and in what form?
+
+```
+
+
+
 The following
     - Evaluate PureScript's documentation using that criteria
     - Explain why PureScript's documentation is lacking and what is being done to improve it
