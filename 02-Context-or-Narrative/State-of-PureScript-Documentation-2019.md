@@ -188,7 +188,7 @@ This section concludes with a [narrative summary](#summary-of-Why-Docs-are-Lacki
 A few have wrongly assumed that PureScript is trying to replace [insert your favorite web language here]. That is not the case.
 
 PureScript has the following philosophy:
-> Making a language "popular" (e.g. industry-standard, taught in universities' curriculums, etc.) is not a justification for paying for "costs" that ruin the language, such as limiting the language's expressiveness, making it less safe, less secure, etc.
+> Making a language "popular" (e.g. industry-standard, taught in universities' curriculums, etc.) is not a justification for decreasing its "power," such as limiting the language's expressiveness, making it less safe, less secure, etc.
 >
 > Making the language easier to use and learn by improving it is good and supported.
 > Achieving the same goals by crippling, downgrading, or dumbing down the language is rejected. Users will either learn it properly or use something else.
