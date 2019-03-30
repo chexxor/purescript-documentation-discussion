@@ -79,7 +79,9 @@ As a result, others who read the resulting documentation will consider it "poor"
 
 ### Maintaining Documentation's Accuracy
 
-Third, documentation becomes outdated/inaccurate when the thing being documented changes in two ways: the 'size' of a change, and the 'frequency' of them.
+Third, documentation becomes outdated/inaccurate when the thing being documented changes in two ways:
+- the 'size' of a change
+- the 'frequency' of changes
 
 #### The "Size" of a Change
 
