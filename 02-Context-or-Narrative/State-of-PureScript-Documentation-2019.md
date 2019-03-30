@@ -170,7 +170,18 @@ Here's what has been added to the above since then:
 
 ## Why is PureScript's Documentation Lacking and How Do We Improve It?
 
-These are the reasons. Each wil be covered more in-depth following this:
+Here's the short version.
+
+Because core contributors are spread thin, they cannot respond quickly to people's questions or thoughts. With the small amount of time they do have, they are focusing on adding new language features, not improving the documentation situation. The language's development is steady (6-week release cycle) but slow.
+
+However, it seems they are (wisely) postponing "breaking changes" until all can be done at once. Otherwise, they will ~spend~ waste even more of their time updating the ecosystem to account for the breaking changes.
+
+Due to the looming "breaking changes," those who want to improve the documentation situation are often discouraged from improving it. Why invest many hours into something that will be outdated in a few months? Why not invest those hours into something else, like an interesting project or learning something new?
+
+The following statements are not to blame people or point fingers. Rather, it states what is our reality:
+> Core contributors are doing great and their pace is just fine. Still, the longer the core contributors take to implement these breaking changes, the longer such documentation writers will wait, and the longer we'll be in this situation. As a result, we're in a sort of catch-22 situation.
+
+The above summary is explained more fully in each section below:
 
 - PureScript is not _currently_ trying to be the next "mainstream language".
 - Only core contributors have write/deployment privileges to PureScript websites
@@ -414,18 +425,7 @@ FP languages tend to draw people who are intellectually curious. These people te
 
 (Related interpretation section: [FP "best practices" are not well-defined, are assumed, or are unconscious habits](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fp-best-practices-are-not-well-defined-are-assumed-or-are-unconscious-habits), [FP's culture creates "knowledge silos"](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fps-culture-creates-knowledge-silos))
 
-### Summary of 'Why Docs are Lacking'
-
-Because core contributors are spread thin, they cannot respond quickly to people's questions or thoughts. With the small amount of time they do have, they are focusing on adding new language features, not improving the documentation situation. The language's development is steady (6-week release cycle) but slow.
-
-However, it seems they are (wisely) postponing "breaking changes" until all can be done at once. Otherwise, they will ~spend~ waste even more of their time updating the ecosystem to account for the breaking changes.
-
-Due to the looming "breaking changes," those who want to improve the documentation situation are often discouraged from improving it. Why invest many hours into something that will be outdated in a few months? Why not invest those hours into something else, like an interesting project or learning something new?
-
-The following statements are not to blame people or point fingers. Rather, it states what is our reality:
-> Core contributors are doing great and their pace is just fine. Still, the longer the core contributors take to implement these breaking changes, the longer such documentation writers will wait, and the longer we'll be in this situation.
-
-But, there is hope.
+### But Is There Hope? Yes!
 
 This small change will address the FP Slack persistence issue:
 - When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
