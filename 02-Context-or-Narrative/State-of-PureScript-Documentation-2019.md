@@ -1,6 +1,6 @@
 # State of PureScript Documentation: 2019
 
-This document is not meant to convince you to use PureScript, we assume that readers are already interested in it.
+This document is not meant to convince you to use PureScript, we assume that readers are already interested in it or using it.
 
 It is well-known amongst the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) Discourse thread to answer one question:
 > How can we improve the PureScript documentation in 2019?
