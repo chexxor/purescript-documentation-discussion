@@ -125,7 +125,7 @@ Third, we learned that there are [5 different types of documentation](). Each ty
 
 See [Guidelines for Good Docs]()
 
-### Everyone: How should we improve this situation?
+## Everyone: How should we improve this situation?
 
 Our purpose is clear: improve the documentation situation
 
