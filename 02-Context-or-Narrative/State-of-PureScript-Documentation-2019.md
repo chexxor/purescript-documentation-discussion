@@ -1,28 +1,35 @@
 # State of PureScript Documentation: 2019
 
-## Why Read This Document?
+This document is not meant to convince you to use PureScript, we assume that readers are already interested in it or using it.
 
-This document is not meant to convince you to use PureScript. We assume that readers already believe in using PureScript instead of alternatives.
-
-It is well-known among the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) discourse thread to answer one question:
+It is well-known amongst the PureScript community that its documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) Discourse thread to answer one question:
 > How can we improve the PureScript documentation in 2019?
 
-(Purpose) The following document tries to do two things:
-1. Provide an answer to @chexxor's above question
-2. Answer other related questions that various audiences will have:
-    - new learners (regardless of language background)
+(Purpose) The following document tries to do the following things:
+1. Provide a researched narrative of PureScript's documentation development and history.
+2. Define the types of audiences of PureScript documentation and their expectations.
+    - New learners (regardless of language background)
     - PureScript documentation writers
-    - Core Contributors
+    - Core contributors
+3. Summarize the current opinions of PureScript's documentation audiences.
+4. Explore strategies for improving PureScript's documentation for its audiences.
 
-Outline
-- Explain what "good" documentation is and define a criteria
-- Evaluate PureScript's documentation using that criteria
-- Explain why PureScript's documentation is seen as lacking
-- Suggest plans to improve the current documentation situation
-- Address various audience's possible concerns or questions centered on these themes:
-    - New learners - How should I learn PureScript?
-    - PureScript documentation writers - How should I write good maintainable documentation for others?
-    - Core Contributors -
+<!-- https://imthenachoman.github.io/nGitHubTOC/ -->
+
+- [What is "Good" Documentation Anyway?](#what-is-good-documentation-anyway)
+  - [The Types of Documentation](#the-types-of-documentation)
+  - [The Documentation's Intended Audience](#the-documentations-intended-audience)
+  - [Maintaining Documentation's Accuracy](#maintaining-documentations-accuracy)
+    - [The "Size" of a Change](#the-size-of-a-change)
+    - [The "Frequency" of a Change](#the-frequency-of-a-change)
+    - [How to Make Maintenance Easier](#how-to-make-maintenance-easier)
+  - [Criteria for "Good" Documentation](#criteria-for-good-documentation)
+  - [Evaluating PureScript's Documentation](#evaluating-purescripts-documentation)
+- [Why is PureScript's Documentation Lacking and How Do We Improve It?](#why-is-purescripts-documentation-lacking-and-how-do-we-improve-it)
+- [New Learners: What is the Best Way to Learn PureScript?](#new-learners-what-is-the-best-way-to-learn-purescript)
+- [PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?](#purescript-documentation-writers-what-is-the-best-way-to-write-documentation-in-this-context)
+- [Core Contributors: ???](#core-contributors-)
+
 
 ## What is "Good" Documentation Anyway?
 
@@ -72,9 +79,13 @@ As a result, others who read the resulting documentation will consider it "poor"
 
 ### Maintaining Documentation's Accuracy
 
-Third, documentation becomes outdated/inaccurate due to changes, especially breaking changes. It does this in two ways: decreasing its usefulness (depends on the 'size' of a change) and decreasing its coherence (depends on the 'frequency' of changes).
+Third, documentation becomes outdated/inaccurate when the thing being documented changes in two ways:
+- the 'size' of a change
+- the 'frequency' of changes
 
 #### The "Size" of a Change
+
+The 'size' of a change can decrease its usefulness.
 
 | "Size" | Example
 | -- | -- |
@@ -93,6 +104,8 @@ Updating documentation in light of breaking changes often requires the most work
 
 #### The "Frequency" of a Change
 
+The 'frequency' of a change can decrease its coherence.
+
 | "Frequency" | Example
 | -- | -- |
 | Rarely | Stable libraries that have exhausted their design space (e.g. core data types)
@@ -100,7 +113,7 @@ Updating documentation in light of breaking changes often requires the most work
 | Frequently | New libraries
 
 When changes occur frequently, documentation can appear more like loosely-coupled snippets of ideas rather than a coherent explanation because:
-- Article A depends on Article B to explain something. Then, Aritcle B becomes outdated. Thus, one "patches" Article A with a quick overview of Article B that doesn't fit in with the rest of Article A's content.
+- Article A depends on Article B to explain something. Then, Article B becomes outdated. Thus, one "patches" Article A with a quick overview of Article B that doesn't fit in with the rest of Article A's content.
 - One updates 3 out of 10 articles. One article says `X is true` whereas another says `X is false`. A new learner isn't sure which is correct.
 
 Updating documentation in light of frequent changes often requires less overall work.
