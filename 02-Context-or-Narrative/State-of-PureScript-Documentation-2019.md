@@ -195,8 +195,7 @@ However, it seems they are (wisely) postponing "breaking changes" until all can 
 
 Due to the looming "breaking changes," those who want to improve the documentation situation are often discouraged from improving it. They tend to think, "Why invest many hours into something that will be outdated in a few months? Why not invest those hours into something else, like an interesting project or learning something new?" [further explained here]()
 
-The following statement is not to blame people or point fingers. Rather, it summarizes our current reality:
-> Core contributors are doing great and their pace is just fine. Still, we're in a sort of catch-22 situation. The longer the core contributors take to implement these breaking changes, the longer most documentation writers will wait to avoid unnecessary updates, and the longer we'll be in this situation.
+Fixing this situation is not as simple as it sounds. You can't "just delegate" their work to anyone. Others attempted to fund core contributors. However, the effort was likely stopped due to not having a clear idea of how the funds would be spent. [further explained here]()
 
 Moreover, there are other factors independent of the "breaking changes" issues.
 1. Until recently (it's fixed now), an OOM error was preventing some popular libraries from uploading their API docs. Even those familiar with the language had difficulty knowing how to use some libraries. [further explained here]()
