@@ -87,6 +87,8 @@ Here's what has been added to the above since then:
 
 Here's the short version. Each paragraph will have a link that explains its summary in more detail.
 
+It is difficult to define what are FP's "best practices / design patterns." The issues explained below are mostly situational; they will improve in time. However, this "best practices" issue is hard to address because it is subjective in nature, requires a lot of expertise, and requires a great communicator. [further explained here]()
+
 PureScript is not _currently_ trying to be the next "mainstream language." Rather, it values "power" over "popularity" and so works towards those ends. [further explained here]()
 
 While developing the language, core contributors incurred a lot of responsibility (e.g. library maintenance, documentation updates, updating Pursuit and other related sites, etc.). Over time, they became spread thin and one even burned out. [further explained here]()
@@ -102,8 +104,6 @@ Fixing this situation is not as simple as it sounds. You can't "just delegate" t
 Moreover, there are other factors independent of the "breaking changes" issues.
 1. Until recently (it's fixed now), an OOM error was preventing some popular libraries from uploading their API docs. Even those familiar with the language had difficulty knowing how to use some libraries. [further explained here]()
 2. The current support system doesn't build towards structured, persistent documentation. In some ways, it's like trying to get out of quicksand. [further explained here]()
-
-Finally, it is difficult to define what are FP's "best practices / design patterns." This issue won't go away even if all 'breaking changes' have been implemented. [further explained here]()
 
 ### Some libraries cannot publish their docs due to OOM error
 
