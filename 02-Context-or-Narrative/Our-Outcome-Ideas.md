@@ -25,11 +25,17 @@ These links could be added to [Jordan's learning repo](http://www.github.com/jor
 
 While lacking expertise in some areas, he can still sift through them and help determine which are great, good, duplicates, or just downright bad.
 
-<hr>
+## Goal: Convert all answered Slack-based questions into StackOverflow Questions and Answers
 
-This small change will address the FP Slack persistence issue:
-- When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
-- Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
+Slack is still an ideal place to ask a question. However, it doesn't persist.
+
+### How: Reask and reanswer it on StackOverflow
+
+When a question on the `#purescript` or `#purescript-beginner` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
+
+Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
+
+We should prioritize persistent docs over crediting who answered the question.
 
 
 Rather, we (non-core-contributors / users of PS) can focus on answering questions like these:
