@@ -37,6 +37,17 @@ Then, let someone (whether the answerer or someone who saw it) "answer" that que
 
 We should prioritize persistent docs over crediting who answered the question.
 
+## Goal: Collect the best solutions to common build-related problems into a central location
+
+- Integrating PureScript to work with JS build tools?
+- Integrating PureScript with CI (Travis, AppVeyor, etc.)?
+- Possible "tree-shaking" approaches to PureScript and their tradeoffs?
+
+### How: Add it to a special "build" repository
+
+I would suggest adding it to Jordan's learning repo, but this idea only works well if there are lots of small sample projects to build. Thus, it'd be better kept as its own repository.
+
+## Unsorted Ideas
 
 Rather, we (non-core-contributors / users of PS) can focus on answering questions like these:
 - What are the libraries that need to have their documentation improved?
@@ -49,7 +60,3 @@ Rather, we (non-core-contributors / users of PS) can focus on answering question
     - Guidelines for writing a good bindings library
         - How should a library author analyze the library to which they want to write bindings?
         - What are common problems such people face and their possible solutions?
-- What are common solutions to build-related problems? Where is a centralized resource that can store all of these?
-    - Integrating PureScript to work with JS build tools?
-    - Integrating PureScript with CI (Travis, AppVeyor, etc.)?
-    - Possible "tree-shaking" approaches to PureScript and their tradeoffs?
