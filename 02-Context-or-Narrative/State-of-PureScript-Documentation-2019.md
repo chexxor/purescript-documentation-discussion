@@ -110,35 +110,6 @@ Moreover, there are other factors independent of the "breaking changes" issues.
 1. Until recently (it's fixed now), an OOM error was preventing some popular libraries from uploading their API docs. Even those familiar with the language had difficulty knowing how to use some libraries. [further explained here]()
 2. The current support system doesn't build towards structured, persistent documentation. In some ways, it's like trying to get out of quicksand. [further explained here]()
 
-### But Is There Hope? Yes!
-
-This small change will address the FP Slack persistence issue:
-- When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
-- Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
-
-People are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
-
-Such efforts will likely need to be "unofficial." We (non-core-contributors / users of PS) do not want to steal time away from the core contributors by distracting them with documentation PRs. Let them focus on the language's development. Stabilizing the language sooner means an improved documentation situation sooner.
-
-Rather, we (non-core-contributors / users of PS) can focus on answering questions like these:
-- What are the libraries that need to have their documentation improved?
-    - If documented, will breaking changes outdate such documentation?
-    - How hard would it be to write a small code example that shows how to use them? For example
-        - [Jordan's example for how to create a tree via `purescript-tree`](https://github.com/JordanMartinez/purescript-jordans-reference/blob/latestRelease/22-Projects/src/11-Table-of-Contents/04-Tree/01-Syntax.purs#L31-L64)
-        - [Jordan's example of the "hello world" program via the ReaderT design pattern](https://github.com/JordanMartinez/purescript-jordans-reference/blob/latestRelease/21-Hello-World/08-Application-Structure/src/11-Hello-World/02-ReaderT.purs)
-        - [Halogen's "basic button component" example](https://github.com/slamdata/purescript-halogen/blob/master/examples/basic/src/Button.purs)
-- What are "best practices" for various topics/areas? For example:
-    - Guidelines for writing a good bindings library
-        - How should a library author analyze the library to which they want to write bindings?
-        - What are common problems such people face and their possible solutions?
-- What are some of the clearest explanations of FP concepts?
-    - How hard is it to port their code examples to PureScript?
-    - Have people written an explanation that "walks one through" an FP paper's ideas in a clear way?
-- What are common solutions to build-related problems? Where is a centralized resource that can store all of these?
-    - Integrating PureScript to work with JS build tools?
-    - Integrating PureScript with CI (Travis, AppVeyor, etc.)?
-    - Possible "tree-shaking" approaches to PureScript and their tradeoffs?
-
 ## New Learners: What is the Best Way to Learn PureScript?
 
 First, PureScript is mainly used for front-end work, not back-end work. While it is used for the back-end in some situations, most tend to use Haskell or another language, even if PureScript would be a better language in some situations. These languages already have mature libraries with people maintaining them. So, the incentives to improve this situation are not quite there.
@@ -190,3 +161,32 @@ To help with consistency, copy the below questions and paste them into your comm
 > How much support are you willing to provide to those who want to help and in what form?
 
 ```
+
+### But Is There Hope? Yes!
+
+This small change will address the FP Slack persistence issue:
+- When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
+- Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
+
+People are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
+
+Such efforts will likely need to be "unofficial." We (non-core-contributors / users of PS) do not want to steal time away from the core contributors by distracting them with documentation PRs. Let them focus on the language's development. Stabilizing the language sooner means an improved documentation situation sooner.
+
+Rather, we (non-core-contributors / users of PS) can focus on answering questions like these:
+- What are the libraries that need to have their documentation improved?
+    - If documented, will breaking changes outdate such documentation?
+    - How hard would it be to write a small code example that shows how to use them? For example
+        - [Jordan's example for how to create a tree via `purescript-tree`](https://github.com/JordanMartinez/purescript-jordans-reference/blob/latestRelease/22-Projects/src/11-Table-of-Contents/04-Tree/01-Syntax.purs#L31-L64)
+        - [Jordan's example of the "hello world" program via the ReaderT design pattern](https://github.com/JordanMartinez/purescript-jordans-reference/blob/latestRelease/21-Hello-World/08-Application-Structure/src/11-Hello-World/02-ReaderT.purs)
+        - [Halogen's "basic button component" example](https://github.com/slamdata/purescript-halogen/blob/master/examples/basic/src/Button.purs)
+- What are "best practices" for various topics/areas? For example:
+    - Guidelines for writing a good bindings library
+        - How should a library author analyze the library to which they want to write bindings?
+        - What are common problems such people face and their possible solutions?
+- What are some of the clearest explanations of FP concepts?
+    - How hard is it to port their code examples to PureScript?
+    - Have people written an explanation that "walks one through" an FP paper's ideas in a clear way?
+- What are common solutions to build-related problems? Where is a centralized resource that can store all of these?
+    - Integrating PureScript to work with JS build tools?
+    - Integrating PureScript with CI (Travis, AppVeyor, etc.)?
+    - Possible "tree-shaking" approaches to PureScript and their tradeoffs?
