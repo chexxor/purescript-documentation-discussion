@@ -42,7 +42,7 @@ Essentially, there are 3 factors that affect whether documentation is "good" or 
 2. Its type: the question being answered, targeting a specific subsection of the audience
 3. How accurately it reflects the desired version of the code/project
 
-It's important to note that this section is sourced primarily from two blog posts, [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/) -- a relatively small number of sources, without even considering the topic of source qualifications. This makes the correctness of this section less certain than others in this document, which makes it more likely to change in significant ways as more information is gathered. Therefore, it would be prudent to define a more "flexible" shape than what's described here when including this in the desired outcomes.
+It's important to note that this section is sourced from only two blog posts, [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/). As we learn more this section might change in significant ways, so any conclusions we create based on this should be kept "flexible".
 
 ### The Types of Documentation
 
