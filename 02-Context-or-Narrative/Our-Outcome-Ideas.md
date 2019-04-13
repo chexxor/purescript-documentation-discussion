@@ -47,15 +47,20 @@ We should prioritize persistent docs over crediting who answered the question.
 
 I would suggest adding it to Jordan's learning repo, but this idea only works well if there are lots of small sample projects to build. Thus, it'd be better kept as its own repository.
 
+## Goal: Add Syntax Examples for Core Libraries
+
+Sometimes, Pursuit docs don't help you know how to use something. However, a lot can be gleaned/imitated by looking at an example. For example:
+- [Halogen's "basic button component" example](https://github.com/slamdata/purescript-halogen/blob/master/examples/basic/src/Button.purs)
+- [Jordan's example for how to create a tree via `purescript-tree`](https://github.com/JordanMartinez/purescript-jordans-reference/blob/latestRelease/22-Projects/src/11-Table-of-Contents/04-Tree/01-Syntax.purs#L31-L64)
+- [Jordan's example of the "hello world" program via the ReaderT design pattern](https://github.com/JordanMartinez/purescript-jordans-reference/blob/latestRelease/21-Hello-World/08-Application-Structure/src/11-Hello-World/02-ReaderT.purs)
+
+### How: Document a syntax example in Jordan's Learning Repo
+
+I've begun to do this myself [here](https://github.com/JordanMartinez/purescript-jordans-reference/tree/latestRelease/22-Projects/src/01-Libraries) with a few libraries that I've used when building some projects. Perhaps I will later turn this into a separate top-level folder and call it "cookbook"
+
 ## Unsorted Ideas
 
 Rather, we (non-core-contributors / users of PS) can focus on answering questions like these:
-- What are the libraries that need to have their documentation improved?
-    - If documented, will breaking changes outdate such documentation?
-    - How hard would it be to write a small code example that shows how to use them? For example
-        - [Jordan's example for how to create a tree via `purescript-tree`](https://github.com/JordanMartinez/purescript-jordans-reference/blob/latestRelease/22-Projects/src/11-Table-of-Contents/04-Tree/01-Syntax.purs#L31-L64)
-        - [Jordan's example of the "hello world" program via the ReaderT design pattern](https://github.com/JordanMartinez/purescript-jordans-reference/blob/latestRelease/21-Hello-World/08-Application-Structure/src/11-Hello-World/02-ReaderT.purs)
-        - [Halogen's "basic button component" example](https://github.com/slamdata/purescript-halogen/blob/master/examples/basic/src/Button.purs)
 - What are "best practices" for various topics/areas? For example:
     - Guidelines for writing a good bindings library
         - How should a library author analyze the library to which they want to write bindings?
