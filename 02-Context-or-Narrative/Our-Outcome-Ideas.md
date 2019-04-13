@@ -1,5 +1,13 @@
 # Our Outcome Ideas
 
+## Goal: The top 30 dependencies used in PS' ecosystem have examples and counterexamples in all of their Pursuit docs.
+
+### How: A community-curated "ACME" Spago project
+
+We make a version of Justin Woo's "ACME" Spago project ([project](https://github.com/justinwoo/acme-spago) & [resulting docs](https://jusrin.dev/acme-spago/)). For packages that are lacking docs or are maintained by core contributors who won't respond quickly, we could use Spago to override those packages with a version supplied by a community member that includes more documentation.
+
+All changes should be accepted with little questioning. However, the project should heavily warn against people using the resulting package set in production as one could easily introduce malware here.
+
 This small change will address the FP Slack persistence issue:
 - When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
 - Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
