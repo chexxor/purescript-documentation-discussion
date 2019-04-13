@@ -155,7 +155,7 @@ Second, your language background affects how easy or hard it is to learn PureScr
 
 ## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
 
-## Core Contributors: ???
+## Core Contributors: "How Should We Support You?" and Other General Feedback
 
 Please answer the below questions.
 
