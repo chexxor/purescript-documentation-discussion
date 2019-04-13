@@ -56,7 +56,7 @@ Note: this section is sourced from only two blog posts, [What Nobody Tells You A
 
 ### Evaluating PureScript's Documentation
 
-Below, we tagged each documentation effort with its documentation type (if yours isn't listed, notify us). By looking at what exists, we can see that the following types of documentation are lacking:
+Below, we tagged each documentation effort with its documentation type (if yours isn't listed or is incorrect, notify us). By looking at what exists, we can see that the following types of documentation are lacking:
 - Hooks
 - How-To Guides
 - Explanations
