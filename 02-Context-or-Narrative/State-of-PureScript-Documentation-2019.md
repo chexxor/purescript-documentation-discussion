@@ -52,7 +52,7 @@ Moreover, there are clear examples of "bad" documentation (as explained in [Teac
 | API docs | One must know the name of the function/value to be able to read its documentation. Most won't know the name until you teach it to them. Likewise, people don't learn by reading alphabetized lists of disconnected information
 | Wiki | Content is usually not written by the code's authors, but by multiple 3rd-party people. There are often multiple disconnected voices throughout the material. It's like asking a student to write his own lesson plan.
 
-Note: this section is sourced from only two blog posts, [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/). As we learn more this section might change in significant ways, so any conclusions we draw should be kept "flexible".
+Note: this section is sourced from only two blog posts, [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/). Understand these as a starting point for defining a criteria for "good" documentation, not a final "there's nothing more to say" conclusion. 
 
 ### Evaluating PureScript's Documentation
 
