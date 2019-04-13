@@ -110,6 +110,8 @@ Moreover, there are other factors independent of the "breaking changes" issues.
 1. Until recently (it's fixed now), an OOM error was preventing some popular libraries from uploading their API docs. Even those familiar with the language had difficulty knowing how to use some libraries. [further explained here]()
 2. The current support system doesn't build towards structured, persistent documentation. In some ways, it's like trying to get out of quicksand. [further explained here]()
 
+Finally, Jordan believes that **not all documentation efforts are always affected by breaking changes**.
+
 ## Addressing Audiences
 
 ### New Learners: What is the Best Way to Learn PureScript?
@@ -164,15 +166,47 @@ To help with consistency, copy the below questions and paste them into your comm
 
 ```
 
-### But Is There Hope? Yes!
+## Everyone: What Should Our Documentation Outcomes Be?
+
+Our purpose is clear: improve the documentation situation
+
+The above summary shows that we should abide by these principles no matter what we do, nor how we do it:
+- **Show, don't tell**: prefer heavily-commented clone-compile-and-play code examples over written explanations
+- **Start unofficial documentation efforts**: let's not slow down core contributors by distracting them with things relating to documentation (e.g. PRs).
+- **Don't recreate the wheel**: look into helping existing efforts before you consider starting your own
+-  **Adhere to Good Docs Guidelines**: follow the above "documentation type" guidelines and the other thoughts expressed in the 'Good Documentation.md' file
+
+The outcomes we are striving to reach have yet to be defined.
+
+We'd like your help. **To prevent "group think," please don't look at our ideas until you have posted yours.**
+
+Please share your idea for _what_ the community should achieve (the reality that is true once finished) **before** sharing your idea for _how_ to achieve it (the step-by-step plan for how to get there).
+
+| Example Type | Comment | Explanation
+| - | - | - |
+| Bad | We should send documentation PRs to specific libraries | Answers 'how to do something' not 'the reality that will be true when we are finished.'
+| Good | **Goal:** The top 30 dependencies used in PS' ecosystem have examples and counterexamples in all of their Pursuit docs.<br>**How:** We make a version of Justin Woo's "ACME" Spago project ([project](https://github.com/justinwoo/acme-spago) & [resulting docs](https://jusrin.dev/acme-spago/)). For packages that are lacking docs or are maintained by core contributors who won't respond quickly, we could use Spago to override those packages with a version that includes more documentation. Then, via `spago docs`, would could create a local copy that has the updated docs. | States a goal but does not determine how that could be achieved. But a few ideas quicly come to mind for how.
+
+Copy and paste the below content into your comment box:
+
+```
+## Goal:
+
+
+
+### How:
+
+
+```
+
+Prevent group think: once you have finished posting your ideas, [look at ours]()
+
+### Our Ideas
 
 This small change will address the FP Slack persistence issue:
 - When a question on the `#purescript` Slack channel gets answered, request the person who asked it to post the question on StackOverflow and link to the question in the chatroom.
 - Then, let someone (whether the answerer or someone who saw it) "answer" that question and give credit it to the answerer.
 
-People are making an assumption that has not been tested. **Are all documentation efforts always affected by a breaking change?** I doubt it. Certainly there are some things that need better documentation which won't be affected by breaking changes. Why not identify what those are and start improving them?
-
-Such efforts will likely need to be "unofficial." We (non-core-contributors / users of PS) do not want to steal time away from the core contributors by distracting them with documentation PRs. Let them focus on the language's development. Stabilizing the language sooner means an improved documentation situation sooner.
 
 Rather, we (non-core-contributors / users of PS) can focus on answering questions like these:
 - What are the libraries that need to have their documentation improved?
