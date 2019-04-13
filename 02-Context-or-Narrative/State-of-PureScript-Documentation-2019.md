@@ -155,6 +155,8 @@ Second, your language background affects how easy or hard it is to learn PureScr
 
 ## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
 
+Read through the entirety of the [Good Documentation.md]() file. We only listed the 5 types of documentation above to make this document shorter. 
+
 ## Core Contributors: "How Should We Support You?" and Other General Feedback
 
 Please answer the below questions.
