@@ -110,7 +110,9 @@ Moreover, there are other factors independent of the "breaking changes" issues.
 1. Until recently (it's fixed now), an OOM error was preventing some popular libraries from uploading their API docs. Even those familiar with the language had difficulty knowing how to use some libraries. [further explained here]()
 2. The current support system doesn't build towards structured, persistent documentation. In some ways, it's like trying to get out of quicksand. [further explained here]()
 
-## New Learners: What is the Best Way to Learn PureScript?
+## Addressing Audiences
+
+### New Learners: What is the Best Way to Learn PureScript?
 
 First, PureScript is mainly used for front-end work, not back-end work. While it is used for the back-end in some situations, most tend to use Haskell or another language, even if PureScript would be a better language in some situations. These languages already have mature libraries with people maintaining them. So, the incentives to improve this situation are not quite there.
 
@@ -124,11 +126,11 @@ Second, your language background affects how easy or hard it is to learn PureScr
 | Elm | [An Outsider's Guide to Statically Typed Functional Programming (Book)](https://leanpub.com/outsidefp) | --
 | Haskell | [Introduction to PureScript (PDF)](http://code.adriansieber.com/adrian/adriansieber-com/src/branch/master/posts/_2018-11-01_introduction_to_purescript_for_haskell_developers/main.pdf)<br><br>[Differences from Haskell](https://github.com/purescript/documentation/blob/master/language/Differences-from-Haskell.md) | --
 
-## PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
+### PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?
 
-Read through the entirety of the [Good Documentation.md]() file. We only listed the 5 types of documentation above to make this document shorter. 
+Read through the entirety of the [Good Documentation.md]() file. We only listed the 5 types of documentation above to make this document shorter.
 
-## Core Contributors: "How Should We Support You?" and Other General Feedback
+### Core Contributors: "How Should We Support You?" and Other General Feedback
 
 Please answer the below questions.
 
