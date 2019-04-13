@@ -83,7 +83,7 @@ Here's what has been added to the above since then:
 | A Guide to the PureScript Numeric Hierarchy | Explanation | New Learners | Read the Docs
 | Make the Leap from JavaScript to PureScript | Getting Started + Explanation | Javascript developers | Blog Post series
 
-## Why is PureScript's Documentation Lacking and How Do We Improve It?
+## Why is PureScript's Documentation Lacking?
 
 Here's the short version. Each paragraph will have a link that explains its summary in more detail.
 
