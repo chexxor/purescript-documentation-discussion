@@ -7,12 +7,11 @@ Numerous parties within the PureScript community (e.g. [core contributors](), [u
 
 (Purpose) The following document tries to do the following things:
 1. Provide a researched narrative of PureScript's documentation development and history.
-2. Define the types of audiences of PureScript documentation and their expectations.
+2. Speak to individual audiences
     - New learners (regardless of language background)
     - PureScript documentation writers
     - Core contributors
-3. Summarize the current opinions of PureScript's documentation audiences.
-4. Explore strategies for improving PureScript's documentation for its audiences.
+3. Brainstorm outcomes for improving PureScript's documentation in this context.
 
 Table of Contents
 - [What is "Good" Documentation Anyway?](#what-is-good-documentation-anyway)
