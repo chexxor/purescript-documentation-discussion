@@ -13,7 +13,7 @@ Essentially, there are 3 factors that affect whether documentation is "good" or 
 
 It's important to note that this section is sourced from only two blog posts, [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/). As we learn more this section might change in significant ways, so any conclusions we draw should be kept "flexible".
 
-### The Types of Documentation
+## The Types of Documentation
 
 First, there are 5 types of documentation that target specific phases of a learner's experience (as explained in [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/))
 
@@ -34,7 +34,7 @@ Moreover, there are clear examples of "bad" documentation (as explained in [Teac
 | API docs | One must know the name of the function/value to be able to read its documentation. Most won't know the name until you teach it to them. Likewise, people don't learn by reading alphabetized lists of disconnected information
 | Wiki | Content is usually not written by the code's authors, but by multiple 3rd-party people. There are often multiple disconnected voices throughout the material. It's like asking a student to write his own lesson plan.
 
-### The Documentation's Intended Audience
+## The Documentation's Intended Audience
 
 Second, the number of intended audiences can vary greatly. For example, here are different ways of categorizing them:
 - The language/paradigms they primarily use and think in (e.g. JavaScript, Ruby, Haskell; lazy, strict; OO, FP; etc.)
@@ -48,13 +48,13 @@ As a result, others who read the resulting documentation will consider it "poor"
 - If one comes from a different experience level, one might have unanswered questions: "They didn't even mention what the performance trade-offs for specific libraries were..." ~ a senior developer
 - If one has a different goal in mind, some crucial libraries might never be covered: "They didn't explain how I can make my Bitcoin client cryptographically secure..."
 
-### Maintaining Documentation's Accuracy
+## Maintaining Documentation's Accuracy
 
 Third, documentation becomes outdated/inaccurate when the thing being documented changes in two ways:
 - the 'size' of a change
 - the 'frequency' of changes
 
-#### The "Size" of a Change
+### The "Size" of a Change
 
 The 'size' of a change can decrease its usefulness.
 
@@ -73,7 +73,7 @@ When breaking changes occur, documentation can immediately become useless becaus
 
 Updating documentation in light of breaking changes often requires the most work to update.
 
-#### The "Frequency" of a Change
+### The "Frequency" of a Change
 
 The 'frequency' of a change can decrease its coherence.
 
@@ -89,7 +89,7 @@ When changes occur frequently, documentation can appear more like loosely-couple
 
 Updating documentation in light of frequent changes often requires less overall work.
 
-#### How to Make Maintenance Easier
+### How to Make Maintenance Easier
 
 Moreover, when breaking changes occur frequently, it discourages people from updating the documentation. Why waste time on something that will become outdated soon?
 
@@ -103,7 +103,7 @@ Other mediums of documentation (e.g. blog posts, literate programming, videos) e
 
 Lastly, some documentations tasks are tedious and consume lots of time. Finding ways to automate them can greatly improve the situation.
 
-### Criteria for "Good" Documentation
+## Criteria for "Good" Documentation
 
 In short, it is impossible to write "good" documentation for everyone that is always up-to-date. There's simply not enough manpower, time, and incentives to do that. Rather, it will be "good", "horrible", or "somewhere in-between" for diffent kinds of people and at different times/seasons.
 
