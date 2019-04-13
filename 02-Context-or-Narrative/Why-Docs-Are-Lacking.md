@@ -1,6 +1,6 @@
 # Why Docs Are Lacking
 
-### What Exactly are FP's "Best Practices"
+## What Exactly are FP's "Best Practices"
 
 Coming from an Object-Oriented Paradigm, some have asked, "Why aren't the best practices / design patterns / idioms in Functional Programming explained/documented?"
 
@@ -21,7 +21,7 @@ FP languages tend to draw people who are intellectually curious. These people te
 
 (Related interpretation section: [FP "best practices" are not well-defined, are assumed, or are unconscious habits](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fp-best-practices-are-not-well-defined-are-assumed-or-are-unconscious-habits), [FP's culture creates "knowledge silos"](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fps-culture-creates-knowledge-silos))
 
-### PureScript is not _currently_ trying to be the next "mainstream language"
+## PureScript is not _currently_ trying to be the next "mainstream language"
 
 A few have wrongly assumed that PureScript is trying to replace [insert your favorite web language here]. That is not the case.
 
@@ -49,7 +49,7 @@ Thus, PureScript might not be the language for you:
 
 (Related interpretation sections: [Keeping the motto of `Avoid "success at all costs"` and understanding its meaning](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
 
-### Only core contributors have write / deployment privileges to PureScript websites
+## Only core contributors have write / deployment privileges to PureScript websites
 
 The following PureScript websites either are outdated or could be modified to improve the documentation situation.
 
@@ -61,7 +61,7 @@ Who can merge PRs into the websites' repositories and redeploy them once these P
 | Pursuit | Core Contributors | Phil Freeman | [The State of Things, point 2](https://discourse.purescript.org/t/the-state-of-things/282)
 | Try PureScript | Core Contributors | Phil Freeman | [The State of Things, point 2](https://discourse.purescript.org/t/the-state-of-things/282)
 
-### Core contributors are spread thin
+## Core contributors are spread thin
 
 > It’s been 7 months since I announced that I would be taking a long break from PureScript development....
 >
@@ -93,7 +93,7 @@ Thank you for the language you have created, the libraries you wrote and maintai
 
 Thank you for putting up with frustrating people, enduring negative and impatient attitudes, and trolls.
 
-#### Implications
+### Implications
 
 Reviewing documentation can be just as difficult as reviewing code. Some people are faster at reviewing things than others.
 
@@ -106,7 +106,7 @@ Lastly, I (Jordan) don't know whether some tasks could be automated and whether 
 
 (Related interpretation sections: [Limited Manpower / Not Enough Automation](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#limited-manpower--not-enough-automation), [Slow submitted-reviewed-merged timeline of documentation kills momentum](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#slow-submitted-reviewed-merged-timeline-of-documentation-prs-kills-documentation-momentum), [Reviewing documentation PRS can be just as difficult as code PRs](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#reviewing-documentation-prs-can-be-just-as-difficult-as-code-prs))
 
-#### Why Not Just Delegate?
+### Why Not Just Delegate?
 
 > A hypothetical developer says, "If it's so much work, why not just **delegate** the work? This 'somebody' can also be a proxy who's gathering feedback, so that you don't have to be in these discussions."
 >
@@ -130,7 +130,7 @@ New maintainers, once found and properly screened, have to be supported (which t
 
 (Related interpretation sections: [Knowing whom to trust with write access, defining best workflow procedures, and providing necessary support](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#knowing-whom-to-trust-with-write-access-defining-best-workflow-procedures-and-providing-necessary-support))
 
-#### Why Not Just Fund the Language Developers?
+### Why Not Just Fund the Language Developers?
 
 Been there, done that. Someone took it down. ([PureScript Open Collective]((https://opencollective.com/purescript))
 
@@ -144,7 +144,7 @@ Our viewpoint of this situation:
 
 Perhaps this idea could be revisited in the future. For now, we cannot say.
 
-### Breaking Changes Outdate Documentation and Kill Documenters' Motivation
+## Breaking Changes Outdate Documentation and Kill Documenters' Motivation
 
 The main 'go-to' documentation resource for PureScript was/is [PureScript By Example](https://leanpub.com/purescript/) by Phil Freeman. This resource documents the `0.11.7` PureScript release. The current PureScript release is `0.12.3` (as of this writing).
 
@@ -160,7 +160,7 @@ Gary later pointed out that releases with "breaking changes" were occuring less 
 
 (Related interpretation sections: [Breaking Changes Render Documentation Outdated](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#breaking-changes-renders-documentation-outdated))
 
-### There Is No Roadmap That Coordinates Efforts
+## There Is No Roadmap That Coordinates Efforts
 
 Defining a roadmap is hard. It's easy to...
 - ...disagree on which goals should be pursued and which to ignore
@@ -175,7 +175,7 @@ Therefore:
 - Those who could help do not know where help is needed
 - Those who would help do not know how they can help
 
-#### Avoiding a `v1.0` PureScript language release
+### Avoiding a `v1.0` PureScript language release
 
 When people announce "Language X is now `1.0`!", it tends to draw a lot of focus and a lot of traffic. People probably think, "Wow! It's now stable enough to be used to write all my programs."
 
@@ -189,7 +189,7 @@ What good is a `v1.0` language, if
 
 Thus, core contributors might avoid defining a roadmap to prevent people from having a `v1.0` ecosystem connotation.
 
-#### Defining a Language Specification
+### Defining a Language Specification
 
 When should future breaking changes be done: before a `v1.0` or afterwards?
 
@@ -201,7 +201,7 @@ If done after a `v1.0`, then many libraries and docs will need to be updated, th
 
 (Related interpretation sections: [Lack of a clearly-defined communit-wide mutually-held vision/goal](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#lack-of-a-clearly-defined-community-wide-mutually-held-visiongoal), [Lack of a clearly-defined core-contributor-wide mutually-held language specification](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#lack-of-a-clearly-defined-core-contributor-wide-mutually-held-language-specification), [Fear that people will misinterpret at "v1.0" compiler release for a "v1.0" ecosystem release](https://github.com/chexxor/purescript-documentation-discussion/blob/master/01-Sources-and-Interpretation/All-Interpretations.md#fear-that-people-will-misinterpret-a-v10-compiler-release-for-a-v10-ecosystem-release))
 
-### The current support system doesn't build towards structured, persistent documentation
+## The current support system doesn't build towards structured, persistent documentation
 
 Because the documentation is lacking, many are encouraged to ask their questions on the `#purescript` channel in the FP Slack. Many have greatly benefited from the quick answers they receive.
 
