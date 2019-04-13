@@ -58,10 +58,16 @@ Sometimes, Pursuit docs don't help you know how to use something. However, a lot
 
 I've begun to do this myself [here](https://github.com/JordanMartinez/purescript-jordans-reference/tree/latestRelease/22-Projects/src/01-Libraries) with a few libraries that I've used when building some projects. Perhaps I will later turn this into a separate top-level folder and call it "cookbook"
 
-## Unsorted Ideas
+## Goal: Document "best practices" for writing a good bindings library.
 
-Rather, we (non-core-contributors / users of PS) can focus on answering questions like these:
-- What are "best practices" for various topics/areas? For example:
-    - Guidelines for writing a good bindings library
-        - How should a library author analyze the library to which they want to write bindings?
-        - What are common problems such people face and their possible solutions?
+```
+Worst ---------- Ok ---------------------------- Great
+No libraries     Bindings to JS library          PS library
+```
+While JS library bindings aren't ideal, they can still solve a problem quickly. Knowing how to write a good bindings library can help make the PS ecosystem that much more mature.
+
+Some questions people might ask:
+- How should a library author analyze the library to which they want to write bindings?
+- What are common problems such people face and their possible solutions?
+
+### How: ???
