@@ -38,7 +38,7 @@ What is a "PureScript learner"? We'll define a PureScript learner as someone int
 
 ### What should documentation look like?
 
-Before we can analyze how to improve PureScript's documentation for this audience, we need to know what we think documentation *should* be. The following sources offer well-reasoned descriptions of effective documentation: [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/). It's important to note that this is sourced from only two blog posts, so please understand that this is a starting point for defining criteria for "good" documentation, not a final "there's nothing more to say" conclusion.
+Before we can look at improving the documentation for this audience, we need to decide what this documentation *should* look like. The following sources offer descriptions of effective documentation which are quite well-reasoned: [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/). It's important to note that this section is sourced from only two blog posts, so please understand that this is a starting point for defining "good" documentation, not a final "there's nothing more to say" conclusion.
 
 Based on these sources, there are 5 phases of a learner's experience, each having an appropriate format of effective documentation.
 
