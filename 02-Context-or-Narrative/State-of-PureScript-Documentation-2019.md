@@ -5,13 +5,11 @@ This document is not meant to convince you to use PureScript, we assume that rea
 Numerous parties within the PureScript community (e.g. [core contributors](), [users](), [new learners]()) believe that the documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) Discourse thread to answer one question:
 > How can we improve the PureScript documentation in 2019?
 
-(Purpose) The following document tries to do the following things:
-1. Provide a researched narrative of PureScript's documentation development and history.
-2. Speak to individual audiences
-    - New learners (regardless of language background)
-    - PureScript documentation writers
-    - Core contributors
-3. Brainstorm outcomes for improving PureScript's documentation in this context.
+(Purpose) The following document tries to answer that question. That question is too abstract to be actionable, however, so we need to re-phrase it. "Documentation" targets a specific audience by nature, and because the original question doesn't specify an audience let's simply try to address the question for each relevant audience:
+
+1. PureScript learners
+2. PureScript documentation writers
+3. Core contributors
 
 Table of Contents
 - [State of PureScript Documentation: 2019](#state-of-purescript-documentation-2019)
@@ -36,11 +34,13 @@ Table of Contents
 
 ## Documentation for PureScript Learners
 
-We define a PureScript learner as someone interested in or actively learning to use PureScript.
+What is a "PureScript learner"? We'll define a PureScript learner as someone interested in PureScript or actively learning how to use it.
 
 ### What should documentation look like?
 
-There are 5 types of documentation that target specific phases of a learner's experience (as explained in [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/)).
+Before we can analyze how to improve PureScript's documentation for this audience, we need to know what we think documentation *should* be. The following sources offer well-reasoned descriptions of effective documentation: [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/). It's important to note that this is sourced from only two blog posts, so please understand that this is a starting point for defining criteria for "good" documentation, not a final "there's nothing more to say" conclusion.
+
+Based on these sources, there are 5 phases of a learner's experience, each having an appropriate format of effective documentation.
 
 | Learner's Phase | Type | Analogy | Characteristics
 | -- | -- | -- | -- |
@@ -48,9 +48,9 @@ There are 5 types of documentation that target specific phases of a learner's ex
 | Potential User | Getting Started | Teaching a child how to cook | <ul><li>Focuses on the learner 'doing' stuff, not 'explaining' stuff to the learner</li><li>Provides a small simple working example that teaches the basics</li><li>New learners experience an 'I can use this now!' moment by the end</li><li>Focuses on concrete tasks, not abstract concepts</li><li>Does not use jargon</li><li>Explains only what is necessary and cuts out all else</li><li>Avoids explaining deeper concepts or different ways of doing the same thing</li></ul>
 | New User | How-To Guides | Following a cookbook's recipe | <ul><li>Achieves some goal or solves a problem</li><li>States the pre-requisites one needs to have before starting (not a Getting Started Guide)</li><li>The Guide follows a clearly-labeled step-by-step process</li><li>By following the steps, one reproduces the same results without fail</li><li>Explains the different ways one can achieve the same goal</li><li>Explains only what is necessary</li></ul>
 | Active User | Reference | Reading an encyclopedia | <ul><li>Concise explanation of each piece of the code</li><li>The structure of the reference mirrors the structure of the code it documents</li><li>Formatting is consistent throughout the material</li></ul>
-| Experienced User | Explanation | Listening to a CEO answer questions about his company | <ul><li>Explains the context/history</li><li>Explains the significant design decisions made, their alternativees, and the reasons one was chosen over another</li><li>Implies where things could be improved, expanded, refined, etc.</li></ul>
+| Experienced User | Explanation | Listening to a CEO answer questions about his company | <ul><li>Explains the context/history</li><li>Explains the significant design decisions made, their alternatives, and the reasons one was chosen over another</li><li>Implies where things could be improved, expanded, refined, etc.</li></ul>
 
-Moreover, there are clear examples of "bad" documentation (as explained in [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/)):
+It's also important to take note of forms of documentation which are clearly "bad", as explained in [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/):
 
 | Documentation Source | Why it's bad |
 | -- | -- |
@@ -59,11 +59,11 @@ Moreover, there are clear examples of "bad" documentation (as explained in [Teac
 | API docs | One must know the name of the function/value to be able to read its documentation. Most won't know the name until you teach it to them. Likewise, people don't learn by reading alphabetized lists of disconnected information
 | Wiki | Content is usually not written by the code's authors, but by multiple 3rd-party people. There are often multiple disconnected voices throughout the material. It's like asking a student to write his own lesson plan.
 
-Note: this section is sourced from only two blog posts, [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/). Understand these as a starting point for defining a criteria for "good" documentation, not a final "there's nothing more to say" conclusion.
-
 ### How does current PureScript documentation compare?
 
-Below, we tagged each documentation effort with its documentation type (if yours isn't listed or is incorrect, notify us). By looking at what exists, we can see that the following types of documentation are lacking:
+Now that we have defined what PureScript's documentation *should* look like, what does PureScript *currently* have for documentation?
+
+Below, we tagged each documentation effort with its documentation type (if yours isn't listed or is incorrect, notify us). From seeing this, it looks like the following types of documentation are lacking:
 - Hooks
 - How-To Guides
 - Explanations
@@ -101,9 +101,9 @@ Here's the short version. Each paragraph will have a link that explains its summ
 
 It is difficult to define what are FP's "best practices / design patterns." The issues explained below are mostly situational; they will improve in time. However, this "best practices" issue is hard to address because it is subjective in nature, requires a lot of expertise, and requires a great communicator. [further explained here]()
 
-PureScript is not _currently_ trying to be the next "mainstream language." Rather, it values "power" over "popularity" and so works towards those ends. [further explained here]()
+PureScript is not _currently_ trying to be the next "mainstream language," which prioritizes onboarding new users. Rather, it values "power" over "popularity" and so works towards those ends. [further explained here]()
 
-While developing the language, core contributors incurred a lot of responsibility (e.g. library maintenance, documentation updates, updating Pursuit and other related sites, etc.). Over time, they became spread thin and one even burned out. [further explained here]()
+While developing the language, core contributors incurred a lot of responsibility (e.g. library maintenance, documentation updates, and updating Pursuit and other related sites). Over time, they became spread thin and one even burned out. [further explained here]()
 
 Thus, they cannot quickly respond to most people's questions or contributions. With the small amount of time they do have, they are focusing on adding new language features, not improving the documentation situation. The language's development is steady (6-week release cycle) but slow. Moreover, only some of them have write/deploy access to key documentation infrastructure (e.g. Pursuit, documentation repo, Try PureScript, etc.) [further explained here]()
 
