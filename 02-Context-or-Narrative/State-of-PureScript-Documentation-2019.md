@@ -5,18 +5,10 @@ This document is not meant to convince you to use PureScript, we assume that rea
 Numerous parties within the PureScript community (e.g. [core contributors](), [users](), [new learners]()) believe that the documentation is lacking in some critical areas. As a result, @chexxor started the [PureScript documentation efforts in 2019](https://discourse.purescript.org/t/purescript-documentation-efforts-in-2019/524) Discourse thread to answer one question:
 > How can we improve the PureScript documentation in 2019?
 
-(Purpose) The following document tries to do the following things:
-1. Provide a researched narrative of PureScript's documentation development and history.
-2. Speak to individual audiences
-    - New learners (regardless of language background)
-    - PureScript documentation writers
-    - Core contributors
-3. Brainstorm outcomes for improving PureScript's documentation in this context.
-
 Table of Contents
-- [Defining a Criteria: What is "Good" Documentation Anyway?](#defining-a-criteria--what-is-good-documentation-anyway)
-  - [Evaluating PureScript's Documentation](#evaluating-purescripts-documentation)
-- [Why is PureScript's Documentation Lacking?](#why-is-purescripts-documentation-lacking)
+- [Defining a Criteria: What is "Good" Documentation Anyway?](#defining-a-criteria-what-is-good-documentation-anyway)
+- [Assessing PureScript's Documentation](#assessing-purescripts-documentation)
+- [What are Factors Contributing to PureScript's Documentation Quality?](#what-are-factors-contributing-to-purescripts-documentation-quality)
 - [Addressing Audiences](#addressing-audiences)
   - [New Learners: What is the Best Way to Learn PureScript?](#new-learners-what-is-the-best-way-to-learn-purescript)
   - [PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?](#purescript-documentation-writers-what-is-the-best-way-to-write-documentation-in-this-context)
@@ -50,9 +42,9 @@ Moreover, there are clear examples of "bad" documentation (as explained in [Teac
 
 Note: this section is sourced from only two blog posts, [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/). Understand these as a starting point for defining a criteria for "good" documentation, not a final "there's nothing more to say" conclusion.
 
-### Evaluating PureScript's Documentation
+## Assessing PureScript's Documentation
 
-Below, we tagged each documentation effort with its documentation type (if yours isn't listed or is incorrect, notify us). By looking at what exists, we can see that the following types of documentation are lacking:
+Below, we tagged each documentation effort with its documentation type (if yours isn't listed or is incorrect, notify us). By looking at what exists, we can see that the following types of documentation might need more improvement:
 - Hooks
 - How-To Guides
 - Explanations
@@ -84,7 +76,7 @@ Here's what has been added to the above since then:
 | A Guide to the PureScript Numeric Hierarchy | Explanation | New Learners | Read the Docs
 | Make the Leap from JavaScript to PureScript | Getting Started + Explanation | Javascript developers | Blog Post series
 
-## Why is PureScript's Documentation Lacking?
+## What are Factors Contributing to PureScript's Documentation Quality?
 
 Here's the short version. Each paragraph will have a link that explains its summary in more detail.
 
