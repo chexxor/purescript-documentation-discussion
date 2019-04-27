@@ -29,6 +29,8 @@ Table of Contents
 
 There are 5 types of documentation that target specific phases of a learner's experience (as explained in [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/) and [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/))
 
+Do not misinterpret the below table as a linear progression from Curious Outsider onward. Rather, these are different spots on a 2-axis graph (see the end of 'What Nobody Tells You About Documentation') for a visual.
+
 | Learner's Phase | Type | Analogy | Characteristics
 | -- | -- | -- | -- |
 | Curious Outsider | The Hook | Selling a product to a potential customer | Answers these questions: <ul><li>What is this thing? / What problem does it solve?</li><li>Why whould I care? / How is this relevant to me for my purposes? / Who should not care?</li><li>How long will it take to learn it and how difficult is the learning curve?</li><li>Where do I go to get started / learn how to use this?</li></ul>
