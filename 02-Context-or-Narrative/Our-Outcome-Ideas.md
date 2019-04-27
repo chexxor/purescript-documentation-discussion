@@ -85,4 +85,12 @@ Some questions people might ask:
 - How should a library author analyze the library to which they want to write bindings?
 - What are common problems such people face and their possible solutions?
 
-### How: ???
+ ### How: TBD
+
+## Goal: Improve guides for how to test applications / test libraries
+
+Inspired by [this comment](https://github.com/JordanMartinez/purescript-jordans-reference/issues/280#issuecomment-485144396), producing a stable library or finished application could be slowed down if writing tests get slowed down by small issues like this.
+
+ ### How: TBD
+
+One idea is to write more convenience functions that make it easier to generate the `String`s we need.
