@@ -1,5 +1,7 @@
 # Documentation Principles
 
+These principles are not set in stone -- if you'd like clarification, qualification, addition, removal, or changes to these principles, open an issue to discuss.
+
 ## Documentation Scope
 
 - There are many types of applications that can be built with PureScript, each of which should have documentation. The group of people who write each type of application is best suited for managing its documentation.
