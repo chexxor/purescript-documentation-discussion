@@ -6,6 +6,7 @@ These principles are not set in stone -- if you'd like clarification, qualificat
 
 - There are many types of applications that can be built with PureScript, each of which should have documentation. The group of people who write each type of application is best suited for managing its documentation.
 - All types of PureScript applications have pre-requisite knowledge, and the set of this knowledge which is common across all PureScript applications should be managed by the group of PureScript groups, an entity which we will name the PureScript organization.
+- The current scope of this project is the documentation managed by the PureScript organization. Other efforts can be responsible for documentation managed by PureScript groups.
 
 ## Documentation Structure
 
