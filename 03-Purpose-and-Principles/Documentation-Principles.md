@@ -28,15 +28,16 @@
 ## Documentation Project Maintenance
 
 - A maintainer is expected to fulfill some responsibilities, as time allows:
--- Triage issues.
--- Respond to issues and contributions.
--- Make progress on resolving issues.
--- Find a new maintainer when they no longer want to be a maintainer.
+    - Triage issues.
+    - Respond to issues and contributions.
+    - Make progress on resolving issues.
+    - Find a new maintainer when they no longer want to be a maintainer.
+
 - To become a maintainer, communicate with one of the existing maintainers, perhaps by opening an issue or commenting on an existing one.
 - Some aspects to consider when deciding whether to accept a new maintainer:
--- They understand the principles of the project.
--- They have a stake in the project's success.
--- They have contributed a large amount to the project.
+    - They understand the principles of the project.
+    - They have a stake in the project's success.
+    - They have contributed a large amount to the project.
 
 
 (Need to think about what other documentation principles there are. Group organization principles are also relevant.)
