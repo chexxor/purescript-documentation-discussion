@@ -2,17 +2,21 @@
 
 These principles are not set in stone -- if you'd like clarification, qualification, addition, removal, or changes to these principles, open an issue to discuss.
 
+## Terms
+
+- Documentation: The knowledge about a project stored in a written format, used to answer questions about the project.
+- PureScript Application Groups: There are many types of applications which can be built with PureScript, and we call a group of people who creates one of these types of applications a PureScript application group.
+- PureScript Organization: All PureScript applications have pre-requisite knowledge, and we call this group of people who maintain the facilities intended to benefit all PureScript applications the PureScript organization.
+- PureScript Organization Documentation: The set of knowledge intended to benefit all PureScript applications is managed by the PureScript organization.
+- PureScript Application Documentation: Each type of PureScript application should have documentation, and the group of people who write a type of application is best suited for managing its documentation.
+
 ## Documentation Authors
 
-- **PureScript Application Groups**: There are many types of applications which can be built with PureScript, and we call the group of people who create a type of application a PureScript application group.
-- **PureScript Organization**: All PureScript applications have pre-requisite knowledge, and we call this group of people who maintain the facilities intended to benefit all PureScript applications the PureScript organization.
-- **PureScript Organization Documentation**: The set of knowledge intended to benefit all PureScript applications is managed by the PureScript organization.
-- **PureScript Application Documentation**: Each type of PureScript application should have documentation, and the group of people who write a type of application is best suited for managing its documentation.
-- **This Project's Documentation Authors**: This scope of documentation authors this project is intended to improve and manage is PureScript Organization Documentation, not PureScript Application Documentation.
+- **PureScript Organization Documentation Authors**: This project is intended to inform the authors of PureScript Organization Documentation, not PureScript Application Groups.
 
 ## Documentation Scope
 
-- The current scope of this project is the documentation managed by the PureScript organization. Other efforts can be responsible for documentation managed by PureScript groups.
+- **Knowledge Common to All PureScript Applications**: The current scope of this project is PureScript Organization Documentation. We expect other efforts to manage PureScript Application Groups Documentation.
 
 ## Documentation Structure
 
