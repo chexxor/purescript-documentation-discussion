@@ -2,10 +2,16 @@
 
 These principles are not set in stone -- if you'd like clarification, qualification, addition, removal, or changes to these principles, open an issue to discuss.
 
+## Documentation Authors
+
+- **PureScript Application Groups**: There are many types of applications which can be built with PureScript, and we call the group of people who create a type of application a PureScript application group.
+- **PureScript Organization**: All PureScript applications have pre-requisite knowledge, and we call this group of people who maintain the facilities intended to benefit all PureScript applications the PureScript organization.
+- **PureScript Organization Documentation**: The set of knowledge intended to benefit all PureScript applications is managed by the PureScript organization.
+- **PureScript Application Documentation**: Each type of PureScript application should have documentation, and the group of people who write a type of application is best suited for managing its documentation.
+- **This Project's Documentation Authors**: This scope of documentation authors this project is intended to improve and manage is PureScript Organization Documentation, not PureScript Application Documentation.
+
 ## Documentation Scope
 
-- There are many types of applications that can be built with PureScript, each of which should have documentation. The group of people who write each type of application is best suited for managing its documentation.
-- All types of PureScript applications have pre-requisite knowledge, and the set of this knowledge which is common across all PureScript applications should be managed by the group of PureScript groups, an entity which we will name the PureScript organization.
 - The current scope of this project is the documentation managed by the PureScript organization. Other efforts can be responsible for documentation managed by PureScript groups.
 
 ## Documentation Structure
