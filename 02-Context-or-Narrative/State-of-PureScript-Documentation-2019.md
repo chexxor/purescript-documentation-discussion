@@ -8,7 +8,7 @@ Numerous parties within the PureScript community (e.g. [core contributors](), [u
 Table of Contents
 - [Defining a Criteria: What is "Good" Documentation Anyway?](#defining-a-criteria-what-is-good-documentation-anyway)
 - [Assessing PureScript's Documentation](#assessing-purescripts-documentation)
-- [What are Factors Contributing to PureScript's Documentation Quality?](#what-are-factors-contributing-to-purescripts-documentation-quality)
+- [What are Factors Affecting PureScript's Documentation Quality?](#what-are-factors-affecting-purescripts-documentation-quality)
 - [Addressing Audiences](#addressing-audiences)
   - [New Learners: What is the Best Way to Learn PureScript?](#new-learners-what-is-the-best-way-to-learn-purescript)
   - [PureScript Documentation Writers: What is the Best Way to Write Documentation in this Context?](#purescript-documentation-writers-what-is-the-best-way-to-write-documentation-in-this-context)
@@ -76,7 +76,7 @@ Here's what has been added to the above since then:
 | A Guide to the PureScript Numeric Hierarchy | Explanation | New Learners | Read the Docs
 | Make the Leap from JavaScript to PureScript | Getting Started + Explanation | Javascript developers | Blog Post series
 
-## What are Factors Contributing to PureScript's Documentation Quality?
+## What are Factors Affecting PureScript's Documentation Quality?
 
 Here's the short version. Each paragraph will have a link that explains its summary in more detail.
 
