@@ -1,5 +1,7 @@
 # Documentation Principles
 
+These principles are intended to serve as the basic rules used when making judgements about the correctness of the documentation produced by this project. They are intended to serve a similar role of [axioms](https://en.wikipedia.org/wiki/Axiom) in a mathematics discipline.
+
 These principles are not set in stone -- if you'd like clarification, qualification, addition, removal, or changes to these principles, open an issue to discuss.
 
 ## Terms
