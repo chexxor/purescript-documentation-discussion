@@ -23,7 +23,7 @@ These principles are not set in stone -- if you'd like clarification, qualificat
 ## Documentation Structure
 
 - **Well-defined Documentation Formats**: Documentation is easiest to maintain if it follows a well-defined format. Templates offer a simple way of starting a new document.
-- **Clearly-defined Documentation Audience, Scope, and Terms**: Documentation is easiest to maintain if it clearly defines its audience, its goal, and the primary terms it uses.
+- **Clearly-defined Documentation Audience, Scope, and Terms**: Documentation is easiest to maintain if it clearly defines its audience, its goal, and its primary terms.
 
 ## Documentation Content
 
@@ -34,6 +34,10 @@ These principles are not set in stone -- if you'd like clarification, qualificat
 ## Documentation Audience
 
 - **Audience Contributions Should be Encouraged**: Documentation readers are expected to provide constructive feedback and improvements, provided they align with the goals and principles of the project.
+
+## Documentation Content Editing
+
+- **Policy-driven Content Editing**: To avoid frustrations originating from differing opinions of how content should be written, content editing should simply consist of enforcement of guidelines and policies, rather than judging the content on an ad-hoc basis. These guidelines and policies should be defined in a way such that judgements based on them are consistent.
 
 ## Documentation Contributors
 
@@ -46,7 +50,7 @@ These principles are not set in stone -- if you'd like clarification, qualificat
     - Triage issues.
     - Respond to issues and contributions.
     - Make progress on resolving issues.
-    - Find a new maintainer when they no longer want to be a maintainer.
+    - Find a new maintainer, if possible, when they no longer want to be a maintainer.
 
 - To become a maintainer, communicate with one of the existing maintainers, perhaps by opening an issue or commenting on an existing one.
 - Some aspects to consider when deciding whether to accept a new maintainer:
