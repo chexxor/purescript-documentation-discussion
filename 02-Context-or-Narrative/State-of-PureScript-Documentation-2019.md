@@ -31,7 +31,11 @@ Do not misinterpret the below table as a linear progression from Curious Outside
 | Active User | Reference | Reading an encyclopedia | <ul><li>Concise explanation of each piece of the code</li><li>The structure of the reference mirrors the structure of the code it documents</li><li>Formatting is consistent throughout the material</li></ul>
 | Experienced User | Explanation | Listening to a CEO answer questions about his company | <ul><li>Explains the context/history</li><li>Explains the significant design decisions made, their alternatives, and the reasons one was chosen over another</li><li>Implies where things could be improved, expanded, refined, etc.</li></ul>
 
-It's also important to take note of forms of documentation which are clearly "bad", (as explained in [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/)):
+It's also important to take note of forms of documentation which are "bad". In [Teach, Don't Tell](http://stevelosh.com/blog/2013/09/teach-dont-tell/), the author states:
+
+> The purpose of technical documentation is to take someone who has never seen your project, teach them to be an expert user of it, and support them once they become an expert.
+
+From this, we identify the following forms of documentation as being a poor means of accomplishing that goal:
 
 | Documentation Source | Why it's bad |
 | -- | -- |
