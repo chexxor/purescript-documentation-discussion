@@ -29,7 +29,7 @@ These principles are not set in stone -- if you'd like clarification, qualificat
 
 - **_Some_ Content is Better Than _No_ Content**: There should be low barriers to creation of new documentation to encourage expansion of the knowledge repository.
 - **Content Should be Addressable by Problem Domain**: Documentation is easiest for a learner to navigate when its structure uses terms in the problem domain. Its content, then, is free to use terms in the solution domain.
-- **Content Should Teach, Not Prescribe**: Documentation should avoid implicit bias towards a specific project as a solution. Instead, documentation should clearly explain the problem and only refer to specific projects in a list of implementations of the solution. While it's important to have a default recommended solution in a community, it's also important to give people freedom to add their own novel solutions to the ecosystem.
+- **Content Should Teach, Not Prescribe**: Documentation should guide the audience, not simply give an answser or prescribe a solution. While it's important to have a default solution in a community to recommend, it's also important to ensure people feel free to contribute new solutions to the ecosystem.
 
 ## Documentation Audience
 
